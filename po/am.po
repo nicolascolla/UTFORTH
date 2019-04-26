@@ -6,48 +6,31 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: ubuntu-terminal-app\n"
-"Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
-"POT-Creation-Date: 2017-01-17 21:46+0100\n"
-"PO-Revision-Date: 2017-02-23 18:07+0000\n"
-"Last-Translator: samson <Unknown>\n"
-"Language-Team: Amharic <am@li.org>\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-08-08 12:47+0200\n"
+"PO-Revision-Date: 2018-05-13 20:51+0000\n"
+"Last-Translator: Samson <sambelet@yahoo.com>\n"
+"Language-Team: Amharic <https://translate.ubports.com/projects/ubports"
+"/terminal-app/am/>\n"
+"Language: am\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2017-02-25 06:06+0000\n"
-"X-Generator: Launchpad (build 18328)\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: Weblate 2.15\n"
+"X-Launchpad-Export-Date: 2016-03-11 05:56+0000\n"
 
-#: ../src/app/qml/AlternateActionPopover.qml:68
+#: ../src/app/qml/AlternateActionPopover.qml:13
 msgid "Select"
 msgstr "ይምረጡ"
 
-#: ../src/app/qml/AlternateActionPopover.qml:73
+#: ../src/app/qml/AlternateActionPopover.qml:17
 msgid "Copy"
 msgstr "ኮፒ"
 
-#: ../src/app/qml/AlternateActionPopover.qml:79
+#: ../src/app/qml/AlternateActionPopover.qml:22
 msgid "Paste"
 msgstr "መለጠፊያ"
-
-#: ../src/app/qml/AlternateActionPopover.qml:86
-msgid "Split horizontally"
-msgstr "በ አግድም መክፈያ"
-
-#: ../src/app/qml/AlternateActionPopover.qml:92
-msgid "Split vertically"
-msgstr "በ ቁመት መክፈያ"
-
-#: ../src/app/qml/AlternateActionPopover.qml:99 ../src/app/qml/TabsPage.qml:32
-msgid "New tab"
-msgstr "አዲስ ንዑስ መስኮት"
-
-#: ../src/app/qml/AlternateActionPopover.qml:104
-msgid "New window"
-msgstr "አዲስ መስኮት"
-
-#: ../src/app/qml/AlternateActionPopover.qml:109
-msgid "Close"
-msgstr "መዝጊያ"
 
 #: ../src/app/qml/AuthenticationDialog.qml:25
 msgid "Authentication required"
@@ -61,288 +44,243 @@ msgstr "የ ማለፊያ ኮድ ወይንም የ ማለፊያ ሀረግ ያስ�
 msgid "passcode or passphrase"
 msgstr "የ ማለፊያ ኮድ ወይንም የ ማለፊያ ሀረግ"
 
-#: ../src/app/qml/AuthenticationDialog.qml:58
+#: ../src/app/qml/AuthenticationDialog.qml:61
 msgid "OK"
 msgstr "እሺ"
 
-#: ../src/app/qml/AuthenticationDialog.qml:70
-#: ../src/app/qml/ConfirmationDialog.qml:42
+#: ../src/app/qml/AuthenticationDialog.qml:73
 msgid "Cancel"
 msgstr "መሰረዣ"
 
-#: ../src/app/qml/AuthenticationService.qml:64
+#: ../src/app/qml/AuthenticationService.qml:60
 msgid "Authentication failed"
 msgstr "ማረጋገጫው ወድቋል"
 
-#: ../src/app/qml/AuthenticationService.qml:83
-msgid "No SSH server running."
-msgstr "ምንም የ SSH ሰርቨር እየሄደ አይደለም running."
+#: ../src/app/qml/ColorSchemePage.qml:27 ../src/app/qml/SettingsPage.qml:100
+msgid "Color Scheme"
+msgstr "የ ቀለም ገጽታ"
 
-#: ../src/app/qml/AuthenticationService.qml:84
-msgid "SSH server not found. Do you want to proceed in confined mode?"
-msgstr "የ SSH ሰርቨር አልተገኘም: እርስዎ መቀጠል ይፈልጋሉ በ ተከለከለ ዘዴ?"
-
-#: ../src/app/qml/ConfirmationDialog.qml:32
-msgid "Continue"
-msgstr "ይቀጥሉ"
-
-#: ../src/app/qml/KeyboardBar.qml:196
+#: ../src/app/qml/KeyboardBar.qml:174
 msgid "Change Keyboard"
 msgstr "የ ፊደል ገበታ መቀየሪያ"
 
 #. TRANSLATORS: This a keyboard layout name
-#: ../src/app/qml/KeyboardRows/JsonTranslator.qml:35
+#: ../src/app/qml/KeyboardRows/JsonTranslator.qml:18
 msgid "Control Keys"
 msgstr "መቆጣጠሪያ ቁልፎች"
 
 #. TRANSLATORS: This a keyboard layout name
-#: ../src/app/qml/KeyboardRows/JsonTranslator.qml:38
+#: ../src/app/qml/KeyboardRows/JsonTranslator.qml:21
 msgid "Function Keys"
 msgstr "የ ተግባር ቁልፎች"
 
 #. TRANSLATORS: This a keyboard layout name
-#: ../src/app/qml/KeyboardRows/JsonTranslator.qml:41
+#: ../src/app/qml/KeyboardRows/JsonTranslator.qml:24
 msgid "Scroll Keys"
 msgstr "መሸብለያ ቁልፎች"
 
 #. TRANSLATORS: This a keyboard layout name
-#: ../src/app/qml/KeyboardRows/JsonTranslator.qml:44
+#: ../src/app/qml/KeyboardRows/JsonTranslator.qml:27
 msgid "Command Keys"
 msgstr "የ ትእዛዝ ቁልፎች"
 
 #. TRANSLATORS: This the short display name of a keyboard layout. It should be no longer than 4 characters!
 #. TRANSLATORS: This is the name of the Control key. All letters should be uppercase!
-#: ../src/app/qml/KeyboardRows/JsonTranslator.qml:52
-#: ../src/app/qml/KeyboardRows/JsonTranslator.qml:78
+#: ../src/app/qml/KeyboardRows/JsonTranslator.qml:35
+#: ../src/app/qml/KeyboardRows/JsonTranslator.qml:61
 msgid "CTRL"
 msgstr "CTRL"
 
 #. TRANSLATORS: This the short display name of a keyboard layout. It should be no longer than 4 characters!
-#: ../src/app/qml/KeyboardRows/JsonTranslator.qml:55
+#: ../src/app/qml/KeyboardRows/JsonTranslator.qml:38
 msgid "FNS"
 msgstr "FNS"
 
 #. TRANSLATORS: This the short display name of a keyboard layout. It should be no longer than 4 characters!
-#: ../src/app/qml/KeyboardRows/JsonTranslator.qml:58
+#: ../src/app/qml/KeyboardRows/JsonTranslator.qml:41
 msgid "SCR"
 msgstr "SCR"
 
 #. TRANSLATORS: This the short display name of a keyboard layout. It should be no longer than 4 characters!
-#: ../src/app/qml/KeyboardRows/JsonTranslator.qml:61
+#: ../src/app/qml/KeyboardRows/JsonTranslator.qml:44
 msgid "CMD"
 msgstr "CMD"
 
 #. TRANSLATORS: This is the name of the Alt key. All letters should be uppercase!
-#: ../src/app/qml/KeyboardRows/JsonTranslator.qml:81
+#: ../src/app/qml/KeyboardRows/JsonTranslator.qml:64
 msgid "ALT"
 msgstr "ALT"
 
 #. TRANSLATORS: This is the name of the Shift key. All letters should be uppercase!
-#: ../src/app/qml/KeyboardRows/JsonTranslator.qml:84
+#: ../src/app/qml/KeyboardRows/JsonTranslator.qml:67
 msgid "SHIFT"
-msgstr "SHIFT"
+msgstr "መቀየሪያ"
 
 #. TRANSLATORS: This is the name of the Escape key. All letters should be uppercase!
-#: ../src/app/qml/KeyboardRows/JsonTranslator.qml:97
+#: ../src/app/qml/KeyboardRows/JsonTranslator.qml:80
 msgid "ESC"
-msgstr "ESC"
+msgstr "መዝለያ"
 
 #. TRANSLATORS: This is the name of the Page Up key. All letters should be uppercase!
-#: ../src/app/qml/KeyboardRows/JsonTranslator.qml:100
+#: ../src/app/qml/KeyboardRows/JsonTranslator.qml:83
 msgid "PG_UP"
-msgstr "PG_UP"
+msgstr "ገጽ_ወደ ላይ"
 
 #. TRANSLATORS: This is the name of the Page Down key. All letters should be uppercase!
-#: ../src/app/qml/KeyboardRows/JsonTranslator.qml:103
+#: ../src/app/qml/KeyboardRows/JsonTranslator.qml:86
 msgid "PG_DN"
-msgstr "PG_DN"
+msgstr "ገጽ_ወደ ታች"
 
 #. TRANSLATORS: This is the name of the Delete key. All letters should be uppercase!
-#: ../src/app/qml/KeyboardRows/JsonTranslator.qml:106
+#: ../src/app/qml/KeyboardRows/JsonTranslator.qml:89
 msgid "DEL"
-msgstr "DEL"
+msgstr "ማጥፊያ"
 
 #. TRANSLATORS: This is the name of the Home key. All letters should be uppercase!
-#: ../src/app/qml/KeyboardRows/JsonTranslator.qml:109
+#: ../src/app/qml/KeyboardRows/JsonTranslator.qml:92
 msgid "HOME"
 msgstr "ቤት"
 
 #. TRANSLATORS: This is the name of the End key. All letters should be uppercase!
-#: ../src/app/qml/KeyboardRows/JsonTranslator.qml:112
+#: ../src/app/qml/KeyboardRows/JsonTranslator.qml:95
 msgid "END"
-msgstr "END"
+msgstr "መጨረሻ"
 
 #. TRANSLATORS: This is the name of the Tab key. All letters should be uppercase!
-#: ../src/app/qml/KeyboardRows/JsonTranslator.qml:115
+#: ../src/app/qml/KeyboardRows/JsonTranslator.qml:98
 msgid "TAB"
 msgstr "TAB"
 
 #. TRANSLATORS: This is the name of the Enter key. All letters should be uppercase!
-#: ../src/app/qml/KeyboardRows/JsonTranslator.qml:118
+#: ../src/app/qml/KeyboardRows/JsonTranslator.qml:101
 msgid "ENTER"
-msgstr "ENTER"
+msgstr "ማስገቢያ"
+
+#: ../src/app/qml/LayoutsPage.qml:27 ../src/app/qml/SettingsPage.qml:44
+msgid "Layouts"
+msgstr "እቅድ"
+
+#: ../src/app/qml/LoginPage.qml:28 ../src/app/qml/SettingsPage.qml:119
+msgid "Login"
+msgstr "መግቢያ"
+
+#: ../src/app/qml/LoginPage.qml:42
+msgid "Require login"
+msgstr "መግቢያ ያስፈልጋል"
+
+#: ../src/app/qml/LoginPage.qml:43
+msgid "Enable or disable login at start"
+msgstr "መግቢያ በ መጀመሪያ ላይ ማስቻያ ወይንም ማሰናከያ"
 
 #: ../src/app/qml/NotifyDialog.qml:25
 msgid "Ok"
 msgstr "እሺ"
 
-#: ../src/app/qml/Settings/BackgroundOpacityEditor.qml:26
-msgid "Background opacity:"
-msgstr "የ መደብ ግልፅነት:"
+#: ../src/app/qml/SettingsPage.qml:27
+msgid "Settings"
+msgstr "ማሰናጃ"
 
-#: ../src/app/qml/Settings/ColorPickerPopup.qml:79
-msgid "R:"
-msgstr "R:"
-
-#: ../src/app/qml/Settings/ColorPickerPopup.qml:87
-msgid "G:"
-msgstr "G:"
-
-#: ../src/app/qml/Settings/ColorPickerPopup.qml:95
-msgid "B:"
-msgstr "B:"
-
-#: ../src/app/qml/Settings/ColorPickerPopup.qml:99
-msgid "Undo"
-msgstr "መተው"
-
-#: ../src/app/qml/Settings/SettingsInterfaceSection.qml:55
-msgid "Text"
-msgstr "ጽሁፍ"
-
-#: ../src/app/qml/Settings/SettingsInterfaceSection.qml:66
-msgid "Font:"
-msgstr "ፊደል:"
-
-#: ../src/app/qml/Settings/SettingsInterfaceSection.qml:91
+#: ../src/app/qml/SettingsPage.qml:67
 msgid "Font Size:"
 msgstr "የ ፊደል መጠን:"
 
-#: ../src/app/qml/Settings/SettingsInterfaceSection.qml:119
-msgid "Colors"
-msgstr "ቀለሞች"
+#: ../src/app/qml/SettingsPage.qml:123
+msgid "Required"
+msgstr "ያስፈልጋል"
 
-#: ../src/app/qml/Settings/SettingsInterfaceSection.qml:124
-msgid "Ubuntu"
-msgstr "ኡቡንቱ"
+#: ../src/app/qml/SettingsPage.qml:123
+msgid "Not required"
+msgstr "አያስፈልግም"
 
-#: ../src/app/qml/Settings/SettingsInterfaceSection.qml:125
-msgid "Green on black"
-msgstr "አረንጓዴ በ ጥቁር ላይ"
-
-#: ../src/app/qml/Settings/SettingsInterfaceSection.qml:126
-msgid "White on black"
-msgstr "ነጭ በ ጥቁር ላይ"
-
-#: ../src/app/qml/Settings/SettingsInterfaceSection.qml:127
-msgid "Black on white"
-msgstr "ጥቁር በ ነጭ ላይ"
-
-#: ../src/app/qml/Settings/SettingsInterfaceSection.qml:128
-msgid "Black on random light"
-msgstr "ጥቁር በ ነሲብ ብርሀን ላይ"
-
-#: ../src/app/qml/Settings/SettingsInterfaceSection.qml:129
-msgid "Linux"
-msgstr "ሊነክስ"
-
-#: ../src/app/qml/Settings/SettingsInterfaceSection.qml:130
-msgid "Cool retro term"
-msgstr "በጣም ቆንጆ"
-
-#: ../src/app/qml/Settings/SettingsInterfaceSection.qml:131
-msgid "Dark pastels"
-msgstr "ጥቁር ቀለም"
-
-#: ../src/app/qml/Settings/SettingsInterfaceSection.qml:132
-msgid "Black on light yellow"
-msgstr "ጥቁር ነጣ ባለ ቢጫ ላይ"
-
-#: ../src/app/qml/Settings/SettingsInterfaceSection.qml:133
-msgid "Customized"
-msgstr "ማስተካከያ"
-
-#: ../src/app/qml/Settings/SettingsInterfaceSection.qml:144
-msgid "Background:"
-msgstr "መደብ"
-
-#: ../src/app/qml/Settings/SettingsInterfaceSection.qml:152
-msgid "Text:"
-msgstr "ጽሁፍ:"
-
-#: ../src/app/qml/Settings/SettingsInterfaceSection.qml:164
-msgid "Normal palette:"
-msgstr "መደበኛ መደርደሪያ:"
-
-#: ../src/app/qml/Settings/SettingsInterfaceSection.qml:171
-msgid "Bright palette:"
-msgstr "ብሩህ መደርደሪያ:"
-
-#: ../src/app/qml/Settings/SettingsInterfaceSection.qml:180
-msgid "Preset:"
-msgstr "በቅድሚያ ማሰናጃ:"
-
-#: ../src/app/qml/Settings/SettingsInterfaceSection.qml:197
-msgid "Layouts"
-msgstr "Layouts"
-
-#: ../src/app/qml/Settings/SettingsPage.qml:32
-msgid "Preferences"
-msgstr "ምርጫዎች"
-
-#: ../src/app/qml/Settings/SettingsPage.qml:43
-msgid "Interface"
-msgstr "ግንኙነት"
-
-#: ../src/app/qml/Settings/SettingsPage.qml:47
-msgid "Shortcuts"
-msgstr "አቋራጮች"
-
-#: ../src/app/qml/Settings/SettingsShortcutsSection.qml:60
-#, qt-format
-msgid "Showing %1 of %2"
-msgstr "ማሳያ %1 ከ %2"
-
-#: ../src/app/qml/Settings/ShortcutRow.qml:78
-msgid "Enter shortcut..."
-msgstr "አቋራጭ ያስገቡ..."
-
-#: ../src/app/qml/Settings/ShortcutRow.qml:80
-msgid "Disabled"
-msgstr "ተሰናክሏል"
-
-#: ../src/app/qml/TabsPage.qml:26
+#: ../src/app/qml/TabsPage.qml:9
 msgid "Tabs"
 msgstr "ንዑስ መስኮት"
 
-#: ../src/app/qml/TerminalPage.qml:132
+#: ../src/app/qml/TabsPage.qml:15
+msgid "New tab"
+msgstr "አዲስ ንዑስ መስኮት"
+
+#: ../src/app/qml/TerminalPage.qml:179
 msgid "Selection Mode"
 msgstr "የ መምረጫ ዘዴ"
 
-#: ../src/plugin/qmltermwidget/lib/ColorScheme.cpp:291
-#: ../src/plugin/qmltermwidget/lib/ColorScheme.cpp:320
+#. TRANSLATORS: This is the name of a terminal color scheme which is displayed in the settings
+#: ../src/app/qml/ubuntu-terminal-app.qml:130
+msgid "Green on black"
+msgstr "አረንጓዴ በ ጥቁር ላይ"
+
+#: ../src/app/qml/ubuntu-terminal-app.qml:130
+msgid "White on black"
+msgstr "ነጭ በ ጥቁር ላይ"
+
+#: ../src/app/qml/ubuntu-terminal-app.qml:130
+msgid "Black on white"
+msgstr "ጥቁር በ ነጭ ላይ"
+
+#: ../src/app/qml/ubuntu-terminal-app.qml:130
+msgid "Black on random light"
+msgstr "ጥቁር በ ነሲብ ብርሀን ላይ"
+
+#: ../src/app/qml/ubuntu-terminal-app.qml:130
+msgid "Linux"
+msgstr "ሊነክስ"
+
+#: ../src/app/qml/ubuntu-terminal-app.qml:130
+msgid "Cool retro term"
+msgstr "በጣም ቆንጆ"
+
+#: ../src/app/qml/ubuntu-terminal-app.qml:130
+msgid "Dark pastels / Ubuntu (old)"
+msgstr "ጥቁር ቀለም / ኡቡንቱ (አሮገ)"
+
+#: ../src/app/qml/ubuntu-terminal-app.qml:130
+msgid "Black on light yellow"
+msgstr "ጥቁር ነጣ ባለ ቢጫ ላይ"
+
+#: ../src/app/qml/ubuntu-terminal-app.qml:130
+msgid "Ubuntu"
+msgstr "ኡቡንቱ"
+
+#: ../src/plugin/konsole/ColorScheme.cpp:276
+#: ../src/plugin/konsole/ColorScheme.cpp:291
+#: ../src/plugin/qmltermwidget/lib/ColorScheme.cpp:277
+#: ../src/plugin/qmltermwidget/lib/ColorScheme.cpp:292
 msgid "Un-named Color Scheme"
 msgstr "ያል-ተሰየመ የ ቀለም ገጽታ"
 
-#: ../src/plugin/qmltermwidget/lib/ColorScheme.cpp:468
+#: ../src/plugin/konsole/ColorScheme.cpp:426
+#: ../src/plugin/qmltermwidget/lib/ColorScheme.cpp:427
 msgid "Accessible Color Scheme"
 msgstr "በቀላሉ የሚደረስበት የ ቀለም ገጽታ"
 
+#: ../src/plugin/konsole/Filter.cpp:518
 #: ../src/plugin/qmltermwidget/lib/Filter.cpp:533
 msgid "Open Link"
 msgstr "አገናኝ መክፈቻ"
 
+#: ../src/plugin/konsole/Filter.cpp:519
 #: ../src/plugin/qmltermwidget/lib/Filter.cpp:534
 msgid "Copy Link Address"
 msgstr "አገናኝ አድራሻዎችን ኮፒ ማድረጊያ"
 
+#: ../src/plugin/konsole/Filter.cpp:523
 #: ../src/plugin/qmltermwidget/lib/Filter.cpp:538
 msgid "Send Email To..."
 msgstr "ኢሜይል መላኪያ ወደ..."
 
+#: ../src/plugin/konsole/Filter.cpp:524
 #: ../src/plugin/qmltermwidget/lib/Filter.cpp:539
 msgid "Copy Email Address"
 msgstr "የ ኢሜይል አድራሻን ኮፒ ማድረጊያ"
+
+#: ../src/plugin/konsole/Vt102Emulation.cpp:961
+#: ../src/plugin/qmltermwidget/lib/Vt102Emulation.cpp:977
+msgid ""
+"No keyboard translator available.  The information needed to convert key "
+"presses into characters to send to the terminal is missing."
+msgstr ""
+"ዝግጁ የ ፊደል ገበታ ተርጓሚ አልተገኘም:  የሚፈለገው መረጃ ለ መቀየር ቁልፍ መጫኛ ባህሪዎችን ወደ ተርሚናል መላኪያ "
+"አልተገኘም:"
 
 #: ../src/plugin/qmltermwidget/lib/SearchBar.cpp:39
 msgid "Match case"
@@ -356,32 +294,27 @@ msgstr "መደበኛ አገላለጽ"
 msgid "Higlight all matches"
 msgstr "ተመሳሳዮችን በሙሉ ማድመቂያ"
 
-#: ../src/plugin/qmltermwidget/lib/Vt102Emulation.cpp:982
-msgid ""
-"No keyboard translator available.  The information needed to convert key "
-"presses into characters to send to the terminal is missing."
-msgstr ""
-"ዝግጁ የ ፊደል ገበታ ተርጓሚ አልተገኘም: የሚፈለገው መረጃ ለመቀየር ቁልፍ መጫኛ ባህሪዎችን ወደ ተርሚናል መላኪያ "
-"አልተገኘም"
-
-#: ../src/plugin/qmltermwidget/lib/qtermwidget.cpp:406
+#: ../src/plugin/qmltermwidget/lib/qtermwidget.cpp:405
 msgid "Color Scheme Error"
 msgstr "የ ቀለም ገጽታ ስህተት"
 
-#: ../src/plugin/qmltermwidget/lib/qtermwidget.cpp:407
+#: ../src/plugin/qmltermwidget/lib/qtermwidget.cpp:406
 #, qt-format
 msgid "Cannot load color scheme: %1"
 msgstr "የ ቀለም ገጽታ መጫን አልተቻለም: %1"
 
-#: ubuntu-terminal-app.desktop.in.in.h:1
+#: com.ubuntu.terminal.desktop.in.in.h:1
 msgid "Terminal"
 msgstr "ተርሚናል"
+
+#~ msgid "Show Keyboard Bar"
+#~ msgstr "የ ፊደል ገበታ መደርደሪያ ማሳያ"
+
+#~ msgid "Show Keyboard Button"
+#~ msgstr "የ ፊደል ገበታ ቁልፍ ማሳያ"
 
 #~ msgid "Enter password:"
 #~ msgstr "የመግቢያ ቃል ያስገቡ:"
 
 #~ msgid "password"
 #~ msgstr "የመግቢያ ቃል"
-
-#~ msgid "Settings"
-#~ msgstr "ማሰናጃ"

@@ -1,279 +1,276 @@
-# Khmer translation for ubuntu-terminal-app
-# Copyright (c) 2014 Rosetta Contributors and Canonical Ltd 2014
-# This file is distributed under the same license as the ubuntu-terminal-app package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2014.
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR Canonical Ltd.
+# This file is distributed under the same license as the package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: ubuntu-terminal-app\n"
+"Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-08-08 12:47+0200\n"
-"PO-Revision-Date: 2014-09-01 07:30+0000\n"
-"Last-Translator: Sok Sophea <sksophea@gmail.com>\n"
-"Language-Team: Khmer <km@li.org>\n"
-"Language: \n"
+"PO-Revision-Date: 2018-12-28 09:14+0000\n"
+"Last-Translator: Adrià <adriamartinmor@gmail.com>\n"
+"Language-Team: Sardinian <https://translate.ubports.com/projects/ubports/"
+"terminal-app/sc/>\n"
+"Language: sc\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2014-10-02 06:33+0000\n"
-"X-Generator: Launchpad (build 17196)\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 3.1.1\n"
 
 #: ../src/app/qml/AlternateActionPopover.qml:13
 msgid "Select"
-msgstr ""
+msgstr "Seletziona"
 
 #: ../src/app/qml/AlternateActionPopover.qml:17
 msgid "Copy"
-msgstr ""
+msgstr "Còpia"
 
 #: ../src/app/qml/AlternateActionPopover.qml:22
 msgid "Paste"
-msgstr ""
+msgstr "Incolla"
 
 #: ../src/app/qml/AuthenticationDialog.qml:25
 msgid "Authentication required"
-msgstr ""
+msgstr "Autenticatzione rechèdida"
 
 #: ../src/app/qml/AuthenticationDialog.qml:27
 msgid "Enter passcode or passphrase:"
-msgstr ""
+msgstr "Inserta còdighe de atzessu o crae:"
 
 #: ../src/app/qml/AuthenticationDialog.qml:48
 msgid "passcode or passphrase"
-msgstr ""
+msgstr "còdighe de atzessu o crae"
 
 #: ../src/app/qml/AuthenticationDialog.qml:61
 msgid "OK"
-msgstr "យល់ព្រម"
+msgstr "AB"
 
 #: ../src/app/qml/AuthenticationDialog.qml:73
 msgid "Cancel"
-msgstr "បោះបង់"
+msgstr "Annulla"
 
 #: ../src/app/qml/AuthenticationService.qml:60
 msgid "Authentication failed"
-msgstr ""
+msgstr "Autenticatzione faddida"
 
 #: ../src/app/qml/ColorSchemePage.qml:27 ../src/app/qml/SettingsPage.qml:100
-#, fuzzy
 msgid "Color Scheme"
-msgstr "ពណ៌​ចម្រុះ"
+msgstr "Ischema de colore"
 
 #: ../src/app/qml/KeyboardBar.qml:174
 msgid "Change Keyboard"
-msgstr ""
+msgstr "Muda su tecladu"
 
 #. TRANSLATORS: This a keyboard layout name
 #: ../src/app/qml/KeyboardRows/JsonTranslator.qml:18
-#, fuzzy
 msgid "Control Keys"
-msgstr "គ្រាប់​ចុច​បញ្ជា"
+msgstr "Teclas de controllu"
 
 #. TRANSLATORS: This a keyboard layout name
 #: ../src/app/qml/KeyboardRows/JsonTranslator.qml:21
-#, fuzzy
 msgid "Function Keys"
-msgstr "គ្រាប់​ចុច​មុខងារ"
+msgstr "Teclas de funtzione"
 
 #. TRANSLATORS: This a keyboard layout name
 #: ../src/app/qml/KeyboardRows/JsonTranslator.qml:24
 msgid "Scroll Keys"
-msgstr ""
+msgstr "Teclas de iscurrimentu"
 
 #. TRANSLATORS: This a keyboard layout name
 #: ../src/app/qml/KeyboardRows/JsonTranslator.qml:27
 msgid "Command Keys"
-msgstr ""
+msgstr "Teclas de cumandu"
 
 #. TRANSLATORS: This the short display name of a keyboard layout. It should be no longer than 4 characters!
 #. TRANSLATORS: This is the name of the Control key. All letters should be uppercase!
 #: ../src/app/qml/KeyboardRows/JsonTranslator.qml:35
 #: ../src/app/qml/KeyboardRows/JsonTranslator.qml:61
 msgid "CTRL"
-msgstr ""
+msgstr "CTRL"
 
 #. TRANSLATORS: This the short display name of a keyboard layout. It should be no longer than 4 characters!
 #: ../src/app/qml/KeyboardRows/JsonTranslator.qml:38
 msgid "FNS"
-msgstr ""
+msgstr "FNTZ"
 
 #. TRANSLATORS: This the short display name of a keyboard layout. It should be no longer than 4 characters!
 #: ../src/app/qml/KeyboardRows/JsonTranslator.qml:41
 msgid "SCR"
-msgstr ""
+msgstr "ISC"
 
 #. TRANSLATORS: This the short display name of a keyboard layout. It should be no longer than 4 characters!
 #: ../src/app/qml/KeyboardRows/JsonTranslator.qml:44
 msgid "CMD"
-msgstr ""
+msgstr "CMD"
 
 #. TRANSLATORS: This is the name of the Alt key. All letters should be uppercase!
 #: ../src/app/qml/KeyboardRows/JsonTranslator.qml:64
 msgid "ALT"
-msgstr ""
+msgstr "ALT"
 
 #. TRANSLATORS: This is the name of the Shift key. All letters should be uppercase!
 #: ../src/app/qml/KeyboardRows/JsonTranslator.qml:67
 msgid "SHIFT"
-msgstr ""
+msgstr "MAJÙS"
 
 #. TRANSLATORS: This is the name of the Escape key. All letters should be uppercase!
 #: ../src/app/qml/KeyboardRows/JsonTranslator.qml:80
 msgid "ESC"
-msgstr ""
+msgstr "ESC"
 
 #. TRANSLATORS: This is the name of the Page Up key. All letters should be uppercase!
 #: ../src/app/qml/KeyboardRows/JsonTranslator.qml:83
 msgid "PG_UP"
-msgstr "ទំព័រ​លើ"
+msgstr "Pag ↑"
 
 #. TRANSLATORS: This is the name of the Page Down key. All letters should be uppercase!
 #: ../src/app/qml/KeyboardRows/JsonTranslator.qml:86
 msgid "PG_DN"
-msgstr "ទំព័រ​ក្រោម"
+msgstr "Pag ↓"
 
 #. TRANSLATORS: This is the name of the Delete key. All letters should be uppercase!
 #: ../src/app/qml/KeyboardRows/JsonTranslator.qml:89
 msgid "DEL"
-msgstr "លុប"
+msgstr "CANTZ"
 
 #. TRANSLATORS: This is the name of the Home key. All letters should be uppercase!
 #: ../src/app/qml/KeyboardRows/JsonTranslator.qml:92
 msgid "HOME"
-msgstr "ដើម"
+msgstr "INGHITZU"
 
 #. TRANSLATORS: This is the name of the End key. All letters should be uppercase!
 #: ../src/app/qml/KeyboardRows/JsonTranslator.qml:95
 msgid "END"
-msgstr "ចុង"
+msgstr "FINE"
 
 #. TRANSLATORS: This is the name of the Tab key. All letters should be uppercase!
 #: ../src/app/qml/KeyboardRows/JsonTranslator.qml:98
 msgid "TAB"
-msgstr "ថេប"
+msgstr "TAB"
 
 #. TRANSLATORS: This is the name of the Enter key. All letters should be uppercase!
 #: ../src/app/qml/KeyboardRows/JsonTranslator.qml:101
 msgid "ENTER"
-msgstr ""
+msgstr "ENTER"
 
 #: ../src/app/qml/LayoutsPage.qml:27 ../src/app/qml/SettingsPage.qml:44
 msgid "Layouts"
-msgstr ""
+msgstr "Dispositziones"
 
 #: ../src/app/qml/LoginPage.qml:28 ../src/app/qml/SettingsPage.qml:119
 msgid "Login"
-msgstr ""
+msgstr "Inghitzu de sessione"
 
 #: ../src/app/qml/LoginPage.qml:42
 msgid "Require login"
-msgstr ""
+msgstr "Rechede inghitzu de sessione"
 
 #: ../src/app/qml/LoginPage.qml:43
 msgid "Enable or disable login at start"
-msgstr ""
+msgstr "Ativa o disativa s'inghitzu de sessione"
 
 #: ../src/app/qml/NotifyDialog.qml:25
 msgid "Ok"
-msgstr ""
+msgstr "AB"
 
 #: ../src/app/qml/SettingsPage.qml:27
 msgid "Settings"
-msgstr "ការកំណត់"
+msgstr "Cunfiguratzione"
 
 #: ../src/app/qml/SettingsPage.qml:67
-#, fuzzy
 msgid "Font Size:"
-msgstr "ទំហំ​ពុម្ព​អក្សរ"
+msgstr "Mannària de is caràteres:"
 
 #: ../src/app/qml/SettingsPage.qml:123
 msgid "Required"
-msgstr ""
+msgstr "Rechèdidu"
 
 #: ../src/app/qml/SettingsPage.qml:123
 msgid "Not required"
-msgstr ""
+msgstr "Non rechèdidu"
 
 #: ../src/app/qml/TabsPage.qml:9
 msgid "Tabs"
-msgstr ""
+msgstr "Ischedas"
 
 #: ../src/app/qml/TabsPage.qml:15
 msgid "New tab"
-msgstr ""
+msgstr "Ischeda noa"
 
 #: ../src/app/qml/TerminalPage.qml:179
 msgid "Selection Mode"
-msgstr ""
+msgstr "Modalidade de seletzione"
 
 #. TRANSLATORS: This is the name of a terminal color scheme which is displayed in the settings
 #: ../src/app/qml/ubuntu-terminal-app.qml:130
 msgid "Green on black"
-msgstr ""
+msgstr "Birde subra nieddu"
 
 #: ../src/app/qml/ubuntu-terminal-app.qml:130
 msgid "White on black"
-msgstr ""
+msgstr "Biancu subra nieddu"
 
 #: ../src/app/qml/ubuntu-terminal-app.qml:130
 msgid "Black on white"
-msgstr ""
+msgstr "Nieddu subra biancu"
 
 #: ../src/app/qml/ubuntu-terminal-app.qml:130
 msgid "Black on random light"
-msgstr ""
+msgstr "Nieddu subra lughe casuale"
 
 #: ../src/app/qml/ubuntu-terminal-app.qml:130
 msgid "Linux"
-msgstr ""
+msgstr "Linux"
 
 #: ../src/app/qml/ubuntu-terminal-app.qml:130
 msgid "Cool retro term"
-msgstr ""
+msgstr "Terminale retro togu"
 
 #: ../src/app/qml/ubuntu-terminal-app.qml:130
 msgid "Dark pastels / Ubuntu (old)"
-msgstr ""
+msgstr "Pastellos iscuros / Ubuntu (betzu)"
 
 #: ../src/app/qml/ubuntu-terminal-app.qml:130
 msgid "Black on light yellow"
-msgstr ""
+msgstr "Nieddu subra grogu craru"
 
 #: ../src/app/qml/ubuntu-terminal-app.qml:130
 msgid "Ubuntu"
-msgstr ""
+msgstr "Ubuntu"
 
 #: ../src/plugin/konsole/ColorScheme.cpp:276
 #: ../src/plugin/konsole/ColorScheme.cpp:291
 #: ../src/plugin/qmltermwidget/lib/ColorScheme.cpp:277
 #: ../src/plugin/qmltermwidget/lib/ColorScheme.cpp:292
 msgid "Un-named Color Scheme"
-msgstr "ពណ៌​ចម្រុះ​ដែល​មិនបាន​ដាក់ឈ្មោះ"
+msgstr "Ischema de colore sena nòmine"
 
 #: ../src/plugin/konsole/ColorScheme.cpp:426
 #: ../src/plugin/qmltermwidget/lib/ColorScheme.cpp:427
 msgid "Accessible Color Scheme"
-msgstr "ពណ៌​ចម្រុះ​ដែល​អាច​ចូល​ប្រើ​បាន"
+msgstr "Ischema de colore atzessìbile"
 
 #: ../src/plugin/konsole/Filter.cpp:518
 #: ../src/plugin/qmltermwidget/lib/Filter.cpp:533
 msgid "Open Link"
-msgstr "បើក​តំណ"
+msgstr "Aberi su ligàmene"
 
 #: ../src/plugin/konsole/Filter.cpp:519
 #: ../src/plugin/qmltermwidget/lib/Filter.cpp:534
 msgid "Copy Link Address"
-msgstr "ចម្លង​អាសយដ្ឋាន​តំណ"
+msgstr "Còpia s'indiritzu de su ligàmene"
 
 #: ../src/plugin/konsole/Filter.cpp:523
 #: ../src/plugin/qmltermwidget/lib/Filter.cpp:538
 msgid "Send Email To..."
-msgstr "ផ្ញើ​អ៊ីមែល​ទៅ..."
+msgstr "Imbia messàgiu eletrònicu a..."
 
 #: ../src/plugin/konsole/Filter.cpp:524
 #: ../src/plugin/qmltermwidget/lib/Filter.cpp:539
 msgid "Copy Email Address"
-msgstr "ចម្លង​អាសយដ្ឋាន​អ៊ីមែល"
+msgstr "Còpia indiritzu eletrònicu"
 
 #: ../src/plugin/konsole/Vt102Emulation.cpp:961
 #: ../src/plugin/qmltermwidget/lib/Vt102Emulation.cpp:977
@@ -281,61 +278,31 @@ msgid ""
 "No keyboard translator available.  The information needed to convert key "
 "presses into characters to send to the terminal is missing."
 msgstr ""
-"មិន​មាន​កម្មវិធី​បកប្រែ​ក្ដារចុច។ ព័ត៌មាន​ដែល​ត្រូវ​បម្លែង​ការ​ចុច​គ្រាប់ចុច​ទៅ​ជា​តួ​អក្សរ​ដើម្បី​ផ្ញើ​ទៅ​ស្ថានីយ​គឺ​បាន​"
-"បាត់។"
+"Non bi sunt tradutores de tecladu. Ammancant is informatziones netzessàrias "
+"pro furriare is teclas incarcadas a caràteres chi tocat a imbiare a su "
+"terminale."
 
 #: ../src/plugin/qmltermwidget/lib/SearchBar.cpp:39
 msgid "Match case"
-msgstr ""
+msgstr "Minùscula/Majùscula"
 
 #: ../src/plugin/qmltermwidget/lib/SearchBar.cpp:45
 msgid "Regular expression"
-msgstr ""
+msgstr "Espressione regulare"
 
 #: ../src/plugin/qmltermwidget/lib/SearchBar.cpp:49
 msgid "Higlight all matches"
-msgstr ""
+msgstr "Evidentzia totus is cuncordàntzias"
 
 #: ../src/plugin/qmltermwidget/lib/qtermwidget.cpp:405
-#, fuzzy
 msgid "Color Scheme Error"
-msgstr "ពណ៌​ចម្រុះ"
+msgstr "Faddina in s'ischema de colore"
 
 #: ../src/plugin/qmltermwidget/lib/qtermwidget.cpp:406
-#, fuzzy, qt-format
+#, qt-format
 msgid "Cannot load color scheme: %1"
-msgstr "ពណ៌​ចម្រុះ​ដែល​មិនបាន​ដាក់ឈ្មោះ"
+msgstr "Non s'est pòdidu carrigare s'ischema de colore: %1"
 
 #: com.ubuntu.terminal.desktop.in.in.h:1
 msgid "Terminal"
-msgstr "ស្ថានីយ"
-
-#~ msgid "Pick a color"
-#~ msgstr "ជ្រើស​ពណ៌"
-
-#~ msgid "Enable effects:"
-#~ msgstr "បើក​បែបផែន៖"
-
-#~ msgid "Screen color"
-#~ msgstr "ពណ៌​អេក្រង់"
-
-#~ msgid "Color intensity"
-#~ msgstr "អាំងតង់ស៊ីតេ​ពណ៌"
-
-#~ msgid "Bloom"
-#~ msgstr "ពង្រីក"
-
-#~ msgid "Curvature"
-#~ msgstr "កំណោង"
-
-#~ msgid "Noise"
-#~ msgstr "​ជ្រៀតជ្រែក"
-
-#~ msgid "Jitter"
-#~ msgstr "ញ័រ"
-
-#~ msgid "Hide all key panels"
-#~ msgstr "លាក់​បន្ទះ​គ្រាប់ចុច​ទាំងអស់"
-
-#~ msgid "Arrow keys"
-#~ msgstr "គ្រាប់​ចុច​ព្រួញ"
+msgstr "Terminale"

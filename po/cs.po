@@ -1,176 +1,308 @@
 # Czech translation for ubuntu-terminal-app
-# Copyright (c) 2014 Rosetta Contributors and Canonical Ltd 2014
+# Copyright (c) 2015 Rosetta Contributors and Canonical Ltd 2015
 # This file is distributed under the same license as the ubuntu-terminal-app package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2014.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2015.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: ubuntu-terminal-app\n"
-"Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
-"POT-Creation-Date: 2014-10-07 04:16-0700\n"
-"PO-Revision-Date: 2014-10-26 12:14+0000\n"
-"Last-Translator: Ondra Kadlec <o.kadlec@seznam.cz>\n"
-"Language-Team: Czech <cs@li.org>\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-08-08 12:47+0200\n"
+"PO-Revision-Date: 2019-03-07 21:53+0000\n"
+"Last-Translator: Milan Korecký <milan.korecky@gmail.com>\n"
+"Language-Team: Czech <https://translate.ubports.com/projects/ubports/"
+"terminal-app/cs/>\n"
+"Language: cs\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2017-02-09 05:47+0000\n"
-"X-Generator: Launchpad (build 18326)\n"
+"Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
+"X-Generator: Weblate 3.1.1\n"
+"X-Launchpad-Export-Date: 2016-02-08 05:36+0000\n"
+
+#: ../src/app/qml/AlternateActionPopover.qml:13
+msgid "Select"
+msgstr "Vybrat"
+
+#: ../src/app/qml/AlternateActionPopover.qml:17
+msgid "Copy"
+msgstr "Kopírovat"
+
+#: ../src/app/qml/AlternateActionPopover.qml:22
+msgid "Paste"
+msgstr "Vložit"
 
 #: ../src/app/qml/AuthenticationDialog.qml:25
 msgid "Authentication required"
-msgstr ""
+msgstr "Požadováno ověření totožnosti"
 
 #: ../src/app/qml/AuthenticationDialog.qml:27
-msgid "Enter password:"
-msgstr ""
+msgid "Enter passcode or passphrase:"
+msgstr "Zadejte heslo nebo vstupní kód:"
 
-#: ../src/app/qml/AuthenticationDialog.qml:40
-msgid "password"
-msgstr ""
+#: ../src/app/qml/AuthenticationDialog.qml:48
+msgid "passcode or passphrase"
+msgstr "heslo nebo přístupový kód"
 
-#: ../src/app/qml/NotifyDialog.qml:25
-msgid "Ok"
-msgstr ""
-
-#: ../src/app/qml/AuthenticationDialog.qml:70
-#: ../src/app/qml/ConfirmationDialog.qml:42
-msgid "Cancel"
-msgstr "Zrušit"
-
-#: ../src/app/qml/AuthenticationService.qml:64
-msgid "Authentication failed"
-msgstr ""
-
-#: ../src/app/qml/ColorDialog.qml:25
-msgid "Pick a color"
-msgstr "Vyberte barvu"
-
-#: ../src/app/qml/AuthenticationDialog.qml:58
+#: ../src/app/qml/AuthenticationDialog.qml:61
 msgid "OK"
 msgstr "OK"
 
-#: ../src/app/qml/Configs.qml:69
-msgid "Color Scheme:"
-msgstr ""
+#: ../src/app/qml/AuthenticationDialog.qml:73
+msgid "Cancel"
+msgstr "Zrušit"
 
-#: ../src/app/qml/Configs.qml:81
-msgid "Select Font:"
-msgstr ""
+#: ../src/app/qml/AuthenticationService.qml:60
+msgid "Authentication failed"
+msgstr "Ověření selhalo"
 
-#: ../src/app/qml/Settings/SettingsInterfaceSection.qml:91
-msgid "Font Size:"
-msgstr ""
+#: ../src/app/qml/ColorSchemePage.qml:27 ../src/app/qml/SettingsPage.qml:100
+msgid "Color Scheme"
+msgstr "Barevná kombinace"
 
-#: ../src/app/qml/Configs.qml:136
-msgid "Enable Effects:"
-msgstr ""
+#: ../src/app/qml/KeyboardBar.qml:174
+msgid "Change Keyboard"
+msgstr "Změnit klávesnici"
 
-#: ../src/app/qml/Configs.qml:155
-msgid "Screen color"
-msgstr "Barva obrazovky"
+#. TRANSLATORS: This a keyboard layout name
+#: ../src/app/qml/KeyboardRows/JsonTranslator.qml:18
+msgid "Control Keys"
+msgstr "Ctrl klávesy"
 
-#: ../src/app/qml/Configs.qml:168
-msgid "Color intensity"
-msgstr "Intenzita barev"
+#. TRANSLATORS: This a keyboard layout name
+#: ../src/app/qml/KeyboardRows/JsonTranslator.qml:21
+msgid "Function Keys"
+msgstr "F klávesy"
 
-#: ../src/app/qml/Configs.qml:196
-msgid "Bloom"
-msgstr "Záře"
+#. TRANSLATORS: This a keyboard layout name
+#: ../src/app/qml/KeyboardRows/JsonTranslator.qml:24
+msgid "Scroll Keys"
+msgstr "Scroll klávesy"
 
-#: ../src/app/qml/Configs.qml:224
-msgid "Curvature"
-msgstr "Zakřivení"
+#. TRANSLATORS: This a keyboard layout name
+#: ../src/app/qml/KeyboardRows/JsonTranslator.qml:27
+msgid "Command Keys"
+msgstr "Příkazové klávesy"
 
-#: ../src/app/qml/Configs.qml:252
-msgid "Noise"
-msgstr "Šum"
+#. TRANSLATORS: This the short display name of a keyboard layout. It should be no longer than 4 characters!
+#. TRANSLATORS: This is the name of the Control key. All letters should be uppercase!
+#: ../src/app/qml/KeyboardRows/JsonTranslator.qml:35
+#: ../src/app/qml/KeyboardRows/JsonTranslator.qml:61
+msgid "CTRL"
+msgstr "CTRL"
 
-#: ../src/app/qml/Configs.qml:280
-msgid "Jitter"
-msgstr "Chvění"
+#. TRANSLATORS: This the short display name of a keyboard layout. It should be no longer than 4 characters!
+#: ../src/app/qml/KeyboardRows/JsonTranslator.qml:38
+msgid "FNS"
+msgstr "FNS"
+
+#. TRANSLATORS: This the short display name of a keyboard layout. It should be no longer than 4 characters!
+#: ../src/app/qml/KeyboardRows/JsonTranslator.qml:41
+msgid "SCR"
+msgstr "SCR"
+
+#. TRANSLATORS: This the short display name of a keyboard layout. It should be no longer than 4 characters!
+#: ../src/app/qml/KeyboardRows/JsonTranslator.qml:44
+msgid "CMD"
+msgstr "CMD"
+
+#. TRANSLATORS: This is the name of the Alt key. All letters should be uppercase!
+#: ../src/app/qml/KeyboardRows/JsonTranslator.qml:64
+msgid "ALT"
+msgstr "ALT"
+
+#. TRANSLATORS: This is the name of the Shift key. All letters should be uppercase!
+#: ../src/app/qml/KeyboardRows/JsonTranslator.qml:67
+msgid "SHIFT"
+msgstr "SHIFT"
+
+#. TRANSLATORS: This is the name of the Escape key. All letters should be uppercase!
+#: ../src/app/qml/KeyboardRows/JsonTranslator.qml:80
+msgid "ESC"
+msgstr "ESC"
 
 #. TRANSLATORS: This is the name of the Page Up key. All letters should be uppercase!
-#: ../src/app/qml/KeyboardRows/JsonTranslator.qml:100
+#: ../src/app/qml/KeyboardRows/JsonTranslator.qml:83
 msgid "PG_UP"
-msgstr ""
-
-#. TRANSLATORS: This is the name of the Tab key. All letters should be uppercase!
-#: ../src/app/qml/KeyboardRows/JsonTranslator.qml:115
-msgid "TAB"
-msgstr ""
-
-#. TRANSLATORS: This is the name of the Delete key. All letters should be uppercase!
-#: ../src/app/qml/KeyboardRows/JsonTranslator.qml:106
-msgid "DEL"
-msgstr ""
-
-#. TRANSLATORS: This is the name of the Home key. All letters should be uppercase!
-#: ../src/app/qml/KeyboardRows/JsonTranslator.qml:109
-msgid "HOME"
-msgstr ""
+msgstr "PG_UP"
 
 #. TRANSLATORS: This is the name of the Page Down key. All letters should be uppercase!
-#: ../src/app/qml/KeyboardRows/JsonTranslator.qml:103
+#: ../src/app/qml/KeyboardRows/JsonTranslator.qml:86
 msgid "PG_DN"
-msgstr ""
+msgstr "PG_DN"
+
+#. TRANSLATORS: This is the name of the Delete key. All letters should be uppercase!
+#: ../src/app/qml/KeyboardRows/JsonTranslator.qml:89
+msgid "DEL"
+msgstr "DEL"
+
+#. TRANSLATORS: This is the name of the Home key. All letters should be uppercase!
+#: ../src/app/qml/KeyboardRows/JsonTranslator.qml:92
+msgid "HOME"
+msgstr "DOMU"
 
 #. TRANSLATORS: This is the name of the End key. All letters should be uppercase!
-#: ../src/app/qml/KeyboardRows/JsonTranslator.qml:112
+#: ../src/app/qml/KeyboardRows/JsonTranslator.qml:95
 msgid "END"
-msgstr ""
+msgstr "KONEC"
 
-#: ubuntu-terminal-app.desktop.in.in.h:1
-msgid "Terminal"
-msgstr ""
+#. TRANSLATORS: This is the name of the Tab key. All letters should be uppercase!
+#: ../src/app/qml/KeyboardRows/JsonTranslator.qml:98
+msgid "TAB"
+msgstr "TAB"
 
-#: ../src/app/qml/SettingsPage.qml:26
+#. TRANSLATORS: This is the name of the Enter key. All letters should be uppercase!
+#: ../src/app/qml/KeyboardRows/JsonTranslator.qml:101
+msgid "ENTER"
+msgstr "ENTER"
+
+#: ../src/app/qml/LayoutsPage.qml:27 ../src/app/qml/SettingsPage.qml:44
+msgid "Layouts"
+msgstr "Rozvržení"
+
+#: ../src/app/qml/LoginPage.qml:28 ../src/app/qml/SettingsPage.qml:119
+msgid "Login"
+msgstr "Přihlášení"
+
+#: ../src/app/qml/LoginPage.qml:42
+msgid "Require login"
+msgstr "Vyžaduje přihlášení"
+
+#: ../src/app/qml/LoginPage.qml:43
+msgid "Enable or disable login at start"
+msgstr "Povolit nebo zakázat přihlášení při spuštění"
+
+#: ../src/app/qml/NotifyDialog.qml:25
+msgid "Ok"
+msgstr "OK"
+
+#: ../src/app/qml/SettingsPage.qml:27
 msgid "Settings"
 msgstr "Nastavení"
 
-#: ../src/app/qml/ubuntu-terminal-app.qml:57
-msgid "Hide all key panels"
-msgstr ""
+#: ../src/app/qml/SettingsPage.qml:67
+msgid "Font Size:"
+msgstr "Velikost písma:"
 
-#: ../src/app/qml/ubuntu-terminal-app.qml:64
-msgid "Control keys"
-msgstr ""
+#: ../src/app/qml/SettingsPage.qml:123
+msgid "Required"
+msgstr "Požadováno"
 
-#: ../src/app/qml/ubuntu-terminal-app.qml:71
-msgid "Function keys"
-msgstr ""
+#: ../src/app/qml/SettingsPage.qml:123
+msgid "Not required"
+msgstr "Není požadováno"
 
-#: ../src/app/qml/ubuntu-terminal-app.qml:78
-msgid "Arrow keys"
-msgstr ""
+#: ../src/app/qml/TabsPage.qml:9
+msgid "Tabs"
+msgstr "Záložky"
 
-#: ../src/plugin/qmltermwidget/lib/ColorScheme.cpp:291
-#: ../src/plugin/qmltermwidget/lib/ColorScheme.cpp:320
+#: ../src/app/qml/TabsPage.qml:15
+msgid "New tab"
+msgstr "Nový panel"
+
+#: ../src/app/qml/TerminalPage.qml:179
+msgid "Selection Mode"
+msgstr "Režim výběru"
+
+#. TRANSLATORS: This is the name of a terminal color scheme which is displayed in the settings
+#: ../src/app/qml/ubuntu-terminal-app.qml:130
+msgid "Green on black"
+msgstr "Zelená na černé"
+
+#: ../src/app/qml/ubuntu-terminal-app.qml:130
+msgid "White on black"
+msgstr "Bílá na černé"
+
+#: ../src/app/qml/ubuntu-terminal-app.qml:130
+msgid "Black on white"
+msgstr "Černá na bílé"
+
+#: ../src/app/qml/ubuntu-terminal-app.qml:130
+msgid "Black on random light"
+msgstr "Černá na náhodné světlé"
+
+#: ../src/app/qml/ubuntu-terminal-app.qml:130
+msgid "Linux"
+msgstr "Linux"
+
+#: ../src/app/qml/ubuntu-terminal-app.qml:130
+msgid "Cool retro term"
+msgstr "Cool retro terminál"
+
+#: ../src/app/qml/ubuntu-terminal-app.qml:130
+msgid "Dark pastels / Ubuntu (old)"
+msgstr "Tmavé pastelové barvy / Ubuntu (původní)"
+
+#: ../src/app/qml/ubuntu-terminal-app.qml:130
+msgid "Black on light yellow"
+msgstr "Černá na světle žluté"
+
+#: ../src/app/qml/ubuntu-terminal-app.qml:130
+msgid "Ubuntu"
+msgstr "Ubuntu"
+
+#: ../src/plugin/konsole/ColorScheme.cpp:276
+#: ../src/plugin/konsole/ColorScheme.cpp:291
+#: ../src/plugin/qmltermwidget/lib/ColorScheme.cpp:277
+#: ../src/plugin/qmltermwidget/lib/ColorScheme.cpp:292
 msgid "Un-named Color Scheme"
-msgstr ""
+msgstr "Barevná kombinace bez názvu"
 
-#: ../src/plugin/qmltermwidget/lib/ColorScheme.cpp:468
+#: ../src/plugin/konsole/ColorScheme.cpp:426
+#: ../src/plugin/qmltermwidget/lib/ColorScheme.cpp:427
 msgid "Accessible Color Scheme"
-msgstr ""
+msgstr "Povolené barevné kombinace"
 
+#: ../src/plugin/konsole/Filter.cpp:518
 #: ../src/plugin/qmltermwidget/lib/Filter.cpp:533
 msgid "Open Link"
-msgstr ""
+msgstr "Otevřít odkaz"
 
+#: ../src/plugin/konsole/Filter.cpp:519
 #: ../src/plugin/qmltermwidget/lib/Filter.cpp:534
 msgid "Copy Link Address"
-msgstr ""
+msgstr "Kopírovat adresu odkazu"
 
+#: ../src/plugin/konsole/Filter.cpp:523
 #: ../src/plugin/qmltermwidget/lib/Filter.cpp:538
 msgid "Send Email To..."
-msgstr ""
+msgstr "Odeslat poštu komu..."
 
+#: ../src/plugin/konsole/Filter.cpp:524
 #: ../src/plugin/qmltermwidget/lib/Filter.cpp:539
 msgid "Copy Email Address"
-msgstr ""
+msgstr "Kopírovat emailovou adresu"
 
-#: ../src/plugin/qmltermwidget/lib/Vt102Emulation.cpp:982
+#: ../src/plugin/konsole/Vt102Emulation.cpp:961
+#: ../src/plugin/qmltermwidget/lib/Vt102Emulation.cpp:977
 msgid ""
 "No keyboard translator available.  The information needed to convert key "
 "presses into characters to send to the terminal is missing."
 msgstr ""
+"Není k dispozici překladač klávesnice. Chybí informace potřebné k převodu "
+"kláves na znaky odesílané do terminálu."
+
+#: ../src/plugin/qmltermwidget/lib/SearchBar.cpp:39
+msgid "Match case"
+msgstr "Rozlišovat velká/malá"
+
+#: ../src/plugin/qmltermwidget/lib/SearchBar.cpp:45
+msgid "Regular expression"
+msgstr "Běžný výraz"
+
+#: ../src/plugin/qmltermwidget/lib/SearchBar.cpp:49
+msgid "Higlight all matches"
+msgstr "Zvýraznit všechny shody"
+
+#: ../src/plugin/qmltermwidget/lib/qtermwidget.cpp:405
+msgid "Color Scheme Error"
+msgstr "Špatná barevná kombinace"
+
+#: ../src/plugin/qmltermwidget/lib/qtermwidget.cpp:406
+#, qt-format
+msgid "Cannot load color scheme: %1"
+msgstr "Nelze načíst barevnou kombinaci: %1"
+
+#: com.ubuntu.terminal.desktop.in.in.h:1
+msgid "Terminal"
+msgstr "Terminál"

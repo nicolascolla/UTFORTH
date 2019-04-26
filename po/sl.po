@@ -1,178 +1,319 @@
 # Slovenian translation for ubuntu-terminal-app
-# Copyright (c) 2014 Rosetta Contributors and Canonical Ltd 2014
+# Copyright (c) 2015 Rosetta Contributors and Canonical Ltd 2015
 # This file is distributed under the same license as the ubuntu-terminal-app package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2014.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2015.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: ubuntu-terminal-app\n"
-"Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
-"POT-Creation-Date: 2014-10-07 04:16-0700\n"
-"PO-Revision-Date: 2014-10-28 14:31+0000\n"
-"Last-Translator: Damir Jerovšek <Unknown>\n"
-"Language-Team: Slovenian <sl@li.org>\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-08-08 12:47+0200\n"
+"PO-Revision-Date: 2018-05-12 19:46+0000\n"
+"Last-Translator: Kristijan Tkalec <kristijan.tkalec@biotehna.org>\n"
+"Language-Team: Slovenian <https://translate.ubports.com/projects/ubports"
+"/terminal-app/sl/>\n"
+"Language: sl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2017-02-09 05:47+0000\n"
-"X-Generator: Launchpad (build 18326)\n"
+"Plural-Forms: nplurals=4; plural=n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 || "
+"n%100==4 ? 2 : 3;\n"
+"X-Generator: Weblate 2.15\n"
+"X-Launchpad-Export-Date: 2016-02-08 05:36+0000\n"
+
+#: ../src/app/qml/AlternateActionPopover.qml:13
+msgid "Select"
+msgstr "Izberi"
+
+#: ../src/app/qml/AlternateActionPopover.qml:17
+msgid "Copy"
+msgstr "Kopiraj"
+
+#: ../src/app/qml/AlternateActionPopover.qml:22
+msgid "Paste"
+msgstr "Prilepi"
 
 #: ../src/app/qml/AuthenticationDialog.qml:25
 msgid "Authentication required"
 msgstr "Zahtevana je overitev"
 
 #: ../src/app/qml/AuthenticationDialog.qml:27
-msgid "Enter password:"
-msgstr "Vnesite geslo:"
+msgid "Enter passcode or passphrase:"
+msgstr ""
 
-#: ../src/app/qml/AuthenticationDialog.qml:40
-msgid "password"
-msgstr "geslo"
+#: ../src/app/qml/AuthenticationDialog.qml:48
+msgid "passcode or passphrase"
+msgstr ""
+
+#: ../src/app/qml/AuthenticationDialog.qml:61
+#, fuzzy
+msgid "OK"
+msgstr "V redu"
+
+#: ../src/app/qml/AuthenticationDialog.qml:73
+msgid "Cancel"
+msgstr "Prekliči"
+
+#: ../src/app/qml/AuthenticationService.qml:60
+msgid "Authentication failed"
+msgstr "Overitev je spodletela"
+
+#: ../src/app/qml/ColorSchemePage.qml:27 ../src/app/qml/SettingsPage.qml:100
+msgid "Color Scheme"
+msgstr "Barvna shema"
+
+#: ../src/app/qml/KeyboardBar.qml:174
+msgid "Change Keyboard"
+msgstr "Zamenjaj tipkovnico"
+
+#. TRANSLATORS: This a keyboard layout name
+#: ../src/app/qml/KeyboardRows/JsonTranslator.qml:18
+msgid "Control Keys"
+msgstr ""
+
+#. TRANSLATORS: This a keyboard layout name
+#: ../src/app/qml/KeyboardRows/JsonTranslator.qml:21
+msgid "Function Keys"
+msgstr ""
+
+#. TRANSLATORS: This a keyboard layout name
+#: ../src/app/qml/KeyboardRows/JsonTranslator.qml:24
+msgid "Scroll Keys"
+msgstr ""
+
+#. TRANSLATORS: This a keyboard layout name
+#: ../src/app/qml/KeyboardRows/JsonTranslator.qml:27
+msgid "Command Keys"
+msgstr ""
+
+#. TRANSLATORS: This the short display name of a keyboard layout. It should be no longer than 4 characters!
+#. TRANSLATORS: This is the name of the Control key. All letters should be uppercase!
+#: ../src/app/qml/KeyboardRows/JsonTranslator.qml:35
+#: ../src/app/qml/KeyboardRows/JsonTranslator.qml:61
+msgid "CTRL"
+msgstr ""
+
+#. TRANSLATORS: This the short display name of a keyboard layout. It should be no longer than 4 characters!
+#: ../src/app/qml/KeyboardRows/JsonTranslator.qml:38
+msgid "FNS"
+msgstr ""
+
+#. TRANSLATORS: This the short display name of a keyboard layout. It should be no longer than 4 characters!
+#: ../src/app/qml/KeyboardRows/JsonTranslator.qml:41
+msgid "SCR"
+msgstr ""
+
+#. TRANSLATORS: This the short display name of a keyboard layout. It should be no longer than 4 characters!
+#: ../src/app/qml/KeyboardRows/JsonTranslator.qml:44
+msgid "CMD"
+msgstr ""
+
+#. TRANSLATORS: This is the name of the Alt key. All letters should be uppercase!
+#: ../src/app/qml/KeyboardRows/JsonTranslator.qml:64
+msgid "ALT"
+msgstr ""
+
+#. TRANSLATORS: This is the name of the Shift key. All letters should be uppercase!
+#: ../src/app/qml/KeyboardRows/JsonTranslator.qml:67
+msgid "SHIFT"
+msgstr ""
+
+#. TRANSLATORS: This is the name of the Escape key. All letters should be uppercase!
+#: ../src/app/qml/KeyboardRows/JsonTranslator.qml:80
+msgid "ESC"
+msgstr ""
+
+#. TRANSLATORS: This is the name of the Page Up key. All letters should be uppercase!
+#: ../src/app/qml/KeyboardRows/JsonTranslator.qml:83
+msgid "PG_UP"
+msgstr "PG_UP"
+
+#. TRANSLATORS: This is the name of the Page Down key. All letters should be uppercase!
+#: ../src/app/qml/KeyboardRows/JsonTranslator.qml:86
+msgid "PG_DN"
+msgstr "PG_DN"
+
+#. TRANSLATORS: This is the name of the Delete key. All letters should be uppercase!
+#: ../src/app/qml/KeyboardRows/JsonTranslator.qml:89
+msgid "DEL"
+msgstr "DEL"
+
+#. TRANSLATORS: This is the name of the Home key. All letters should be uppercase!
+#: ../src/app/qml/KeyboardRows/JsonTranslator.qml:92
+msgid "HOME"
+msgstr "HOME"
+
+#. TRANSLATORS: This is the name of the End key. All letters should be uppercase!
+#: ../src/app/qml/KeyboardRows/JsonTranslator.qml:95
+msgid "END"
+msgstr "END"
+
+#. TRANSLATORS: This is the name of the Tab key. All letters should be uppercase!
+#: ../src/app/qml/KeyboardRows/JsonTranslator.qml:98
+msgid "TAB"
+msgstr "TAB"
+
+#. TRANSLATORS: This is the name of the Enter key. All letters should be uppercase!
+#: ../src/app/qml/KeyboardRows/JsonTranslator.qml:101
+msgid "ENTER"
+msgstr ""
+
+#: ../src/app/qml/LayoutsPage.qml:27 ../src/app/qml/SettingsPage.qml:44
+msgid "Layouts"
+msgstr ""
+
+#: ../src/app/qml/LoginPage.qml:28 ../src/app/qml/SettingsPage.qml:119
+msgid "Login"
+msgstr ""
+
+#: ../src/app/qml/LoginPage.qml:42
+msgid "Require login"
+msgstr ""
+
+#: ../src/app/qml/LoginPage.qml:43
+msgid "Enable or disable login at start"
+msgstr ""
 
 #: ../src/app/qml/NotifyDialog.qml:25
 msgid "Ok"
 msgstr "V redu"
 
-#: ../src/app/qml/AuthenticationDialog.qml:70
-#: ../src/app/qml/ConfirmationDialog.qml:42
-msgid "Cancel"
-msgstr "Prekliči"
-
-#: ../src/app/qml/AuthenticationService.qml:64
-msgid "Authentication failed"
-msgstr "Overitev je spodletela"
-
-#: ../src/app/qml/ColorDialog.qml:25
-msgid "Pick a color"
-msgstr "Izberite barvo"
-
-#: ../src/app/qml/AuthenticationDialog.qml:58
-msgid "OK"
-msgstr "V redu"
-
-#: ../src/app/qml/Configs.qml:69
-msgid "Color Scheme:"
-msgstr "Barvna shema:"
-
-#: ../src/app/qml/Configs.qml:81
-msgid "Select Font:"
-msgstr "Izberite pisavo:"
-
-#: ../src/app/qml/Settings/SettingsInterfaceSection.qml:91
-msgid "Font Size:"
-msgstr "Velikost pisave:"
-
-#: ../src/app/qml/Configs.qml:136
-msgid "Enable Effects:"
-msgstr "Omogoči učinke:"
-
-#: ../src/app/qml/Configs.qml:155
-msgid "Screen color"
-msgstr "Barva zaslona"
-
-#: ../src/app/qml/Configs.qml:168
-msgid "Color intensity"
-msgstr "Intenzivnost barve"
-
-#: ../src/app/qml/Configs.qml:196
-msgid "Bloom"
-msgstr "Cvetenje"
-
-#: ../src/app/qml/Configs.qml:224
-msgid "Curvature"
-msgstr "Ukrivljenost"
-
-#: ../src/app/qml/Configs.qml:252
-msgid "Noise"
-msgstr "Hrup"
-
-#: ../src/app/qml/Configs.qml:280
-msgid "Jitter"
-msgstr "Razgibanost"
-
-#. TRANSLATORS: This is the name of the Page Up key. All letters should be uppercase!
-#: ../src/app/qml/KeyboardRows/JsonTranslator.qml:100
-msgid "PG_UP"
-msgstr "PG_UP"
-
-#. TRANSLATORS: This is the name of the Tab key. All letters should be uppercase!
-#: ../src/app/qml/KeyboardRows/JsonTranslator.qml:115
-msgid "TAB"
-msgstr "TAB"
-
-#. TRANSLATORS: This is the name of the Delete key. All letters should be uppercase!
-#: ../src/app/qml/KeyboardRows/JsonTranslator.qml:106
-msgid "DEL"
-msgstr "DEL"
-
-#. TRANSLATORS: This is the name of the Home key. All letters should be uppercase!
-#: ../src/app/qml/KeyboardRows/JsonTranslator.qml:109
-msgid "HOME"
-msgstr "HOME"
-
-#. TRANSLATORS: This is the name of the Page Down key. All letters should be uppercase!
-#: ../src/app/qml/KeyboardRows/JsonTranslator.qml:103
-msgid "PG_DN"
-msgstr "PG_DN"
-
-#. TRANSLATORS: This is the name of the End key. All letters should be uppercase!
-#: ../src/app/qml/KeyboardRows/JsonTranslator.qml:112
-msgid "END"
-msgstr "END"
-
-#: ubuntu-terminal-app.desktop.in.in.h:1
-msgid "Terminal"
-msgstr "Terminal"
-
-#: ../src/app/qml/SettingsPage.qml:26
+#: ../src/app/qml/SettingsPage.qml:27
 msgid "Settings"
 msgstr "Nastavitve"
 
-#: ../src/app/qml/ubuntu-terminal-app.qml:57
-msgid "Hide all key panels"
-msgstr "Skrij vse pulte s tipkami"
+#: ../src/app/qml/SettingsPage.qml:67
+msgid "Font Size:"
+msgstr "Velikost pisave:"
 
-#: ../src/app/qml/ubuntu-terminal-app.qml:64
-msgid "Control keys"
-msgstr "Nadzorne tipke"
+#: ../src/app/qml/SettingsPage.qml:123
+msgid "Required"
+msgstr ""
 
-#: ../src/app/qml/ubuntu-terminal-app.qml:71
-msgid "Function keys"
-msgstr "Funkcijske tipke"
+#: ../src/app/qml/SettingsPage.qml:123
+msgid "Not required"
+msgstr ""
 
-#: ../src/app/qml/ubuntu-terminal-app.qml:78
-msgid "Arrow keys"
-msgstr "Smerne tipke"
+#: ../src/app/qml/TabsPage.qml:9
+msgid "Tabs"
+msgstr "Zavihki"
 
-#: ../src/plugin/qmltermwidget/lib/ColorScheme.cpp:291
-#: ../src/plugin/qmltermwidget/lib/ColorScheme.cpp:320
+#: ../src/app/qml/TabsPage.qml:15
+msgid "New tab"
+msgstr "Nov zavihek"
+
+#: ../src/app/qml/TerminalPage.qml:179
+msgid "Selection Mode"
+msgstr "Način izbire"
+
+#. TRANSLATORS: This is the name of a terminal color scheme which is displayed in the settings
+#: ../src/app/qml/ubuntu-terminal-app.qml:130
+msgid "Green on black"
+msgstr ""
+
+#: ../src/app/qml/ubuntu-terminal-app.qml:130
+msgid "White on black"
+msgstr ""
+
+#: ../src/app/qml/ubuntu-terminal-app.qml:130
+msgid "Black on white"
+msgstr ""
+
+#: ../src/app/qml/ubuntu-terminal-app.qml:130
+msgid "Black on random light"
+msgstr ""
+
+#: ../src/app/qml/ubuntu-terminal-app.qml:130
+msgid "Linux"
+msgstr ""
+
+#: ../src/app/qml/ubuntu-terminal-app.qml:130
+msgid "Cool retro term"
+msgstr ""
+
+#: ../src/app/qml/ubuntu-terminal-app.qml:130
+msgid "Dark pastels / Ubuntu (old)"
+msgstr ""
+
+#: ../src/app/qml/ubuntu-terminal-app.qml:130
+msgid "Black on light yellow"
+msgstr ""
+
+#: ../src/app/qml/ubuntu-terminal-app.qml:130
+msgid "Ubuntu"
+msgstr ""
+
+#: ../src/plugin/konsole/ColorScheme.cpp:276
+#: ../src/plugin/konsole/ColorScheme.cpp:291
+#: ../src/plugin/qmltermwidget/lib/ColorScheme.cpp:277
+#: ../src/plugin/qmltermwidget/lib/ColorScheme.cpp:292
 msgid "Un-named Color Scheme"
 msgstr "Nepoimenovana barvna shema"
 
-#: ../src/plugin/qmltermwidget/lib/ColorScheme.cpp:468
+#: ../src/plugin/konsole/ColorScheme.cpp:426
+#: ../src/plugin/qmltermwidget/lib/ColorScheme.cpp:427
 msgid "Accessible Color Scheme"
 msgstr "Dostopna barvna shema"
 
+#: ../src/plugin/konsole/Filter.cpp:518
 #: ../src/plugin/qmltermwidget/lib/Filter.cpp:533
 msgid "Open Link"
 msgstr "Odpri povezavo"
 
+#: ../src/plugin/konsole/Filter.cpp:519
 #: ../src/plugin/qmltermwidget/lib/Filter.cpp:534
 msgid "Copy Link Address"
 msgstr "Kopiraj naslov povezave"
 
+#: ../src/plugin/konsole/Filter.cpp:523
 #: ../src/plugin/qmltermwidget/lib/Filter.cpp:538
 msgid "Send Email To..."
 msgstr "Pošlji e-pošto ..."
 
+#: ../src/plugin/konsole/Filter.cpp:524
 #: ../src/plugin/qmltermwidget/lib/Filter.cpp:539
 msgid "Copy Email Address"
 msgstr "Kopiraj e-poštni naslov"
 
-#: ../src/plugin/qmltermwidget/lib/Vt102Emulation.cpp:982
+#: ../src/plugin/konsole/Vt102Emulation.cpp:961
+#: ../src/plugin/qmltermwidget/lib/Vt102Emulation.cpp:977
 msgid ""
 "No keyboard translator available.  The information needed to convert key "
 "presses into characters to send to the terminal is missing."
 msgstr ""
 "Na voljo ni prevajalnika tipkovnice. Manjkajo podatki za spreminjanje "
 "pritiskov tipk v znake, ki se pošljejo terminalu."
+
+#: ../src/plugin/qmltermwidget/lib/SearchBar.cpp:39
+msgid "Match case"
+msgstr "Razlikovanje velikosti črk"
+
+#: ../src/plugin/qmltermwidget/lib/SearchBar.cpp:45
+msgid "Regular expression"
+msgstr "Regularni izraz"
+
+#: ../src/plugin/qmltermwidget/lib/SearchBar.cpp:49
+msgid "Higlight all matches"
+msgstr "Poudari vsa ujemanja"
+
+#: ../src/plugin/qmltermwidget/lib/qtermwidget.cpp:405
+msgid "Color Scheme Error"
+msgstr "Napaka barvne sheme"
+
+#: ../src/plugin/qmltermwidget/lib/qtermwidget.cpp:406
+#, qt-format
+msgid "Cannot load color scheme: %1"
+msgstr "Barvne sheme ni mogoče naložiti: %1"
+
+#: com.ubuntu.terminal.desktop.in.in.h:1
+msgid "Terminal"
+msgstr "Terminal"
+
+#~ msgid "Show Keyboard Bar"
+#~ msgstr "Pokaži vrstico tipkovnice"
+
+#~ msgid "Enter password:"
+#~ msgstr "Vnesite geslo:"
+
+#~ msgid "password"
+#~ msgstr "geslo"
