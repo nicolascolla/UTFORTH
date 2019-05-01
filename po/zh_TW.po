@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: ubuntu-terminal-app\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-01-17 21:46+0100\n"
-"PO-Revision-Date: 2019-04-29 19:03+0000\n"
+"PO-Revision-Date: 2019-05-03 19:42+0000\n"
 "Last-Translator: louies0623 <louies0623@gmail.com>\n"
 "Language-Team: Chinese (Traditional) <https://translate.ubports.com/projects/"
 "ubports/terminal-app/zh_Hant/>\n"
@@ -369,7 +369,7 @@ msgstr "色彩方案錯誤"
 #: ../src/plugin/qmltermwidget/lib/qtermwidget.cpp:407
 #, qt-format
 msgid "Cannot load color scheme: %1"
-msgstr "無法載入色彩方案: %1"
+msgstr "無法載入色彩方案：%1"
 
 #: ubuntu-terminal-app.desktop.in.in.h:1
 msgid "Terminal"
