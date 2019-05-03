@@ -62,6 +62,7 @@ msgid "passcode or passphrase"
 msgstr ""
 
 #: ../src/app/qml/AuthenticationDialog.qml:58
+#: ../src/app/qml/NotifyDialog.qml:25
 msgid "OK"
 msgstr ""
 
@@ -180,10 +181,6 @@ msgstr ""
 #. TRANSLATORS: This is the name of the Enter key.
 #: ../src/app/qml/KeyboardRows/JsonTranslator.qml:118
 msgid "Enter"
-msgstr ""
-
-#: ../src/app/qml/NotifyDialog.qml:25
-msgid "OK"
 msgstr ""
 
 #: ../src/app/qml/Settings/BackgroundOpacityEditor.qml:26

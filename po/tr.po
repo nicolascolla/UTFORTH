@@ -7,11 +7,11 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ubuntu-terminal-app\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-08-08 12:47+0200\n"
+"POT-Creation-Date: 2017-01-17 21:46+0100\n"
 "PO-Revision-Date: 2017-11-26 00:15+0000\n"
 "Last-Translator: Arda Canbolat <oardacn@gmail.com>\n"
-"Language-Team: Turkish <https://translate.ubports.com/projects/ubports"
-"/terminal-app/tr/>\n"
+"Language-Team: Turkish <https://translate.ubports.com/projects/ubports/"
+"terminal-app/tr/>\n"
 "Language: tr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -20,17 +20,37 @@ msgstr ""
 "X-Generator: Weblate 2.15\n"
 "X-Launchpad-Export-Date: 2016-02-08 05:36+0000\n"
 
-#: ../src/app/qml/AlternateActionPopover.qml:13
+#: ../src/app/qml/AlternateActionPopover.qml:68
 msgid "Select"
 msgstr "Seç"
 
-#: ../src/app/qml/AlternateActionPopover.qml:17
+#: ../src/app/qml/AlternateActionPopover.qml:73
 msgid "Copy"
 msgstr "Kopyala"
 
-#: ../src/app/qml/AlternateActionPopover.qml:22
+#: ../src/app/qml/AlternateActionPopover.qml:79
 msgid "Paste"
 msgstr "Yapıştır"
+
+#: ../src/app/qml/AlternateActionPopover.qml:86
+msgid "Split horizontally"
+msgstr ""
+
+#: ../src/app/qml/AlternateActionPopover.qml:92
+msgid "Split vertically"
+msgstr ""
+
+#: ../src/app/qml/AlternateActionPopover.qml:99 ../src/app/qml/TabsPage.qml:32
+msgid "New tab"
+msgstr "Yeni sekme"
+
+#: ../src/app/qml/AlternateActionPopover.qml:104
+msgid "New window"
+msgstr ""
+
+#: ../src/app/qml/AlternateActionPopover.qml:109
+msgid "Close"
+msgstr ""
 
 #: ../src/app/qml/AuthenticationDialog.qml:25
 msgid "Authentication required"
@@ -44,243 +64,289 @@ msgstr "Şifre veya parolayı girin:"
 msgid "passcode or passphrase"
 msgstr "Şifre veya parola"
 
-#: ../src/app/qml/AuthenticationDialog.qml:61
+#: ../src/app/qml/AuthenticationDialog.qml:58
+#: ../src/app/qml/NotifyDialog.qml:25
 msgid "OK"
 msgstr "Tamam"
 
-#: ../src/app/qml/AuthenticationDialog.qml:73
+#: ../src/app/qml/AuthenticationDialog.qml:70
+#: ../src/app/qml/ConfirmationDialog.qml:42
 msgid "Cancel"
 msgstr "İptal"
 
-#: ../src/app/qml/AuthenticationService.qml:60
+#: ../src/app/qml/AuthenticationService.qml:64
 msgid "Authentication failed"
 msgstr "Kimlik denetimi başarısız"
 
-#: ../src/app/qml/ColorSchemePage.qml:27 ../src/app/qml/SettingsPage.qml:100
-msgid "Color Scheme"
-msgstr "Renk Şeması"
+#: ../src/app/qml/AuthenticationService.qml:83
+msgid "No SSH server running."
+msgstr ""
 
-#: ../src/app/qml/KeyboardBar.qml:174
+#: ../src/app/qml/AuthenticationService.qml:84
+msgid "SSH server not found. Do you want to proceed in confined mode?"
+msgstr ""
+
+#: ../src/app/qml/ConfirmationDialog.qml:32
+msgid "Continue"
+msgstr ""
+
+#: ../src/app/qml/KeyboardBar.qml:196
 msgid "Change Keyboard"
 msgstr "Klavyeyi Değiştir"
 
 #. TRANSLATORS: This a keyboard layout name
-#: ../src/app/qml/KeyboardRows/JsonTranslator.qml:18
+#: ../src/app/qml/KeyboardRows/JsonTranslator.qml:35
 msgid "Control Keys"
 msgstr "Kontrol Tuşları"
 
 #. TRANSLATORS: This a keyboard layout name
-#: ../src/app/qml/KeyboardRows/JsonTranslator.qml:21
+#: ../src/app/qml/KeyboardRows/JsonTranslator.qml:38
 msgid "Function Keys"
 msgstr "İşlev Tuşları"
 
 #. TRANSLATORS: This a keyboard layout name
-#: ../src/app/qml/KeyboardRows/JsonTranslator.qml:24
+#: ../src/app/qml/KeyboardRows/JsonTranslator.qml:41
 msgid "Scroll Keys"
 msgstr "Kaydırma Tuşları"
 
 #. TRANSLATORS: This a keyboard layout name
-#: ../src/app/qml/KeyboardRows/JsonTranslator.qml:27
+#: ../src/app/qml/KeyboardRows/JsonTranslator.qml:44
 msgid "Command Keys"
 msgstr "Komut Tuşları"
 
 #. TRANSLATORS: This the short display name of a keyboard layout. It should be no longer than 4 characters!
-#. TRANSLATORS: This is the name of the Control key. All letters should be uppercase!
-#: ../src/app/qml/KeyboardRows/JsonTranslator.qml:35
+#. TRANSLATORS: This is the name of the Control key.
+#: ../src/app/qml/KeyboardRows/JsonTranslator.qml:52
+#: ../src/app/qml/KeyboardRows/JsonTranslator.qml:78
+msgid "Ctrl"
+msgstr ""
+
+#. TRANSLATORS: This the short display name of a keyboard layout. It should be no longer than 4 characters!
+#: ../src/app/qml/KeyboardRows/JsonTranslator.qml:55
+msgid "Fn"
+msgstr ""
+
+#. TRANSLATORS: This the short display name of a keyboard layout. It should be no longer than 4 characters!
+#: ../src/app/qml/KeyboardRows/JsonTranslator.qml:58
+msgid "Scr"
+msgstr ""
+
+#. TRANSLATORS: This the short display name of a keyboard layout. It should be no longer than 4 characters!
 #: ../src/app/qml/KeyboardRows/JsonTranslator.qml:61
-msgid "CTRL"
-msgstr "CTRL"
+msgid "Cmd"
+msgstr ""
 
-#. TRANSLATORS: This the short display name of a keyboard layout. It should be no longer than 4 characters!
-#: ../src/app/qml/KeyboardRows/JsonTranslator.qml:38
-msgid "FNS"
-msgstr "FNS"
+#. TRANSLATORS: This is the name of the Alt key.
+#: ../src/app/qml/KeyboardRows/JsonTranslator.qml:81
+msgid "Alt"
+msgstr ""
 
-#. TRANSLATORS: This the short display name of a keyboard layout. It should be no longer than 4 characters!
-#: ../src/app/qml/KeyboardRows/JsonTranslator.qml:41
-msgid "SCR"
-msgstr "SCR"
+#. TRANSLATORS: This is the name of the Shift key.
+#: ../src/app/qml/KeyboardRows/JsonTranslator.qml:84
+msgid "Shift"
+msgstr ""
 
-#. TRANSLATORS: This the short display name of a keyboard layout. It should be no longer than 4 characters!
-#: ../src/app/qml/KeyboardRows/JsonTranslator.qml:44
-msgid "CMD"
-msgstr "CMD"
+#. TRANSLATORS: This is the name of the Escape key.
+#: ../src/app/qml/KeyboardRows/JsonTranslator.qml:97
+msgid "Esc"
+msgstr ""
 
-#. TRANSLATORS: This is the name of the Alt key. All letters should be uppercase!
-#: ../src/app/qml/KeyboardRows/JsonTranslator.qml:64
-msgid "ALT"
-msgstr "ALT"
+#. TRANSLATORS: This is the name of the Page Up key.
+#: ../src/app/qml/KeyboardRows/JsonTranslator.qml:100
+msgid "PgUp"
+msgstr ""
 
-#. TRANSLATORS: This is the name of the Shift key. All letters should be uppercase!
-#: ../src/app/qml/KeyboardRows/JsonTranslator.qml:67
-msgid "SHIFT"
-msgstr "SHIFT"
+#. TRANSLATORS: This is the name of the Page Down key.
+#: ../src/app/qml/KeyboardRows/JsonTranslator.qml:103
+msgid "PgDn"
+msgstr ""
 
-#. TRANSLATORS: This is the name of the Escape key. All letters should be uppercase!
-#: ../src/app/qml/KeyboardRows/JsonTranslator.qml:80
-msgid "ESC"
-msgstr "ESC"
+#. TRANSLATORS: This is the name of the Delete key.
+#: ../src/app/qml/KeyboardRows/JsonTranslator.qml:106
+msgid "Del"
+msgstr ""
 
-#. TRANSLATORS: This is the name of the Page Up key. All letters should be uppercase!
-#: ../src/app/qml/KeyboardRows/JsonTranslator.qml:83
-msgid "PG_UP"
-msgstr "PG_UP"
+#. TRANSLATORS: This is the name of the Home key.
+#: ../src/app/qml/KeyboardRows/JsonTranslator.qml:109
+msgid "Home"
+msgstr ""
 
-#. TRANSLATORS: This is the name of the Page Down key. All letters should be uppercase!
-#: ../src/app/qml/KeyboardRows/JsonTranslator.qml:86
-msgid "PG_DN"
-msgstr "PG_DN"
+#. TRANSLATORS: This is the name of the End key.
+#: ../src/app/qml/KeyboardRows/JsonTranslator.qml:112
+msgid "End"
+msgstr ""
 
-#. TRANSLATORS: This is the name of the Delete key. All letters should be uppercase!
-#: ../src/app/qml/KeyboardRows/JsonTranslator.qml:89
-msgid "DEL"
-msgstr "DEL"
+#. TRANSLATORS: This is the name of the Tab key.
+#: ../src/app/qml/KeyboardRows/JsonTranslator.qml:115
+#, fuzzy
+msgid "Tab"
+msgstr "Sekmeler"
 
-#. TRANSLATORS: This is the name of the Home key. All letters should be uppercase!
-#: ../src/app/qml/KeyboardRows/JsonTranslator.qml:92
-msgid "HOME"
-msgstr "HOME"
+#. TRANSLATORS: This is the name of the Enter key.
+#: ../src/app/qml/KeyboardRows/JsonTranslator.qml:118
+msgid "Enter"
+msgstr ""
 
-#. TRANSLATORS: This is the name of the End key. All letters should be uppercase!
-#: ../src/app/qml/KeyboardRows/JsonTranslator.qml:95
-msgid "END"
-msgstr "END"
+#: ../src/app/qml/Settings/BackgroundOpacityEditor.qml:26
+msgid "Background opacity:"
+msgstr ""
 
-#. TRANSLATORS: This is the name of the Tab key. All letters should be uppercase!
-#: ../src/app/qml/KeyboardRows/JsonTranslator.qml:98
-msgid "TAB"
-msgstr "TAB"
+#: ../src/app/qml/Settings/ColorPickerPopup.qml:79
+msgid "R:"
+msgstr ""
 
-#. TRANSLATORS: This is the name of the Enter key. All letters should be uppercase!
-#: ../src/app/qml/KeyboardRows/JsonTranslator.qml:101
-msgid "ENTER"
-msgstr "ENTER"
+#: ../src/app/qml/Settings/ColorPickerPopup.qml:87
+msgid "G:"
+msgstr ""
 
-#: ../src/app/qml/LayoutsPage.qml:27 ../src/app/qml/SettingsPage.qml:44
-msgid "Layouts"
-msgstr "Düzenler"
+#: ../src/app/qml/Settings/ColorPickerPopup.qml:95
+msgid "B:"
+msgstr ""
 
-#: ../src/app/qml/LoginPage.qml:28 ../src/app/qml/SettingsPage.qml:119
-msgid "Login"
-msgstr "Giriş Yap"
+#: ../src/app/qml/Settings/ColorPickerPopup.qml:99
+msgid "Undo"
+msgstr ""
 
-#: ../src/app/qml/LoginPage.qml:42
-msgid "Require login"
-msgstr "Giriş gerekiyor"
+#: ../src/app/qml/Settings/SettingsInterfaceSection.qml:55
+msgid "Text"
+msgstr ""
 
-#: ../src/app/qml/LoginPage.qml:43
-msgid "Enable or disable login at start"
-msgstr "Başlangıçta oturum açmayı etkinleştirin veya devre dışı bırakın"
+#: ../src/app/qml/Settings/SettingsInterfaceSection.qml:66
+#, fuzzy
+msgid "Font:"
+msgstr "Yazıt Tipi Boyutu:"
 
-#: ../src/app/qml/NotifyDialog.qml:25
-msgid "Ok"
-msgstr "Tamam"
-
-#: ../src/app/qml/SettingsPage.qml:27
-msgid "Settings"
-msgstr "Ayarlar"
-
-#: ../src/app/qml/SettingsPage.qml:67
+#: ../src/app/qml/Settings/SettingsInterfaceSection.qml:91
 msgid "Font Size:"
 msgstr "Yazıt Tipi Boyutu:"
 
-#: ../src/app/qml/SettingsPage.qml:123
-msgid "Required"
-msgstr "Gerekli"
+#: ../src/app/qml/Settings/SettingsInterfaceSection.qml:119
+msgid "Colors"
+msgstr ""
 
-#: ../src/app/qml/SettingsPage.qml:123
-msgid "Not required"
-msgstr "Gerekli değil"
-
-#: ../src/app/qml/TabsPage.qml:9
-msgid "Tabs"
-msgstr "Sekmeler"
-
-#: ../src/app/qml/TabsPage.qml:15
-msgid "New tab"
-msgstr "Yeni sekme"
-
-#: ../src/app/qml/TerminalPage.qml:179
-msgid "Selection Mode"
-msgstr "Seçim Kipi"
-
-#. TRANSLATORS: This is the name of a terminal color scheme which is displayed in the settings
-#: ../src/app/qml/ubuntu-terminal-app.qml:130
-msgid "Green on black"
-msgstr "Siyah üzerinde yeşil"
-
-#: ../src/app/qml/ubuntu-terminal-app.qml:130
-msgid "White on black"
-msgstr "Siyah üzerinde beyaz"
-
-#: ../src/app/qml/ubuntu-terminal-app.qml:130
-msgid "Black on white"
-msgstr "Beyaz üzerinde siyah"
-
-#: ../src/app/qml/ubuntu-terminal-app.qml:130
-msgid "Black on random light"
-msgstr "Rasgele ışıkta siyah"
-
-#: ../src/app/qml/ubuntu-terminal-app.qml:130
-msgid "Linux"
-msgstr "Linux"
-
-#: ../src/app/qml/ubuntu-terminal-app.qml:130
-msgid "Cool retro term"
-msgstr "Retro dönem retro"
-
-#: ../src/app/qml/ubuntu-terminal-app.qml:130
-msgid "Dark pastels / Ubuntu (old)"
-msgstr "Koyu pastel / Ubuntu (eski)"
-
-#: ../src/app/qml/ubuntu-terminal-app.qml:130
-msgid "Black on light yellow"
-msgstr "Açık sarı üstünde siyah"
-
-#: ../src/app/qml/ubuntu-terminal-app.qml:130
+#: ../src/app/qml/Settings/SettingsInterfaceSection.qml:124
 msgid "Ubuntu"
 msgstr "Ubuntu"
 
-#: ../src/plugin/konsole/ColorScheme.cpp:276
-#: ../src/plugin/konsole/ColorScheme.cpp:291
-#: ../src/plugin/qmltermwidget/lib/ColorScheme.cpp:277
-#: ../src/plugin/qmltermwidget/lib/ColorScheme.cpp:292
+#: ../src/app/qml/Settings/SettingsInterfaceSection.qml:125
+msgid "Green on black"
+msgstr "Siyah üzerinde yeşil"
+
+#: ../src/app/qml/Settings/SettingsInterfaceSection.qml:126
+msgid "White on black"
+msgstr "Siyah üzerinde beyaz"
+
+#: ../src/app/qml/Settings/SettingsInterfaceSection.qml:127
+msgid "Black on white"
+msgstr "Beyaz üzerinde siyah"
+
+#: ../src/app/qml/Settings/SettingsInterfaceSection.qml:128
+msgid "Black on random light"
+msgstr "Rasgele ışıkta siyah"
+
+#: ../src/app/qml/Settings/SettingsInterfaceSection.qml:129
+msgid "Linux"
+msgstr "Linux"
+
+#: ../src/app/qml/Settings/SettingsInterfaceSection.qml:130
+msgid "Cool retro term"
+msgstr "Retro dönem retro"
+
+#: ../src/app/qml/Settings/SettingsInterfaceSection.qml:131
+#, fuzzy
+msgid "Dark pastels"
+msgstr "Koyu pastel / Ubuntu (eski)"
+
+#: ../src/app/qml/Settings/SettingsInterfaceSection.qml:132
+msgid "Black on light yellow"
+msgstr "Açık sarı üstünde siyah"
+
+#: ../src/app/qml/Settings/SettingsInterfaceSection.qml:133
+msgid "Customized"
+msgstr ""
+
+#: ../src/app/qml/Settings/SettingsInterfaceSection.qml:144
+msgid "Background:"
+msgstr ""
+
+#: ../src/app/qml/Settings/SettingsInterfaceSection.qml:152
+msgid "Text:"
+msgstr ""
+
+#: ../src/app/qml/Settings/SettingsInterfaceSection.qml:164
+msgid "Normal palette:"
+msgstr ""
+
+#: ../src/app/qml/Settings/SettingsInterfaceSection.qml:171
+msgid "Bright palette:"
+msgstr ""
+
+#: ../src/app/qml/Settings/SettingsInterfaceSection.qml:180
+msgid "Preset:"
+msgstr ""
+
+#: ../src/app/qml/Settings/SettingsInterfaceSection.qml:197
+msgid "Layouts"
+msgstr "Düzenler"
+
+#: ../src/app/qml/Settings/SettingsPage.qml:32
+msgid "Preferences"
+msgstr ""
+
+#: ../src/app/qml/Settings/SettingsPage.qml:43
+msgid "Interface"
+msgstr ""
+
+#: ../src/app/qml/Settings/SettingsPage.qml:47
+msgid "Shortcuts"
+msgstr ""
+
+#: ../src/app/qml/Settings/SettingsShortcutsSection.qml:60
+#, qt-format
+msgid "Showing %1 of %2"
+msgstr ""
+
+#: ../src/app/qml/Settings/ShortcutRow.qml:78
+msgid "Enter shortcut…"
+msgstr ""
+
+#: ../src/app/qml/Settings/ShortcutRow.qml:80
+msgid "Disabled"
+msgstr ""
+
+#: ../src/app/qml/TabsPage.qml:26
+msgid "Tabs"
+msgstr "Sekmeler"
+
+#: ../src/app/qml/TerminalPage.qml:132
+msgid "Selection Mode"
+msgstr "Seçim Kipi"
+
+#: ../src/plugin/qmltermwidget/lib/ColorScheme.cpp:291
+#: ../src/plugin/qmltermwidget/lib/ColorScheme.cpp:320
 msgid "Un-named Color Scheme"
 msgstr "İsimlendirilmemiş Renk Şeması"
 
-#: ../src/plugin/konsole/ColorScheme.cpp:426
-#: ../src/plugin/qmltermwidget/lib/ColorScheme.cpp:427
+#: ../src/plugin/qmltermwidget/lib/ColorScheme.cpp:468
 msgid "Accessible Color Scheme"
 msgstr "Erişilebilir Renk Şeması"
 
-#: ../src/plugin/konsole/Filter.cpp:518
 #: ../src/plugin/qmltermwidget/lib/Filter.cpp:533
 msgid "Open Link"
 msgstr "Bağlantıyı Aç"
 
-#: ../src/plugin/konsole/Filter.cpp:519
 #: ../src/plugin/qmltermwidget/lib/Filter.cpp:534
 msgid "Copy Link Address"
 msgstr "Bağlantı Adresini Kopyala"
 
-#: ../src/plugin/konsole/Filter.cpp:523
 #: ../src/plugin/qmltermwidget/lib/Filter.cpp:538
-msgid "Send Email To..."
+#, fuzzy
+msgid "Send Email To…"
 msgstr "Adrese E-posta Gönder..."
 
-#: ../src/plugin/konsole/Filter.cpp:524
 #: ../src/plugin/qmltermwidget/lib/Filter.cpp:539
 msgid "Copy Email Address"
 msgstr "E-posta Adresini Kopyala"
-
-#: ../src/plugin/konsole/Vt102Emulation.cpp:961
-#: ../src/plugin/qmltermwidget/lib/Vt102Emulation.cpp:977
-msgid ""
-"No keyboard translator available.  The information needed to convert key "
-"presses into characters to send to the terminal is missing."
-msgstr ""
-"Hiç klavye çevirmeni yok.  Uçbirime gönderilecek olan tuş basmalarını "
-"karakterlere dönüştürecek bilgi yok."
 
 #: ../src/plugin/qmltermwidget/lib/SearchBar.cpp:39
 msgid "Match case"
@@ -294,18 +360,92 @@ msgstr "Düzenli ifade"
 msgid "Higlight all matches"
 msgstr "Tüm eşleşmeleri vurgula"
 
-#: ../src/plugin/qmltermwidget/lib/qtermwidget.cpp:405
+#: ../src/plugin/qmltermwidget/lib/Vt102Emulation.cpp:982
+msgid ""
+"No keyboard translator available.  The information needed to convert key "
+"presses into characters to send to the terminal is missing."
+msgstr ""
+"Hiç klavye çevirmeni yok.  Uçbirime gönderilecek olan tuş basmalarını "
+"karakterlere dönüştürecek bilgi yok."
+
+#: ../src/plugin/qmltermwidget/lib/qtermwidget.cpp:406
 msgid "Color Scheme Error"
 msgstr "Renk Şema Hatası"
 
-#: ../src/plugin/qmltermwidget/lib/qtermwidget.cpp:406
+#: ../src/plugin/qmltermwidget/lib/qtermwidget.cpp:407
 #, qt-format
 msgid "Cannot load color scheme: %1"
 msgstr "Renk şeması yüklenemiyor: %1"
 
-#: com.ubuntu.terminal.desktop.in.in.h:1
+#: ubuntu-terminal-app.desktop.in.in.h:1
 msgid "Terminal"
 msgstr "Uçbirim"
+
+#~ msgid "Color Scheme"
+#~ msgstr "Renk Şeması"
+
+#~ msgid "CTRL"
+#~ msgstr "CTRL"
+
+#~ msgid "FNS"
+#~ msgstr "FNS"
+
+#~ msgid "SCR"
+#~ msgstr "SCR"
+
+#~ msgid "CMD"
+#~ msgstr "CMD"
+
+#~ msgid "ALT"
+#~ msgstr "ALT"
+
+#~ msgid "SHIFT"
+#~ msgstr "SHIFT"
+
+#~ msgid "ESC"
+#~ msgstr "ESC"
+
+#~ msgid "PG_UP"
+#~ msgstr "PG_UP"
+
+#~ msgid "PG_DN"
+#~ msgstr "PG_DN"
+
+#~ msgid "DEL"
+#~ msgstr "DEL"
+
+#~ msgid "HOME"
+#~ msgstr "HOME"
+
+#~ msgid "END"
+#~ msgstr "END"
+
+#~ msgid "TAB"
+#~ msgstr "TAB"
+
+#~ msgid "ENTER"
+#~ msgstr "ENTER"
+
+#~ msgid "Login"
+#~ msgstr "Giriş Yap"
+
+#~ msgid "Require login"
+#~ msgstr "Giriş gerekiyor"
+
+#~ msgid "Enable or disable login at start"
+#~ msgstr "Başlangıçta oturum açmayı etkinleştirin veya devre dışı bırakın"
+
+#~ msgid "Ok"
+#~ msgstr "Tamam"
+
+#~ msgid "Settings"
+#~ msgstr "Ayarlar"
+
+#~ msgid "Required"
+#~ msgstr "Gerekli"
+
+#~ msgid "Not required"
+#~ msgstr "Gerekli değil"
 
 #~ msgid "Show Keyboard Bar"
 #~ msgstr "Klavye Çubuğunu Göster"
