@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: ubuntu-terminal-app\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-01-17 21:46+0100\n"
-"PO-Revision-Date: 2019-05-13 20:03+0000\n"
-"Last-Translator: Daniel Frost <one@frostinfo.de>\n"
+"PO-Revision-Date: 2019-05-15 08:03+0000\n"
+"Last-Translator: Florian Leeber <flori@bin.org.in>\n"
 "Language-Team: German <https://translate.ubports.com/projects/ubports/"
 "terminal-app/de/>\n"
 "Language: de\n"
@@ -135,7 +135,7 @@ msgstr "Scr"
 #. TRANSLATORS: This the short display name of a keyboard layout. It should be no longer than 4 characters!
 #: ../src/app/qml/KeyboardRows/JsonTranslator.qml:61
 msgid "Cmd"
-msgstr ""
+msgstr "Cmd"
 
 #. TRANSLATORS: This is the name of the Alt key.
 #: ../src/app/qml/KeyboardRows/JsonTranslator.qml:81
@@ -252,9 +252,8 @@ msgid "Cool retro term"
 msgstr "Retro"
 
 #: ../src/app/qml/Settings/SettingsInterfaceSection.qml:131
-#, fuzzy
 msgid "Dark pastels"
-msgstr "Dunkle Pastelltöne / Ubuntu (alt)"
+msgstr "Dunkle Pastelltöne"
 
 #: ../src/app/qml/Settings/SettingsInterfaceSection.qml:132
 msgid "Black on light yellow"
