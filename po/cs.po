@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: ubuntu-terminal-app\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-05-16 19:03+0000\n"
-"PO-Revision-Date: 2019-06-06 19:03+0000\n"
+"PO-Revision-Date: 2019-04-29 19:03+0000\n"
 "Last-Translator: Milan Korecký <milan.korecky@gmail.com>\n"
 "Language-Team: Czech <https://translate.ubports.com/projects/ubports/"
 "terminal-app/cs/>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
-"X-Generator: Weblate 3.6.1\n"
+"X-Generator: Weblate 3.6\n"
 "X-Launchpad-Export-Date: 2016-02-08 05:36+0000\n"
 
 #: ../src/app/qml/AlternateActionPopover.qml:68
@@ -318,28 +318,30 @@ msgstr "Zobrazuji %1 z %2"
 #: ../src/app/qml/Settings/SettingsShortcutsSection.qml:165
 #: ../src/app/qml/Settings/SettingsShortcutsSection.qml:170
 msgid "File"
-msgstr "Soubor"
+msgstr ""
 
 #: ../src/app/qml/Settings/SettingsShortcutsSection.qml:156
+#, fuzzy
 msgid "Close terminal"
-msgstr "Zavřít terminál"
+msgstr "Terminál"
 
 #: ../src/app/qml/Settings/SettingsShortcutsSection.qml:161
 msgid "Close all terminals"
-msgstr "Zavřít všechny terminály"
+msgstr ""
 
 #: ../src/app/qml/Settings/SettingsShortcutsSection.qml:166
 msgid "Previous tab"
-msgstr "Předchozí záložka"
+msgstr ""
 
 #: ../src/app/qml/Settings/SettingsShortcutsSection.qml:171
+#, fuzzy
 msgid "Next tab"
-msgstr "Následující záložka"
+msgstr "Nová záložka"
 
 #: ../src/app/qml/Settings/SettingsShortcutsSection.qml:175
 #: ../src/app/qml/Settings/SettingsShortcutsSection.qml:180
 msgid "Edit"
-msgstr "Editovat"
+msgstr ""
 
 #: ../src/app/qml/Settings/SettingsShortcutsSection.qml:185
 #: ../src/app/qml/Settings/SettingsShortcutsSection.qml:190
@@ -349,39 +351,42 @@ msgstr "Editovat"
 #: ../src/app/qml/Settings/SettingsShortcutsSection.qml:210
 #: ../src/app/qml/Settings/SettingsShortcutsSection.qml:215
 msgid "View"
-msgstr "Prohlédnout"
+msgstr ""
 
 #: ../src/app/qml/Settings/SettingsShortcutsSection.qml:186
 msgid "Toggle fullscreen"
-msgstr "Přepnout na celou obrazovku"
+msgstr ""
 
 #: ../src/app/qml/Settings/SettingsShortcutsSection.qml:191
+#, fuzzy
 msgid "Split terminal horizontally"
-msgstr "Rozdělit terminál horizontálně"
+msgstr "Rozdělit horizontálně"
 
 #: ../src/app/qml/Settings/SettingsShortcutsSection.qml:196
+#, fuzzy
 msgid "Split terminal vertically"
-msgstr "Rozdělit terminál vertikálně"
+msgstr "Rozdělit vertikálně"
 
 #: ../src/app/qml/Settings/SettingsShortcutsSection.qml:201
 msgid "Navigate to terminal above"
-msgstr "Přejít na terminál výše"
+msgstr ""
 
 #: ../src/app/qml/Settings/SettingsShortcutsSection.qml:206
 msgid "Navigate to terminal below"
-msgstr "Přejít na terminál níže"
+msgstr ""
 
 #: ../src/app/qml/Settings/SettingsShortcutsSection.qml:211
 msgid "Navigate to terminal on the left"
-msgstr "Přejít na terminál vlevo"
+msgstr ""
 
 #: ../src/app/qml/Settings/SettingsShortcutsSection.qml:216
 msgid "Navigate to terminal on the right"
-msgstr "Přejít na terminál vpravo"
+msgstr ""
 
 #: ../src/app/qml/Settings/SettingsWindow.qml:26
+#, fuzzy
 msgid "Terminal Preferences"
-msgstr "Předvolby terminálu"
+msgstr "Předvolby"
 
 #: ../src/app/qml/Settings/ShortcutRow.qml:78
 msgid "Enter shortcut…"
