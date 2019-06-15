@@ -142,78 +142,78 @@ SettingsSection {
                 model: ListModel {
                     id: allShortcutsModel
                     ListElement {
-                        section: i18n.tr("File")
-                        actionLabel: i18n.tr("New window")
+                        section: QT_TR_NOOP("File")
+                        actionLabel: QT_TR_NOOP("New window")
                         shortcutSetting: "shortcutNewWindow"
                     }
                     ListElement {
-                        section: i18n.tr("File")
-                        actionLabel: i18n.tr("New tab")
+                        section: QT_TR_NOOP("File")
+                        actionLabel: QT_TR_NOOP("New tab")
                         shortcutSetting: "shortcutNewTab"
                     }
                     ListElement {
-                        section: i18n.tr("File")
-                        actionLabel: i18n.tr("Close terminal")
+                        section: QT_TR_NOOP("File")
+                        actionLabel: QT_TR_NOOP("Close terminal")
                         shortcutSetting: "shortcutCloseTab"
                     }
                     ListElement {
-                        section: i18n.tr("File")
-                        actionLabel: i18n.tr("Close all terminals")
+                        section: QT_TR_NOOP("File")
+                        actionLabel: QT_TR_NOOP("Close all terminals")
                         shortcutSetting: "shortcutCloseAllTabs"
                     }
                     ListElement {
-                        section: i18n.tr("File")
-                        actionLabel: i18n.tr("Previous tab")
+                        section: QT_TR_NOOP("File")
+                        actionLabel: QT_TR_NOOP("Previous tab")
                         shortcutSetting: "shortcutPreviousTab"
                     }
                     ListElement {
-                        section: i18n.tr("File")
-                        actionLabel: i18n.tr("Next tab")
+                        section: QT_TR_NOOP("File")
+                        actionLabel: QT_TR_NOOP("Next tab")
                         shortcutSetting: "shortcutNextTab"
                     }
                     ListElement {
-                        section: i18n.tr("Edit")
-                        actionLabel: i18n.tr("Copy")
+                        section: QT_TR_NOOP("Edit")
+                        actionLabel: QT_TR_NOOP("Copy")
                         shortcutSetting: "shortcutCopy"
                     }
                     ListElement {
-                        section: i18n.tr("Edit")
-                        actionLabel: i18n.tr("Paste")
+                        section: QT_TR_NOOP("Edit")
+                        actionLabel: QT_TR_NOOP("Paste")
                         shortcutSetting: "shortcutPaste"
                     }
                     ListElement {
-                        section: i18n.tr("View")
-                        actionLabel: i18n.tr("Toggle fullscreen")
+                        section: QT_TR_NOOP("View")
+                        actionLabel: QT_TR_NOOP("Toggle fullscreen")
                         shortcutSetting: "shortcutFullscreen"
                     }
                     ListElement {
-                        section: i18n.tr("View")
-                        actionLabel: i18n.tr("Split terminal horizontally")
+                        section: QT_TR_NOOP("View")
+                        actionLabel: QT_TR_NOOP("Split terminal horizontally")
                         shortcutSetting: "shortcutSplitHorizontally"
                     }
                     ListElement {
-                        section: i18n.tr("View")
-                        actionLabel: i18n.tr("Split terminal vertically")
+                        section: QT_TR_NOOP("View")
+                        actionLabel: QT_TR_NOOP("Split terminal vertically")
                         shortcutSetting: "shortcutSplitVertically"
                     }
                     ListElement {
-                        section: i18n.tr("View")
-                        actionLabel: i18n.tr("Navigate to terminal above")
+                        section: QT_TR_NOOP("View")
+                        actionLabel: QT_TR_NOOP("Navigate to terminal above")
                         shortcutSetting: "shortcutMoveToTileAbove"
                     }
                     ListElement {
-                        section: i18n.tr("View")
-                        actionLabel: i18n.tr("Navigate to terminal below")
+                        section: QT_TR_NOOP("View")
+                        actionLabel: QT_TR_NOOP("Navigate to terminal below")
                         shortcutSetting: "shortcutMoveToTileBelow"
                     }
                     ListElement {
-                        section: i18n.tr("View")
-                        actionLabel: i18n.tr("Navigate to terminal on the left")
+                        section: QT_TR_NOOP("View")
+                        actionLabel: QT_TR_NOOP("Navigate to terminal on the left")
                         shortcutSetting: "shortcutMoveToTileLeft"
                     }
                     ListElement {
-                        section: i18n.tr("View")
-                        actionLabel: i18n.tr("Navigate to terminal on the right")
+                        section: QT_TR_NOOP("View")
+                        actionLabel: QT_TR_NOOP("Navigate to terminal on the right")
                         shortcutSetting: "shortcutMoveToTileRight"
                     }
                 }
