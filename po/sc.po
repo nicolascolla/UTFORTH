@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-05-16 19:03+0000\n"
+"POT-Creation-Date: 2017-01-17 21:46+0100\n"
 "PO-Revision-Date: 2019-05-08 11:02+0000\n"
 "Last-Translator: Adrià <adriamartinmor@gmail.com>\n"
 "Language-Team: Sardinian <https://translate.ubports.com/projects/ubports/"
@@ -24,12 +24,10 @@ msgid "Select"
 msgstr "Seletziona"
 
 #: ../src/app/qml/AlternateActionPopover.qml:73
-#: ../src/app/qml/Settings/SettingsShortcutsSection.qml:176
 msgid "Copy"
 msgstr "Còpia"
 
 #: ../src/app/qml/AlternateActionPopover.qml:79
-#: ../src/app/qml/Settings/SettingsShortcutsSection.qml:181
 msgid "Paste"
 msgstr "Incolla"
 
@@ -41,14 +39,11 @@ msgstr ""
 msgid "Split vertically"
 msgstr ""
 
-#: ../src/app/qml/AlternateActionPopover.qml:99
-#: ../src/app/qml/Settings/SettingsShortcutsSection.qml:151
-#: ../src/app/qml/TabsPage.qml:32
+#: ../src/app/qml/AlternateActionPopover.qml:99 ../src/app/qml/TabsPage.qml:32
 msgid "New tab"
 msgstr "Ischeda noa"
 
 #: ../src/app/qml/AlternateActionPopover.qml:104
-#: ../src/app/qml/Settings/SettingsShortcutsSection.qml:146
 msgid "New window"
 msgstr ""
 
@@ -119,7 +114,9 @@ msgid "Command Keys"
 msgstr "Teclas de cumandu"
 
 #. TRANSLATORS: This the short display name of a keyboard layout. It should be no longer than 4 characters!
+#. TRANSLATORS: This is the name of the Control key.
 #: ../src/app/qml/KeyboardRows/JsonTranslator.qml:52
+#: ../src/app/qml/KeyboardRows/JsonTranslator.qml:78
 msgid "Ctrl"
 msgstr ""
 
@@ -137,11 +134,6 @@ msgstr ""
 #: ../src/app/qml/KeyboardRows/JsonTranslator.qml:61
 msgid "Cmd"
 msgstr ""
-
-#. TRANSLATORS: This is the name of the Control key.
-#: ../src/app/qml/KeyboardRows/JsonTranslator.qml:78
-msgid "CTRL"
-msgstr "CTRL"
 
 #. TRANSLATORS: This is the name of the Alt key.
 #: ../src/app/qml/KeyboardRows/JsonTranslator.qml:81
@@ -313,80 +305,6 @@ msgstr ""
 msgid "Showing %1 of %2"
 msgstr ""
 
-#: ../src/app/qml/Settings/SettingsShortcutsSection.qml:145
-#: ../src/app/qml/Settings/SettingsShortcutsSection.qml:150
-#: ../src/app/qml/Settings/SettingsShortcutsSection.qml:155
-#: ../src/app/qml/Settings/SettingsShortcutsSection.qml:160
-#: ../src/app/qml/Settings/SettingsShortcutsSection.qml:165
-#: ../src/app/qml/Settings/SettingsShortcutsSection.qml:170
-msgid "File"
-msgstr ""
-
-#: ../src/app/qml/Settings/SettingsShortcutsSection.qml:156
-#, fuzzy
-msgid "Close terminal"
-msgstr "Terminale"
-
-#: ../src/app/qml/Settings/SettingsShortcutsSection.qml:161
-msgid "Close all terminals"
-msgstr ""
-
-#: ../src/app/qml/Settings/SettingsShortcutsSection.qml:166
-msgid "Previous tab"
-msgstr ""
-
-#: ../src/app/qml/Settings/SettingsShortcutsSection.qml:171
-#, fuzzy
-msgid "Next tab"
-msgstr "Ischeda noa"
-
-#: ../src/app/qml/Settings/SettingsShortcutsSection.qml:175
-#: ../src/app/qml/Settings/SettingsShortcutsSection.qml:180
-msgid "Edit"
-msgstr ""
-
-#: ../src/app/qml/Settings/SettingsShortcutsSection.qml:185
-#: ../src/app/qml/Settings/SettingsShortcutsSection.qml:190
-#: ../src/app/qml/Settings/SettingsShortcutsSection.qml:195
-#: ../src/app/qml/Settings/SettingsShortcutsSection.qml:200
-#: ../src/app/qml/Settings/SettingsShortcutsSection.qml:205
-#: ../src/app/qml/Settings/SettingsShortcutsSection.qml:210
-#: ../src/app/qml/Settings/SettingsShortcutsSection.qml:215
-msgid "View"
-msgstr ""
-
-#: ../src/app/qml/Settings/SettingsShortcutsSection.qml:186
-msgid "Toggle fullscreen"
-msgstr ""
-
-#: ../src/app/qml/Settings/SettingsShortcutsSection.qml:191
-msgid "Split terminal horizontally"
-msgstr ""
-
-#: ../src/app/qml/Settings/SettingsShortcutsSection.qml:196
-msgid "Split terminal vertically"
-msgstr ""
-
-#: ../src/app/qml/Settings/SettingsShortcutsSection.qml:201
-msgid "Navigate to terminal above"
-msgstr ""
-
-#: ../src/app/qml/Settings/SettingsShortcutsSection.qml:206
-msgid "Navigate to terminal below"
-msgstr ""
-
-#: ../src/app/qml/Settings/SettingsShortcutsSection.qml:211
-msgid "Navigate to terminal on the left"
-msgstr ""
-
-#: ../src/app/qml/Settings/SettingsShortcutsSection.qml:216
-msgid "Navigate to terminal on the right"
-msgstr ""
-
-#: ../src/app/qml/Settings/SettingsWindow.qml:26
-msgid "Terminal Preferences"
-msgstr ""
-
 #: ../src/app/qml/Settings/ShortcutRow.qml:78
 msgid "Enter shortcut…"
 msgstr ""
@@ -399,7 +317,7 @@ msgstr ""
 msgid "Tabs"
 msgstr "Ischedas"
 
-#: ../src/app/qml/TerminalPage.qml:154
+#: ../src/app/qml/TerminalPage.qml:132
 msgid "Selection Mode"
 msgstr "Modalidade de seletzione"
 
@@ -465,6 +383,9 @@ msgstr "Terminale"
 
 #~ msgid "Color Scheme"
 #~ msgstr "Ischema de colore"
+
+#~ msgid "CTRL"
+#~ msgstr "CTRL"
 
 #~ msgid "FNS"
 #~ msgstr "FNTZ"
