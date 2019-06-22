@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: ubuntu-terminal-app\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-01-17 21:46+0100\n"
-"PO-Revision-Date: 2018-05-13 20:51+0000\n"
+"PO-Revision-Date: 2019-06-23 20:04+0000\n"
 "Last-Translator: Samson <sambelet@yahoo.com>\n"
 "Language-Team: Amharic <https://translate.ubports.com/projects/ubports/"
 "terminal-app/am/>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 2.15\n"
+"X-Generator: Weblate 3.6.1\n"
 "X-Launchpad-Export-Date: 2016-03-11 05:56+0000\n"
 
 #: ../src/app/qml/AlternateActionPopover.qml:68
@@ -34,11 +34,11 @@ msgstr "መለጠፊያ"
 
 #: ../src/app/qml/AlternateActionPopover.qml:86
 msgid "Split horizontally"
-msgstr ""
+msgstr "በ አግድም መክፈያ"
 
 #: ../src/app/qml/AlternateActionPopover.qml:92
 msgid "Split vertically"
-msgstr ""
+msgstr "በ ቁመት መክፈያ"
 
 #: ../src/app/qml/AlternateActionPopover.qml:99 ../src/app/qml/TabsPage.qml:32
 msgid "New tab"
@@ -46,11 +46,11 @@ msgstr "አዲስ ንዑስ መስኮት"
 
 #: ../src/app/qml/AlternateActionPopover.qml:104
 msgid "New window"
-msgstr ""
+msgstr "አዲስ መስኮት"
 
 #: ../src/app/qml/AlternateActionPopover.qml:109
 msgid "Close"
-msgstr ""
+msgstr "መዝጊያ"
 
 #: ../src/app/qml/AuthenticationDialog.qml:25
 msgid "Authentication required"
@@ -80,15 +80,15 @@ msgstr "ማረጋገጫው ወድቋል"
 
 #: ../src/app/qml/AuthenticationService.qml:83
 msgid "No SSH server running."
-msgstr ""
+msgstr "ምንም የ SSH ሰርቨር እየሄደ አይደለም"
 
 #: ../src/app/qml/AuthenticationService.qml:84
 msgid "SSH server not found. Do you want to proceed in confined mode?"
-msgstr ""
+msgstr "የ SSH ሰርቨር አልተገኘም: በ ተወሰነ መጠን መቀጠል ይፈልጋሉ?"
 
 #: ../src/app/qml/ConfirmationDialog.qml:32
 msgid "Continue"
-msgstr ""
+msgstr "ይቀጥሉ"
 
 #: ../src/app/qml/KeyboardBar.qml:196
 msgid "Change Keyboard"
@@ -119,102 +119,100 @@ msgstr "የ ትእዛዝ ቁልፎች"
 #: ../src/app/qml/KeyboardRows/JsonTranslator.qml:52
 #: ../src/app/qml/KeyboardRows/JsonTranslator.qml:78
 msgid "Ctrl"
-msgstr ""
+msgstr "Ctrl"
 
 #. TRANSLATORS: This the short display name of a keyboard layout. It should be no longer than 4 characters!
 #: ../src/app/qml/KeyboardRows/JsonTranslator.qml:55
 msgid "Fn"
-msgstr ""
+msgstr "Fn"
 
 #. TRANSLATORS: This the short display name of a keyboard layout. It should be no longer than 4 characters!
 #: ../src/app/qml/KeyboardRows/JsonTranslator.qml:58
 msgid "Scr"
-msgstr ""
+msgstr "Scr"
 
 #. TRANSLATORS: This the short display name of a keyboard layout. It should be no longer than 4 characters!
 #: ../src/app/qml/KeyboardRows/JsonTranslator.qml:61
 msgid "Cmd"
-msgstr ""
+msgstr "Cmd"
 
 #. TRANSLATORS: This is the name of the Alt key.
 #: ../src/app/qml/KeyboardRows/JsonTranslator.qml:81
 msgid "Alt"
-msgstr ""
+msgstr "Alt"
 
 #. TRANSLATORS: This is the name of the Shift key.
 #: ../src/app/qml/KeyboardRows/JsonTranslator.qml:84
 msgid "Shift"
-msgstr ""
+msgstr "Shift"
 
 #. TRANSLATORS: This is the name of the Escape key.
 #: ../src/app/qml/KeyboardRows/JsonTranslator.qml:97
 msgid "Esc"
-msgstr ""
+msgstr "Esc"
 
 #. TRANSLATORS: This is the name of the Page Up key.
 #: ../src/app/qml/KeyboardRows/JsonTranslator.qml:100
 msgid "PgUp"
-msgstr ""
+msgstr "ገጽ ወደ ላይ"
 
 #. TRANSLATORS: This is the name of the Page Down key.
 #: ../src/app/qml/KeyboardRows/JsonTranslator.qml:103
 msgid "PgDn"
-msgstr ""
+msgstr "ገጽ ወደ ታች"
 
 #. TRANSLATORS: This is the name of the Delete key.
 #: ../src/app/qml/KeyboardRows/JsonTranslator.qml:106
 msgid "Del"
-msgstr ""
+msgstr "ማጥፊያ"
 
 #. TRANSLATORS: This is the name of the Home key.
 #: ../src/app/qml/KeyboardRows/JsonTranslator.qml:109
 msgid "Home"
-msgstr ""
+msgstr "ቤት"
 
 #. TRANSLATORS: This is the name of the End key.
 #: ../src/app/qml/KeyboardRows/JsonTranslator.qml:112
 msgid "End"
-msgstr ""
+msgstr "መጨረሻ"
 
 #. TRANSLATORS: This is the name of the Tab key.
 #: ../src/app/qml/KeyboardRows/JsonTranslator.qml:115
-#, fuzzy
 msgid "Tab"
 msgstr "ንዑስ መስኮት"
 
 #. TRANSLATORS: This is the name of the Enter key.
 #: ../src/app/qml/KeyboardRows/JsonTranslator.qml:118
 msgid "Enter"
-msgstr ""
+msgstr "ማስገቢያ"
 
 #: ../src/app/qml/Settings/BackgroundOpacityEditor.qml:26
 msgid "Background opacity:"
-msgstr ""
+msgstr "የ መደብ ግልፅነት:"
 
 #: ../src/app/qml/Settings/ColorPickerPopup.qml:79
 msgid "R:"
-msgstr ""
+msgstr "ቀ:"
 
 #: ../src/app/qml/Settings/ColorPickerPopup.qml:87
 msgid "G:"
-msgstr ""
+msgstr "አ:"
 
 #: ../src/app/qml/Settings/ColorPickerPopup.qml:95
 msgid "B:"
-msgstr ""
+msgstr "ሰ:"
 
 #: ../src/app/qml/Settings/ColorPickerPopup.qml:99
 msgid "Undo"
-msgstr ""
+msgstr "መተው"
 
 #: ../src/app/qml/Settings/SettingsInterfaceSection.qml:55
 msgid "Text"
-msgstr ""
+msgstr "ጽሁፍ"
 
 #: ../src/app/qml/Settings/SettingsInterfaceSection.qml:66
-#, fuzzy
 msgid "Font:"
-msgstr "የ ፊደል መጠን:"
+msgstr "ፊደል:"
 
 #: ../src/app/qml/Settings/SettingsInterfaceSection.qml:91
 msgid "Font Size:"
@@ -222,7 +220,7 @@ msgstr "የ ፊደል መጠን:"
 
 #: ../src/app/qml/Settings/SettingsInterfaceSection.qml:119
 msgid "Colors"
-msgstr ""
+msgstr "ቀለም"
 
 #: ../src/app/qml/Settings/SettingsInterfaceSection.qml:124
 msgid "Ubuntu"
@@ -253,9 +251,8 @@ msgid "Cool retro term"
 msgstr "በጣም ቆንጆ"
 
 #: ../src/app/qml/Settings/SettingsInterfaceSection.qml:131
-#, fuzzy
 msgid "Dark pastels"
-msgstr "ጥቁር ቀለም / ኡቡንቱ (አሮገ)"
+msgstr "ጥቁር ቀለም"
 
 #: ../src/app/qml/Settings/SettingsInterfaceSection.qml:132
 msgid "Black on light yellow"
@@ -263,27 +260,27 @@ msgstr "ጥቁር ነጣ ባለ ቢጫ ላይ"
 
 #: ../src/app/qml/Settings/SettingsInterfaceSection.qml:133
 msgid "Customized"
-msgstr ""
+msgstr "ማስተካከያ"
 
 #: ../src/app/qml/Settings/SettingsInterfaceSection.qml:144
 msgid "Background:"
-msgstr ""
+msgstr "መደብ:"
 
 #: ../src/app/qml/Settings/SettingsInterfaceSection.qml:152
 msgid "Text:"
-msgstr ""
+msgstr "ጽሁፍ:"
 
 #: ../src/app/qml/Settings/SettingsInterfaceSection.qml:164
 msgid "Normal palette:"
-msgstr ""
+msgstr "መደበኛ መሳያ:"
 
 #: ../src/app/qml/Settings/SettingsInterfaceSection.qml:171
 msgid "Bright palette:"
-msgstr ""
+msgstr "ብሩህ መሳያ:"
 
 #: ../src/app/qml/Settings/SettingsInterfaceSection.qml:180
 msgid "Preset:"
-msgstr ""
+msgstr "እንደ ነበር መመለሻ:"
 
 #: ../src/app/qml/Settings/SettingsInterfaceSection.qml:197
 msgid "Layouts"
@@ -291,28 +288,28 @@ msgstr "እቅድ"
 
 #: ../src/app/qml/Settings/SettingsPage.qml:32
 msgid "Preferences"
-msgstr ""
+msgstr "ምርጫዎች"
 
 #: ../src/app/qml/Settings/SettingsPage.qml:43
 msgid "Interface"
-msgstr ""
+msgstr "ገጽታ"
 
 #: ../src/app/qml/Settings/SettingsPage.qml:47
 msgid "Shortcuts"
-msgstr ""
+msgstr "አቋራጮች"
 
 #: ../src/app/qml/Settings/SettingsShortcutsSection.qml:60
 #, qt-format
 msgid "Showing %1 of %2"
-msgstr ""
+msgstr "በ ማሳየት ላይ %1 ከ %2"
 
 #: ../src/app/qml/Settings/ShortcutRow.qml:78
 msgid "Enter shortcut…"
-msgstr ""
+msgstr "አቋራጭ ያስገቡ…"
 
 #: ../src/app/qml/Settings/ShortcutRow.qml:80
 msgid "Disabled"
-msgstr ""
+msgstr "ተሰናክሏል"
 
 #: ../src/app/qml/TabsPage.qml:26
 msgid "Tabs"
@@ -340,9 +337,8 @@ msgid "Copy Link Address"
 msgstr "አገናኝ አድራሻዎችን ኮፒ ማድረጊያ"
 
 #: ../src/plugin/qmltermwidget/lib/Filter.cpp:538
-#, fuzzy
 msgid "Send Email To…"
-msgstr "ኢሜይል መላኪያ ወደ..."
+msgstr "ኢሜይል መላኪያ ወደ…"
 
 #: ../src/plugin/qmltermwidget/lib/Filter.cpp:539
 msgid "Copy Email Address"
