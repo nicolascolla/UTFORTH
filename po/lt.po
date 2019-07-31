@@ -8,13 +8,18 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-06-18 15:38+0000\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2019-08-01 22:49+0000\n"
+"Last-Translator: Moo <moose@mail.ru>\n"
+"Language-Team: Lithuanian <https://translate.ubports.com/projects/ubports/"
+"terminal-app/lt/>\n"
 "Language: lt\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n % 10 == 1 && (n % 100 < 11 || n % 100 > "
+"19)) ? 0 : ((n % 10 >= 2 && n % 10 <= 9 && (n % 100 < 11 || n % 100 > 19)) ? "
+"1 : 2);\n"
+"X-Generator: Weblate 3.6.1\n"
 
 #: ../src/app/qml/AlternateActionPopover.qml:68
 msgid "Select"
@@ -23,12 +28,12 @@ msgstr ""
 #: ../src/app/qml/AlternateActionPopover.qml:73
 #: ../src/app/qml/Settings/SettingsShortcutsSection.qml:176
 msgid "Copy"
-msgstr ""
+msgstr "Kopijuoti"
 
 #: ../src/app/qml/AlternateActionPopover.qml:79
 #: ../src/app/qml/Settings/SettingsShortcutsSection.qml:181
 msgid "Paste"
-msgstr ""
+msgstr "Įdėti"
 
 #: ../src/app/qml/AlternateActionPopover.qml:86
 msgid "Split horizontally"
@@ -42,16 +47,16 @@ msgstr ""
 #: ../src/app/qml/Settings/SettingsShortcutsSection.qml:151
 #: ../src/app/qml/TabsPage.qml:32
 msgid "New tab"
-msgstr ""
+msgstr "Nauja kortelė"
 
 #: ../src/app/qml/AlternateActionPopover.qml:104
 #: ../src/app/qml/Settings/SettingsShortcutsSection.qml:146
 msgid "New window"
-msgstr ""
+msgstr "Naujas langas"
 
 #: ../src/app/qml/AlternateActionPopover.qml:109
 msgid "Close"
-msgstr ""
+msgstr "Užverti"
 
 #: ../src/app/qml/AuthenticationDialog.qml:25
 msgid "Authentication required"
@@ -68,12 +73,12 @@ msgstr ""
 #: ../src/app/qml/AuthenticationDialog.qml:58
 #: ../src/app/qml/NotifyDialog.qml:25
 msgid "OK"
-msgstr ""
+msgstr "Gerai"
 
 #: ../src/app/qml/AuthenticationDialog.qml:70
 #: ../src/app/qml/ConfirmationDialog.qml:42
 msgid "Cancel"
-msgstr ""
+msgstr "Atsisakyti"
 
 #: ../src/app/qml/AuthenticationService.qml:64
 msgid "Authentication failed"
@@ -89,11 +94,11 @@ msgstr ""
 
 #: ../src/app/qml/ConfirmationDialog.qml:32
 msgid "Continue"
-msgstr ""
+msgstr "Tęsti"
 
 #: ../src/app/qml/KeyboardBar.qml:196
 msgid "Change Keyboard"
-msgstr ""
+msgstr "Keisti klaviatūrą"
 
 #. TRANSLATORS: This a keyboard layout name
 #: ../src/app/qml/KeyboardRows/JsonTranslator.qml:35
@@ -118,12 +123,12 @@ msgstr ""
 #. TRANSLATORS: This the short display name of a keyboard layout. It should be no longer than 4 characters!
 #: ../src/app/qml/KeyboardRows/JsonTranslator.qml:52
 msgid "Ctrl"
-msgstr ""
+msgstr "Vald"
 
 #. TRANSLATORS: This the short display name of a keyboard layout. It should be no longer than 4 characters!
 #: ../src/app/qml/KeyboardRows/JsonTranslator.qml:55
 msgid "Fn"
-msgstr ""
+msgstr "Fn"
 
 #. TRANSLATORS: This the short display name of a keyboard layout. It should be no longer than 4 characters!
 #: ../src/app/qml/KeyboardRows/JsonTranslator.qml:58
@@ -192,63 +197,63 @@ msgstr ""
 
 #: ../src/app/qml/Settings/BackgroundOpacityEditor.qml:26
 msgid "Background opacity:"
-msgstr ""
+msgstr "Fono nepermatomumas:"
 
 #: ../src/app/qml/Settings/ColorPickerPopup.qml:79
 msgid "R:"
-msgstr ""
+msgstr "R:"
 
 #: ../src/app/qml/Settings/ColorPickerPopup.qml:87
 msgid "G:"
-msgstr ""
+msgstr "G:"
 
 #: ../src/app/qml/Settings/ColorPickerPopup.qml:95
 msgid "B:"
-msgstr ""
+msgstr "B:"
 
 #: ../src/app/qml/Settings/ColorPickerPopup.qml:99
 msgid "Undo"
-msgstr ""
+msgstr "Atšaukti"
 
 #: ../src/app/qml/Settings/SettingsInterfaceSection.qml:55
 msgid "Text"
-msgstr ""
+msgstr "Tekstas"
 
 #: ../src/app/qml/Settings/SettingsInterfaceSection.qml:66
 msgid "Font:"
-msgstr ""
+msgstr "Šriftas:"
 
 #: ../src/app/qml/Settings/SettingsInterfaceSection.qml:91
 msgid "Font Size:"
-msgstr ""
+msgstr "Šrifto dydis:"
 
 #: ../src/app/qml/Settings/SettingsInterfaceSection.qml:119
 msgid "Colors"
-msgstr ""
+msgstr "Spalvos"
 
 #: ../src/app/qml/Settings/SettingsInterfaceSection.qml:124
 msgid "Ubuntu"
-msgstr ""
+msgstr "Ubuntu"
 
 #: ../src/app/qml/Settings/SettingsInterfaceSection.qml:125
 msgid "Green on black"
-msgstr ""
+msgstr "Žalia ant juodos"
 
 #: ../src/app/qml/Settings/SettingsInterfaceSection.qml:126
 msgid "White on black"
-msgstr ""
+msgstr "Balta ant juodos"
 
 #: ../src/app/qml/Settings/SettingsInterfaceSection.qml:127
 msgid "Black on white"
-msgstr ""
+msgstr "Juoda ant baltos"
 
 #: ../src/app/qml/Settings/SettingsInterfaceSection.qml:128
 msgid "Black on random light"
-msgstr ""
+msgstr "Juoda ant atsitiktinės šviesios"
 
 #: ../src/app/qml/Settings/SettingsInterfaceSection.qml:129
 msgid "Linux"
-msgstr ""
+msgstr "Linux"
 
 #: ../src/app/qml/Settings/SettingsInterfaceSection.qml:130
 msgid "Cool retro term"
@@ -268,11 +273,11 @@ msgstr ""
 
 #: ../src/app/qml/Settings/SettingsInterfaceSection.qml:144
 msgid "Background:"
-msgstr ""
+msgstr "Fonas:"
 
 #: ../src/app/qml/Settings/SettingsInterfaceSection.qml:152
 msgid "Text:"
-msgstr ""
+msgstr "Tekstas:"
 
 #: ../src/app/qml/Settings/SettingsInterfaceSection.qml:164
 msgid "Normal palette:"
@@ -288,15 +293,15 @@ msgstr ""
 
 #: ../src/app/qml/Settings/SettingsInterfaceSection.qml:197
 msgid "Layouts"
-msgstr ""
+msgstr "Išdėstymai"
 
 #: ../src/app/qml/Settings/SettingsPage.qml:32
 msgid "Preferences"
-msgstr ""
+msgstr "Nuostatos"
 
 #: ../src/app/qml/Settings/SettingsPage.qml:43
 msgid "Interface"
-msgstr ""
+msgstr "Sąsaja"
 
 #: ../src/app/qml/Settings/SettingsPage.qml:47
 msgid "Shortcuts"
@@ -314,7 +319,7 @@ msgstr ""
 #: ../src/app/qml/Settings/SettingsShortcutsSection.qml:165
 #: ../src/app/qml/Settings/SettingsShortcutsSection.qml:170
 msgid "File"
-msgstr ""
+msgstr "Failas"
 
 #: ../src/app/qml/Settings/SettingsShortcutsSection.qml:156
 msgid "Close terminal"
@@ -335,7 +340,7 @@ msgstr ""
 #: ../src/app/qml/Settings/SettingsShortcutsSection.qml:175
 #: ../src/app/qml/Settings/SettingsShortcutsSection.qml:180
 msgid "Edit"
-msgstr ""
+msgstr "Taisyti"
 
 #: ../src/app/qml/Settings/SettingsShortcutsSection.qml:185
 #: ../src/app/qml/Settings/SettingsShortcutsSection.qml:190
