@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ubuntu-terminal-app\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-01-17 21:46+0100\n"
+"POT-Creation-Date: 2019-06-18 15:38+0000\n"
 "PO-Revision-Date: 2019-05-31 23:59+0000\n"
 "Last-Translator: Ari Börde Kröyer <ari.kroyer@online.no>\n"
 "Language-Team: Norwegian Bokmål <https://translate.ubports.com/projects/"
@@ -25,10 +25,12 @@ msgid "Select"
 msgstr "Velg"
 
 #: ../src/app/qml/AlternateActionPopover.qml:73
+#: ../src/app/qml/Settings/SettingsShortcutsSection.qml:176
 msgid "Copy"
 msgstr "Kopier"
 
 #: ../src/app/qml/AlternateActionPopover.qml:79
+#: ../src/app/qml/Settings/SettingsShortcutsSection.qml:181
 msgid "Paste"
 msgstr "Lim inn"
 
@@ -40,11 +42,14 @@ msgstr "Del vannrett"
 msgid "Split vertically"
 msgstr "Del loddrett"
 
-#: ../src/app/qml/AlternateActionPopover.qml:99 ../src/app/qml/TabsPage.qml:32
+#: ../src/app/qml/AlternateActionPopover.qml:99
+#: ../src/app/qml/Settings/SettingsShortcutsSection.qml:151
+#: ../src/app/qml/TabsPage.qml:32
 msgid "New tab"
 msgstr "Ny fane"
 
 #: ../src/app/qml/AlternateActionPopover.qml:104
+#: ../src/app/qml/Settings/SettingsShortcutsSection.qml:146
 msgid "New window"
 msgstr "Nytt vindu"
 
@@ -115,9 +120,7 @@ msgid "Command Keys"
 msgstr "Kommandotaster"
 
 #. TRANSLATORS: This the short display name of a keyboard layout. It should be no longer than 4 characters!
-#. TRANSLATORS: This is the name of the Control key.
 #: ../src/app/qml/KeyboardRows/JsonTranslator.qml:52
-#: ../src/app/qml/KeyboardRows/JsonTranslator.qml:78
 msgid "Ctrl"
 msgstr "Ctrl"
 
@@ -135,6 +138,11 @@ msgstr "Scr"
 #: ../src/app/qml/KeyboardRows/JsonTranslator.qml:61
 msgid "Cmd"
 msgstr "Cmd"
+
+#. TRANSLATORS: This is the name of the Control key.
+#: ../src/app/qml/KeyboardRows/JsonTranslator.qml:78
+msgid "CTRL"
+msgstr "CTRL"
 
 #. TRANSLATORS: This is the name of the Alt key.
 #: ../src/app/qml/KeyboardRows/JsonTranslator.qml:81
@@ -303,6 +311,83 @@ msgstr "Snarveier"
 msgid "Showing %1 of %2"
 msgstr "Viser %1 av %2"
 
+#: ../src/app/qml/Settings/SettingsShortcutsSection.qml:145
+#: ../src/app/qml/Settings/SettingsShortcutsSection.qml:150
+#: ../src/app/qml/Settings/SettingsShortcutsSection.qml:155
+#: ../src/app/qml/Settings/SettingsShortcutsSection.qml:160
+#: ../src/app/qml/Settings/SettingsShortcutsSection.qml:165
+#: ../src/app/qml/Settings/SettingsShortcutsSection.qml:170
+msgid "File"
+msgstr ""
+
+#: ../src/app/qml/Settings/SettingsShortcutsSection.qml:156
+#, fuzzy
+msgid "Close terminal"
+msgstr "Terminal"
+
+#: ../src/app/qml/Settings/SettingsShortcutsSection.qml:161
+msgid "Close all terminals"
+msgstr ""
+
+#: ../src/app/qml/Settings/SettingsShortcutsSection.qml:166
+msgid "Previous tab"
+msgstr ""
+
+#: ../src/app/qml/Settings/SettingsShortcutsSection.qml:171
+#, fuzzy
+msgid "Next tab"
+msgstr "Ny fane"
+
+#: ../src/app/qml/Settings/SettingsShortcutsSection.qml:175
+#: ../src/app/qml/Settings/SettingsShortcutsSection.qml:180
+msgid "Edit"
+msgstr ""
+
+#: ../src/app/qml/Settings/SettingsShortcutsSection.qml:185
+#: ../src/app/qml/Settings/SettingsShortcutsSection.qml:190
+#: ../src/app/qml/Settings/SettingsShortcutsSection.qml:195
+#: ../src/app/qml/Settings/SettingsShortcutsSection.qml:200
+#: ../src/app/qml/Settings/SettingsShortcutsSection.qml:205
+#: ../src/app/qml/Settings/SettingsShortcutsSection.qml:210
+#: ../src/app/qml/Settings/SettingsShortcutsSection.qml:215
+msgid "View"
+msgstr ""
+
+#: ../src/app/qml/Settings/SettingsShortcutsSection.qml:186
+msgid "Toggle fullscreen"
+msgstr ""
+
+#: ../src/app/qml/Settings/SettingsShortcutsSection.qml:191
+#, fuzzy
+msgid "Split terminal horizontally"
+msgstr "Del vannrett"
+
+#: ../src/app/qml/Settings/SettingsShortcutsSection.qml:196
+#, fuzzy
+msgid "Split terminal vertically"
+msgstr "Del loddrett"
+
+#: ../src/app/qml/Settings/SettingsShortcutsSection.qml:201
+msgid "Navigate to terminal above"
+msgstr ""
+
+#: ../src/app/qml/Settings/SettingsShortcutsSection.qml:206
+msgid "Navigate to terminal below"
+msgstr ""
+
+#: ../src/app/qml/Settings/SettingsShortcutsSection.qml:211
+msgid "Navigate to terminal on the left"
+msgstr ""
+
+#: ../src/app/qml/Settings/SettingsShortcutsSection.qml:216
+msgid "Navigate to terminal on the right"
+msgstr ""
+
+#: ../src/app/qml/Settings/SettingsWindow.qml:26
+#, fuzzy
+msgid "Terminal Preferences"
+msgstr "Innstillinger"
+
 #: ../src/app/qml/Settings/ShortcutRow.qml:78
 msgid "Enter shortcut…"
 msgstr "Skriv inn snarvei…"
@@ -315,7 +400,7 @@ msgstr "Avskrudd"
 msgid "Tabs"
 msgstr "Faner"
 
-#: ../src/app/qml/TerminalPage.qml:132
+#: ../src/app/qml/TerminalPage.qml:154
 msgid "Selection Mode"
 msgstr "Utvalgsmodus"
 
@@ -379,9 +464,6 @@ msgstr "Terminal"
 
 #~ msgid "Color Scheme"
 #~ msgstr "Fargeoppsett"
-
-#~ msgid "CTRL"
-#~ msgstr "CTRL"
 
 #~ msgid "FNS"
 #~ msgstr "FN"

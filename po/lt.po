@@ -334,8 +334,9 @@ msgid "Previous tab"
 msgstr ""
 
 #: ../src/app/qml/Settings/SettingsShortcutsSection.qml:171
+#, fuzzy
 msgid "Next tab"
-msgstr ""
+msgstr "Nauja kortelė"
 
 #: ../src/app/qml/Settings/SettingsShortcutsSection.qml:175
 #: ../src/app/qml/Settings/SettingsShortcutsSection.qml:180
@@ -381,8 +382,9 @@ msgid "Navigate to terminal on the right"
 msgstr ""
 
 #: ../src/app/qml/Settings/SettingsWindow.qml:26
+#, fuzzy
 msgid "Terminal Preferences"
-msgstr ""
+msgstr "Nuostatos"
 
 #: ../src/app/qml/Settings/ShortcutRow.qml:78
 msgid "Enter shortcut…"
