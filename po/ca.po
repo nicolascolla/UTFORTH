@@ -9,8 +9,8 @@ msgstr ""
 "Project-Id-Version: ubuntu-terminal-app\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-06-18 15:38+0000\n"
-"PO-Revision-Date: 2019-06-20 02:04+0000\n"
-"Last-Translator: Joan CiberSheep <cibersheep@gmail.com>\n"
+"PO-Revision-Date: 2019-08-19 00:49+0000\n"
+"Last-Translator: Walter Garcia-Fontes <walter.garcia@upf.edu>\n"
 "Language-Team: Catalan <https://translate.ubports.com/projects/ubports/"
 "terminal-app/ca/>\n"
 "Language: ca\n"
@@ -318,30 +318,28 @@ msgstr "S'està mostrant %1 de %2"
 #: ../src/app/qml/Settings/SettingsShortcutsSection.qml:165
 #: ../src/app/qml/Settings/SettingsShortcutsSection.qml:170
 msgid "File"
-msgstr ""
+msgstr "Fitxer"
 
 #: ../src/app/qml/Settings/SettingsShortcutsSection.qml:156
-#, fuzzy
 msgid "Close terminal"
-msgstr "Terminal"
+msgstr "Tanca la terminal"
 
 #: ../src/app/qml/Settings/SettingsShortcutsSection.qml:161
 msgid "Close all terminals"
-msgstr ""
+msgstr "Tanca totes les terminals"
 
 #: ../src/app/qml/Settings/SettingsShortcutsSection.qml:166
 msgid "Previous tab"
-msgstr ""
+msgstr "Pestanya anterior"
 
 #: ../src/app/qml/Settings/SettingsShortcutsSection.qml:171
-#, fuzzy
 msgid "Next tab"
-msgstr "Pestanya nova"
+msgstr "Pestanya següent"
 
 #: ../src/app/qml/Settings/SettingsShortcutsSection.qml:175
 #: ../src/app/qml/Settings/SettingsShortcutsSection.qml:180
 msgid "Edit"
-msgstr ""
+msgstr "Edita"
 
 #: ../src/app/qml/Settings/SettingsShortcutsSection.qml:185
 #: ../src/app/qml/Settings/SettingsShortcutsSection.qml:190
@@ -351,42 +349,39 @@ msgstr ""
 #: ../src/app/qml/Settings/SettingsShortcutsSection.qml:210
 #: ../src/app/qml/Settings/SettingsShortcutsSection.qml:215
 msgid "View"
-msgstr ""
+msgstr "Visualitza"
 
 #: ../src/app/qml/Settings/SettingsShortcutsSection.qml:186
 msgid "Toggle fullscreen"
-msgstr ""
+msgstr "Commuta la pantalla completa"
 
 #: ../src/app/qml/Settings/SettingsShortcutsSection.qml:191
-#, fuzzy
 msgid "Split terminal horizontally"
-msgstr "Divideix horitzontalment"
+msgstr "Divideix la terminal  horitzontalment"
 
 #: ../src/app/qml/Settings/SettingsShortcutsSection.qml:196
-#, fuzzy
 msgid "Split terminal vertically"
-msgstr "Divideix verticalment"
+msgstr "Divideix la terminal verticalment"
 
 #: ../src/app/qml/Settings/SettingsShortcutsSection.qml:201
 msgid "Navigate to terminal above"
-msgstr ""
+msgstr "Navega a la terminal de dalt"
 
 #: ../src/app/qml/Settings/SettingsShortcutsSection.qml:206
 msgid "Navigate to terminal below"
-msgstr ""
+msgstr "Navega a la terminal de sota"
 
 #: ../src/app/qml/Settings/SettingsShortcutsSection.qml:211
 msgid "Navigate to terminal on the left"
-msgstr ""
+msgstr "Navega a la terminal de l'esquerra"
 
 #: ../src/app/qml/Settings/SettingsShortcutsSection.qml:216
 msgid "Navigate to terminal on the right"
-msgstr ""
+msgstr "Navega a la terminal de la dreta"
 
 #: ../src/app/qml/Settings/SettingsWindow.qml:26
-#, fuzzy
 msgid "Terminal Preferences"
-msgstr "Preferències"
+msgstr "Preferències de la terminal"
 
 #: ../src/app/qml/Settings/ShortcutRow.qml:78
 msgid "Enter shortcut…"
