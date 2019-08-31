@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-06-18 15:38+0000\n"
-"PO-Revision-Date: 2019-08-01 22:49+0000\n"
+"PO-Revision-Date: 2019-09-01 16:50+0000\n"
 "Last-Translator: Moo <moose@mail.ru>\n"
 "Language-Team: Lithuanian <https://translate.ubports.com/projects/ubports/"
 "terminal-app/lt/>\n"
@@ -60,7 +60,7 @@ msgstr "Užverti"
 
 #: ../src/app/qml/AuthenticationDialog.qml:25
 msgid "Authentication required"
-msgstr ""
+msgstr "Reikalingas tapatybės nustatymas"
 
 #: ../src/app/qml/AuthenticationDialog.qml:27
 msgid "Enter passcode or passphrase:"
@@ -82,7 +82,7 @@ msgstr "Atsisakyti"
 
 #: ../src/app/qml/AuthenticationService.qml:64
 msgid "Authentication failed"
-msgstr ""
+msgstr "Tapatybės nustatymas nepavyko"
 
 #: ../src/app/qml/AuthenticationService.qml:83
 msgid "No SSH server running."
@@ -148,7 +148,7 @@ msgstr ""
 #. TRANSLATORS: This is the name of the Alt key.
 #: ../src/app/qml/KeyboardRows/JsonTranslator.qml:81
 msgid "Alt"
-msgstr ""
+msgstr "Alt"
 
 #. TRANSLATORS: This is the name of the Shift key.
 #: ../src/app/qml/KeyboardRows/JsonTranslator.qml:84
@@ -323,20 +323,19 @@ msgstr "Failas"
 
 #: ../src/app/qml/Settings/SettingsShortcutsSection.qml:156
 msgid "Close terminal"
-msgstr ""
+msgstr "Užverti terminalą"
 
 #: ../src/app/qml/Settings/SettingsShortcutsSection.qml:161
 msgid "Close all terminals"
-msgstr ""
+msgstr "Užverti visus terminalus"
 
 #: ../src/app/qml/Settings/SettingsShortcutsSection.qml:166
 msgid "Previous tab"
-msgstr ""
+msgstr "Ankstesnė kortelė"
 
 #: ../src/app/qml/Settings/SettingsShortcutsSection.qml:171
-#, fuzzy
 msgid "Next tab"
-msgstr "Nauja kortelė"
+msgstr "Kita kortelė"
 
 #: ../src/app/qml/Settings/SettingsShortcutsSection.qml:175
 #: ../src/app/qml/Settings/SettingsShortcutsSection.qml:180
@@ -355,7 +354,7 @@ msgstr ""
 
 #: ../src/app/qml/Settings/SettingsShortcutsSection.qml:186
 msgid "Toggle fullscreen"
-msgstr ""
+msgstr "Perjungti visą ekraną"
 
 #: ../src/app/qml/Settings/SettingsShortcutsSection.qml:191
 msgid "Split terminal horizontally"
@@ -382,9 +381,8 @@ msgid "Navigate to terminal on the right"
 msgstr ""
 
 #: ../src/app/qml/Settings/SettingsWindow.qml:26
-#, fuzzy
 msgid "Terminal Preferences"
-msgstr "Nuostatos"
+msgstr "Terminalo nuostatos"
 
 #: ../src/app/qml/Settings/ShortcutRow.qml:78
 msgid "Enter shortcut…"
@@ -392,11 +390,11 @@ msgstr ""
 
 #: ../src/app/qml/Settings/ShortcutRow.qml:80
 msgid "Disabled"
-msgstr ""
+msgstr "Išjungta"
 
 #: ../src/app/qml/TabsPage.qml:26
 msgid "Tabs"
-msgstr ""
+msgstr "Kortelės"
 
 #: ../src/app/qml/TerminalPage.qml:154
 msgid "Selection Mode"
@@ -413,11 +411,11 @@ msgstr ""
 
 #: ../src/plugin/qmltermwidget/lib/Filter.cpp:533
 msgid "Open Link"
-msgstr ""
+msgstr "Atverti nuorodą"
 
 #: ../src/plugin/qmltermwidget/lib/Filter.cpp:534
 msgid "Copy Link Address"
-msgstr ""
+msgstr "Kopijuoti nuorodos adresas"
 
 #: ../src/plugin/qmltermwidget/lib/Filter.cpp:538
 msgid "Send Email To…"
@@ -425,7 +423,7 @@ msgstr ""
 
 #: ../src/plugin/qmltermwidget/lib/Filter.cpp:539
 msgid "Copy Email Address"
-msgstr ""
+msgstr "Kopijuoti el. pašto adresą"
 
 #: ../src/plugin/qmltermwidget/lib/SearchBar.cpp:39
 msgid "Match case"
@@ -456,4 +454,4 @@ msgstr ""
 
 #: ubuntu-terminal-app.desktop.in.in.h:1
 msgid "Terminal"
-msgstr ""
+msgstr "Terminalas"
