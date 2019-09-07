@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-06-18 15:38+0000\n"
-"PO-Revision-Date: 2019-09-01 16:50+0000\n"
+"PO-Revision-Date: 2019-09-08 13:50+0000\n"
 "Last-Translator: Moo <moose@mail.ru>\n"
 "Language-Team: Lithuanian <https://translate.ubports.com/projects/ubports/"
 "terminal-app/lt/>\n"
@@ -82,7 +82,7 @@ msgstr "Atsisakyti"
 
 #: ../src/app/qml/AuthenticationService.qml:64
 msgid "Authentication failed"
-msgstr "Tapatybės nustatymas nepavyko"
+msgstr "Nepavyko nustatyti tapatybę"
 
 #: ../src/app/qml/AuthenticationService.qml:83
 msgid "No SSH server running."
