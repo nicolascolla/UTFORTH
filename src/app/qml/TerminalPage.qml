@@ -60,9 +60,69 @@ Page {
     anchors.fill: parent
 
     header: PageHeader {
-        // WORKAROUND: This way we disable the 'hide' animation when
-        // closing the settings page.
-        visible: false
+        title: i18n.tr("Terminal")
+        StyleHints {
+            foregroundColor: terminalPage.terminal.foregroundColor
+            backgroundColor: tabsBar.color
+            dividerColor: UbuntuColors.slate
+        }
+        visible: terminalPage.narrowLayout ? true : false
+
+        AbstractButton {
+            id: settingsButton
+            height: width
+            width: units.gu(4)
+            anchors {
+                top: parent.top
+                right: parent.right
+                margins: units.gu(1)
+            }
+            visible: terminalPage.narrowLayout
+
+            onClicked: openSettingsPage()
+
+            Rectangle {
+                anchors.fill: parent
+                color: Theme.palette.selected.background
+                visible: parent.pressed
+            }
+
+            Icon {
+                anchors.centerIn: parent
+                color: tabsBar.actionColor
+                height: width
+                width: units.gu(2.5)
+                name: "settings"
+            }
+        }
+
+        AbstractButton {
+            id: tabsButton
+            height: width
+            width: units.gu(4)
+            anchors {
+                top: parent.top
+                right: settingsButton.left
+                margins: units.gu(1)
+            }
+            visible: terminalPage.narrowLayout
+
+            onClicked: pageStack.push(tabsPage)
+
+            Rectangle {
+                anchors.fill: parent
+                color: Theme.palette.selected.background
+                visible: parent.pressed
+            }
+
+            Icon {
+                anchors.centerIn: parent
+                color: tabsBar.actionColor
+                height: width
+                width: units.gu(2.5)
+                name: "browser-tabs"
+            }
+        }
     }
 
     TabsBar {
@@ -103,7 +163,7 @@ Page {
 
         anchors {
             left: parent.left;
-            top: terminalPage.narrowLayout ? parent.top : tabsBar.bottom;
+            top: terminalPage.narrowLayout ? header.bottom : tabsBar.bottom;
             right: parent.right;
             bottom: keyboardBarLoader.top
         }
@@ -172,34 +232,6 @@ Page {
                 PopupUtils.open(Qt.resolvedUrl("AlternateActionPopover.qml"));
             }
         }
-    }
-
-    CircularTransparentButton {
-        id: settingsButton
-
-        anchors {top: parent.top; right: parent.right; margins: units.gu(1)}
-
-        backgroundColor: tabsBar.color
-        iconColor: tabsBar.actionColor
-        action: Action {
-            iconName: "settings"
-            onTriggered: openSettingsPage()
-        }
-        visible: terminalPage.narrowLayout
-    }
-
-    CircularTransparentButton {
-        id: tabsButton
-
-        anchors {top: settingsButton.bottom; right: parent.right; margins: units.gu(1)}
-
-        backgroundColor: tabsBar.color
-        iconColor: tabsBar.actionColor
-        action: Action {
-            iconName: "browser-tabs"
-            onTriggered: pageStack.push(tabsPage);
-        }
-        visible: terminalPage.narrowLayout
     }
 
     GSettings {
