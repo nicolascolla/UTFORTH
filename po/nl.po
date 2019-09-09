@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ubuntu-terminal-app\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-01-17 21:46+0100\n"
-"PO-Revision-Date: 2019-05-13 20:03+0000\n"
+"POT-Creation-Date: 2019-06-18 15:38+0000\n"
+"PO-Revision-Date: 2019-08-20 20:49+0000\n"
 "Last-Translator: Tom Dom <thomas@patoel.nl>\n"
 "Language-Team: Dutch <https://translate.ubports.com/projects/ubports/"
 "terminal-app/nl/>\n"
@@ -25,10 +25,12 @@ msgid "Select"
 msgstr "Selecteren"
 
 #: ../src/app/qml/AlternateActionPopover.qml:73
+#: ../src/app/qml/Settings/SettingsShortcutsSection.qml:176
 msgid "Copy"
 msgstr "Kopieer"
 
 #: ../src/app/qml/AlternateActionPopover.qml:79
+#: ../src/app/qml/Settings/SettingsShortcutsSection.qml:181
 msgid "Paste"
 msgstr "Plakken"
 
@@ -40,11 +42,14 @@ msgstr "Splits horizontaal"
 msgid "Split vertically"
 msgstr "Splits verticaal"
 
-#: ../src/app/qml/AlternateActionPopover.qml:99 ../src/app/qml/TabsPage.qml:32
+#: ../src/app/qml/AlternateActionPopover.qml:99
+#: ../src/app/qml/Settings/SettingsShortcutsSection.qml:151
+#: ../src/app/qml/TabsPage.qml:32
 msgid "New tab"
 msgstr "Nieuw tabblad"
 
 #: ../src/app/qml/AlternateActionPopover.qml:104
+#: ../src/app/qml/Settings/SettingsShortcutsSection.qml:146
 msgid "New window"
 msgstr "Nieuw venster"
 
@@ -115,9 +120,7 @@ msgid "Command Keys"
 msgstr "Opdrachttoetsen"
 
 #. TRANSLATORS: This the short display name of a keyboard layout. It should be no longer than 4 characters!
-#. TRANSLATORS: This is the name of the Control key.
 #: ../src/app/qml/KeyboardRows/JsonTranslator.qml:52
-#: ../src/app/qml/KeyboardRows/JsonTranslator.qml:78
 msgid "Ctrl"
 msgstr "Ctrl"
 
@@ -135,6 +138,11 @@ msgstr "Scr"
 #: ../src/app/qml/KeyboardRows/JsonTranslator.qml:61
 msgid "Cmd"
 msgstr "Cmd"
+
+#. TRANSLATORS: This is the name of the Control key.
+#: ../src/app/qml/KeyboardRows/JsonTranslator.qml:78
+msgid "CTRL"
+msgstr "Ctrl"
 
 #. TRANSLATORS: This is the name of the Alt key.
 #: ../src/app/qml/KeyboardRows/JsonTranslator.qml:81
@@ -251,9 +259,8 @@ msgid "Cool retro term"
 msgstr "Retro terminal"
 
 #: ../src/app/qml/Settings/SettingsInterfaceSection.qml:131
-#, fuzzy
 msgid "Dark pastels"
-msgstr "Donkere pastelkleuren / Ubuntu (old)"
+msgstr "Donkere pastelkleuren"
 
 #: ../src/app/qml/Settings/SettingsInterfaceSection.qml:132
 msgid "Black on light yellow"
@@ -261,27 +268,27 @@ msgstr "Zwart op licht geel"
 
 #: ../src/app/qml/Settings/SettingsInterfaceSection.qml:133
 msgid "Customized"
-msgstr ""
+msgstr "Aangepast"
 
 #: ../src/app/qml/Settings/SettingsInterfaceSection.qml:144
 msgid "Background:"
-msgstr ""
+msgstr "Achtergrond:"
 
 #: ../src/app/qml/Settings/SettingsInterfaceSection.qml:152
 msgid "Text:"
-msgstr ""
+msgstr "Tekst:"
 
 #: ../src/app/qml/Settings/SettingsInterfaceSection.qml:164
 msgid "Normal palette:"
-msgstr ""
+msgstr "Normale kleurenpalet:"
 
 #: ../src/app/qml/Settings/SettingsInterfaceSection.qml:171
 msgid "Bright palette:"
-msgstr ""
+msgstr "Helder kleurenpalet:"
 
 #: ../src/app/qml/Settings/SettingsInterfaceSection.qml:180
 msgid "Preset:"
-msgstr ""
+msgstr "Standaard:"
 
 #: ../src/app/qml/Settings/SettingsInterfaceSection.qml:197
 msgid "Layouts"
@@ -289,34 +296,107 @@ msgstr "Indelingen"
 
 #: ../src/app/qml/Settings/SettingsPage.qml:32
 msgid "Preferences"
-msgstr ""
+msgstr "Voorkeuren"
 
 #: ../src/app/qml/Settings/SettingsPage.qml:43
 msgid "Interface"
-msgstr ""
+msgstr "Interface"
 
 #: ../src/app/qml/Settings/SettingsPage.qml:47
 msgid "Shortcuts"
-msgstr ""
+msgstr "Sneltoetsen"
 
 #: ../src/app/qml/Settings/SettingsShortcutsSection.qml:60
 #, qt-format
 msgid "Showing %1 of %2"
-msgstr ""
+msgstr "%1 van %2 tonen"
+
+#: ../src/app/qml/Settings/SettingsShortcutsSection.qml:145
+#: ../src/app/qml/Settings/SettingsShortcutsSection.qml:150
+#: ../src/app/qml/Settings/SettingsShortcutsSection.qml:155
+#: ../src/app/qml/Settings/SettingsShortcutsSection.qml:160
+#: ../src/app/qml/Settings/SettingsShortcutsSection.qml:165
+#: ../src/app/qml/Settings/SettingsShortcutsSection.qml:170
+msgid "File"
+msgstr "Bestand"
+
+#: ../src/app/qml/Settings/SettingsShortcutsSection.qml:156
+msgid "Close terminal"
+msgstr "Terminal sluiten"
+
+#: ../src/app/qml/Settings/SettingsShortcutsSection.qml:161
+msgid "Close all terminals"
+msgstr "Alle terminals sluiten"
+
+#: ../src/app/qml/Settings/SettingsShortcutsSection.qml:166
+msgid "Previous tab"
+msgstr "Vorig tabblad"
+
+#: ../src/app/qml/Settings/SettingsShortcutsSection.qml:171
+msgid "Next tab"
+msgstr "Volgend tabblad"
+
+#: ../src/app/qml/Settings/SettingsShortcutsSection.qml:175
+#: ../src/app/qml/Settings/SettingsShortcutsSection.qml:180
+msgid "Edit"
+msgstr "Bewerken"
+
+#: ../src/app/qml/Settings/SettingsShortcutsSection.qml:185
+#: ../src/app/qml/Settings/SettingsShortcutsSection.qml:190
+#: ../src/app/qml/Settings/SettingsShortcutsSection.qml:195
+#: ../src/app/qml/Settings/SettingsShortcutsSection.qml:200
+#: ../src/app/qml/Settings/SettingsShortcutsSection.qml:205
+#: ../src/app/qml/Settings/SettingsShortcutsSection.qml:210
+#: ../src/app/qml/Settings/SettingsShortcutsSection.qml:215
+msgid "View"
+msgstr "Beeld"
+
+#: ../src/app/qml/Settings/SettingsShortcutsSection.qml:186
+#, fuzzy
+msgid "Toggle fullscreen"
+msgstr "Volledig scherm"
+
+#: ../src/app/qml/Settings/SettingsShortcutsSection.qml:191
+msgid "Split terminal horizontally"
+msgstr "Splits terminal horizontaal"
+
+#: ../src/app/qml/Settings/SettingsShortcutsSection.qml:196
+msgid "Split terminal vertically"
+msgstr "Splits terminal verticaal"
+
+#: ../src/app/qml/Settings/SettingsShortcutsSection.qml:201
+msgid "Navigate to terminal above"
+msgstr "Ga naar bovenliggende terminal"
+
+#: ../src/app/qml/Settings/SettingsShortcutsSection.qml:206
+msgid "Navigate to terminal below"
+msgstr "Ga naar onderliggende terminal"
+
+#: ../src/app/qml/Settings/SettingsShortcutsSection.qml:211
+msgid "Navigate to terminal on the left"
+msgstr "Ga naar terminal links"
+
+#: ../src/app/qml/Settings/SettingsShortcutsSection.qml:216
+msgid "Navigate to terminal on the right"
+msgstr "Ga naar terminal rechts"
+
+#: ../src/app/qml/Settings/SettingsWindow.qml:26
+msgid "Terminal Preferences"
+msgstr "Terminalvoorkeuren"
 
 #: ../src/app/qml/Settings/ShortcutRow.qml:78
 msgid "Enter shortcut…"
-msgstr ""
+msgstr "Voer sneltoets in…"
 
 #: ../src/app/qml/Settings/ShortcutRow.qml:80
 msgid "Disabled"
-msgstr ""
+msgstr "Uitgeschakeld"
 
 #: ../src/app/qml/TabsPage.qml:26
 msgid "Tabs"
 msgstr "Tabbladen"
 
-#: ../src/app/qml/TerminalPage.qml:132
+#: ../src/app/qml/TerminalPage.qml:154
 msgid "Selection Mode"
 msgstr "Selectiemodus"
 
@@ -327,20 +407,19 @@ msgstr "Naamloos kleurenschema"
 
 #: ../src/plugin/qmltermwidget/lib/ColorScheme.cpp:468
 msgid "Accessible Color Scheme"
-msgstr "Toegankelijk kleurenschema"
+msgstr "Kleurenschema Voor Visuele Beperking"
 
 #: ../src/plugin/qmltermwidget/lib/Filter.cpp:533
 msgid "Open Link"
-msgstr "Koppeling openen"
+msgstr "Koppeling Openen"
 
 #: ../src/plugin/qmltermwidget/lib/Filter.cpp:534
 msgid "Copy Link Address"
-msgstr "Koppelingslocatie kopiëren"
+msgstr "Koppelingslocatie Kopiëren"
 
 #: ../src/plugin/qmltermwidget/lib/Filter.cpp:538
-#, fuzzy
 msgid "Send Email To…"
-msgstr "E-mail verzenden naar..."
+msgstr "E-mail verzenden naar…"
 
 #: ../src/plugin/qmltermwidget/lib/Filter.cpp:539
 msgid "Copy Email Address"
@@ -356,20 +435,20 @@ msgstr "Reguliere expressie"
 
 #: ../src/plugin/qmltermwidget/lib/SearchBar.cpp:49
 msgid "Higlight all matches"
-msgstr "Alle overeenkomsten markeren"
+msgstr "Alle hits markeren"
 
 #: ../src/plugin/qmltermwidget/lib/Vt102Emulation.cpp:982
 msgid ""
 "No keyboard translator available.  The information needed to convert key "
 "presses into characters to send to the terminal is missing."
 msgstr ""
-"Geen keyboard translator beschikbaar. Deze informatie is nodig om de "
+"Geen toetsenbordvertaling beschikbaar.   Deze informatie is nodig om de "
 "toetsaanslagen te vertalen naar lettertekens die naar de terminal worden "
 "verzonden."
 
 #: ../src/plugin/qmltermwidget/lib/qtermwidget.cpp:406
 msgid "Color Scheme Error"
-msgstr "Fout in kleurenschema"
+msgstr "Fout in Kleurenschema"
 
 #: ../src/plugin/qmltermwidget/lib/qtermwidget.cpp:407
 #, qt-format
@@ -382,9 +461,6 @@ msgstr "Terminal"
 
 #~ msgid "Color Scheme"
 #~ msgstr "Kleurenschema"
-
-#~ msgid "CTRL"
-#~ msgstr "Ctrl"
 
 #~ msgid "FNS"
 #~ msgstr "Fns"

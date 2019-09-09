@@ -8,9 +8,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ubuntu-terminal-app\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-01-17 21:46+0100\n"
-"PO-Revision-Date: 2019-05-03 19:42+0000\n"
-"Last-Translator: Joan CiberSheep <cibersheep@gmail.com>\n"
+"POT-Creation-Date: 2019-06-18 15:38+0000\n"
+"PO-Revision-Date: 2019-08-19 00:49+0000\n"
+"Last-Translator: Walter Garcia-Fontes <walter.garcia@upf.edu>\n"
 "Language-Team: Catalan <https://translate.ubports.com/projects/ubports/"
 "terminal-app/ca/>\n"
 "Language: ca\n"
@@ -18,17 +18,19 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 3.6\n"
+"X-Generator: Weblate 3.6.1\n"
 
 #: ../src/app/qml/AlternateActionPopover.qml:68
 msgid "Select"
 msgstr "Selecciona"
 
 #: ../src/app/qml/AlternateActionPopover.qml:73
+#: ../src/app/qml/Settings/SettingsShortcutsSection.qml:176
 msgid "Copy"
 msgstr "Copia"
 
 #: ../src/app/qml/AlternateActionPopover.qml:79
+#: ../src/app/qml/Settings/SettingsShortcutsSection.qml:181
 msgid "Paste"
 msgstr "Enganxa"
 
@@ -40,11 +42,14 @@ msgstr "Divideix horitzontalment"
 msgid "Split vertically"
 msgstr "Divideix verticalment"
 
-#: ../src/app/qml/AlternateActionPopover.qml:99 ../src/app/qml/TabsPage.qml:32
+#: ../src/app/qml/AlternateActionPopover.qml:99
+#: ../src/app/qml/Settings/SettingsShortcutsSection.qml:151
+#: ../src/app/qml/TabsPage.qml:32
 msgid "New tab"
 msgstr "Pestanya nova"
 
 #: ../src/app/qml/AlternateActionPopover.qml:104
+#: ../src/app/qml/Settings/SettingsShortcutsSection.qml:146
 msgid "New window"
 msgstr "Finestra nova"
 
@@ -67,7 +72,7 @@ msgstr "contrasenya"
 #: ../src/app/qml/AuthenticationDialog.qml:58
 #: ../src/app/qml/NotifyDialog.qml:25
 msgid "OK"
-msgstr "Acceptar"
+msgstr "D'acord"
 
 #: ../src/app/qml/AuthenticationDialog.qml:70
 #: ../src/app/qml/ConfirmationDialog.qml:42
@@ -115,9 +120,7 @@ msgid "Command Keys"
 msgstr "Tecles d'ordres"
 
 #. TRANSLATORS: This the short display name of a keyboard layout. It should be no longer than 4 characters!
-#. TRANSLATORS: This is the name of the Control key.
 #: ../src/app/qml/KeyboardRows/JsonTranslator.qml:52
-#: ../src/app/qml/KeyboardRows/JsonTranslator.qml:78
 msgid "Ctrl"
 msgstr "Ctrl"
 
@@ -135,6 +138,11 @@ msgstr "Scr"
 #: ../src/app/qml/KeyboardRows/JsonTranslator.qml:61
 msgid "Cmd"
 msgstr "Cmd"
+
+#. TRANSLATORS: This is the name of the Control key.
+#: ../src/app/qml/KeyboardRows/JsonTranslator.qml:78
+msgid "CTRL"
+msgstr "CTRL"
 
 #. TRANSLATORS: This is the name of the Alt key.
 #: ../src/app/qml/KeyboardRows/JsonTranslator.qml:81
@@ -303,6 +311,78 @@ msgstr "Dreceres"
 msgid "Showing %1 of %2"
 msgstr "S'està mostrant %1 de %2"
 
+#: ../src/app/qml/Settings/SettingsShortcutsSection.qml:145
+#: ../src/app/qml/Settings/SettingsShortcutsSection.qml:150
+#: ../src/app/qml/Settings/SettingsShortcutsSection.qml:155
+#: ../src/app/qml/Settings/SettingsShortcutsSection.qml:160
+#: ../src/app/qml/Settings/SettingsShortcutsSection.qml:165
+#: ../src/app/qml/Settings/SettingsShortcutsSection.qml:170
+msgid "File"
+msgstr "Fitxer"
+
+#: ../src/app/qml/Settings/SettingsShortcutsSection.qml:156
+msgid "Close terminal"
+msgstr "Tanca la terminal"
+
+#: ../src/app/qml/Settings/SettingsShortcutsSection.qml:161
+msgid "Close all terminals"
+msgstr "Tanca totes les terminals"
+
+#: ../src/app/qml/Settings/SettingsShortcutsSection.qml:166
+msgid "Previous tab"
+msgstr "Pestanya anterior"
+
+#: ../src/app/qml/Settings/SettingsShortcutsSection.qml:171
+msgid "Next tab"
+msgstr "Pestanya següent"
+
+#: ../src/app/qml/Settings/SettingsShortcutsSection.qml:175
+#: ../src/app/qml/Settings/SettingsShortcutsSection.qml:180
+msgid "Edit"
+msgstr "Edita"
+
+#: ../src/app/qml/Settings/SettingsShortcutsSection.qml:185
+#: ../src/app/qml/Settings/SettingsShortcutsSection.qml:190
+#: ../src/app/qml/Settings/SettingsShortcutsSection.qml:195
+#: ../src/app/qml/Settings/SettingsShortcutsSection.qml:200
+#: ../src/app/qml/Settings/SettingsShortcutsSection.qml:205
+#: ../src/app/qml/Settings/SettingsShortcutsSection.qml:210
+#: ../src/app/qml/Settings/SettingsShortcutsSection.qml:215
+msgid "View"
+msgstr "Visualitza"
+
+#: ../src/app/qml/Settings/SettingsShortcutsSection.qml:186
+msgid "Toggle fullscreen"
+msgstr "Commuta la pantalla completa"
+
+#: ../src/app/qml/Settings/SettingsShortcutsSection.qml:191
+msgid "Split terminal horizontally"
+msgstr "Divideix la terminal  horitzontalment"
+
+#: ../src/app/qml/Settings/SettingsShortcutsSection.qml:196
+msgid "Split terminal vertically"
+msgstr "Divideix la terminal verticalment"
+
+#: ../src/app/qml/Settings/SettingsShortcutsSection.qml:201
+msgid "Navigate to terminal above"
+msgstr "Navega a la terminal de dalt"
+
+#: ../src/app/qml/Settings/SettingsShortcutsSection.qml:206
+msgid "Navigate to terminal below"
+msgstr "Navega a la terminal de sota"
+
+#: ../src/app/qml/Settings/SettingsShortcutsSection.qml:211
+msgid "Navigate to terminal on the left"
+msgstr "Navega a la terminal de l'esquerra"
+
+#: ../src/app/qml/Settings/SettingsShortcutsSection.qml:216
+msgid "Navigate to terminal on the right"
+msgstr "Navega a la terminal de la dreta"
+
+#: ../src/app/qml/Settings/SettingsWindow.qml:26
+msgid "Terminal Preferences"
+msgstr "Preferències de la terminal"
+
 #: ../src/app/qml/Settings/ShortcutRow.qml:78
 msgid "Enter shortcut…"
 msgstr "Entreu la drecera…"
@@ -315,7 +395,7 @@ msgstr "Desactivat"
 msgid "Tabs"
 msgstr "Pestanyes"
 
-#: ../src/app/qml/TerminalPage.qml:132
+#: ../src/app/qml/TerminalPage.qml:154
 msgid "Selection Mode"
 msgstr "Mode de selecció"
 
@@ -379,9 +459,6 @@ msgstr "Terminal"
 
 #~ msgid "Color Scheme"
 #~ msgstr "Esquema de color"
-
-#~ msgid "CTRL"
-#~ msgstr "CTRL"
 
 #~ msgid "FNS"
 #~ msgstr "FNC"

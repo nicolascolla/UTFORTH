@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-06-18 20:14+0000\n"
+"POT-Creation-Date: 2019-09-09 18:32+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -23,12 +23,15 @@ msgid "Terminal"
 msgstr ""
 
 #: ../build/src/app/qml/AlternateActionPopover.qml:68
+#: ../build/tmp/qml/AlternateActionPopover.qml:68
 #: ../src/app/qml/AlternateActionPopover.qml:68
 msgid "Select"
 msgstr ""
 
 #: ../build/src/app/qml/AlternateActionPopover.qml:73
 #: ../build/src/app/qml/Settings/SettingsShortcutsSection.qml:176
+#: ../build/tmp/qml/AlternateActionPopover.qml:73
+#: ../build/tmp/qml/Settings/SettingsShortcutsSection.qml:176
 #: ../src/app/qml/AlternateActionPopover.qml:73
 #: ../src/app/qml/Settings/SettingsShortcutsSection.qml:176
 msgid "Copy"
@@ -36,17 +39,21 @@ msgstr ""
 
 #: ../build/src/app/qml/AlternateActionPopover.qml:79
 #: ../build/src/app/qml/Settings/SettingsShortcutsSection.qml:181
+#: ../build/tmp/qml/AlternateActionPopover.qml:79
+#: ../build/tmp/qml/Settings/SettingsShortcutsSection.qml:181
 #: ../src/app/qml/AlternateActionPopover.qml:79
 #: ../src/app/qml/Settings/SettingsShortcutsSection.qml:181
 msgid "Paste"
 msgstr ""
 
 #: ../build/src/app/qml/AlternateActionPopover.qml:86
+#: ../build/tmp/qml/AlternateActionPopover.qml:86
 #: ../src/app/qml/AlternateActionPopover.qml:86
 msgid "Split horizontally"
 msgstr ""
 
 #: ../build/src/app/qml/AlternateActionPopover.qml:92
+#: ../build/tmp/qml/AlternateActionPopover.qml:92
 #: ../src/app/qml/AlternateActionPopover.qml:92
 msgid "Split vertically"
 msgstr ""
@@ -54,6 +61,9 @@ msgstr ""
 #: ../build/src/app/qml/AlternateActionPopover.qml:99
 #: ../build/src/app/qml/Settings/SettingsShortcutsSection.qml:151
 #: ../build/src/app/qml/TabsPage.qml:32
+#: ../build/tmp/qml/AlternateActionPopover.qml:99
+#: ../build/tmp/qml/Settings/SettingsShortcutsSection.qml:151
+#: ../build/tmp/qml/TabsPage.qml:32
 #: ../src/app/qml/AlternateActionPopover.qml:99
 #: ../src/app/qml/Settings/SettingsShortcutsSection.qml:151
 #: ../src/app/qml/TabsPage.qml:32
@@ -62,326 +72,386 @@ msgstr ""
 
 #: ../build/src/app/qml/AlternateActionPopover.qml:104
 #: ../build/src/app/qml/Settings/SettingsShortcutsSection.qml:146
+#: ../build/tmp/qml/AlternateActionPopover.qml:104
+#: ../build/tmp/qml/Settings/SettingsShortcutsSection.qml:146
 #: ../src/app/qml/AlternateActionPopover.qml:104
 #: ../src/app/qml/Settings/SettingsShortcutsSection.qml:146
 msgid "New window"
 msgstr ""
 
 #: ../build/src/app/qml/AlternateActionPopover.qml:109
+#: ../build/tmp/qml/AlternateActionPopover.qml:109
 #: ../src/app/qml/AlternateActionPopover.qml:109
 msgid "Close"
 msgstr ""
 
 #: ../build/src/app/qml/AuthenticationDialog.qml:25
+#: ../build/tmp/qml/AuthenticationDialog.qml:25
 #: ../src/app/qml/AuthenticationDialog.qml:25
 msgid "Authentication required"
 msgstr ""
 
 #: ../build/src/app/qml/AuthenticationDialog.qml:27
+#: ../build/tmp/qml/AuthenticationDialog.qml:27
 #: ../src/app/qml/AuthenticationDialog.qml:27
 msgid "Enter passcode or passphrase:"
 msgstr ""
 
 #: ../build/src/app/qml/AuthenticationDialog.qml:48
+#: ../build/tmp/qml/AuthenticationDialog.qml:48
 #: ../src/app/qml/AuthenticationDialog.qml:48
 msgid "passcode or passphrase"
 msgstr ""
 
 #: ../build/src/app/qml/AuthenticationDialog.qml:58
+#: ../build/src/app/qml/NotifyDialog.qml:25
+#: ../build/tmp/qml/AuthenticationDialog.qml:58
+#: ../build/tmp/qml/NotifyDialog.qml:25
 #: ../src/app/qml/AuthenticationDialog.qml:58
 msgid "Authenticate"
 msgstr ""
 
 #: ../build/src/app/qml/AuthenticationDialog.qml:70
 #: ../build/src/app/qml/ConfirmationDialog.qml:42
+#: ../build/tmp/qml/AuthenticationDialog.qml:70
+#: ../build/tmp/qml/ConfirmationDialog.qml:42
 #: ../src/app/qml/AuthenticationDialog.qml:70
 #: ../src/app/qml/ConfirmationDialog.qml:42
 msgid "Cancel"
 msgstr ""
 
 #: ../build/src/app/qml/AuthenticationService.qml:64
+#: ../build/tmp/qml/AuthenticationService.qml:64
 #: ../src/app/qml/AuthenticationService.qml:64
 msgid "Authentication failed"
 msgstr ""
 
 #: ../build/src/app/qml/AuthenticationService.qml:83
+#: ../build/tmp/qml/AuthenticationService.qml:83
 #: ../src/app/qml/AuthenticationService.qml:83
 msgid "No SSH server running."
 msgstr ""
 
 #: ../build/src/app/qml/AuthenticationService.qml:84
+#: ../build/tmp/qml/AuthenticationService.qml:84
 #: ../src/app/qml/AuthenticationService.qml:84
 msgid "SSH server not found. Do you want to proceed in confined mode?"
 msgstr ""
 
 #: ../build/src/app/qml/ConfirmationDialog.qml:32
+#: ../build/tmp/qml/ConfirmationDialog.qml:32
 #: ../src/app/qml/ConfirmationDialog.qml:32
 msgid "Continue"
 msgstr ""
 
-#: ../build/src/app/qml/KeyboardBar.qml:196 ../src/app/qml/KeyboardBar.qml:196
+#: ../build/src/app/qml/KeyboardBar.qml:196
+#: ../build/tmp/qml/KeyboardBar.qml:196 ../src/app/qml/KeyboardBar.qml:196
 msgid "Change Keyboard"
 msgstr ""
 
 #. TRANSLATORS: This a keyboard layout name
 #: ../build/src/app/qml/KeyboardRows/JsonTranslator.qml:35
+#: ../build/tmp/qml/KeyboardRows/JsonTranslator.qml:35
 #: ../src/app/qml/KeyboardRows/JsonTranslator.qml:35
 msgid "Control Keys"
 msgstr ""
 
 #. TRANSLATORS: This a keyboard layout name
 #: ../build/src/app/qml/KeyboardRows/JsonTranslator.qml:38
+#: ../build/tmp/qml/KeyboardRows/JsonTranslator.qml:38
 #: ../src/app/qml/KeyboardRows/JsonTranslator.qml:38
 msgid "Function Keys"
 msgstr ""
 
 #. TRANSLATORS: This a keyboard layout name
 #: ../build/src/app/qml/KeyboardRows/JsonTranslator.qml:41
+#: ../build/tmp/qml/KeyboardRows/JsonTranslator.qml:41
 #: ../src/app/qml/KeyboardRows/JsonTranslator.qml:41
 msgid "Scroll Keys"
 msgstr ""
 
 #. TRANSLATORS: This a keyboard layout name
 #: ../build/src/app/qml/KeyboardRows/JsonTranslator.qml:44
+#: ../build/tmp/qml/KeyboardRows/JsonTranslator.qml:44
 #: ../src/app/qml/KeyboardRows/JsonTranslator.qml:44
 msgid "Command Keys"
 msgstr ""
 
 #. TRANSLATORS: This the short display name of a keyboard layout. It should be no longer than 4 characters!
 #: ../build/src/app/qml/KeyboardRows/JsonTranslator.qml:52
+#: ../build/tmp/qml/KeyboardRows/JsonTranslator.qml:52
 #: ../src/app/qml/KeyboardRows/JsonTranslator.qml:52
 msgid "Ctrl"
 msgstr ""
 
 #. TRANSLATORS: This the short display name of a keyboard layout. It should be no longer than 4 characters!
 #: ../build/src/app/qml/KeyboardRows/JsonTranslator.qml:55
+#: ../build/tmp/qml/KeyboardRows/JsonTranslator.qml:55
 #: ../src/app/qml/KeyboardRows/JsonTranslator.qml:55
 msgid "Fn"
 msgstr ""
 
 #. TRANSLATORS: This the short display name of a keyboard layout. It should be no longer than 4 characters!
 #: ../build/src/app/qml/KeyboardRows/JsonTranslator.qml:58
+#: ../build/tmp/qml/KeyboardRows/JsonTranslator.qml:58
 #: ../src/app/qml/KeyboardRows/JsonTranslator.qml:58
 msgid "Scr"
 msgstr ""
 
 #. TRANSLATORS: This the short display name of a keyboard layout. It should be no longer than 4 characters!
 #: ../build/src/app/qml/KeyboardRows/JsonTranslator.qml:61
+#: ../build/tmp/qml/KeyboardRows/JsonTranslator.qml:61
 #: ../src/app/qml/KeyboardRows/JsonTranslator.qml:61
 msgid "Cmd"
 msgstr ""
 
 #. TRANSLATORS: This is the name of the Control key.
 #: ../build/src/app/qml/KeyboardRows/JsonTranslator.qml:78
+#: ../build/tmp/qml/KeyboardRows/JsonTranslator.qml:78
 #: ../src/app/qml/KeyboardRows/JsonTranslator.qml:78
 msgid "CTRL"
 msgstr ""
 
 #. TRANSLATORS: This is the name of the Alt key.
 #: ../build/src/app/qml/KeyboardRows/JsonTranslator.qml:81
+#: ../build/tmp/qml/KeyboardRows/JsonTranslator.qml:81
 #: ../src/app/qml/KeyboardRows/JsonTranslator.qml:81
 msgid "Alt"
 msgstr ""
 
 #. TRANSLATORS: This is the name of the Shift key.
 #: ../build/src/app/qml/KeyboardRows/JsonTranslator.qml:84
+#: ../build/tmp/qml/KeyboardRows/JsonTranslator.qml:84
 #: ../src/app/qml/KeyboardRows/JsonTranslator.qml:84
 msgid "Shift"
 msgstr ""
 
 #. TRANSLATORS: This is the name of the Escape key.
 #: ../build/src/app/qml/KeyboardRows/JsonTranslator.qml:97
+#: ../build/tmp/qml/KeyboardRows/JsonTranslator.qml:97
 #: ../src/app/qml/KeyboardRows/JsonTranslator.qml:97
 msgid "Esc"
 msgstr ""
 
 #. TRANSLATORS: This is the name of the Page Up key.
 #: ../build/src/app/qml/KeyboardRows/JsonTranslator.qml:100
+#: ../build/tmp/qml/KeyboardRows/JsonTranslator.qml:100
 #: ../src/app/qml/KeyboardRows/JsonTranslator.qml:100
 msgid "PgUp"
 msgstr ""
 
 #. TRANSLATORS: This is the name of the Page Down key.
 #: ../build/src/app/qml/KeyboardRows/JsonTranslator.qml:103
+#: ../build/tmp/qml/KeyboardRows/JsonTranslator.qml:103
 #: ../src/app/qml/KeyboardRows/JsonTranslator.qml:103
 msgid "PgDn"
 msgstr ""
 
 #. TRANSLATORS: This is the name of the Delete key.
 #: ../build/src/app/qml/KeyboardRows/JsonTranslator.qml:106
+#: ../build/tmp/qml/KeyboardRows/JsonTranslator.qml:106
 #: ../src/app/qml/KeyboardRows/JsonTranslator.qml:106
 msgid "Del"
 msgstr ""
 
 #. TRANSLATORS: This is the name of the Home key.
 #: ../build/src/app/qml/KeyboardRows/JsonTranslator.qml:109
+#: ../build/tmp/qml/KeyboardRows/JsonTranslator.qml:109
 #: ../src/app/qml/KeyboardRows/JsonTranslator.qml:109
 msgid "Home"
 msgstr ""
 
 #. TRANSLATORS: This is the name of the End key.
 #: ../build/src/app/qml/KeyboardRows/JsonTranslator.qml:112
+#: ../build/tmp/qml/KeyboardRows/JsonTranslator.qml:112
 #: ../src/app/qml/KeyboardRows/JsonTranslator.qml:112
 msgid "End"
 msgstr ""
 
 #. TRANSLATORS: This is the name of the Tab key.
 #: ../build/src/app/qml/KeyboardRows/JsonTranslator.qml:115
+#: ../build/tmp/qml/KeyboardRows/JsonTranslator.qml:115
 #: ../src/app/qml/KeyboardRows/JsonTranslator.qml:115
 msgid "Tab"
 msgstr ""
 
 #. TRANSLATORS: This is the name of the Enter key.
 #: ../build/src/app/qml/KeyboardRows/JsonTranslator.qml:118
+#: ../build/tmp/qml/KeyboardRows/JsonTranslator.qml:118
 #: ../src/app/qml/KeyboardRows/JsonTranslator.qml:118
 msgid "Enter"
 msgstr ""
 
-#: ../build/src/app/qml/NotifyDialog.qml:25 ../src/app/qml/NotifyDialog.qml:25
-msgid "OK"
-msgstr ""
-
 #: ../build/src/app/qml/Settings/BackgroundOpacityEditor.qml:26
+#: ../build/tmp/qml/Settings/BackgroundOpacityEditor.qml:26
 #: ../src/app/qml/Settings/BackgroundOpacityEditor.qml:26
 msgid "Background opacity:"
 msgstr ""
 
 #: ../build/src/app/qml/Settings/ColorPickerPopup.qml:79
+#: ../build/tmp/qml/Settings/ColorPickerPopup.qml:79
 #: ../src/app/qml/Settings/ColorPickerPopup.qml:79
 msgid "R:"
 msgstr ""
 
 #: ../build/src/app/qml/Settings/ColorPickerPopup.qml:87
+#: ../build/tmp/qml/Settings/ColorPickerPopup.qml:87
 #: ../src/app/qml/Settings/ColorPickerPopup.qml:87
 msgid "G:"
 msgstr ""
 
 #: ../build/src/app/qml/Settings/ColorPickerPopup.qml:95
+#: ../build/tmp/qml/Settings/ColorPickerPopup.qml:95
 #: ../src/app/qml/Settings/ColorPickerPopup.qml:95
 msgid "B:"
 msgstr ""
 
 #: ../build/src/app/qml/Settings/ColorPickerPopup.qml:99
+#: ../build/tmp/qml/Settings/ColorPickerPopup.qml:99
 #: ../src/app/qml/Settings/ColorPickerPopup.qml:99
 msgid "Undo"
 msgstr ""
 
 #: ../build/src/app/qml/Settings/SettingsInterfaceSection.qml:55
+#: ../build/tmp/qml/Settings/SettingsInterfaceSection.qml:55
 #: ../src/app/qml/Settings/SettingsInterfaceSection.qml:55
 msgid "Text"
 msgstr ""
 
 #: ../build/src/app/qml/Settings/SettingsInterfaceSection.qml:66
+#: ../build/tmp/qml/Settings/SettingsInterfaceSection.qml:66
 #: ../src/app/qml/Settings/SettingsInterfaceSection.qml:66
 msgid "Font:"
 msgstr ""
 
 #: ../build/src/app/qml/Settings/SettingsInterfaceSection.qml:91
+#: ../build/tmp/qml/Settings/SettingsInterfaceSection.qml:91
 #: ../src/app/qml/Settings/SettingsInterfaceSection.qml:91
 msgid "Font Size:"
 msgstr ""
 
 #: ../build/src/app/qml/Settings/SettingsInterfaceSection.qml:119
+#: ../build/tmp/qml/Settings/SettingsInterfaceSection.qml:119
 #: ../src/app/qml/Settings/SettingsInterfaceSection.qml:119
 msgid "Colors"
 msgstr ""
 
 #: ../build/src/app/qml/Settings/SettingsInterfaceSection.qml:124
+#: ../build/tmp/qml/Settings/SettingsInterfaceSection.qml:124
 #: ../src/app/qml/Settings/SettingsInterfaceSection.qml:124
 msgid "Ubuntu"
 msgstr ""
 
 #: ../build/src/app/qml/Settings/SettingsInterfaceSection.qml:125
+#: ../build/tmp/qml/Settings/SettingsInterfaceSection.qml:125
 #: ../src/app/qml/Settings/SettingsInterfaceSection.qml:125
 msgid "Green on black"
 msgstr ""
 
 #: ../build/src/app/qml/Settings/SettingsInterfaceSection.qml:126
+#: ../build/tmp/qml/Settings/SettingsInterfaceSection.qml:126
 #: ../src/app/qml/Settings/SettingsInterfaceSection.qml:126
 msgid "White on black"
 msgstr ""
 
 #: ../build/src/app/qml/Settings/SettingsInterfaceSection.qml:127
+#: ../build/tmp/qml/Settings/SettingsInterfaceSection.qml:127
 #: ../src/app/qml/Settings/SettingsInterfaceSection.qml:127
 msgid "Black on white"
 msgstr ""
 
 #: ../build/src/app/qml/Settings/SettingsInterfaceSection.qml:128
+#: ../build/tmp/qml/Settings/SettingsInterfaceSection.qml:128
 #: ../src/app/qml/Settings/SettingsInterfaceSection.qml:128
 msgid "Black on random light"
 msgstr ""
 
 #: ../build/src/app/qml/Settings/SettingsInterfaceSection.qml:129
+#: ../build/tmp/qml/Settings/SettingsInterfaceSection.qml:129
 #: ../src/app/qml/Settings/SettingsInterfaceSection.qml:129
 msgid "Linux"
 msgstr ""
 
 #: ../build/src/app/qml/Settings/SettingsInterfaceSection.qml:130
+#: ../build/tmp/qml/Settings/SettingsInterfaceSection.qml:130
 #: ../src/app/qml/Settings/SettingsInterfaceSection.qml:130
 msgid "Cool retro term"
 msgstr ""
 
 #: ../build/src/app/qml/Settings/SettingsInterfaceSection.qml:131
+#: ../build/tmp/qml/Settings/SettingsInterfaceSection.qml:131
 #: ../src/app/qml/Settings/SettingsInterfaceSection.qml:131
 msgid "Dark pastels"
 msgstr ""
 
 #: ../build/src/app/qml/Settings/SettingsInterfaceSection.qml:132
+#: ../build/tmp/qml/Settings/SettingsInterfaceSection.qml:132
 #: ../src/app/qml/Settings/SettingsInterfaceSection.qml:132
 msgid "Black on light yellow"
 msgstr ""
 
 #: ../build/src/app/qml/Settings/SettingsInterfaceSection.qml:133
+#: ../build/tmp/qml/Settings/SettingsInterfaceSection.qml:133
 #: ../src/app/qml/Settings/SettingsInterfaceSection.qml:133
 msgid "Customized"
 msgstr ""
 
 #: ../build/src/app/qml/Settings/SettingsInterfaceSection.qml:144
+#: ../build/tmp/qml/Settings/SettingsInterfaceSection.qml:144
 #: ../src/app/qml/Settings/SettingsInterfaceSection.qml:144
 msgid "Background:"
 msgstr ""
 
 #: ../build/src/app/qml/Settings/SettingsInterfaceSection.qml:152
+#: ../build/tmp/qml/Settings/SettingsInterfaceSection.qml:152
 #: ../src/app/qml/Settings/SettingsInterfaceSection.qml:152
 msgid "Text:"
 msgstr ""
 
 #: ../build/src/app/qml/Settings/SettingsInterfaceSection.qml:164
+#: ../build/tmp/qml/Settings/SettingsInterfaceSection.qml:164
 #: ../src/app/qml/Settings/SettingsInterfaceSection.qml:164
 msgid "Normal palette:"
 msgstr ""
 
 #: ../build/src/app/qml/Settings/SettingsInterfaceSection.qml:171
+#: ../build/tmp/qml/Settings/SettingsInterfaceSection.qml:171
 #: ../src/app/qml/Settings/SettingsInterfaceSection.qml:171
 msgid "Bright palette:"
 msgstr ""
 
 #: ../build/src/app/qml/Settings/SettingsInterfaceSection.qml:180
+#: ../build/tmp/qml/Settings/SettingsInterfaceSection.qml:180
 #: ../src/app/qml/Settings/SettingsInterfaceSection.qml:180
 msgid "Preset:"
 msgstr ""
 
 #: ../build/src/app/qml/Settings/SettingsInterfaceSection.qml:197
+#: ../build/tmp/qml/Settings/SettingsInterfaceSection.qml:197
 #: ../src/app/qml/Settings/SettingsInterfaceSection.qml:197
 msgid "Layouts"
 msgstr ""
 
 #: ../build/src/app/qml/Settings/SettingsPage.qml:32
+#: ../build/tmp/qml/Settings/SettingsPage.qml:32
 #: ../src/app/qml/Settings/SettingsPage.qml:32
 msgid "Preferences"
 msgstr ""
 
 #: ../build/src/app/qml/Settings/SettingsPage.qml:43
+#: ../build/tmp/qml/Settings/SettingsPage.qml:43
 #: ../src/app/qml/Settings/SettingsPage.qml:43
 msgid "Interface"
 msgstr ""
 
 #: ../build/src/app/qml/Settings/SettingsPage.qml:47
+#: ../build/tmp/qml/Settings/SettingsPage.qml:47
 #: ../src/app/qml/Settings/SettingsPage.qml:47
 msgid "Shortcuts"
 msgstr ""
 
 #: ../build/src/app/qml/Settings/SettingsShortcutsSection.qml:60
+#: ../build/tmp/qml/Settings/SettingsShortcutsSection.qml:60
 #: ../src/app/qml/Settings/SettingsShortcutsSection.qml:60
 #, qt-format
 msgid "Showing %1 of %2"
@@ -393,6 +463,12 @@ msgstr ""
 #: ../build/src/app/qml/Settings/SettingsShortcutsSection.qml:160
 #: ../build/src/app/qml/Settings/SettingsShortcutsSection.qml:165
 #: ../build/src/app/qml/Settings/SettingsShortcutsSection.qml:170
+#: ../build/tmp/qml/Settings/SettingsShortcutsSection.qml:145
+#: ../build/tmp/qml/Settings/SettingsShortcutsSection.qml:150
+#: ../build/tmp/qml/Settings/SettingsShortcutsSection.qml:155
+#: ../build/tmp/qml/Settings/SettingsShortcutsSection.qml:160
+#: ../build/tmp/qml/Settings/SettingsShortcutsSection.qml:165
+#: ../build/tmp/qml/Settings/SettingsShortcutsSection.qml:170
 #: ../src/app/qml/Settings/SettingsShortcutsSection.qml:145
 #: ../src/app/qml/Settings/SettingsShortcutsSection.qml:150
 #: ../src/app/qml/Settings/SettingsShortcutsSection.qml:155
@@ -403,27 +479,33 @@ msgid "File"
 msgstr ""
 
 #: ../build/src/app/qml/Settings/SettingsShortcutsSection.qml:156
+#: ../build/tmp/qml/Settings/SettingsShortcutsSection.qml:156
 #: ../src/app/qml/Settings/SettingsShortcutsSection.qml:156
 msgid "Close terminal"
 msgstr ""
 
 #: ../build/src/app/qml/Settings/SettingsShortcutsSection.qml:161
+#: ../build/tmp/qml/Settings/SettingsShortcutsSection.qml:161
 #: ../src/app/qml/Settings/SettingsShortcutsSection.qml:161
 msgid "Close all terminals"
 msgstr ""
 
 #: ../build/src/app/qml/Settings/SettingsShortcutsSection.qml:166
+#: ../build/tmp/qml/Settings/SettingsShortcutsSection.qml:166
 #: ../src/app/qml/Settings/SettingsShortcutsSection.qml:166
 msgid "Previous tab"
 msgstr ""
 
 #: ../build/src/app/qml/Settings/SettingsShortcutsSection.qml:171
+#: ../build/tmp/qml/Settings/SettingsShortcutsSection.qml:171
 #: ../src/app/qml/Settings/SettingsShortcutsSection.qml:171
 msgid "Next tab"
 msgstr ""
 
 #: ../build/src/app/qml/Settings/SettingsShortcutsSection.qml:175
 #: ../build/src/app/qml/Settings/SettingsShortcutsSection.qml:180
+#: ../build/tmp/qml/Settings/SettingsShortcutsSection.qml:175
+#: ../build/tmp/qml/Settings/SettingsShortcutsSection.qml:180
 #: ../src/app/qml/Settings/SettingsShortcutsSection.qml:175
 #: ../src/app/qml/Settings/SettingsShortcutsSection.qml:180
 msgid "Edit"
@@ -436,6 +518,13 @@ msgstr ""
 #: ../build/src/app/qml/Settings/SettingsShortcutsSection.qml:205
 #: ../build/src/app/qml/Settings/SettingsShortcutsSection.qml:210
 #: ../build/src/app/qml/Settings/SettingsShortcutsSection.qml:215
+#: ../build/tmp/qml/Settings/SettingsShortcutsSection.qml:185
+#: ../build/tmp/qml/Settings/SettingsShortcutsSection.qml:190
+#: ../build/tmp/qml/Settings/SettingsShortcutsSection.qml:195
+#: ../build/tmp/qml/Settings/SettingsShortcutsSection.qml:200
+#: ../build/tmp/qml/Settings/SettingsShortcutsSection.qml:205
+#: ../build/tmp/qml/Settings/SettingsShortcutsSection.qml:210
+#: ../build/tmp/qml/Settings/SettingsShortcutsSection.qml:215
 #: ../src/app/qml/Settings/SettingsShortcutsSection.qml:185
 #: ../src/app/qml/Settings/SettingsShortcutsSection.qml:190
 #: ../src/app/qml/Settings/SettingsShortcutsSection.qml:195
@@ -447,61 +536,72 @@ msgid "View"
 msgstr ""
 
 #: ../build/src/app/qml/Settings/SettingsShortcutsSection.qml:186
+#: ../build/tmp/qml/Settings/SettingsShortcutsSection.qml:186
 #: ../src/app/qml/Settings/SettingsShortcutsSection.qml:186
 msgid "Toggle fullscreen"
 msgstr ""
 
 #: ../build/src/app/qml/Settings/SettingsShortcutsSection.qml:191
+#: ../build/tmp/qml/Settings/SettingsShortcutsSection.qml:191
 #: ../src/app/qml/Settings/SettingsShortcutsSection.qml:191
 msgid "Split terminal horizontally"
 msgstr ""
 
 #: ../build/src/app/qml/Settings/SettingsShortcutsSection.qml:196
+#: ../build/tmp/qml/Settings/SettingsShortcutsSection.qml:196
 #: ../src/app/qml/Settings/SettingsShortcutsSection.qml:196
 msgid "Split terminal vertically"
 msgstr ""
 
 #: ../build/src/app/qml/Settings/SettingsShortcutsSection.qml:201
+#: ../build/tmp/qml/Settings/SettingsShortcutsSection.qml:201
 #: ../src/app/qml/Settings/SettingsShortcutsSection.qml:201
 msgid "Navigate to terminal above"
 msgstr ""
 
 #: ../build/src/app/qml/Settings/SettingsShortcutsSection.qml:206
+#: ../build/tmp/qml/Settings/SettingsShortcutsSection.qml:206
 #: ../src/app/qml/Settings/SettingsShortcutsSection.qml:206
 msgid "Navigate to terminal below"
 msgstr ""
 
 #: ../build/src/app/qml/Settings/SettingsShortcutsSection.qml:211
+#: ../build/tmp/qml/Settings/SettingsShortcutsSection.qml:211
 #: ../src/app/qml/Settings/SettingsShortcutsSection.qml:211
 msgid "Navigate to terminal on the left"
 msgstr ""
 
 #: ../build/src/app/qml/Settings/SettingsShortcutsSection.qml:216
+#: ../build/tmp/qml/Settings/SettingsShortcutsSection.qml:216
 #: ../src/app/qml/Settings/SettingsShortcutsSection.qml:216
 msgid "Navigate to terminal on the right"
 msgstr ""
 
 #: ../build/src/app/qml/Settings/SettingsWindow.qml:26
+#: ../build/tmp/qml/Settings/SettingsWindow.qml:26
 #: ../src/app/qml/Settings/SettingsWindow.qml:26
 msgid "Terminal Preferences"
 msgstr ""
 
 #: ../build/src/app/qml/Settings/ShortcutRow.qml:78
+#: ../build/tmp/qml/Settings/ShortcutRow.qml:78
 #: ../src/app/qml/Settings/ShortcutRow.qml:78
 msgid "Enter shortcut…"
 msgstr ""
 
 #: ../build/src/app/qml/Settings/ShortcutRow.qml:80
+#: ../build/tmp/qml/Settings/ShortcutRow.qml:80
 #: ../src/app/qml/Settings/ShortcutRow.qml:80
 msgid "Disabled"
 msgstr ""
 
-#: ../build/src/app/qml/TabsPage.qml:26 ../src/app/qml/TabsPage.qml:26
+#: ../build/src/app/qml/TabsPage.qml:26 ../build/tmp/qml/TabsPage.qml:26
+#: ../src/app/qml/TabsPage.qml:26
 msgid "Tabs"
 msgstr ""
 
 #: ../build/src/app/qml/TerminalPage.qml:154
-#: ../src/app/qml/TerminalPage.qml:154
+#: ../build/tmp/qml/TerminalPage.qml:154 ../src/app/qml/TerminalPage.qml:154
 msgid "Selection Mode"
 msgstr ""
 
