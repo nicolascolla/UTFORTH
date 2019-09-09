@@ -108,8 +108,7 @@ msgstr ""
 #: ../build/tmp/qml/AuthenticationDialog.qml:58
 #: ../build/tmp/qml/NotifyDialog.qml:25
 #: ../src/app/qml/AuthenticationDialog.qml:58
-#: ../src/app/qml/NotifyDialog.qml:25
-msgid "OK"
+msgid "Authenticate"
 msgstr ""
 
 #: ../build/src/app/qml/AuthenticationDialog.qml:70

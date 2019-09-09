@@ -40,7 +40,6 @@ Dialog {
         objectName: "cancelButton"
 
         text: i18n.tr("Cancel")
-        color: UbuntuColors.red
 
         onClicked: dialogCanceled();
     }
