@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-09-09 20:50+0000\n"
+"POT-Creation-Date: 2019-09-09 20:53+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -433,19 +433,19 @@ msgstr ""
 
 #: ../build/src/app/qml/Settings/SettingsPage.qml:32
 #: ../build/tmp/qml/Settings/SettingsPage.qml:32
-#: ../src/app/qml/Settings/SettingsPage.qml:32
+#: ../src/app/qml/Settings/SettingsPage.qml:39
 msgid "Preferences"
 msgstr ""
 
 #: ../build/src/app/qml/Settings/SettingsPage.qml:43
 #: ../build/tmp/qml/Settings/SettingsPage.qml:43
-#: ../src/app/qml/Settings/SettingsPage.qml:43
+#: ../src/app/qml/Settings/SettingsPage.qml:50
 msgid "Interface"
 msgstr ""
 
 #: ../build/src/app/qml/Settings/SettingsPage.qml:47
 #: ../build/tmp/qml/Settings/SettingsPage.qml:47
-#: ../src/app/qml/Settings/SettingsPage.qml:47
+#: ../src/app/qml/Settings/SettingsPage.qml:54
 msgid "Shortcuts"
 msgstr ""
 
@@ -606,6 +606,10 @@ msgstr ""
 
 #: ../src/app/qml/AuthenticationDialog.qml:58
 msgid "Authenticate"
+msgstr ""
+
+#: ../src/app/qml/Settings/SettingsPage.qml:33
+msgid "close"
 msgstr ""
 
 #: ../src/plugin/qmltermwidget/lib/ColorScheme.cpp:291
