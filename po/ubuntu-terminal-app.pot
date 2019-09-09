@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-09-09 19:39+0000\n"
+"POT-Creation-Date: 2019-09-09 20:31+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -106,9 +106,8 @@ msgstr ""
 #: ../build/src/app/qml/AuthenticationDialog.qml:58
 #: ../build/src/app/qml/NotifyDialog.qml:25
 #: ../build/tmp/qml/AuthenticationDialog.qml:58
-#: ../build/tmp/qml/NotifyDialog.qml:25
-#: ../src/app/qml/AuthenticationDialog.qml:58
-msgid "Authenticate"
+#: ../build/tmp/qml/NotifyDialog.qml:25 ../src/app/qml/NotifyDialog.qml:25
+msgid "OK"
 msgstr ""
 
 #: ../build/src/app/qml/AuthenticationDialog.qml:70
@@ -603,6 +602,10 @@ msgstr ""
 #: ../build/src/app/qml/TerminalPage.qml:154
 #: ../build/tmp/qml/TerminalPage.qml:154 ../src/app/qml/TerminalPage.qml:154
 msgid "Selection Mode"
+msgstr ""
+
+#: ../src/app/qml/AuthenticationDialog.qml:58
+msgid "Authenticate"
 msgstr ""
 
 #: ../src/plugin/qmltermwidget/lib/ColorScheme.cpp:291
