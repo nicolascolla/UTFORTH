@@ -55,7 +55,7 @@ Dialog {
         id: okButton
         objectName: "okButton"
 
-        text: i18n.tr("OK")
+        text: i18n.tr("Authenticate")
         color: UbuntuColors.green
 
         onClicked: {
@@ -68,8 +68,6 @@ Dialog {
         id: cancelButton
         objectName: "cancelButton"
         text: i18n.tr("Cancel")
-
-        color: UbuntuColors.red
 
         onClicked: {
             dialogCanceled();
