@@ -27,8 +27,15 @@ Page {
     implicitHeight: units.gu(80)
     property color windowColor: currentSection.windowColor
 
-
     header: PageHeader {
+        leadingActionBar.actions: [
+            Action {
+                text: i18n.tr("close")
+                iconName: "back"
+                onTriggered: settingsLoader.active = false
+            }
+        ]
+
         title: i18n.tr("Preferences")
         flickable: currentSection && currentSection.flickableItem ?
                        currentSection.flickableItem : null
