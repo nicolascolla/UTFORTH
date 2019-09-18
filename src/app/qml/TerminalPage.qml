@@ -123,6 +123,37 @@ Page {
                 name: "browser-tabs"
             }
         }
+
+        AbstractButton {
+            id: closeSelectionButton
+            height: width
+            width: units.gu(4)
+            anchors {
+                top: parent.top
+                right: parent.right
+                margins: units.gu(1)
+            }
+            visible: false
+
+            onClicked: {
+              terminalPage.state = "DEFAULT";
+              PopupUtils.open(Qt.resolvedUrl("AlternateActionPopover.qml"));
+            }
+
+            Rectangle {
+                anchors.fill: parent
+                color: Theme.palette.selected.background
+                visible: parent.pressed
+            }
+
+            Icon {
+                anchors.centerIn: parent
+                color: tabsBar.actionColor
+                height: width
+                width: units.gu(2.5)
+                name: "close"
+            }
+        }
     }
 
     TabsBar {
@@ -139,23 +170,80 @@ Page {
         contourColor: terminalPage.terminal ? terminalPage.terminal.contourColor : ""
         color: isDarkBackground ? Qt.tint(backgroundColor, "#0DFFFFFF") : Qt.tint(backgroundColor, "#0D000000")
         model: terminalPage.tabsModel
+        visible: !terminalPage.narrowLayout
         function titleFromModelItem(modelItem) {
             return modelItem.focusedTerminal ? modelItem.focusedTerminal.session.title : "";
         }
 
-        actions: [
-            Action {
-                // FIXME: icon from theme is fuzzy at many GUs
-                iconSource: Qt.resolvedUrl("tab_add.png")
-    //            iconName: "add"
-                onTriggered: terminalPage.tabsModel.addTerminalTab()
-            },
-            Action {
-                iconName: "settings"
-                onTriggered: openSettingsPage()
+        AbstractButton {
+            id: settingsButtonTab
+            height: width
+            width: units.gu(2)
+            anchors {
+                top: parent.top
+                right: parent.right
+                margins: units.gu(0.5)
             }
-        ]
-        visible: !terminalPage.narrowLayout
+            visible: !terminalPage.narrowLayout
+
+            onClicked: openSettingsPage()
+
+            Icon {
+                anchors.centerIn: parent
+                color: tabsBar.actionColor
+                height: width
+                width: units.gu(2)
+                name: "settings"
+            }
+        }
+
+        AbstractButton {
+            id: tabsButtonTab
+            height: width
+            width: units.gu(2)
+            anchors {
+                top: parent.top
+                right: settingsButtonTab.left
+                topMargin: units.gu(0.5)
+                rightMargin: units.gu(1)
+            }
+            visible: !terminalPage.narrowLayout
+
+            onClicked: pageStack.push(tabsPage)
+
+            Icon {
+                anchors.centerIn: parent
+                color: tabsBar.actionColor
+                height: width
+                width: units.gu(2)
+                name: "browser-tabs"
+            }
+        }
+
+        AbstractButton {
+            id: closeSelectionButtonTab
+            height: width
+            width: units.gu(2)
+            anchors {
+                top: parent.top
+                right: parent.right
+                margins: units.gu(0.5)
+            }
+            visible: false
+
+            onClicked: {
+              terminalPage.state = "DEFAULT";
+              PopupUtils.open(Qt.resolvedUrl("AlternateActionPopover.qml"));
+            }
+
+            Icon {
+                anchors.centerIn: parent
+                color: tabsBar.actionColor
+                height: width
+                width: units.gu(2)
+                name: "close"
+            }
+        }
     }
 
     Item {
@@ -206,30 +294,12 @@ Page {
         sourceComponent:  Rectangle {
             anchors.fill: parent
             color: "black"
-            opacity: 0.7
+            opacity: 0.9
 
             Label {
                 anchors.centerIn: parent
                 color: "white"
                 text: i18n.tr("Selection Mode")
-            }
-        }
-    }
-
-    // Overlaying buttons.
-    CircularTransparentButton {
-        id: closeSelectionButton
-
-        anchors {top: parent.top; right: parent.right; margins: units.gu(1)}
-
-        backgroundColor: tabsBar.color
-        iconColor: tabsBar.actionColor
-        visible: false
-        action: Action {
-            iconName: "close"
-            onTriggered: {
-                terminalPage.state = "DEFAULT";
-                PopupUtils.open(Qt.resolvedUrl("AlternateActionPopover.qml"));
             }
         }
     }
@@ -263,12 +333,16 @@ Page {
     states: [
         State {
             name: "DEFAULT"
+            PropertyChanges { target: settingsAction; iconName: "settings" }
         },
         State {
             name: "SELECTION"
             PropertyChanges { target: closeSelectionButton; visible: true }
+            PropertyChanges { target: closeSelectionButtonTab; visible: true }
             PropertyChanges { target: settingsButton; visible: false }
+            PropertyChanges { target: settingsButtonTab; visible: false }
             PropertyChanges { target: tabsButton; visible: false }
+            PropertyChanges { target: tabsButtonTab; visible: false }
             PropertyChanges { target: keyboardButton; visible: false }
             PropertyChanges { target: bottomMessage; active: true }
             PropertyChanges { target: keyboardBarLoader; enabled: false }
