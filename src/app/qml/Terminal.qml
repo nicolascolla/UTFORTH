@@ -140,13 +140,13 @@ QMLTermWidget {
             }
         }
 
-        function simulateDualSwipeUp(steps) {
+        function simulateSwipeUp(steps) {
             while(steps > 0) {
                 terminal.simulateKeyPress(Qt.Key_Up, Qt.NoModifier, true, 0, "");
                 steps--;
             }
         }
-        function simulateDualSwipeDown(steps) {
+        function simulateSwipeDown(steps) {
             while(steps > 0) {
                 terminal.simulateKeyPress(Qt.Key_Down, Qt.NoModifier, true, 0, "");
                 steps--;
@@ -164,13 +164,13 @@ QMLTermWidget {
                 steps--;
             }
         }
-        function simulateSwipeUp(steps) {
+        function simulateDualSwipeUp(steps) {
             while(steps > 0) {
                 terminal.simulateWheel(width * 0.5, height * 0.5, Qt.NoButton, Qt.NoModifier, Qt.point(0, -wheelValue));
                 steps--;
             }
         }
-        function simulateSwipeDown(steps) {
+        function simulateDualSwipeDown(steps) {
             while(steps > 0) {
                 terminal.simulateWheel(width * 0.5, height * 0.5, Qt.NoButton, Qt.NoModifier, Qt.point(0, wheelValue));
                 steps--;
