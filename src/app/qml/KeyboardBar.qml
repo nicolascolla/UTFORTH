@@ -27,6 +27,7 @@ Item {
     property int selectedLayoutIndex: 0
     property color backgroundColor: "black"
     property color foregroundColor: "white"
+    opacity: 1
 
     signal simulateCommand(string command);
     signal simulateKey(int key, int mod);
