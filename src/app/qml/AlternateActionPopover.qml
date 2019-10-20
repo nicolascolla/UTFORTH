@@ -106,7 +106,7 @@ ActionSelectionPopover {
             shortcut: settings.shortcutNewWindow
         }
         Action {
-            text: i18n.tr("Close")
+            text: i18n.tr("Close App")
             onTriggered: terminal.finished()
             shortcut: settings.shortcutCloseTab
         }
