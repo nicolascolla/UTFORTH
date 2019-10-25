@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: ubuntu-terminal-app\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-10-20 09:02+0000\n"
-"PO-Revision-Date: 2019-09-15 11:50+0000\n"
+"PO-Revision-Date: 2019-10-27 07:36+0000\n"
 "Last-Translator: Daniel Frańczak <danielfranczak5@wp.pl>\n"
 "Language-Team: Polish <https://translate.ubports.com/projects/ubports/"
 "terminal-app/pl/>\n"
@@ -55,9 +55,8 @@ msgid "New window"
 msgstr "Nowe okno"
 
 #: ../src/app/qml/AlternateActionPopover.qml:109
-#, fuzzy
 msgid "Close App"
-msgstr "Zamknij"
+msgstr "Zamknij aplikację"
 
 #: ../src/app/qml/AuthenticationDialog.qml:25
 msgid "Authentication required"
@@ -72,9 +71,8 @@ msgid "passcode or passphrase"
 msgstr "hasło"
 
 #: ../src/app/qml/AuthenticationDialog.qml:58
-#, fuzzy
 msgid "Authenticate"
-msgstr "Uwierzytelnienie nie powiodło się"
+msgstr "Uwierzytelnij"
 
 #: ../src/app/qml/AuthenticationDialog.qml:70
 #: ../src/app/qml/ConfirmationDialog.qml:42
@@ -302,9 +300,8 @@ msgid "Layouts"
 msgstr "Układy"
 
 #: ../src/app/qml/Settings/SettingsPage.qml:33
-#, fuzzy
 msgid "close"
-msgstr "Zamknij"
+msgstr "zamknij"
 
 #: ../src/app/qml/Settings/SettingsPage.qml:39
 msgid "Preferences"
