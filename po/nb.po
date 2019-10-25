@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: ubuntu-terminal-app\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-10-20 09:02+0000\n"
-"PO-Revision-Date: 2019-08-19 00:49+0000\n"
+"PO-Revision-Date: 2019-10-27 07:36+0000\n"
 "Last-Translator: Allan Nordhøy <epost@anotheragency.no>\n"
 "Language-Team: Norwegian Bokmål <https://translate.ubports.com/projects/"
 "ubports/terminal-app/nb/>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 3.6.1\n"
+"X-Generator: Weblate 3.8\n"
 "X-Launchpad-Export-Date: 2016-02-08 05:36+0000\n"
 
 #: ../src/app/qml/AlternateActionPopover.qml:68
@@ -56,7 +56,7 @@ msgstr "Nytt vindu"
 #: ../src/app/qml/AlternateActionPopover.qml:109
 #, fuzzy
 msgid "Close App"
-msgstr "Lukk"
+msgstr "Lukk program"
 
 #: ../src/app/qml/AuthenticationDialog.qml:25
 msgid "Authentication required"
@@ -71,9 +71,8 @@ msgid "passcode or passphrase"
 msgstr "passord"
 
 #: ../src/app/qml/AuthenticationDialog.qml:58
-#, fuzzy
 msgid "Authenticate"
-msgstr "Autentisering mislyktes"
+msgstr "Identitetsbekreft"
 
 #: ../src/app/qml/AuthenticationDialog.qml:70
 #: ../src/app/qml/ConfirmationDialog.qml:42
@@ -300,7 +299,6 @@ msgid "Layouts"
 msgstr "Utforminger"
 
 #: ../src/app/qml/Settings/SettingsPage.qml:33
-#, fuzzy
 msgid "close"
 msgstr "Lukk"
 
@@ -331,9 +329,8 @@ msgid "File"
 msgstr "Fil"
 
 #: ../src/app/qml/Settings/SettingsShortcutsSection.qml:156
-#, fuzzy
 msgid "Close terminal"
-msgstr "Terminal"
+msgstr "Lukk terminal"
 
 #: ../src/app/qml/Settings/SettingsShortcutsSection.qml:161
 msgid "Close all terminals"
@@ -344,9 +341,8 @@ msgid "Previous tab"
 msgstr "Forrige fane"
 
 #: ../src/app/qml/Settings/SettingsShortcutsSection.qml:171
-#, fuzzy
 msgid "Next tab"
-msgstr "Ny fane"
+msgstr "Neste fane"
 
 #: ../src/app/qml/Settings/SettingsShortcutsSection.qml:175
 #: ../src/app/qml/Settings/SettingsShortcutsSection.qml:180
@@ -368,14 +364,12 @@ msgid "Toggle fullscreen"
 msgstr "Veksle fullskjermsvisning"
 
 #: ../src/app/qml/Settings/SettingsShortcutsSection.qml:191
-#, fuzzy
 msgid "Split terminal horizontally"
-msgstr "Del vannrett"
+msgstr "Del terminal vannrett"
 
 #: ../src/app/qml/Settings/SettingsShortcutsSection.qml:196
-#, fuzzy
 msgid "Split terminal vertically"
-msgstr "Del loddrett"
+msgstr "Del terminal loddrett"
 
 #: ../src/app/qml/Settings/SettingsShortcutsSection.qml:201
 msgid "Navigate to terminal above"
@@ -394,9 +388,8 @@ msgid "Navigate to terminal on the right"
 msgstr "Naviger til terminalen til høyre"
 
 #: ../src/app/qml/Settings/SettingsWindow.qml:26
-#, fuzzy
 msgid "Terminal Preferences"
-msgstr "Innstillinger"
+msgstr "Terminalinnstillinger"
 
 #: ../src/app/qml/Settings/ShortcutRow.qml:78
 msgid "Enter shortcut…"
