@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: ubuntu-terminal-app\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-10-20 09:02+0000\n"
-"PO-Revision-Date: 2019-08-19 00:49+0000\n"
+"PO-Revision-Date: 2019-10-27 07:36+0000\n"
 "Last-Translator: Walter Garcia-Fontes <walter.garcia@upf.edu>\n"
 "Language-Team: Catalan <https://translate.ubports.com/projects/ubports/"
 "terminal-app/ca/>\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 3.6.1\n"
+"X-Generator: Weblate 3.8\n"
 
 #: ../src/app/qml/AlternateActionPopover.qml:68
 msgid "Select"
@@ -54,9 +54,8 @@ msgid "New window"
 msgstr "Finestra nova"
 
 #: ../src/app/qml/AlternateActionPopover.qml:109
-#, fuzzy
 msgid "Close App"
-msgstr "Tanca"
+msgstr "Tanca l'app"
 
 #: ../src/app/qml/AuthenticationDialog.qml:25
 msgid "Authentication required"
@@ -71,9 +70,8 @@ msgid "passcode or passphrase"
 msgstr "contrasenya"
 
 #: ../src/app/qml/AuthenticationDialog.qml:58
-#, fuzzy
 msgid "Authenticate"
-msgstr "Ha fallat l'autenticació"
+msgstr "Autentica"
 
 #: ../src/app/qml/AuthenticationDialog.qml:70
 #: ../src/app/qml/ConfirmationDialog.qml:42
@@ -300,9 +298,8 @@ msgid "Layouts"
 msgstr "Disposicions"
 
 #: ../src/app/qml/Settings/SettingsPage.qml:33
-#, fuzzy
 msgid "close"
-msgstr "Tanca"
+msgstr "tanca"
 
 #: ../src/app/qml/Settings/SettingsPage.qml:39
 msgid "Preferences"
