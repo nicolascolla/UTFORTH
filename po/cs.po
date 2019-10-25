@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: ubuntu-terminal-app\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-10-20 09:02+0000\n"
-"PO-Revision-Date: 2019-09-15 11:50+0000\n"
+"PO-Revision-Date: 2019-10-27 07:36+0000\n"
 "Last-Translator: Milan Korecký <milan.korecky@gmail.com>\n"
 "Language-Team: Czech <https://translate.ubports.com/projects/ubports/"
 "terminal-app/cs/>\n"
@@ -54,9 +54,8 @@ msgid "New window"
 msgstr "Nové okno"
 
 #: ../src/app/qml/AlternateActionPopover.qml:109
-#, fuzzy
 msgid "Close App"
-msgstr "Zavřít"
+msgstr "Zavřít aplikaci"
 
 #: ../src/app/qml/AuthenticationDialog.qml:25
 msgid "Authentication required"
@@ -71,9 +70,8 @@ msgid "passcode or passphrase"
 msgstr "heslo nebo přístupový kód"
 
 #: ../src/app/qml/AuthenticationDialog.qml:58
-#, fuzzy
 msgid "Authenticate"
-msgstr "Ověření selhalo"
+msgstr "Ověřit"
 
 #: ../src/app/qml/AuthenticationDialog.qml:70
 #: ../src/app/qml/ConfirmationDialog.qml:42
@@ -300,9 +298,8 @@ msgid "Layouts"
 msgstr "Rozvržení"
 
 #: ../src/app/qml/Settings/SettingsPage.qml:33
-#, fuzzy
 msgid "close"
-msgstr "Zavřít"
+msgstr "zavřít"
 
 #: ../src/app/qml/Settings/SettingsPage.qml:39
 msgid "Preferences"
