@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-06-18 15:38+0000\n"
+"POT-Creation-Date: 2019-10-20 09:02+0000\n"
 "PO-Revision-Date: 2019-09-25 19:51+0000\n"
 "Last-Translator: Moo <moose@mail.ru>\n"
 "Language-Team: Lithuanian <https://translate.ubports.com/projects/ubports/"
@@ -55,7 +55,8 @@ msgid "New window"
 msgstr "Naujas langas"
 
 #: ../src/app/qml/AlternateActionPopover.qml:109
-msgid "Close"
+#, fuzzy
+msgid "Close App"
 msgstr "Užverti"
 
 #: ../src/app/qml/AuthenticationDialog.qml:25
@@ -71,9 +72,9 @@ msgid "passcode or passphrase"
 msgstr ""
 
 #: ../src/app/qml/AuthenticationDialog.qml:58
-#: ../src/app/qml/NotifyDialog.qml:25
-msgid "OK"
-msgstr "Gerai"
+#, fuzzy
+msgid "Authenticate"
+msgstr "Nepavyko nustatyti tapatybę"
 
 #: ../src/app/qml/AuthenticationDialog.qml:70
 #: ../src/app/qml/ConfirmationDialog.qml:42
@@ -96,7 +97,7 @@ msgstr ""
 msgid "Continue"
 msgstr "Tęsti"
 
-#: ../src/app/qml/KeyboardBar.qml:196
+#: ../src/app/qml/KeyboardBar.qml:197
 msgid "Change Keyboard"
 msgstr "Keisti klaviatūrą"
 
@@ -194,6 +195,10 @@ msgstr "Tab"
 #: ../src/app/qml/KeyboardRows/JsonTranslator.qml:118
 msgid "Enter"
 msgstr ""
+
+#: ../src/app/qml/NotifyDialog.qml:25
+msgid "OK"
+msgstr "Gerai"
 
 #: ../src/app/qml/Settings/BackgroundOpacityEditor.qml:26
 msgid "Background opacity:"
@@ -295,15 +300,20 @@ msgstr "Išankstinė nuostata:"
 msgid "Layouts"
 msgstr "Išdėstymai"
 
-#: ../src/app/qml/Settings/SettingsPage.qml:32
+#: ../src/app/qml/Settings/SettingsPage.qml:33
+#, fuzzy
+msgid "close"
+msgstr "Užverti"
+
+#: ../src/app/qml/Settings/SettingsPage.qml:39
 msgid "Preferences"
 msgstr "Nuostatos"
 
-#: ../src/app/qml/Settings/SettingsPage.qml:43
+#: ../src/app/qml/Settings/SettingsPage.qml:50
 msgid "Interface"
 msgstr "Sąsaja"
 
-#: ../src/app/qml/Settings/SettingsPage.qml:47
+#: ../src/app/qml/Settings/SettingsPage.qml:54
 msgid "Shortcuts"
 msgstr ""
 
@@ -396,7 +406,11 @@ msgstr "Išjungta"
 msgid "Tabs"
 msgstr "Kortelės"
 
-#: ../src/app/qml/TerminalPage.qml:154
+#: ../src/app/qml/TerminalPage.qml:63 ubuntu-terminal-app.desktop.in.in.h:1
+msgid "Terminal"
+msgstr "Terminalas"
+
+#: ../src/app/qml/TerminalPage.qml:302
 msgid "Selection Mode"
 msgstr ""
 
@@ -451,7 +465,3 @@ msgstr ""
 #, qt-format
 msgid "Cannot load color scheme: %1"
 msgstr ""
-
-#: ubuntu-terminal-app.desktop.in.in.h:1
-msgid "Terminal"
-msgstr "Terminalas"

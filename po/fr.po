@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ubuntu-terminal-app\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-06-18 15:38+0000\n"
+"POT-Creation-Date: 2019-10-20 09:02+0000\n"
 "PO-Revision-Date: 2019-08-19 00:49+0000\n"
 "Last-Translator: Anne Onyme <anneonyme017@netcourrier.com>\n"
 "Language-Team: French <https://translate.ubports.com/projects/ubports/"
@@ -54,7 +54,8 @@ msgid "New window"
 msgstr "Nouvelle fenêtre"
 
 #: ../src/app/qml/AlternateActionPopover.qml:109
-msgid "Close"
+#, fuzzy
+msgid "Close App"
 msgstr "Fermer"
 
 #: ../src/app/qml/AuthenticationDialog.qml:25
@@ -70,9 +71,9 @@ msgid "passcode or passphrase"
 msgstr "Code ou mot de passe"
 
 #: ../src/app/qml/AuthenticationDialog.qml:58
-#: ../src/app/qml/NotifyDialog.qml:25
-msgid "OK"
-msgstr "Valider"
+#, fuzzy
+msgid "Authenticate"
+msgstr "Échec de l'authentification"
 
 #: ../src/app/qml/AuthenticationDialog.qml:70
 #: ../src/app/qml/ConfirmationDialog.qml:42
@@ -95,7 +96,7 @@ msgstr "Serveur SSH non trouvé. Souhaitez-vous continuer en mode confiné ?"
 msgid "Continue"
 msgstr "Continuer"
 
-#: ../src/app/qml/KeyboardBar.qml:196
+#: ../src/app/qml/KeyboardBar.qml:197
 msgid "Change Keyboard"
 msgstr "Changer de clavier"
 
@@ -193,6 +194,10 @@ msgstr "Tab"
 #: ../src/app/qml/KeyboardRows/JsonTranslator.qml:118
 msgid "Enter"
 msgstr "Entrée"
+
+#: ../src/app/qml/NotifyDialog.qml:25
+msgid "OK"
+msgstr "Valider"
 
 #: ../src/app/qml/Settings/BackgroundOpacityEditor.qml:26
 msgid "Background opacity:"
@@ -294,15 +299,20 @@ msgstr "Prédéfinie :"
 msgid "Layouts"
 msgstr "Agencements"
 
-#: ../src/app/qml/Settings/SettingsPage.qml:32
+#: ../src/app/qml/Settings/SettingsPage.qml:33
+#, fuzzy
+msgid "close"
+msgstr "Fermer"
+
+#: ../src/app/qml/Settings/SettingsPage.qml:39
 msgid "Preferences"
 msgstr "Préférences"
 
-#: ../src/app/qml/Settings/SettingsPage.qml:43
+#: ../src/app/qml/Settings/SettingsPage.qml:50
 msgid "Interface"
 msgstr "Interface"
 
-#: ../src/app/qml/Settings/SettingsPage.qml:47
+#: ../src/app/qml/Settings/SettingsPage.qml:54
 msgid "Shortcuts"
 msgstr "Raccourcis"
 
@@ -395,7 +405,11 @@ msgstr "Désactivé"
 msgid "Tabs"
 msgstr "Onglets"
 
-#: ../src/app/qml/TerminalPage.qml:154
+#: ../src/app/qml/TerminalPage.qml:63 ubuntu-terminal-app.desktop.in.in.h:1
+msgid "Terminal"
+msgstr "Terminal"
+
+#: ../src/app/qml/TerminalPage.qml:302
 msgid "Selection Mode"
 msgstr "Mode de sélection"
 
@@ -453,10 +467,6 @@ msgstr "Erreur de thème de couleurs"
 #, qt-format
 msgid "Cannot load color scheme: %1"
 msgstr "Impossible de charger le thème de couleurs : %1"
-
-#: ubuntu-terminal-app.desktop.in.in.h:1
-msgid "Terminal"
-msgstr "Terminal"
 
 #~ msgid "Color Scheme"
 #~ msgstr "Schéma de couleurs"

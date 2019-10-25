@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ubuntu-terminal-app\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-06-18 15:38+0000\n"
+"POT-Creation-Date: 2019-10-20 09:02+0000\n"
 "PO-Revision-Date: 2019-01-27 00:00+0000\n"
 "Last-Translator: ArashiHino <hinoaras.hi82@gmail.com>\n"
 "Language-Team: Japanese <https://translate.ubports.com/projects/ubports/"
@@ -54,7 +54,7 @@ msgid "New window"
 msgstr ""
 
 #: ../src/app/qml/AlternateActionPopover.qml:109
-msgid "Close"
+msgid "Close App"
 msgstr ""
 
 #: ../src/app/qml/AuthenticationDialog.qml:25
@@ -70,9 +70,9 @@ msgid "passcode or passphrase"
 msgstr "パスワード"
 
 #: ../src/app/qml/AuthenticationDialog.qml:58
-#: ../src/app/qml/NotifyDialog.qml:25
-msgid "OK"
-msgstr "完了"
+#, fuzzy
+msgid "Authenticate"
+msgstr "認証に失敗しました"
 
 #: ../src/app/qml/AuthenticationDialog.qml:70
 #: ../src/app/qml/ConfirmationDialog.qml:42
@@ -95,7 +95,7 @@ msgstr ""
 msgid "Continue"
 msgstr ""
 
-#: ../src/app/qml/KeyboardBar.qml:196
+#: ../src/app/qml/KeyboardBar.qml:197
 msgid "Change Keyboard"
 msgstr "キーボードを変更"
 
@@ -194,6 +194,10 @@ msgstr "タブ"
 #: ../src/app/qml/KeyboardRows/JsonTranslator.qml:118
 msgid "Enter"
 msgstr ""
+
+#: ../src/app/qml/NotifyDialog.qml:25
+msgid "OK"
+msgstr "完了"
 
 #: ../src/app/qml/Settings/BackgroundOpacityEditor.qml:26
 msgid "Background opacity:"
@@ -297,15 +301,19 @@ msgstr ""
 msgid "Layouts"
 msgstr "レイアウト"
 
-#: ../src/app/qml/Settings/SettingsPage.qml:32
+#: ../src/app/qml/Settings/SettingsPage.qml:33
+msgid "close"
+msgstr ""
+
+#: ../src/app/qml/Settings/SettingsPage.qml:39
 msgid "Preferences"
 msgstr ""
 
-#: ../src/app/qml/Settings/SettingsPage.qml:43
+#: ../src/app/qml/Settings/SettingsPage.qml:50
 msgid "Interface"
 msgstr ""
 
-#: ../src/app/qml/Settings/SettingsPage.qml:47
+#: ../src/app/qml/Settings/SettingsPage.qml:54
 msgid "Shortcuts"
 msgstr ""
 
@@ -400,7 +408,11 @@ msgstr ""
 msgid "Tabs"
 msgstr "タブ"
 
-#: ../src/app/qml/TerminalPage.qml:154
+#: ../src/app/qml/TerminalPage.qml:63 ubuntu-terminal-app.desktop.in.in.h:1
+msgid "Terminal"
+msgstr "端末"
+
+#: ../src/app/qml/TerminalPage.qml:302
 msgid "Selection Mode"
 msgstr "選択モード"
 
@@ -458,10 +470,6 @@ msgstr "カラースキーマエラー"
 #, qt-format
 msgid "Cannot load color scheme: %1"
 msgstr "カラースキーマ: %1 を読み込めません"
-
-#: ubuntu-terminal-app.desktop.in.in.h:1
-msgid "Terminal"
-msgstr "端末"
 
 #~ msgid "Color Scheme"
 #~ msgstr "カラースキーム"

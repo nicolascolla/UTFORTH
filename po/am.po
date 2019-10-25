@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ubuntu-terminal-app\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-06-18 15:38+0000\n"
+"POT-Creation-Date: 2019-10-20 09:02+0000\n"
 "PO-Revision-Date: 2019-09-19 17:50+0000\n"
 "Last-Translator: Samson <sambelet@yahoo.com>\n"
 "Language-Team: Amharic <https://translate.ubports.com/projects/ubports/"
@@ -54,7 +54,8 @@ msgid "New window"
 msgstr "አዲስ መስኮት"
 
 #: ../src/app/qml/AlternateActionPopover.qml:109
-msgid "Close"
+#, fuzzy
+msgid "Close App"
 msgstr "መዝጊያ"
 
 #: ../src/app/qml/AuthenticationDialog.qml:25
@@ -70,9 +71,9 @@ msgid "passcode or passphrase"
 msgstr "የ ማለፊያ ኮድ ወይንም የ ማለፊያ ሀረግ"
 
 #: ../src/app/qml/AuthenticationDialog.qml:58
-#: ../src/app/qml/NotifyDialog.qml:25
-msgid "OK"
-msgstr "እሺ"
+#, fuzzy
+msgid "Authenticate"
+msgstr "ማረጋገጫው ወድቋል"
 
 #: ../src/app/qml/AuthenticationDialog.qml:70
 #: ../src/app/qml/ConfirmationDialog.qml:42
@@ -95,7 +96,7 @@ msgstr "የ SSH ሰርቨር አልተገኘም: በ ተወሰነ መጠን መ�
 msgid "Continue"
 msgstr "ይቀጥሉ"
 
-#: ../src/app/qml/KeyboardBar.qml:196
+#: ../src/app/qml/KeyboardBar.qml:197
 msgid "Change Keyboard"
 msgstr "የ ፊደል ገበታ መቀየሪያ"
 
@@ -193,6 +194,10 @@ msgstr "ንዑስ መስኮት"
 #: ../src/app/qml/KeyboardRows/JsonTranslator.qml:118
 msgid "Enter"
 msgstr "ማስገቢያ"
+
+#: ../src/app/qml/NotifyDialog.qml:25
+msgid "OK"
+msgstr "እሺ"
 
 #: ../src/app/qml/Settings/BackgroundOpacityEditor.qml:26
 msgid "Background opacity:"
@@ -294,15 +299,20 @@ msgstr "እንደ ነበር መመለሻ:"
 msgid "Layouts"
 msgstr "እቅድ"
 
-#: ../src/app/qml/Settings/SettingsPage.qml:32
+#: ../src/app/qml/Settings/SettingsPage.qml:33
+#, fuzzy
+msgid "close"
+msgstr "መዝጊያ"
+
+#: ../src/app/qml/Settings/SettingsPage.qml:39
 msgid "Preferences"
 msgstr "ምርጫዎች"
 
-#: ../src/app/qml/Settings/SettingsPage.qml:43
+#: ../src/app/qml/Settings/SettingsPage.qml:50
 msgid "Interface"
 msgstr "ገጽታ"
 
-#: ../src/app/qml/Settings/SettingsPage.qml:47
+#: ../src/app/qml/Settings/SettingsPage.qml:54
 msgid "Shortcuts"
 msgstr "አቋራጮች"
 
@@ -400,7 +410,11 @@ msgstr "ተሰናክሏል"
 msgid "Tabs"
 msgstr "ንዑስ መስኮት"
 
-#: ../src/app/qml/TerminalPage.qml:154
+#: ../src/app/qml/TerminalPage.qml:63 ubuntu-terminal-app.desktop.in.in.h:1
+msgid "Terminal"
+msgstr "ተርሚናል"
+
+#: ../src/app/qml/TerminalPage.qml:302
 msgid "Selection Mode"
 msgstr "የ መምረጫ ዘዴ"
 
@@ -457,10 +471,6 @@ msgstr "የ ቀለም ገጽታ ስህተት"
 #, qt-format
 msgid "Cannot load color scheme: %1"
 msgstr "የ ቀለም ገጽታ መጫን አልተቻለም: %1"
-
-#: ubuntu-terminal-app.desktop.in.in.h:1
-msgid "Terminal"
-msgstr "ተርሚናል"
 
 #~ msgid "Color Scheme"
 #~ msgstr "የ ቀለም ገጽታ"

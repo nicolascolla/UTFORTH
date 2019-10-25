@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ubuntu-terminal-app\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-06-18 15:38+0000\n"
+"POT-Creation-Date: 2019-10-20 09:02+0000\n"
 "PO-Revision-Date: 2019-07-24 13:17+0000\n"
 "Last-Translator: Neutrum N <neutro@tutanota.com>\n"
 "Language-Team: Galician <https://translate.ubports.com/projects/ubports/"
@@ -54,7 +54,8 @@ msgid "New window"
 msgstr "Nova xanela"
 
 #: ../src/app/qml/AlternateActionPopover.qml:109
-msgid "Close"
+#, fuzzy
+msgid "Close App"
 msgstr "Pechar"
 
 #: ../src/app/qml/AuthenticationDialog.qml:25
@@ -70,9 +71,9 @@ msgid "passcode or passphrase"
 msgstr "código ou contrasinal"
 
 #: ../src/app/qml/AuthenticationDialog.qml:58
-#: ../src/app/qml/NotifyDialog.qml:25
-msgid "OK"
-msgstr "Aceptar"
+#, fuzzy
+msgid "Authenticate"
+msgstr "Fallou a autenticación"
 
 #: ../src/app/qml/AuthenticationDialog.qml:70
 #: ../src/app/qml/ConfirmationDialog.qml:42
@@ -95,7 +96,7 @@ msgstr "Non se atopou o servidor SSH. Quere continuar en modo confinado?"
 msgid "Continue"
 msgstr "Continuar"
 
-#: ../src/app/qml/KeyboardBar.qml:196
+#: ../src/app/qml/KeyboardBar.qml:197
 msgid "Change Keyboard"
 msgstr "Cambiar o teclado"
 
@@ -193,6 +194,10 @@ msgstr "Tab"
 #: ../src/app/qml/KeyboardRows/JsonTranslator.qml:118
 msgid "Enter"
 msgstr "Intro"
+
+#: ../src/app/qml/NotifyDialog.qml:25
+msgid "OK"
+msgstr "Aceptar"
 
 #: ../src/app/qml/Settings/BackgroundOpacityEditor.qml:26
 msgid "Background opacity:"
@@ -294,15 +299,20 @@ msgstr "Predefinido:"
 msgid "Layouts"
 msgstr "Disposicións"
 
-#: ../src/app/qml/Settings/SettingsPage.qml:32
+#: ../src/app/qml/Settings/SettingsPage.qml:33
+#, fuzzy
+msgid "close"
+msgstr "Pechar"
+
+#: ../src/app/qml/Settings/SettingsPage.qml:39
 msgid "Preferences"
 msgstr "Preferencias"
 
-#: ../src/app/qml/Settings/SettingsPage.qml:43
+#: ../src/app/qml/Settings/SettingsPage.qml:50
 msgid "Interface"
 msgstr "Interface"
 
-#: ../src/app/qml/Settings/SettingsPage.qml:47
+#: ../src/app/qml/Settings/SettingsPage.qml:54
 msgid "Shortcuts"
 msgstr "Atallos"
 
@@ -400,7 +410,11 @@ msgstr "Desactivado"
 msgid "Tabs"
 msgstr "Lapelas"
 
-#: ../src/app/qml/TerminalPage.qml:154
+#: ../src/app/qml/TerminalPage.qml:63 ubuntu-terminal-app.desktop.in.in.h:1
+msgid "Terminal"
+msgstr "Terminal"
+
+#: ../src/app/qml/TerminalPage.qml:302
 msgid "Selection Mode"
 msgstr "Modo de selección"
 
@@ -457,10 +471,6 @@ msgstr "Erro no esquema de cores"
 #, qt-format
 msgid "Cannot load color scheme: %1"
 msgstr "Non foi posíbel cargar o esquema de cores: %1"
-
-#: ubuntu-terminal-app.desktop.in.in.h:1
-msgid "Terminal"
-msgstr "Terminal"
 
 #~ msgid "Color Scheme"
 #~ msgstr "Esquema de cor"

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ubuntu-terminal-app\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-06-18 15:38+0000\n"
+"POT-Creation-Date: 2019-10-20 09:02+0000\n"
 "PO-Revision-Date: 2019-09-13 20:44+0000\n"
 "Last-Translator: Xiangtian Wei <weixiangtian@hotmail.com>\n"
 "Language-Team: Chinese (Simplified) <https://translate.ubports.com/projects/"
@@ -54,7 +54,8 @@ msgid "New window"
 msgstr "新窗口"
 
 #: ../src/app/qml/AlternateActionPopover.qml:109
-msgid "Close"
+#, fuzzy
+msgid "Close App"
 msgstr "关闭"
 
 #: ../src/app/qml/AuthenticationDialog.qml:25
@@ -70,9 +71,9 @@ msgid "passcode or passphrase"
 msgstr "密码或口令"
 
 #: ../src/app/qml/AuthenticationDialog.qml:58
-#: ../src/app/qml/NotifyDialog.qml:25
-msgid "OK"
-msgstr "确定"
+#, fuzzy
+msgid "Authenticate"
+msgstr "验证失败"
 
 #: ../src/app/qml/AuthenticationDialog.qml:70
 #: ../src/app/qml/ConfirmationDialog.qml:42
@@ -95,7 +96,7 @@ msgstr "找不到SSH服务器。您想进入限制模式吗？"
 msgid "Continue"
 msgstr "继续"
 
-#: ../src/app/qml/KeyboardBar.qml:196
+#: ../src/app/qml/KeyboardBar.qml:197
 msgid "Change Keyboard"
 msgstr "更改键盘"
 
@@ -194,6 +195,10 @@ msgstr "标签"
 #: ../src/app/qml/KeyboardRows/JsonTranslator.qml:118
 msgid "Enter"
 msgstr "Enter"
+
+#: ../src/app/qml/NotifyDialog.qml:25
+msgid "OK"
+msgstr "确定"
 
 #: ../src/app/qml/Settings/BackgroundOpacityEditor.qml:26
 msgid "Background opacity:"
@@ -296,15 +301,20 @@ msgstr "预置："
 msgid "Layouts"
 msgstr "布局"
 
-#: ../src/app/qml/Settings/SettingsPage.qml:32
+#: ../src/app/qml/Settings/SettingsPage.qml:33
+#, fuzzy
+msgid "close"
+msgstr "关闭"
+
+#: ../src/app/qml/Settings/SettingsPage.qml:39
 msgid "Preferences"
 msgstr "偏好设置"
 
-#: ../src/app/qml/Settings/SettingsPage.qml:43
+#: ../src/app/qml/Settings/SettingsPage.qml:50
 msgid "Interface"
 msgstr "接口"
 
-#: ../src/app/qml/Settings/SettingsPage.qml:47
+#: ../src/app/qml/Settings/SettingsPage.qml:54
 msgid "Shortcuts"
 msgstr "快捷方式"
 
@@ -397,7 +407,11 @@ msgstr "禁用"
 msgid "Tabs"
 msgstr "标签"
 
-#: ../src/app/qml/TerminalPage.qml:154
+#: ../src/app/qml/TerminalPage.qml:63 ubuntu-terminal-app.desktop.in.in.h:1
+msgid "Terminal"
+msgstr "终端"
+
+#: ../src/app/qml/TerminalPage.qml:302
 msgid "Selection Mode"
 msgstr "选择模式"
 
@@ -453,10 +467,6 @@ msgstr "配色方案错误"
 #, qt-format
 msgid "Cannot load color scheme: %1"
 msgstr "无法加载配色方案：%1"
-
-#: ubuntu-terminal-app.desktop.in.in.h:1
-msgid "Terminal"
-msgstr "终端"
 
 #~ msgid "Color Scheme"
 #~ msgstr "配色方案"

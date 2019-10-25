@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ubuntu-terminal-app\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-06-18 15:38+0000\n"
+"POT-Creation-Date: 2019-10-20 09:02+0000\n"
 "PO-Revision-Date: 2016-02-08 15:26+0000\n"
 "Last-Translator: Richard Somlói <ricsipontaz@gmail.com>\n"
 "Language-Team: Hungarian <hu@li.org>\n"
@@ -52,7 +52,7 @@ msgid "New window"
 msgstr ""
 
 #: ../src/app/qml/AlternateActionPopover.qml:109
-msgid "Close"
+msgid "Close App"
 msgstr ""
 
 #: ../src/app/qml/AuthenticationDialog.qml:25
@@ -68,9 +68,9 @@ msgid "passcode or passphrase"
 msgstr "jelkód vagy jelmondat"
 
 #: ../src/app/qml/AuthenticationDialog.qml:58
-#: ../src/app/qml/NotifyDialog.qml:25
-msgid "OK"
-msgstr "OK"
+#, fuzzy
+msgid "Authenticate"
+msgstr "Hitelesítés sikertelen"
 
 #: ../src/app/qml/AuthenticationDialog.qml:70
 #: ../src/app/qml/ConfirmationDialog.qml:42
@@ -93,7 +93,7 @@ msgstr ""
 msgid "Continue"
 msgstr ""
 
-#: ../src/app/qml/KeyboardBar.qml:196
+#: ../src/app/qml/KeyboardBar.qml:197
 msgid "Change Keyboard"
 msgstr "Billentyűzetváltás"
 
@@ -192,6 +192,10 @@ msgstr "Lapok"
 #: ../src/app/qml/KeyboardRows/JsonTranslator.qml:118
 msgid "Enter"
 msgstr ""
+
+#: ../src/app/qml/NotifyDialog.qml:25
+msgid "OK"
+msgstr "OK"
 
 #: ../src/app/qml/Settings/BackgroundOpacityEditor.qml:26
 msgid "Background opacity:"
@@ -295,15 +299,19 @@ msgstr ""
 msgid "Layouts"
 msgstr "Kiosztások"
 
-#: ../src/app/qml/Settings/SettingsPage.qml:32
+#: ../src/app/qml/Settings/SettingsPage.qml:33
+msgid "close"
+msgstr ""
+
+#: ../src/app/qml/Settings/SettingsPage.qml:39
 msgid "Preferences"
 msgstr ""
 
-#: ../src/app/qml/Settings/SettingsPage.qml:43
+#: ../src/app/qml/Settings/SettingsPage.qml:50
 msgid "Interface"
 msgstr ""
 
-#: ../src/app/qml/Settings/SettingsPage.qml:47
+#: ../src/app/qml/Settings/SettingsPage.qml:54
 msgid "Shortcuts"
 msgstr ""
 
@@ -398,7 +406,11 @@ msgstr ""
 msgid "Tabs"
 msgstr "Lapok"
 
-#: ../src/app/qml/TerminalPage.qml:154
+#: ../src/app/qml/TerminalPage.qml:63 ubuntu-terminal-app.desktop.in.in.h:1
+msgid "Terminal"
+msgstr "Terminál"
+
+#: ../src/app/qml/TerminalPage.qml:302
 msgid "Selection Mode"
 msgstr "Kijelölési mód"
 
@@ -456,10 +468,6 @@ msgstr "Színsémahiba"
 #, qt-format
 msgid "Cannot load color scheme: %1"
 msgstr "Nem sikerült a színséma betöltése: %1"
-
-#: ubuntu-terminal-app.desktop.in.in.h:1
-msgid "Terminal"
-msgstr "Terminál"
 
 #~ msgid "Color Scheme"
 #~ msgstr "Színséma"

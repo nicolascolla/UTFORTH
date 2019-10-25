@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ubuntu-terminal-app\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-06-18 15:38+0000\n"
+"POT-Creation-Date: 2019-10-20 09:02+0000\n"
 "PO-Revision-Date: 2017-11-26 00:15+0000\n"
 "Last-Translator: Arda Canbolat <oardacn@gmail.com>\n"
 "Language-Team: Turkish <https://translate.ubports.com/projects/ubports/"
@@ -54,7 +54,7 @@ msgid "New window"
 msgstr ""
 
 #: ../src/app/qml/AlternateActionPopover.qml:109
-msgid "Close"
+msgid "Close App"
 msgstr ""
 
 #: ../src/app/qml/AuthenticationDialog.qml:25
@@ -70,9 +70,9 @@ msgid "passcode or passphrase"
 msgstr "Şifre veya parola"
 
 #: ../src/app/qml/AuthenticationDialog.qml:58
-#: ../src/app/qml/NotifyDialog.qml:25
-msgid "OK"
-msgstr "Tamam"
+#, fuzzy
+msgid "Authenticate"
+msgstr "Kimlik denetimi başarısız"
 
 #: ../src/app/qml/AuthenticationDialog.qml:70
 #: ../src/app/qml/ConfirmationDialog.qml:42
@@ -95,7 +95,7 @@ msgstr ""
 msgid "Continue"
 msgstr ""
 
-#: ../src/app/qml/KeyboardBar.qml:196
+#: ../src/app/qml/KeyboardBar.qml:197
 msgid "Change Keyboard"
 msgstr "Klavyeyi Değiştir"
 
@@ -194,6 +194,10 @@ msgstr "Sekmeler"
 #: ../src/app/qml/KeyboardRows/JsonTranslator.qml:118
 msgid "Enter"
 msgstr ""
+
+#: ../src/app/qml/NotifyDialog.qml:25
+msgid "OK"
+msgstr "Tamam"
 
 #: ../src/app/qml/Settings/BackgroundOpacityEditor.qml:26
 msgid "Background opacity:"
@@ -297,15 +301,19 @@ msgstr ""
 msgid "Layouts"
 msgstr "Düzenler"
 
-#: ../src/app/qml/Settings/SettingsPage.qml:32
+#: ../src/app/qml/Settings/SettingsPage.qml:33
+msgid "close"
+msgstr ""
+
+#: ../src/app/qml/Settings/SettingsPage.qml:39
 msgid "Preferences"
 msgstr ""
 
-#: ../src/app/qml/Settings/SettingsPage.qml:43
+#: ../src/app/qml/Settings/SettingsPage.qml:50
 msgid "Interface"
 msgstr ""
 
-#: ../src/app/qml/Settings/SettingsPage.qml:47
+#: ../src/app/qml/Settings/SettingsPage.qml:54
 msgid "Shortcuts"
 msgstr ""
 
@@ -400,7 +408,11 @@ msgstr ""
 msgid "Tabs"
 msgstr "Sekmeler"
 
-#: ../src/app/qml/TerminalPage.qml:154
+#: ../src/app/qml/TerminalPage.qml:63 ubuntu-terminal-app.desktop.in.in.h:1
+msgid "Terminal"
+msgstr "Uçbirim"
+
+#: ../src/app/qml/TerminalPage.qml:302
 msgid "Selection Mode"
 msgstr "Seçim Kipi"
 
@@ -458,10 +470,6 @@ msgstr "Renk Şema Hatası"
 #, qt-format
 msgid "Cannot load color scheme: %1"
 msgstr "Renk şeması yüklenemiyor: %1"
-
-#: ubuntu-terminal-app.desktop.in.in.h:1
-msgid "Terminal"
-msgstr "Uçbirim"
 
 #~ msgid "Color Scheme"
 #~ msgstr "Renk Şeması"

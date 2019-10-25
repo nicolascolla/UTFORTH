@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ubuntu-terminal-app\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-06-18 15:38+0000\n"
+"POT-Creation-Date: 2019-10-20 09:02+0000\n"
 "PO-Revision-Date: 2019-08-05 07:49+0000\n"
 "Last-Translator: vokaliz <vokaliz@protonmail.com>\n"
 "Language-Team: Russian <https://translate.ubports.com/projects/ubports/"
@@ -55,7 +55,8 @@ msgid "New window"
 msgstr "Новое окно"
 
 #: ../src/app/qml/AlternateActionPopover.qml:109
-msgid "Close"
+#, fuzzy
+msgid "Close App"
 msgstr "Закрыть"
 
 #: ../src/app/qml/AuthenticationDialog.qml:25
@@ -71,9 +72,9 @@ msgid "passcode or passphrase"
 msgstr "4-значный код или кодовая фраза"
 
 #: ../src/app/qml/AuthenticationDialog.qml:58
-#: ../src/app/qml/NotifyDialog.qml:25
-msgid "OK"
-msgstr "OK"
+#, fuzzy
+msgid "Authenticate"
+msgstr "Ошибка аутентификации"
 
 #: ../src/app/qml/AuthenticationDialog.qml:70
 #: ../src/app/qml/ConfirmationDialog.qml:42
@@ -96,7 +97,7 @@ msgstr ""
 msgid "Continue"
 msgstr "Продолжить"
 
-#: ../src/app/qml/KeyboardBar.qml:196
+#: ../src/app/qml/KeyboardBar.qml:197
 msgid "Change Keyboard"
 msgstr "Смена клавиатуры"
 
@@ -195,6 +196,10 @@ msgstr "Вкладки"
 #: ../src/app/qml/KeyboardRows/JsonTranslator.qml:118
 msgid "Enter"
 msgstr "Enter"
+
+#: ../src/app/qml/NotifyDialog.qml:25
+msgid "OK"
+msgstr "OK"
 
 #: ../src/app/qml/Settings/BackgroundOpacityEditor.qml:26
 msgid "Background opacity:"
@@ -298,16 +303,21 @@ msgstr ""
 msgid "Layouts"
 msgstr "Раскладки"
 
-#: ../src/app/qml/Settings/SettingsPage.qml:32
+#: ../src/app/qml/Settings/SettingsPage.qml:33
+#, fuzzy
+msgid "close"
+msgstr "Закрыть"
+
+#: ../src/app/qml/Settings/SettingsPage.qml:39
 #, fuzzy
 msgid "Preferences"
 msgstr "Параметры"
 
-#: ../src/app/qml/Settings/SettingsPage.qml:43
+#: ../src/app/qml/Settings/SettingsPage.qml:50
 msgid "Interface"
 msgstr "Интерфейс"
 
-#: ../src/app/qml/Settings/SettingsPage.qml:47
+#: ../src/app/qml/Settings/SettingsPage.qml:54
 msgid "Shortcuts"
 msgstr "Сочетания клавиш"
 
@@ -405,7 +415,11 @@ msgstr "Отключено"
 msgid "Tabs"
 msgstr "Вкладки"
 
-#: ../src/app/qml/TerminalPage.qml:154
+#: ../src/app/qml/TerminalPage.qml:63 ubuntu-terminal-app.desktop.in.in.h:1
+msgid "Terminal"
+msgstr "Терминал"
+
+#: ../src/app/qml/TerminalPage.qml:302
 msgid "Selection Mode"
 msgstr "Режим выбора"
 
@@ -463,10 +477,6 @@ msgstr "Ошибка цветовой схемы"
 #, qt-format
 msgid "Cannot load color scheme: %1"
 msgstr "Не удалось загрузить цветовую схему: %1"
-
-#: ubuntu-terminal-app.desktop.in.in.h:1
-msgid "Terminal"
-msgstr "Терминал"
 
 #~ msgid "Color Scheme"
 #~ msgstr "Цветовая схема"

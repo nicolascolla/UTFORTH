@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ubuntu-terminal-app\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-06-18 15:38+0000\n"
+"POT-Creation-Date: 2019-10-20 09:02+0000\n"
 "PO-Revision-Date: 2017-02-24 01:43+0000\n"
 "Last-Translator: Rokar ✌ <Unknown>\n"
 "Language-Team: Kurdish <ku@li.org>\n"
@@ -52,7 +52,7 @@ msgid "New window"
 msgstr ""
 
 #: ../src/app/qml/AlternateActionPopover.qml:109
-msgid "Close"
+msgid "Close App"
 msgstr ""
 
 #: ../src/app/qml/AuthenticationDialog.qml:25
@@ -68,8 +68,7 @@ msgid "passcode or passphrase"
 msgstr ""
 
 #: ../src/app/qml/AuthenticationDialog.qml:58
-#: ../src/app/qml/NotifyDialog.qml:25
-msgid "OK"
+msgid "Authenticate"
 msgstr ""
 
 #: ../src/app/qml/AuthenticationDialog.qml:70
@@ -93,7 +92,7 @@ msgstr ""
 msgid "Continue"
 msgstr ""
 
-#: ../src/app/qml/KeyboardBar.qml:196
+#: ../src/app/qml/KeyboardBar.qml:197
 msgid "Change Keyboard"
 msgstr ""
 
@@ -190,6 +189,10 @@ msgstr ""
 #. TRANSLATORS: This is the name of the Enter key.
 #: ../src/app/qml/KeyboardRows/JsonTranslator.qml:118
 msgid "Enter"
+msgstr ""
+
+#: ../src/app/qml/NotifyDialog.qml:25
+msgid "OK"
 msgstr ""
 
 #: ../src/app/qml/Settings/BackgroundOpacityEditor.qml:26
@@ -292,15 +295,19 @@ msgstr ""
 msgid "Layouts"
 msgstr ""
 
-#: ../src/app/qml/Settings/SettingsPage.qml:32
+#: ../src/app/qml/Settings/SettingsPage.qml:33
+msgid "close"
+msgstr ""
+
+#: ../src/app/qml/Settings/SettingsPage.qml:39
 msgid "Preferences"
 msgstr ""
 
-#: ../src/app/qml/Settings/SettingsPage.qml:43
+#: ../src/app/qml/Settings/SettingsPage.qml:50
 msgid "Interface"
 msgstr ""
 
-#: ../src/app/qml/Settings/SettingsPage.qml:47
+#: ../src/app/qml/Settings/SettingsPage.qml:54
 msgid "Shortcuts"
 msgstr ""
 
@@ -395,7 +402,11 @@ msgstr ""
 msgid "Tabs"
 msgstr ""
 
-#: ../src/app/qml/TerminalPage.qml:154
+#: ../src/app/qml/TerminalPage.qml:63 ubuntu-terminal-app.desktop.in.in.h:1
+msgid "Terminal"
+msgstr ""
+
+#: ../src/app/qml/TerminalPage.qml:302
 msgid "Selection Mode"
 msgstr ""
 
@@ -449,8 +460,4 @@ msgstr ""
 #: ../src/plugin/qmltermwidget/lib/qtermwidget.cpp:407
 #, qt-format
 msgid "Cannot load color scheme: %1"
-msgstr ""
-
-#: ubuntu-terminal-app.desktop.in.in.h:1
-msgid "Terminal"
 msgstr ""
