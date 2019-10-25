@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: ubuntu-terminal-app\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-10-20 09:02+0000\n"
-"PO-Revision-Date: 2019-08-19 00:49+0000\n"
+"PO-Revision-Date: 2019-10-27 07:36+0000\n"
 "Last-Translator: Anne Onyme <anneonyme017@netcourrier.com>\n"
 "Language-Team: French <https://translate.ubports.com/projects/ubports/"
 "terminal-app/fr/>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 3.6.1\n"
+"X-Generator: Weblate 3.8\n"
 "X-Launchpad-Export-Date: 2016-02-15 05:37+0000\n"
 
 #: ../src/app/qml/AlternateActionPopover.qml:68
@@ -54,9 +54,8 @@ msgid "New window"
 msgstr "Nouvelle fenêtre"
 
 #: ../src/app/qml/AlternateActionPopover.qml:109
-#, fuzzy
 msgid "Close App"
-msgstr "Fermer"
+msgstr "Fermer l'application"
 
 #: ../src/app/qml/AuthenticationDialog.qml:25
 msgid "Authentication required"
@@ -71,9 +70,8 @@ msgid "passcode or passphrase"
 msgstr "Code ou mot de passe"
 
 #: ../src/app/qml/AuthenticationDialog.qml:58
-#, fuzzy
 msgid "Authenticate"
-msgstr "Échec de l'authentification"
+msgstr "S'authentifier"
 
 #: ../src/app/qml/AuthenticationDialog.qml:70
 #: ../src/app/qml/ConfirmationDialog.qml:42
@@ -300,9 +298,8 @@ msgid "Layouts"
 msgstr "Agencements"
 
 #: ../src/app/qml/Settings/SettingsPage.qml:33
-#, fuzzy
 msgid "close"
-msgstr "Fermer"
+msgstr "fermer"
 
 #: ../src/app/qml/Settings/SettingsPage.qml:39
 msgid "Preferences"
