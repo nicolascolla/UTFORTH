@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: ubuntu-terminal-app\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-10-20 09:02+0000\n"
-"PO-Revision-Date: 2019-05-03 19:42+0000\n"
+"PO-Revision-Date: 2019-10-28 16:36+0000\n"
 "Last-Translator: louies0623 <louies0623@gmail.com>\n"
 "Language-Team: Chinese (Traditional) <https://translate.ubports.com/projects/"
 "ubports/terminal-app/zh_Hant/>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 3.6\n"
+"X-Generator: Weblate 3.8\n"
 "X-Launchpad-Export-Date: 2016-02-08 05:36+0000\n"
 
 #: ../src/app/qml/AlternateActionPopover.qml:68
@@ -54,9 +54,8 @@ msgid "New window"
 msgstr "新視窗"
 
 #: ../src/app/qml/AlternateActionPopover.qml:109
-#, fuzzy
 msgid "Close App"
-msgstr "關閉"
+msgstr "關閉程式"
 
 #: ../src/app/qml/AuthenticationDialog.qml:25
 msgid "Authentication required"
@@ -71,9 +70,8 @@ msgid "passcode or passphrase"
 msgstr "密語或密碼"
 
 #: ../src/app/qml/AuthenticationDialog.qml:58
-#, fuzzy
 msgid "Authenticate"
-msgstr "驗證失敗"
+msgstr "驗證"
 
 #: ../src/app/qml/AuthenticationDialog.qml:70
 #: ../src/app/qml/ConfirmationDialog.qml:42
@@ -300,7 +298,6 @@ msgid "Layouts"
 msgstr "佈局"
 
 #: ../src/app/qml/Settings/SettingsPage.qml:33
-#, fuzzy
 msgid "close"
 msgstr "關閉"
 
@@ -328,30 +325,28 @@ msgstr "顯示 %1 的 %2"
 #: ../src/app/qml/Settings/SettingsShortcutsSection.qml:165
 #: ../src/app/qml/Settings/SettingsShortcutsSection.qml:170
 msgid "File"
-msgstr ""
+msgstr "檔案"
 
 #: ../src/app/qml/Settings/SettingsShortcutsSection.qml:156
-#, fuzzy
 msgid "Close terminal"
-msgstr "終端機"
+msgstr "關閉終端機"
 
 #: ../src/app/qml/Settings/SettingsShortcutsSection.qml:161
 msgid "Close all terminals"
-msgstr ""
+msgstr "關閉所有終端機"
 
 #: ../src/app/qml/Settings/SettingsShortcutsSection.qml:166
 msgid "Previous tab"
-msgstr ""
+msgstr "上一個分頁"
 
 #: ../src/app/qml/Settings/SettingsShortcutsSection.qml:171
-#, fuzzy
 msgid "Next tab"
-msgstr "新分頁"
+msgstr "下一個分頁"
 
 #: ../src/app/qml/Settings/SettingsShortcutsSection.qml:175
 #: ../src/app/qml/Settings/SettingsShortcutsSection.qml:180
 msgid "Edit"
-msgstr ""
+msgstr "編輯"
 
 #: ../src/app/qml/Settings/SettingsShortcutsSection.qml:185
 #: ../src/app/qml/Settings/SettingsShortcutsSection.qml:190
@@ -361,21 +356,19 @@ msgstr ""
 #: ../src/app/qml/Settings/SettingsShortcutsSection.qml:210
 #: ../src/app/qml/Settings/SettingsShortcutsSection.qml:215
 msgid "View"
-msgstr ""
+msgstr "檢視"
 
 #: ../src/app/qml/Settings/SettingsShortcutsSection.qml:186
 msgid "Toggle fullscreen"
-msgstr ""
+msgstr "切換為全螢幕"
 
 #: ../src/app/qml/Settings/SettingsShortcutsSection.qml:191
-#, fuzzy
 msgid "Split terminal horizontally"
-msgstr "水平分割"
+msgstr "水平分割終端機"
 
 #: ../src/app/qml/Settings/SettingsShortcutsSection.qml:196
-#, fuzzy
 msgid "Split terminal vertically"
-msgstr "垂直分割"
+msgstr "垂直分割終端機"
 
 #: ../src/app/qml/Settings/SettingsShortcutsSection.qml:201
 msgid "Navigate to terminal above"
@@ -394,9 +387,8 @@ msgid "Navigate to terminal on the right"
 msgstr ""
 
 #: ../src/app/qml/Settings/SettingsWindow.qml:26
-#, fuzzy
 msgid "Terminal Preferences"
-msgstr "偏好"
+msgstr "偏好設定"
 
 #: ../src/app/qml/Settings/ShortcutRow.qml:78
 msgid "Enter shortcut…"
