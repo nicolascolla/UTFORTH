@@ -8,19 +8,21 @@ msgstr ""
 "Project-Id-Version: ubuntu-terminal-app\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-10-20 09:02+0000\n"
-"PO-Revision-Date: 2015-10-31 15:29+0000\n"
+"PO-Revision-Date: 2019-10-30 10:36+0000\n"
 "Last-Translator: enolp <enolp@softastur.org>\n"
-"Language-Team: Asturian <ast@li.org>\n"
+"Language-Team: Asturian <https://translate.ubports.com/projects/ubports/"
+"terminal-app/ast/>\n"
 "Language: ast\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 3.8\n"
 "X-Launchpad-Export-Date: 2016-02-08 05:36+0000\n"
-"X-Generator: Launchpad (build 17908)\n"
 
 #: ../src/app/qml/AlternateActionPopover.qml:68
 msgid "Select"
-msgstr "Esbillar"
+msgstr ""
 
 #: ../src/app/qml/AlternateActionPopover.qml:73
 #: ../src/app/qml/Settings/SettingsShortcutsSection.qml:176
@@ -30,7 +32,7 @@ msgstr "Copiar"
 #: ../src/app/qml/AlternateActionPopover.qml:79
 #: ../src/app/qml/Settings/SettingsShortcutsSection.qml:181
 msgid "Paste"
-msgstr "Apegar"
+msgstr ""
 
 #: ../src/app/qml/AlternateActionPopover.qml:86
 msgid "Split horizontally"
@@ -44,7 +46,7 @@ msgstr ""
 #: ../src/app/qml/Settings/SettingsShortcutsSection.qml:151
 #: ../src/app/qml/TabsPage.qml:32
 msgid "New tab"
-msgstr "Llingüeta nueva"
+msgstr ""
 
 #: ../src/app/qml/AlternateActionPopover.qml:104
 #: ../src/app/qml/Settings/SettingsShortcutsSection.qml:146
@@ -57,7 +59,7 @@ msgstr ""
 
 #: ../src/app/qml/AuthenticationDialog.qml:25
 msgid "Authentication required"
-msgstr "Ríquese l'autenticación"
+msgstr ""
 
 #: ../src/app/qml/AuthenticationDialog.qml:27
 msgid "Enter passcode or passphrase:"
@@ -68,9 +70,8 @@ msgid "passcode or passphrase"
 msgstr ""
 
 #: ../src/app/qml/AuthenticationDialog.qml:58
-#, fuzzy
 msgid "Authenticate"
-msgstr "Falló l'autenticación"
+msgstr ""
 
 #: ../src/app/qml/AuthenticationDialog.qml:70
 #: ../src/app/qml/ConfirmationDialog.qml:42
@@ -79,7 +80,7 @@ msgstr "Encaboxar"
 
 #: ../src/app/qml/AuthenticationService.qml:64
 msgid "Authentication failed"
-msgstr "Falló l'autenticación"
+msgstr ""
 
 #: ../src/app/qml/AuthenticationService.qml:83
 msgid "No SSH server running."
@@ -95,27 +96,27 @@ msgstr ""
 
 #: ../src/app/qml/KeyboardBar.qml:197
 msgid "Change Keyboard"
-msgstr "Camudar tecláu"
+msgstr ""
 
 #. TRANSLATORS: This a keyboard layout name
 #: ../src/app/qml/KeyboardRows/JsonTranslator.qml:35
 msgid "Control Keys"
-msgstr "Tecles de control"
+msgstr ""
 
 #. TRANSLATORS: This a keyboard layout name
 #: ../src/app/qml/KeyboardRows/JsonTranslator.qml:38
 msgid "Function Keys"
-msgstr "Tecles de función"
+msgstr ""
 
 #. TRANSLATORS: This a keyboard layout name
 #: ../src/app/qml/KeyboardRows/JsonTranslator.qml:41
 msgid "Scroll Keys"
-msgstr "Tecles de despalazamientu"
+msgstr ""
 
 #. TRANSLATORS: This a keyboard layout name
 #: ../src/app/qml/KeyboardRows/JsonTranslator.qml:44
 msgid "Command Keys"
-msgstr "Tecles de comandos"
+msgstr ""
 
 #. TRANSLATORS: This the short display name of a keyboard layout. It should be no longer than 4 characters!
 #: ../src/app/qml/KeyboardRows/JsonTranslator.qml:52
@@ -140,7 +141,7 @@ msgstr ""
 #. TRANSLATORS: This is the name of the Control key.
 #: ../src/app/qml/KeyboardRows/JsonTranslator.qml:78
 msgid "CTRL"
-msgstr "CTRL"
+msgstr ""
 
 #. TRANSLATORS: This is the name of the Alt key.
 #: ../src/app/qml/KeyboardRows/JsonTranslator.qml:81
@@ -184,9 +185,8 @@ msgstr ""
 
 #. TRANSLATORS: This is the name of the Tab key.
 #: ../src/app/qml/KeyboardRows/JsonTranslator.qml:115
-#, fuzzy
 msgid "Tab"
-msgstr "Llingüetes"
+msgstr ""
 
 #. TRANSLATORS: This is the name of the Enter key.
 #: ../src/app/qml/KeyboardRows/JsonTranslator.qml:118
@@ -195,7 +195,7 @@ msgstr ""
 
 #: ../src/app/qml/NotifyDialog.qml:25
 msgid "OK"
-msgstr "Aceutar"
+msgstr ""
 
 #: ../src/app/qml/Settings/BackgroundOpacityEditor.qml:26
 msgid "Background opacity:"
@@ -222,13 +222,12 @@ msgid "Text"
 msgstr ""
 
 #: ../src/app/qml/Settings/SettingsInterfaceSection.qml:66
-#, fuzzy
 msgid "Font:"
-msgstr "Tamañu de fonte:"
+msgstr ""
 
 #: ../src/app/qml/Settings/SettingsInterfaceSection.qml:91
 msgid "Font Size:"
-msgstr "Tamañu de fonte:"
+msgstr ""
 
 #: ../src/app/qml/Settings/SettingsInterfaceSection.qml:119
 msgid "Colors"
@@ -296,7 +295,7 @@ msgstr ""
 
 #: ../src/app/qml/Settings/SettingsInterfaceSection.qml:197
 msgid "Layouts"
-msgstr "Distribuciones"
+msgstr ""
 
 #: ../src/app/qml/Settings/SettingsPage.qml:33
 msgid "close"
@@ -329,9 +328,8 @@ msgid "File"
 msgstr ""
 
 #: ../src/app/qml/Settings/SettingsShortcutsSection.qml:156
-#, fuzzy
 msgid "Close terminal"
-msgstr "Terminal"
+msgstr ""
 
 #: ../src/app/qml/Settings/SettingsShortcutsSection.qml:161
 msgid "Close all terminals"
@@ -342,9 +340,8 @@ msgid "Previous tab"
 msgstr ""
 
 #: ../src/app/qml/Settings/SettingsShortcutsSection.qml:171
-#, fuzzy
 msgid "Next tab"
-msgstr "Llingüeta nueva"
+msgstr ""
 
 #: ../src/app/qml/Settings/SettingsShortcutsSection.qml:175
 #: ../src/app/qml/Settings/SettingsShortcutsSection.qml:180
@@ -403,70 +400,67 @@ msgstr ""
 
 #: ../src/app/qml/TabsPage.qml:26
 msgid "Tabs"
-msgstr "Llingüetes"
+msgstr ""
 
 #: ../src/app/qml/TerminalPage.qml:63 ubuntu-terminal-app.desktop.in.in.h:1
 msgid "Terminal"
-msgstr "Terminal"
+msgstr ""
 
 #: ../src/app/qml/TerminalPage.qml:302
 msgid "Selection Mode"
-msgstr "Mou d'esbilla"
+msgstr ""
 
 #: ../src/plugin/qmltermwidget/lib/ColorScheme.cpp:291
 #: ../src/plugin/qmltermwidget/lib/ColorScheme.cpp:320
 msgid "Un-named Color Scheme"
-msgstr "Esquema de color ensin nome"
+msgstr ""
 
 #: ../src/plugin/qmltermwidget/lib/ColorScheme.cpp:468
 msgid "Accessible Color Scheme"
-msgstr "Esquema de color accesible"
+msgstr ""
 
 #: ../src/plugin/qmltermwidget/lib/Filter.cpp:533
 msgid "Open Link"
-msgstr "Abrir enllaz"
+msgstr ""
 
 #: ../src/plugin/qmltermwidget/lib/Filter.cpp:534
 msgid "Copy Link Address"
-msgstr "Copiar direición d'enllaz"
+msgstr ""
 
 #: ../src/plugin/qmltermwidget/lib/Filter.cpp:538
-#, fuzzy
 msgid "Send Email To…"
-msgstr "Unviar corréu a..."
+msgstr ""
 
 #: ../src/plugin/qmltermwidget/lib/Filter.cpp:539
 msgid "Copy Email Address"
-msgstr "Copiar direición de corréu"
+msgstr ""
 
 #: ../src/plugin/qmltermwidget/lib/SearchBar.cpp:39
 msgid "Match case"
-msgstr "Sensible a mayúscules"
+msgstr ""
 
 #: ../src/plugin/qmltermwidget/lib/SearchBar.cpp:45
 msgid "Regular expression"
-msgstr "Espresión regular"
+msgstr ""
 
 #: ../src/plugin/qmltermwidget/lib/SearchBar.cpp:49
 msgid "Higlight all matches"
-msgstr "Resaltar toles coincidencies"
+msgstr ""
 
 #: ../src/plugin/qmltermwidget/lib/Vt102Emulation.cpp:982
 msgid ""
 "No keyboard translator available.  The information needed to convert key "
 "presses into characters to send to the terminal is missing."
 msgstr ""
-"Nun hai traductor de tecláu disponible. Falta la información necesaria pa "
-"convertir les pulsaciones de tecles en caráuteres pa unvialos al terminal."
 
 #: ../src/plugin/qmltermwidget/lib/qtermwidget.cpp:406
 msgid "Color Scheme Error"
-msgstr "Fallu del esquema de color"
+msgstr ""
 
 #: ../src/plugin/qmltermwidget/lib/qtermwidget.cpp:407
 #, qt-format
 msgid "Cannot load color scheme: %1"
-msgstr "Nun pue cargase l'esquema de color: %1"
+msgstr ""
 
 #~ msgid "Color Scheme"
 #~ msgstr "Esquema de color"
