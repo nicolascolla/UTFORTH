@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: ubuntu-terminal-app\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-10-20 09:02+0000\n"
-"PO-Revision-Date: 2019-10-07 12:53+0000\n"
+"PO-Revision-Date: 2019-11-15 14:36+0000\n"
 "Last-Translator: Eran <etherpulse@gmail.com>\n"
 "Language-Team: Hebrew <https://translate.ubports.com/projects/ubports/"
 "terminal-app/he/>\n"
@@ -306,7 +306,7 @@ msgstr ""
 
 #: ../src/app/qml/Settings/SettingsPage.qml:33
 msgid "close"
-msgstr ""
+msgstr "סגור"
 
 #: ../src/app/qml/Settings/SettingsPage.qml:39
 msgid "Preferences"
