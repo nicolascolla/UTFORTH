@@ -329,11 +329,30 @@ Page {
         }
     }
 
+    Loader {
+        id: returnButton
+        active: !QuickUtils.keyboardAttached || unity8Settings.alwaysShowOsk
+        anchors {right: keyboardButton.left; margins: units.gu(2)}
+        y: parent.height - height - units.gu(1) - keyboardBarLoader.height
+
+        sourceComponent: CircularTransparentButton {
+            backgroundColor: tabsBar.color
+            iconColor: tabsBar.actionColor
+            action: Action {
+                id: pressAction
+                iconName: "keyboard-enter"
+                onTriggered: {
+                    terminal.simulateKeyPress(Qt.Key_Enter, Qt.NoModifier, true, 0, "");
+                }
+            }
+        }
+    }
+
     state: "DEFAULT"
     states: [
         State {
             name: "DEFAULT"
-            PropertyChanges { target: settingsAction; iconName: "settings" }
+            PropertyChanges { target: settingsButton; iconName: "settings" }
         },
         State {
             name: "SELECTION"
@@ -344,6 +363,7 @@ Page {
             PropertyChanges { target: tabsButton; visible: false }
             PropertyChanges { target: tabsButtonTab; visible: false }
             PropertyChanges { target: keyboardButton; visible: false }
+            PropertyChanges { target: returnButton; visible: false }
             PropertyChanges { target: bottomMessage; active: true }
             PropertyChanges { target: keyboardBarLoader; enabled: false }
         }
