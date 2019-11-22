@@ -4,7 +4,7 @@ publish-armhf:
   only:
     - tags
   script:
-    - clickable clean build click-build
+    - clickable clean build
     - clickable publish "$CI_COMMIT_MESSAGE"
   artifacts:
     paths:
