@@ -9,7 +9,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-10-20 09:02+0000\n"
 "PO-Revision-Date: 2020-01-19 19:39+0000\n"
-"Last-Translator: Dmitriy Pushkov <ezze@ezze.org>\n"
+"Last-Translator: Eugene <uralhistory@gmail.com>\n"
 "Language-Team: Russian <https://translate.ubports.com/projects/ubports/"
 "terminal-app/ru/>\n"
 "Language: ru\n"
@@ -92,6 +92,7 @@ msgstr "Нет работающих  SSH серверов."
 #: ../src/app/qml/AuthenticationService.qml:84
 msgid "SSH server not found. Do you want to proceed in confined mode?"
 msgstr ""
+"SSH-сервер не найдет. Вы хотите продолжить работу в режиме с ограничениями?"
 
 #: ../src/app/qml/ConfirmationDialog.qml:32
 msgid "Continue"
@@ -218,8 +219,9 @@ msgid "B:"
 msgstr "B:"
 
 #: ../src/app/qml/Settings/ColorPickerPopup.qml:99
+#, fuzzy
 msgid "Undo"
-msgstr ""
+msgstr "Отменить предыдущее действие"
 
 #: ../src/app/qml/Settings/SettingsInterfaceSection.qml:55
 msgid "Text"
@@ -304,7 +306,6 @@ msgid "Layouts"
 msgstr "Раскладки"
 
 #: ../src/app/qml/Settings/SettingsPage.qml:33
-#, fuzzy
 msgid "close"
 msgstr "Закрыть"
 
@@ -333,20 +334,19 @@ msgstr ""
 #: ../src/app/qml/Settings/SettingsShortcutsSection.qml:165
 #: ../src/app/qml/Settings/SettingsShortcutsSection.qml:170
 msgid "File"
-msgstr ""
+msgstr "Файл"
 
 #: ../src/app/qml/Settings/SettingsShortcutsSection.qml:156
-#, fuzzy
 msgid "Close terminal"
-msgstr "Терминал"
+msgstr "Закрыть терминал"
 
 #: ../src/app/qml/Settings/SettingsShortcutsSection.qml:161
 msgid "Close all terminals"
-msgstr ""
+msgstr "Закрыть все окна терминала"
 
 #: ../src/app/qml/Settings/SettingsShortcutsSection.qml:166
 msgid "Previous tab"
-msgstr ""
+msgstr "Предыдущая вкладка"
 
 #: ../src/app/qml/Settings/SettingsShortcutsSection.qml:171
 #, fuzzy
@@ -366,11 +366,11 @@ msgstr "Редактировать"
 #: ../src/app/qml/Settings/SettingsShortcutsSection.qml:210
 #: ../src/app/qml/Settings/SettingsShortcutsSection.qml:215
 msgid "View"
-msgstr ""
+msgstr "Вид"
 
 #: ../src/app/qml/Settings/SettingsShortcutsSection.qml:186
 msgid "Toggle fullscreen"
-msgstr ""
+msgstr "Включить полноэкранный режим"
 
 #: ../src/app/qml/Settings/SettingsShortcutsSection.qml:191
 #, fuzzy
