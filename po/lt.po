@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-10-20 09:02+0000\n"
-"PO-Revision-Date: 2019-09-25 19:51+0000\n"
+"PO-Revision-Date: 2020-01-19 19:39+0000\n"
 "Last-Translator: Moo <moose@mail.ru>\n"
 "Language-Team: Lithuanian <https://translate.ubports.com/projects/ubports/"
 "terminal-app/lt/>\n"
@@ -37,11 +37,11 @@ msgstr "Įdėti"
 
 #: ../src/app/qml/AlternateActionPopover.qml:86
 msgid "Split horizontally"
-msgstr ""
+msgstr "Padalyti horizontaliai"
 
 #: ../src/app/qml/AlternateActionPopover.qml:92
 msgid "Split vertically"
-msgstr ""
+msgstr "Padalyti vertikaliai"
 
 #: ../src/app/qml/AlternateActionPopover.qml:99
 #: ../src/app/qml/Settings/SettingsShortcutsSection.qml:151
@@ -55,9 +55,8 @@ msgid "New window"
 msgstr "Naujas langas"
 
 #: ../src/app/qml/AlternateActionPopover.qml:109
-#, fuzzy
 msgid "Close App"
-msgstr "Užverti"
+msgstr "Užverti programėlę"
 
 #: ../src/app/qml/AuthenticationDialog.qml:25
 msgid "Authentication required"
@@ -72,9 +71,8 @@ msgid "passcode or passphrase"
 msgstr ""
 
 #: ../src/app/qml/AuthenticationDialog.qml:58
-#, fuzzy
 msgid "Authenticate"
-msgstr "Nepavyko nustatyti tapatybę"
+msgstr "Nustatyti tapatybę"
 
 #: ../src/app/qml/AuthenticationDialog.qml:70
 #: ../src/app/qml/ConfirmationDialog.qml:42
