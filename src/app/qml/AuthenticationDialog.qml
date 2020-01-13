@@ -56,7 +56,7 @@ Dialog {
         objectName: "okButton"
 
         text: i18n.tr("Authenticate")
-        color: UbuntuColors.green
+        color: theme.palette.normal.positive
 
         onClicked: {
             passwordEntered(passwordField.text)

@@ -30,7 +30,7 @@ Dialog {
         objectName: "continueButton"
 
         text: i18n.tr("Continue")
-        color: UbuntuColors.green
+        color: theme.palette.normal.positive
 
         onClicked: dialogAccepted()
     }
