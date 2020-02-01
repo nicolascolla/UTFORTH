@@ -1,7 +1,0 @@
-#!/bin/sh
-
-# FIXME: this is a workaround for nvidia driver not being selected
-export LD_LIBRARY_PATH=/var/lib/snapd/lib/gl:$LD_LIBRARY_PATH
-
-export HOME=/home/$USER
-exec $SNAP/usr/bin/terminal --ssh --desktop_file_hint=unity8 "$@"
