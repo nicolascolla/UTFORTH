@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: ubuntu-terminal-app\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-10-20 09:02+0000\n"
-"PO-Revision-Date: 2020-01-19 19:39+0000\n"
-"Last-Translator: Mike <miguel2000@livecom.it>\n"
+"PO-Revision-Date: 2020-02-05 20:21+0000\n"
+"Last-Translator: nathangiovannini3 <nathan95@live.it>\n"
 "Language-Team: Italian <https://translate.ubports.com/projects/ubports/"
 "terminal-app/it/>\n"
 "Language: it\n"
@@ -178,7 +178,7 @@ msgstr ""
 #. TRANSLATORS: This is the name of the Home key.
 #: ../src/app/qml/KeyboardRows/JsonTranslator.qml:109
 msgid "Home"
-msgstr ""
+msgstr "Casa"
 
 #. TRANSLATORS: This is the name of the End key.
 #: ../src/app/qml/KeyboardRows/JsonTranslator.qml:112
