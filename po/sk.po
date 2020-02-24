@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: ubuntu-terminal-app\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-10-20 09:02+0000\n"
-"PO-Revision-Date: 2020-02-17 08:21+0000\n"
+"PO-Revision-Date: 2020-02-25 18:21+0000\n"
 "Last-Translator: dano6 <dano.kutka@gmail.com>\n"
 "Language-Team: Slovak <https://translate.ubports.com/projects/ubports/"
 "terminal-app/sk/>\n"
@@ -299,7 +299,7 @@ msgstr "Rozloženia"
 
 #: ../src/app/qml/Settings/SettingsPage.qml:33
 msgid "close"
-msgstr "zavrieť"
+msgstr "Zavrieť"
 
 #: ../src/app/qml/Settings/SettingsPage.qml:39
 msgid "Preferences"
