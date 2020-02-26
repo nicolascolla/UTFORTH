@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: ubuntu-terminal-app\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-10-20 09:02+0000\n"
-"PO-Revision-Date: 2020-02-21 19:21+0000\n"
+"PO-Revision-Date: 2020-02-27 06:21+0000\n"
 "Last-Translator: Ryan Argente <rargente@lonerider.one>\n"
 "Language-Team: French (Canada) <https://translate.ubports.com/projects/"
 "ubports/terminal-app/fr_CA/>\n"
@@ -27,7 +27,7 @@ msgstr "Choisir"
 #: ../src/app/qml/AlternateActionPopover.qml:73
 #: ../src/app/qml/Settings/SettingsShortcutsSection.qml:176
 msgid "Copy"
-msgstr ""
+msgstr "Copier"
 
 #: ../src/app/qml/AlternateActionPopover.qml:79
 #: ../src/app/qml/Settings/SettingsShortcutsSection.qml:181
@@ -70,9 +70,8 @@ msgid "passcode or passphrase"
 msgstr ""
 
 #: ../src/app/qml/AuthenticationDialog.qml:58
-#, fuzzy
 msgid "Authenticate"
-msgstr "Échec lors de l'authentification"
+msgstr "S'authentifier"
 
 #: ../src/app/qml/AuthenticationDialog.qml:70
 #: ../src/app/qml/ConfirmationDialog.qml:42
