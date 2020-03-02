@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: ubuntu-terminal-app\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-10-20 09:02+0000\n"
-"PO-Revision-Date: 2020-02-29 19:22+0000\n"
+"PO-Revision-Date: 2020-03-03 06:22+0000\n"
 "Last-Translator: Pavel Borecki <pavel.borecki@gmail.com>\n"
 "Language-Team: Czech <https://translate.ubports.com/projects/ubports/"
 "terminal-app/cs/>\n"
@@ -71,7 +71,7 @@ msgstr "heslo nebo přístupový kód"
 
 #: ../src/app/qml/AuthenticationDialog.qml:58
 msgid "Authenticate"
-msgstr "Ověřit"
+msgstr "Ověřit se"
 
 #: ../src/app/qml/AuthenticationDialog.qml:70
 #: ../src/app/qml/ConfirmationDialog.qml:42
@@ -80,7 +80,7 @@ msgstr "Storno"
 
 #: ../src/app/qml/AuthenticationService.qml:64
 msgid "Authentication failed"
-msgstr "Ověření selhalo"
+msgstr "Ověření se nezdařilo"
 
 #: ../src/app/qml/AuthenticationService.qml:83
 msgid "No SSH server running."
