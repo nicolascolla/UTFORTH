@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: ubuntu-terminal-app\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-10-20 09:02+0000\n"
-"PO-Revision-Date: 2019-10-27 07:36+0000\n"
-"Last-Translator: Allan Nordhøy <epost@anotheragency.no>\n"
+"PO-Revision-Date: 2020-03-26 18:22+0000\n"
+"Last-Translator: Ari Börde Kröyer <ari.kroyer@online.no>\n"
 "Language-Team: Norwegian Bokmål <https://translate.ubports.com/projects/"
 "ubports/terminal-app/nb/>\n"
 "Language: nb\n"
@@ -54,9 +54,8 @@ msgid "New window"
 msgstr "Nytt vindu"
 
 #: ../src/app/qml/AlternateActionPopover.qml:109
-#, fuzzy
 msgid "Close App"
-msgstr "Lukk program"
+msgstr "Lukk app"
 
 #: ../src/app/qml/AuthenticationDialog.qml:25
 msgid "Authentication required"
