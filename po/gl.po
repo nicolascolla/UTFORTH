@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: ubuntu-terminal-app\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-10-20 09:02+0000\n"
-"PO-Revision-Date: 2020-03-07 09:22+0000\n"
+"PO-Revision-Date: 2020-04-07 15:23+0000\n"
 "Last-Translator: Neutrum N <neutro@tutanota.com>\n"
 "Language-Team: Galician <https://translate.ubports.com/projects/ubports/"
 "terminal-app/gl/>\n"
@@ -372,19 +372,19 @@ msgstr "Dividir verticalmente o terminal"
 
 #: ../src/app/qml/Settings/SettingsShortcutsSection.qml:201
 msgid "Navigate to terminal above"
-msgstr "Navegar pra o terminal de riba"
+msgstr "Navegar para o terminal de riba"
 
 #: ../src/app/qml/Settings/SettingsShortcutsSection.qml:206
 msgid "Navigate to terminal below"
-msgstr "Navegar pra o terminal de baixo"
+msgstr "Navegar para o terminal de baixo"
 
 #: ../src/app/qml/Settings/SettingsShortcutsSection.qml:211
 msgid "Navigate to terminal on the left"
-msgstr "Navegar pra o terminal da esquerda"
+msgstr "Navegar para o terminal da esquerda"
 
 #: ../src/app/qml/Settings/SettingsShortcutsSection.qml:216
 msgid "Navigate to terminal on the right"
-msgstr "Navegar pra o terminal da dereita"
+msgstr "Navegar para o terminal da dereita"
 
 #: ../src/app/qml/Settings/SettingsWindow.qml:26
 msgid "Terminal Preferences"
@@ -453,7 +453,7 @@ msgid ""
 "presses into characters to send to the terminal is missing."
 msgstr ""
 "Non hai ningún tradutor de teclado dispoñíbel. Falta a información precisa "
-"pra converter as pulsacións en caracteres a enviar ao terminal."
+"para converter as pulsacións en caracteres a enviar ao terminal."
 
 #: ../src/plugin/qmltermwidget/lib/qtermwidget.cpp:406
 msgid "Color Scheme Error"
