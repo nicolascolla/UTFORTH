@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: ubuntu-terminal-app\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-10-20 09:02+0000\n"
-"PO-Revision-Date: 2020-04-07 15:23+0000\n"
+"PO-Revision-Date: 2020-04-09 10:23+0000\n"
 "Last-Translator: Neutrum N <neutro@tutanota.com>\n"
 "Language-Team: Galician <https://translate.ubports.com/projects/ubports/"
 "terminal-app/gl/>\n"
@@ -396,7 +396,7 @@ msgstr "Introduza atallo…"
 
 #: ../src/app/qml/Settings/ShortcutRow.qml:80
 msgid "Disabled"
-msgstr "Desactivado"
+msgstr "Inhabilitado"
 
 #: ../src/app/qml/TabsPage.qml:26
 msgid "Tabs"
