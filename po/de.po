@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: ubuntu-terminal-app\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-10-20 09:02+0000\n"
-"PO-Revision-Date: 2020-01-19 19:39+0000\n"
+"PO-Revision-Date: 2020-04-27 11:23+0000\n"
 "Last-Translator: Daniel Frost <one@frostinfo.de>\n"
 "Language-Team: German <https://translate.ubports.com/projects/ubports/"
 "terminal-app/de/>\n"
@@ -300,7 +300,7 @@ msgstr "Tastaturbelegungen"
 
 #: ../src/app/qml/Settings/SettingsPage.qml:33
 msgid "close"
-msgstr "Beenden"
+msgstr "Schließen"
 
 #: ../src/app/qml/Settings/SettingsPage.qml:39
 msgid "Preferences"
