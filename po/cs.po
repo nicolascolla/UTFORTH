@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: ubuntu-terminal-app\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-10-20 09:02+0000\n"
-"PO-Revision-Date: 2020-03-03 06:22+0000\n"
+"PO-Revision-Date: 2020-05-19 19:24+0000\n"
 "Last-Translator: Pavel Borecki <pavel.borecki@gmail.com>\n"
 "Language-Team: Czech <https://translate.ubports.com/projects/ubports/"
 "terminal-app/cs/>\n"
@@ -36,17 +36,17 @@ msgstr "Vložit"
 
 #: ../src/app/qml/AlternateActionPopover.qml:86
 msgid "Split horizontally"
-msgstr "Rozdělit horizontálně"
+msgstr "Rozdělit vodorovně"
 
 #: ../src/app/qml/AlternateActionPopover.qml:92
 msgid "Split vertically"
-msgstr "Rozdělit vertikálně"
+msgstr "Rozdělit svisle"
 
 #: ../src/app/qml/AlternateActionPopover.qml:99
 #: ../src/app/qml/Settings/SettingsShortcutsSection.qml:151
 #: ../src/app/qml/TabsPage.qml:32
 msgid "New tab"
-msgstr "Nová záložka"
+msgstr "Nový panel"
 
 #: ../src/app/qml/AlternateActionPopover.qml:104
 #: ../src/app/qml/Settings/SettingsShortcutsSection.qml:146
@@ -59,15 +59,15 @@ msgstr "Zavřít aplikaci"
 
 #: ../src/app/qml/AuthenticationDialog.qml:25
 msgid "Authentication required"
-msgstr "Požadováno ověření totožnosti"
+msgstr "Požadováno ověření se"
 
 #: ../src/app/qml/AuthenticationDialog.qml:27
 msgid "Enter passcode or passphrase:"
-msgstr "Zadejte heslo nebo vstupní kód:"
+msgstr "Zadejte přístupový kód nebo heslo:"
 
 #: ../src/app/qml/AuthenticationDialog.qml:48
 msgid "passcode or passphrase"
-msgstr "heslo nebo přístupový kód"
+msgstr "přístupový kód nebo heslo"
 
 #: ../src/app/qml/AuthenticationDialog.qml:58
 msgid "Authenticate"
@@ -84,11 +84,11 @@ msgstr "Ověření se nezdařilo"
 
 #: ../src/app/qml/AuthenticationService.qml:83
 msgid "No SSH server running."
-msgstr "Není spuštěn SSH server."
+msgstr "Není spuštěný SSH server."
 
 #: ../src/app/qml/AuthenticationService.qml:84
 msgid "SSH server not found. Do you want to proceed in confined mode?"
-msgstr "SSH server nenalezen. Chcete pokračovat v omezeném módu?"
+msgstr "SSH server nenalezen. Chcete pokračovat v omezeném režimu?"
 
 #: ../src/app/qml/ConfirmationDialog.qml:32
 msgid "Continue"
@@ -116,7 +116,7 @@ msgstr "Scroll klávesy"
 #. TRANSLATORS: This a keyboard layout name
 #: ../src/app/qml/KeyboardRows/JsonTranslator.qml:44
 msgid "Command Keys"
-msgstr "Příkazové klávesy"
+msgstr "Command klávesy"
 
 #. TRANSLATORS: This the short display name of a keyboard layout. It should be no longer than 4 characters!
 #: ../src/app/qml/KeyboardRows/JsonTranslator.qml:52
@@ -316,7 +316,7 @@ msgstr "Klávesové zkratky"
 #: ../src/app/qml/Settings/SettingsShortcutsSection.qml:60
 #, qt-format
 msgid "Showing %1 of %2"
-msgstr "Zobrazuji %1 z %2"
+msgstr "Zobrazuje se %1 z %2"
 
 #: ../src/app/qml/Settings/SettingsShortcutsSection.qml:145
 #: ../src/app/qml/Settings/SettingsShortcutsSection.qml:150
@@ -337,11 +337,11 @@ msgstr "Zavřít všechny terminály"
 
 #: ../src/app/qml/Settings/SettingsShortcutsSection.qml:166
 msgid "Previous tab"
-msgstr "Předchozí záložka"
+msgstr "Předchozí panel"
 
 #: ../src/app/qml/Settings/SettingsShortcutsSection.qml:171
 msgid "Next tab"
-msgstr "Následující záložka"
+msgstr "Následující panel"
 
 #: ../src/app/qml/Settings/SettingsShortcutsSection.qml:175
 #: ../src/app/qml/Settings/SettingsShortcutsSection.qml:180
@@ -360,15 +360,15 @@ msgstr "Prohlédnout"
 
 #: ../src/app/qml/Settings/SettingsShortcutsSection.qml:186
 msgid "Toggle fullscreen"
-msgstr "Přepnout celou obrazovku"
+msgstr "Vyp/zap. zobrazení na celou obrazovku"
 
 #: ../src/app/qml/Settings/SettingsShortcutsSection.qml:191
 msgid "Split terminal horizontally"
-msgstr "Rozdělit terminál horizontálně"
+msgstr "Rozdělit terminál vodorovně"
 
 #: ../src/app/qml/Settings/SettingsShortcutsSection.qml:196
 msgid "Split terminal vertically"
-msgstr "Rozdělit terminál vertikálně"
+msgstr "Rozdělit terminál svisle"
 
 #: ../src/app/qml/Settings/SettingsShortcutsSection.qml:201
 msgid "Navigate to terminal above"
@@ -392,7 +392,7 @@ msgstr "Předvolby terminál"
 
 #: ../src/app/qml/Settings/ShortcutRow.qml:78
 msgid "Enter shortcut…"
-msgstr "Vložte klávesovou zkratku…"
+msgstr "Zadejte klávesovou zkratku…"
 
 #: ../src/app/qml/Settings/ShortcutRow.qml:80
 msgid "Disabled"
@@ -400,7 +400,7 @@ msgstr "Zakázané"
 
 #: ../src/app/qml/TabsPage.qml:26
 msgid "Tabs"
-msgstr "Záložky"
+msgstr "Panely"
 
 #: ../src/app/qml/TerminalPage.qml:63 ubuntu-terminal-app.desktop.in.in.h:1
 msgid "Terminal"
@@ -429,19 +429,19 @@ msgstr "Kopírovat adresu odkazu"
 
 #: ../src/plugin/qmltermwidget/lib/Filter.cpp:538
 msgid "Send Email To…"
-msgstr "Odeslat poštu …"
+msgstr "Odeslat e-mail na…"
 
 #: ../src/plugin/qmltermwidget/lib/Filter.cpp:539
 msgid "Copy Email Address"
-msgstr "Kopírovat emailovou adresu"
+msgstr "Kopírovat e-mailovou adresu"
 
 #: ../src/plugin/qmltermwidget/lib/SearchBar.cpp:39
 msgid "Match case"
-msgstr "Rozlišovat velká/malá"
+msgstr "Rozlišovat VELKÁ/malá"
 
 #: ../src/plugin/qmltermwidget/lib/SearchBar.cpp:45
 msgid "Regular expression"
-msgstr "Běžný výraz"
+msgstr "Regulární výraz"
 
 #: ../src/plugin/qmltermwidget/lib/SearchBar.cpp:49
 msgid "Higlight all matches"
@@ -457,12 +457,12 @@ msgstr ""
 
 #: ../src/plugin/qmltermwidget/lib/qtermwidget.cpp:406
 msgid "Color Scheme Error"
-msgstr "Špatná barevná kombinace"
+msgstr "Chyba schématu barev"
 
 #: ../src/plugin/qmltermwidget/lib/qtermwidget.cpp:407
 #, qt-format
 msgid "Cannot load color scheme: %1"
-msgstr "Nelze načíst barevnou kombinaci: %1"
+msgstr "Nedaří se načíst schéma barev: %1"
 
 #~ msgid "Color Scheme"
 #~ msgstr "Barevná kombinace"
