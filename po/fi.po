@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: ubuntu-terminal-app\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-10-20 09:02+0000\n"
-"PO-Revision-Date: 2020-02-11 14:21+0000\n"
-"Last-Translator: Oi Suomi On! <oisuomion@protonmail.com>\n"
+"PO-Revision-Date: 2020-06-10 18:24+0000\n"
+"Last-Translator: Jiri Grönroos <jiri.gronroos@iki.fi>\n"
 "Language-Team: Finnish <https://translate.ubports.com/projects/ubports/"
 "terminal-app/fi/>\n"
 "Language: fi\n"
@@ -54,9 +54,8 @@ msgid "New window"
 msgstr "Uusi ikkuna"
 
 #: ../src/app/qml/AlternateActionPopover.qml:109
-#, fuzzy
 msgid "Close App"
-msgstr "Sulje"
+msgstr "Sulje sovellus"
 
 #: ../src/app/qml/AuthenticationDialog.qml:25
 msgid "Authentication required"
@@ -71,9 +70,8 @@ msgid "passcode or passphrase"
 msgstr "suojakoodi tai salasana"
 
 #: ../src/app/qml/AuthenticationDialog.qml:58
-#, fuzzy
 msgid "Authenticate"
-msgstr "Tunnistautuminen epäonnistui"
+msgstr "Tunnistaudu"
 
 #: ../src/app/qml/AuthenticationDialog.qml:70
 #: ../src/app/qml/ConfirmationDialog.qml:42
@@ -300,9 +298,8 @@ msgid "Layouts"
 msgstr "Asettelut"
 
 #: ../src/app/qml/Settings/SettingsPage.qml:33
-#, fuzzy
 msgid "close"
-msgstr "Sulje"
+msgstr "sulje"
 
 #: ../src/app/qml/Settings/SettingsPage.qml:39
 msgid "Preferences"
