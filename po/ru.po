@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: ubuntu-terminal-app\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-10-20 09:02+0000\n"
-"PO-Revision-Date: 2020-06-10 18:24+0000\n"
-"Last-Translator: Vladimir Tukalo <vovayy1@gmail.com>\n"
+"PO-Revision-Date: 2020-06-24 10:05+0000\n"
+"Last-Translator: Eugene Markoff <uralhistory@gmail.com>\n"
 "Language-Team: Russian <https://translate.ubports.com/projects/ubports/"
 "terminal-app/ru/>\n"
 "Language: ru\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<="
 "4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 3.8\n"
+"X-Generator: Weblate 3.11.3\n"
 "X-Launchpad-Export-Date: 2016-02-08 05:36+0000\n"
 
 #: ../src/app/qml/AlternateActionPopover.qml:68
@@ -72,9 +72,8 @@ msgid "passcode or passphrase"
 msgstr "4-значный код или кодовая фраза"
 
 #: ../src/app/qml/AuthenticationDialog.qml:58
-#, fuzzy
 msgid "Authenticate"
-msgstr "Ошибка аутентификации"
+msgstr "Проверка подлинности"
 
 #: ../src/app/qml/AuthenticationDialog.qml:70
 #: ../src/app/qml/ConfirmationDialog.qml:42
@@ -87,7 +86,7 @@ msgstr "Ошибка аутентификации"
 
 #: ../src/app/qml/AuthenticationService.qml:83
 msgid "No SSH server running."
-msgstr "Нет работающих  SSH серверов."
+msgstr "Нет работающего SSH-сервера."
 
 #: ../src/app/qml/AuthenticationService.qml:84
 msgid "SSH server not found. Do you want to proceed in confined mode?"
@@ -219,7 +218,6 @@ msgid "B:"
 msgstr "B:"
 
 #: ../src/app/qml/Settings/ColorPickerPopup.qml:99
-#, fuzzy
 msgid "Undo"
 msgstr "Отменить предыдущее действие"
 
