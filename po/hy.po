@@ -8,15 +8,17 @@ msgstr ""
 "Project-Id-Version: ubuntu-terminal-app\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-10-20 09:02+0000\n"
-"PO-Revision-Date: 2014-11-06 08:33+0000\n"
-"Last-Translator: Vahan Harutyunyan <Unknown>\n"
-"Language-Team: Armenian <hy@li.org>\n"
+"PO-Revision-Date: 2020-07-03 14:50+0000\n"
+"Last-Translator: Tigran Khachatryan <tigrankhachatryan2008@gmail.com>\n"
+"Language-Team: Armenian <https://translate.ubports.com/projects/ubports/"
+"terminal-app/hy/>\n"
 "Language: hy\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: Weblate 3.11.3\n"
 "X-Launchpad-Export-Date: 2017-02-09 05:47+0000\n"
-"X-Generator: Launchpad (build 18326)\n"
 
 #: ../src/app/qml/AlternateActionPopover.qml:68
 msgid "Select"
@@ -75,7 +77,7 @@ msgstr "Նույնականացումը ձախողվել է"
 #: ../src/app/qml/AuthenticationDialog.qml:70
 #: ../src/app/qml/ConfirmationDialog.qml:42
 msgid "Cancel"
-msgstr "Չեղյալ համարել"
+msgstr "Չեղարկել"
 
 #: ../src/app/qml/AuthenticationService.qml:64
 msgid "Authentication failed"
@@ -345,7 +347,7 @@ msgstr ""
 #: ../src/app/qml/Settings/SettingsShortcutsSection.qml:175
 #: ../src/app/qml/Settings/SettingsShortcutsSection.qml:180
 msgid "Edit"
-msgstr ""
+msgstr "Փոխել"
 
 #: ../src/app/qml/Settings/SettingsShortcutsSection.qml:185
 #: ../src/app/qml/Settings/SettingsShortcutsSection.qml:190
