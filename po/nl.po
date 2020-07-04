@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: ubuntu-terminal-app\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-10-20 09:02+0000\n"
-"PO-Revision-Date: 2020-07-03 12:44+0000\n"
+"PO-Revision-Date: 2020-07-04 19:31+0000\n"
 "Last-Translator: Heimen Stoffels <vistausss@outlook.com>\n"
 "Language-Team: Dutch <https://translate.ubports.com/projects/ubports/"
 "terminal-app/nl/>\n"
@@ -71,7 +71,7 @@ msgstr "Toegangscode of wachtwoord-zin"
 
 #: ../src/app/qml/AuthenticationDialog.qml:58
 msgid "Authenticate"
-msgstr "Authentiseren"
+msgstr "Authenticeren"
 
 #: ../src/app/qml/AuthenticationDialog.qml:70
 #: ../src/app/qml/ConfirmationDialog.qml:42
@@ -346,7 +346,7 @@ msgstr "Volgend tabblad"
 #: ../src/app/qml/Settings/SettingsShortcutsSection.qml:175
 #: ../src/app/qml/Settings/SettingsShortcutsSection.qml:180
 msgid "Edit"
-msgstr "Bewerken"
+msgstr "Aanpassen"
 
 #: ../src/app/qml/Settings/SettingsShortcutsSection.qml:185
 #: ../src/app/qml/Settings/SettingsShortcutsSection.qml:190
