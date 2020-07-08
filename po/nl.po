@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: ubuntu-terminal-app\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-10-20 09:02+0000\n"
-"PO-Revision-Date: 2020-07-07 16:32+0000\n"
+"PO-Revision-Date: 2020-07-08 21:50+0000\n"
 "Last-Translator: Heimen Stoffels <vistausss@outlook.com>\n"
 "Language-Team: Dutch <https://translate.ubports.com/projects/ubports/"
 "terminal-app/nl/>\n"
@@ -36,11 +36,11 @@ msgstr "Plakken"
 
 #: ../src/app/qml/AlternateActionPopover.qml:86
 msgid "Split horizontally"
-msgstr "Splits horizontaal"
+msgstr "Horizontaal splitsen"
 
 #: ../src/app/qml/AlternateActionPopover.qml:92
 msgid "Split vertically"
-msgstr "Splits verticaal"
+msgstr "Verticaal splitsen"
 
 #: ../src/app/qml/AlternateActionPopover.qml:99
 #: ../src/app/qml/Settings/SettingsShortcutsSection.qml:151
@@ -63,11 +63,11 @@ msgstr "Authenticatie vereist"
 
 #: ../src/app/qml/AuthenticationDialog.qml:27
 msgid "Enter passcode or passphrase:"
-msgstr "Toegangscode of wachtwoord-zin invoeren:"
+msgstr "Voer je toegangscode of wachtwoordzin in:"
 
 #: ../src/app/qml/AuthenticationDialog.qml:48
 msgid "passcode or passphrase"
-msgstr "Toegangscode of wachtwoord-zin"
+msgstr "Toegangscode of wachtwoordzin"
 
 #: ../src/app/qml/AuthenticationDialog.qml:58
 msgid "Authenticate"
@@ -84,11 +84,11 @@ msgstr "Authenticatie mislukt"
 
 #: ../src/app/qml/AuthenticationService.qml:83
 msgid "No SSH server running."
-msgstr "Geen SSH-server actief."
+msgstr "Geen ssh-server actief."
 
 #: ../src/app/qml/AuthenticationService.qml:84
 msgid "SSH server not found. Do you want to proceed in confined mode?"
-msgstr "SSH-server niet gevonden. Wilt u doorgaan in de beperkte modus?"
+msgstr "Geen ssh-server aangetroffen. Wil je doorgaan in de beperkte modus?"
 
 #: ../src/app/qml/ConfirmationDialog.qml:32
 msgid "Continue"
@@ -96,7 +96,7 @@ msgstr "Doorgaan"
 
 #: ../src/app/qml/KeyboardBar.qml:197
 msgid "Change Keyboard"
-msgstr "Toetsenbord wijzigen"
+msgstr "Toetsenbord aanpassen"
 
 #. TRANSLATORS: This a keyboard layout name
 #: ../src/app/qml/KeyboardRows/JsonTranslator.qml:35
