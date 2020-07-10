@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: ubuntu-terminal-app\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-10-20 09:02+0000\n"
-"PO-Revision-Date: 2020-07-08 21:50+0000\n"
+"PO-Revision-Date: 2020-07-10 18:37+0000\n"
 "Last-Translator: Heimen Stoffels <vistausss@outlook.com>\n"
 "Language-Team: Dutch <https://translate.ubports.com/projects/ubports/"
 "terminal-app/nl/>\n"
@@ -176,7 +176,7 @@ msgstr "Del"
 #. TRANSLATORS: This is the name of the Home key.
 #: ../src/app/qml/KeyboardRows/JsonTranslator.qml:109
 msgid "Home"
-msgstr "Thuis"
+msgstr "Home"
 
 #. TRANSLATORS: This is the name of the End key.
 #: ../src/app/qml/KeyboardRows/JsonTranslator.qml:112
@@ -199,7 +199,7 @@ msgstr "Oké"
 
 #: ../src/app/qml/Settings/BackgroundOpacityEditor.qml:26
 msgid "Background opacity:"
-msgstr "Doorschijnendheid achtergrond:"
+msgstr "Achtergronddoorzichtigheid:"
 
 #: ../src/app/qml/Settings/ColorPickerPopup.qml:79
 msgid "R:"
@@ -223,11 +223,11 @@ msgstr "Tekst"
 
 #: ../src/app/qml/Settings/SettingsInterfaceSection.qml:66
 msgid "Font:"
-msgstr "Tekengrootte:"
+msgstr "Lettertype:"
 
 #: ../src/app/qml/Settings/SettingsInterfaceSection.qml:91
 msgid "Font Size:"
-msgstr "Tekengrootte:"
+msgstr "Lettergrootte:"
 
 #: ../src/app/qml/Settings/SettingsInterfaceSection.qml:119
 msgid "Colors"
@@ -251,7 +251,7 @@ msgstr "Zwart op wit"
 
 #: ../src/app/qml/Settings/SettingsInterfaceSection.qml:128
 msgid "Black on random light"
-msgstr "Zwart op een willekeurige lichte kleur"
+msgstr "Zwart op willekeurige lichte kleur"
 
 #: ../src/app/qml/Settings/SettingsInterfaceSection.qml:129
 msgid "Linux"
@@ -259,7 +259,7 @@ msgstr "Linux"
 
 #: ../src/app/qml/Settings/SettingsInterfaceSection.qml:130
 msgid "Cool retro term"
-msgstr "Retro terminal"
+msgstr "Retro-terminal"
 
 #: ../src/app/qml/Settings/SettingsInterfaceSection.qml:131
 msgid "Dark pastels"
@@ -267,7 +267,7 @@ msgstr "Donkere pastelkleuren"
 
 #: ../src/app/qml/Settings/SettingsInterfaceSection.qml:132
 msgid "Black on light yellow"
-msgstr "Zwart op licht geel"
+msgstr "Zwart op lichtgeel"
 
 #: ../src/app/qml/Settings/SettingsInterfaceSection.qml:133
 msgid "Customized"
@@ -283,7 +283,7 @@ msgstr "Tekst:"
 
 #: ../src/app/qml/Settings/SettingsInterfaceSection.qml:164
 msgid "Normal palette:"
-msgstr "Normale kleurenpalet:"
+msgstr "Normaal kleurenpalet:"
 
 #: ../src/app/qml/Settings/SettingsInterfaceSection.qml:171
 msgid "Bright palette:"
@@ -291,7 +291,7 @@ msgstr "Helder kleurenpalet:"
 
 #: ../src/app/qml/Settings/SettingsInterfaceSection.qml:180
 msgid "Preset:"
-msgstr "Standaard:"
+msgstr "Schema:"
 
 #: ../src/app/qml/Settings/SettingsInterfaceSection.qml:197
 msgid "Layouts"
@@ -307,7 +307,7 @@ msgstr "Voorkeuren"
 
 #: ../src/app/qml/Settings/SettingsPage.qml:50
 msgid "Interface"
-msgstr "Interface"
+msgstr "Vormgeving"
 
 #: ../src/app/qml/Settings/SettingsPage.qml:54
 msgid "Shortcuts"
@@ -316,7 +316,7 @@ msgstr "Sneltoetsen"
 #: ../src/app/qml/Settings/SettingsShortcutsSection.qml:60
 #, qt-format
 msgid "Showing %1 of %2"
-msgstr "%1 van %2 tonen"
+msgstr "%1 van %2 worden getoond"
 
 #: ../src/app/qml/Settings/SettingsShortcutsSection.qml:145
 #: ../src/app/qml/Settings/SettingsShortcutsSection.qml:150
@@ -360,15 +360,15 @@ msgstr "Beeld"
 
 #: ../src/app/qml/Settings/SettingsShortcutsSection.qml:186
 msgid "Toggle fullscreen"
-msgstr "In volledig scherm draaien"
+msgstr "Beeldvullende modus aan/uit"
 
 #: ../src/app/qml/Settings/SettingsShortcutsSection.qml:191
 msgid "Split terminal horizontally"
-msgstr "Splits terminal horizontaal"
+msgstr "Terminal horizontaal splitsen"
 
 #: ../src/app/qml/Settings/SettingsShortcutsSection.qml:196
 msgid "Split terminal vertically"
-msgstr "Splits terminal verticaal"
+msgstr "Terminal verticaal splitsen"
 
 #: ../src/app/qml/Settings/SettingsShortcutsSection.qml:201
 msgid "Navigate to terminal above"
@@ -380,11 +380,11 @@ msgstr "Ga naar onderliggende terminal"
 
 #: ../src/app/qml/Settings/SettingsShortcutsSection.qml:211
 msgid "Navigate to terminal on the left"
-msgstr "Ga naar terminal links"
+msgstr "Ga naar linkerterminal"
 
 #: ../src/app/qml/Settings/SettingsShortcutsSection.qml:216
 msgid "Navigate to terminal on the right"
-msgstr "Ga naar terminal rechts"
+msgstr "Ga naar rechterterminal"
 
 #: ../src/app/qml/Settings/SettingsWindow.qml:26
 msgid "Terminal Preferences"
@@ -392,7 +392,7 @@ msgstr "Terminalvoorkeuren"
 
 #: ../src/app/qml/Settings/ShortcutRow.qml:78
 msgid "Enter shortcut…"
-msgstr "Voer sneltoets in…"
+msgstr "Druk op een sneltoets…"
 
 #: ../src/app/qml/Settings/ShortcutRow.qml:80
 msgid "Disabled"
@@ -417,19 +417,19 @@ msgstr "Naamloos kleurenschema"
 
 #: ../src/plugin/qmltermwidget/lib/ColorScheme.cpp:468
 msgid "Accessible Color Scheme"
-msgstr "Kleurenschema Voor Visuele Beperking"
+msgstr "Toegankelijk kleurenschema"
 
 #: ../src/plugin/qmltermwidget/lib/Filter.cpp:533
 msgid "Open Link"
-msgstr "Koppeling Openen"
+msgstr "Link openen"
 
 #: ../src/plugin/qmltermwidget/lib/Filter.cpp:534
 msgid "Copy Link Address"
-msgstr "Koppelingslocatie Kopiëren"
+msgstr "Linkadres kopiëren"
 
 #: ../src/plugin/qmltermwidget/lib/Filter.cpp:538
 msgid "Send Email To…"
-msgstr "E-mail verzenden naar…"
+msgstr "E-mail versturen naar…"
 
 #: ../src/plugin/qmltermwidget/lib/Filter.cpp:539
 msgid "Copy Email Address"
@@ -445,7 +445,7 @@ msgstr "Reguliere expressie"
 
 #: ../src/plugin/qmltermwidget/lib/SearchBar.cpp:49
 msgid "Higlight all matches"
-msgstr "Alle hits markeren"
+msgstr "Alle overeenkomsten markeren"
 
 #: ../src/plugin/qmltermwidget/lib/Vt102Emulation.cpp:982
 msgid ""
@@ -458,12 +458,12 @@ msgstr ""
 
 #: ../src/plugin/qmltermwidget/lib/qtermwidget.cpp:406
 msgid "Color Scheme Error"
-msgstr "Fout in Kleurenschema"
+msgstr "Fout in kleurenschema"
 
 #: ../src/plugin/qmltermwidget/lib/qtermwidget.cpp:407
 #, qt-format
 msgid "Cannot load color scheme: %1"
-msgstr "Laden van kleurenschema mislukt: %1"
+msgstr "Het kleurenschema kan niet worden geladen: %1"
 
 #~ msgid "Color Scheme"
 #~ msgstr "Kleurenschema"
