@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-10-20 09:02+0000\n"
-"PO-Revision-Date: 2020-07-29 23:27+0000\n"
+"PO-Revision-Date: 2020-07-29 23:35+0000\n"
 "Last-Translator: Young Kim <rsyh93@gmail.com>\n"
 "Language-Team: Korean <https://translate.ubports.com/projects/ubports/"
 "terminal-app/ko/>\n"
@@ -21,7 +21,7 @@ msgstr ""
 
 #: ../src/app/qml/AlternateActionPopover.qml:68
 msgid "Select"
-msgstr " 선택"
+msgstr "선택"
 
 #: ../src/app/qml/AlternateActionPopover.qml:73
 #: ../src/app/qml/Settings/SettingsShortcutsSection.qml:176
@@ -79,7 +79,7 @@ msgstr "취소"
 
 #: ../src/app/qml/AuthenticationService.qml:64
 msgid "Authentication failed"
-msgstr ""
+msgstr "인증 실패"
 
 #: ../src/app/qml/AuthenticationService.qml:83
 msgid "No SSH server running."
@@ -175,7 +175,7 @@ msgstr ""
 #. TRANSLATORS: This is the name of the Home key.
 #: ../src/app/qml/KeyboardRows/JsonTranslator.qml:109
 msgid "Home"
-msgstr ""
+msgstr "Home"
 
 #. TRANSLATORS: This is the name of the End key.
 #: ../src/app/qml/KeyboardRows/JsonTranslator.qml:112
