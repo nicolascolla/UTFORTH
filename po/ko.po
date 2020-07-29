@@ -9,7 +9,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-10-20 09:02+0000\n"
 "PO-Revision-Date: 2020-07-29 23:27+0000\n"
-"Last-Translator: anonymous <noreply@weblate.org>\n"
+"Last-Translator: Young Kim <rsyh93@gmail.com>\n"
 "Language-Team: Korean <https://translate.ubports.com/projects/ubports/"
 "terminal-app/ko/>\n"
 "Language: ko\n"
@@ -26,12 +26,12 @@ msgstr " 선택"
 #: ../src/app/qml/AlternateActionPopover.qml:73
 #: ../src/app/qml/Settings/SettingsShortcutsSection.qml:176
 msgid "Copy"
-msgstr ""
+msgstr "복사"
 
 #: ../src/app/qml/AlternateActionPopover.qml:79
 #: ../src/app/qml/Settings/SettingsShortcutsSection.qml:181
 msgid "Paste"
-msgstr ""
+msgstr "붙여넣기"
 
 #: ../src/app/qml/AlternateActionPopover.qml:86
 msgid "Split horizontally"
@@ -45,12 +45,12 @@ msgstr ""
 #: ../src/app/qml/Settings/SettingsShortcutsSection.qml:151
 #: ../src/app/qml/TabsPage.qml:32
 msgid "New tab"
-msgstr ""
+msgstr "새 탭"
 
 #: ../src/app/qml/AlternateActionPopover.qml:104
 #: ../src/app/qml/Settings/SettingsShortcutsSection.qml:146
 msgid "New window"
-msgstr ""
+msgstr "새 창"
 
 #: ../src/app/qml/AlternateActionPopover.qml:109
 msgid "Close App"
@@ -75,7 +75,7 @@ msgstr ""
 #: ../src/app/qml/AuthenticationDialog.qml:70
 #: ../src/app/qml/ConfirmationDialog.qml:42
 msgid "Cancel"
-msgstr ""
+msgstr "취소"
 
 #: ../src/app/qml/AuthenticationService.qml:64
 msgid "Authentication failed"
@@ -222,11 +222,11 @@ msgstr ""
 
 #: ../src/app/qml/Settings/SettingsInterfaceSection.qml:66
 msgid "Font:"
-msgstr ""
+msgstr "글꼴:"
 
 #: ../src/app/qml/Settings/SettingsInterfaceSection.qml:91
 msgid "Font Size:"
-msgstr ""
+msgstr "글꼴 크기:"
 
 #: ../src/app/qml/Settings/SettingsInterfaceSection.qml:119
 msgid "Colors"
@@ -234,7 +234,7 @@ msgstr ""
 
 #: ../src/app/qml/Settings/SettingsInterfaceSection.qml:124
 msgid "Ubuntu"
-msgstr ""
+msgstr "우분투"
 
 #: ../src/app/qml/Settings/SettingsInterfaceSection.qml:125
 msgid "Green on black"
@@ -254,7 +254,7 @@ msgstr ""
 
 #: ../src/app/qml/Settings/SettingsInterfaceSection.qml:129
 msgid "Linux"
-msgstr ""
+msgstr "리눅스"
 
 #: ../src/app/qml/Settings/SettingsInterfaceSection.qml:130
 msgid "Cool retro term"
@@ -274,7 +274,7 @@ msgstr ""
 
 #: ../src/app/qml/Settings/SettingsInterfaceSection.qml:144
 msgid "Background:"
-msgstr ""
+msgstr "배경:"
 
 #: ../src/app/qml/Settings/SettingsInterfaceSection.qml:152
 msgid "Text:"
@@ -298,7 +298,7 @@ msgstr ""
 
 #: ../src/app/qml/Settings/SettingsPage.qml:33
 msgid "close"
-msgstr ""
+msgstr "닫기"
 
 #: ../src/app/qml/Settings/SettingsPage.qml:39
 msgid "Preferences"
@@ -310,7 +310,7 @@ msgstr ""
 
 #: ../src/app/qml/Settings/SettingsPage.qml:54
 msgid "Shortcuts"
-msgstr ""
+msgstr "바로 가기"
 
 #: ../src/app/qml/Settings/SettingsShortcutsSection.qml:60
 #, qt-format
@@ -324,28 +324,28 @@ msgstr ""
 #: ../src/app/qml/Settings/SettingsShortcutsSection.qml:165
 #: ../src/app/qml/Settings/SettingsShortcutsSection.qml:170
 msgid "File"
-msgstr ""
+msgstr "파일"
 
 #: ../src/app/qml/Settings/SettingsShortcutsSection.qml:156
 msgid "Close terminal"
-msgstr ""
+msgstr "터미널 닫기"
 
 #: ../src/app/qml/Settings/SettingsShortcutsSection.qml:161
 msgid "Close all terminals"
-msgstr ""
+msgstr "모든 터미널 닫기"
 
 #: ../src/app/qml/Settings/SettingsShortcutsSection.qml:166
 msgid "Previous tab"
-msgstr ""
+msgstr "이전 탭"
 
 #: ../src/app/qml/Settings/SettingsShortcutsSection.qml:171
 msgid "Next tab"
-msgstr ""
+msgstr "다음 탭"
 
 #: ../src/app/qml/Settings/SettingsShortcutsSection.qml:175
 #: ../src/app/qml/Settings/SettingsShortcutsSection.qml:180
 msgid "Edit"
-msgstr ""
+msgstr "편집"
 
 #: ../src/app/qml/Settings/SettingsShortcutsSection.qml:185
 #: ../src/app/qml/Settings/SettingsShortcutsSection.qml:190
@@ -355,11 +355,11 @@ msgstr ""
 #: ../src/app/qml/Settings/SettingsShortcutsSection.qml:210
 #: ../src/app/qml/Settings/SettingsShortcutsSection.qml:215
 msgid "View"
-msgstr ""
+msgstr "보기"
 
 #: ../src/app/qml/Settings/SettingsShortcutsSection.qml:186
 msgid "Toggle fullscreen"
-msgstr ""
+msgstr "전체 화면"
 
 #: ../src/app/qml/Settings/SettingsShortcutsSection.qml:191
 msgid "Split terminal horizontally"
