@@ -1,8 +1,8 @@
 {
-  "template": "cmake",
   "kill": "terminal-app",
   "clickable_minimum_required": "5.11.0",
   "dependencies_target": [
     "libpam0g-dev"
-  ]
+  ],
+  "builder": "cmake"
 }
