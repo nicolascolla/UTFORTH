@@ -9,4 +9,4 @@ X-Ubuntu-Touch=true
 X-Ubuntu-Default-Department-ID=accessories
 X-Ubuntu-Splash-Color=#414141
 X-Ubuntu-Single-Instance=true
-X-Screenshot=@SPLASH@
+X-Ubuntu-Splash-Image=@SPLASH@
