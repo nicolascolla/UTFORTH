@@ -8,7 +8,7 @@
             "desktop": "ubuntu-terminal-app.desktop"
         }
     },
-    "icon": "terminal64.png",
+    "icon": "terminal-app.svg",
     "maintainer": "UBports <dev@ubports.com>",
     "name": "com.ubuntu.terminal",
     "title": "Terminal",
