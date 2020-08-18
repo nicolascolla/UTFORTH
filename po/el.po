@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: ubuntu-terminal-app\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-10-20 09:02+0000\n"
-"PO-Revision-Date: 2020-08-16 20:54+0000\n"
+"PO-Revision-Date: 2020-08-18 23:28+0000\n"
 "Last-Translator: Efstathios Iosifidis <iefstathios@gmail.com>\n"
 "Language-Team: Greek <https://translate.ubports.com/projects/ubports/"
 "terminal-app/el/>\n"
@@ -63,11 +63,11 @@ msgstr "Απαιτείται πιστοποίηση"
 
 #: ../src/app/qml/AuthenticationDialog.qml:27
 msgid "Enter passcode or passphrase:"
-msgstr ""
+msgstr "Εισάγετε κωδικό αριθμό ή κωδική φράση:"
 
 #: ../src/app/qml/AuthenticationDialog.qml:48
 msgid "passcode or passphrase"
-msgstr ""
+msgstr "κωδικός αριθμός ή κωδική φράση"
 
 #: ../src/app/qml/AuthenticationDialog.qml:58
 msgid "Authenticate"
@@ -123,7 +123,7 @@ msgstr "Πλήκτρα εντολών"
 #. TRANSLATORS: This the short display name of a keyboard layout. It should be no longer than 4 characters!
 #: ../src/app/qml/KeyboardRows/JsonTranslator.qml:52
 msgid "Ctrl"
-msgstr ""
+msgstr "Ctrl"
 
 #. TRANSLATORS: This the short display name of a keyboard layout. It should be no longer than 4 characters!
 #: ../src/app/qml/KeyboardRows/JsonTranslator.qml:55
@@ -138,7 +138,7 @@ msgstr "Scr"
 #. TRANSLATORS: This the short display name of a keyboard layout. It should be no longer than 4 characters!
 #: ../src/app/qml/KeyboardRows/JsonTranslator.qml:61
 msgid "Cmd"
-msgstr ""
+msgstr "Cmd"
 
 #. TRANSLATORS: This is the name of the Control key.
 #: ../src/app/qml/KeyboardRows/JsonTranslator.qml:78
@@ -178,12 +178,12 @@ msgstr "Del"
 #. TRANSLATORS: This is the name of the Home key.
 #: ../src/app/qml/KeyboardRows/JsonTranslator.qml:109
 msgid "Home"
-msgstr ""
+msgstr "Home"
 
 #. TRANSLATORS: This is the name of the End key.
 #: ../src/app/qml/KeyboardRows/JsonTranslator.qml:112
 msgid "End"
-msgstr ""
+msgstr "End"
 
 #. TRANSLATORS: This is the name of the Tab key.
 #: ../src/app/qml/KeyboardRows/JsonTranslator.qml:115
@@ -193,7 +193,7 @@ msgstr "Καρτέλα"
 #. TRANSLATORS: This is the name of the Enter key.
 #: ../src/app/qml/KeyboardRows/JsonTranslator.qml:118
 msgid "Enter"
-msgstr ""
+msgstr "Enter"
 
 #: ../src/app/qml/NotifyDialog.qml:25
 msgid "OK"
@@ -205,15 +205,15 @@ msgstr "Διαφάνεια παρασκηνίου:"
 
 #: ../src/app/qml/Settings/ColorPickerPopup.qml:79
 msgid "R:"
-msgstr ""
+msgstr "R:"
 
 #: ../src/app/qml/Settings/ColorPickerPopup.qml:87
 msgid "G:"
-msgstr ""
+msgstr "G:"
 
 #: ../src/app/qml/Settings/ColorPickerPopup.qml:95
 msgid "B:"
-msgstr ""
+msgstr "B:"
 
 #: ../src/app/qml/Settings/ColorPickerPopup.qml:99
 msgid "Undo"
@@ -253,7 +253,7 @@ msgstr "Μαύρο σε άσπρο"
 
 #: ../src/app/qml/Settings/SettingsInterfaceSection.qml:128
 msgid "Black on random light"
-msgstr ""
+msgstr "Μαύρο σε τυχαίο φωτεινό"
 
 #: ../src/app/qml/Settings/SettingsInterfaceSection.qml:129
 msgid "Linux"
@@ -261,11 +261,11 @@ msgstr "Linux"
 
 #: ../src/app/qml/Settings/SettingsInterfaceSection.qml:130
 msgid "Cool retro term"
-msgstr ""
+msgstr "Ωραίο ρετρό"
 
 #: ../src/app/qml/Settings/SettingsInterfaceSection.qml:131
 msgid "Dark pastels"
-msgstr ""
+msgstr "Σκούρα παστέλ"
 
 #: ../src/app/qml/Settings/SettingsInterfaceSection.qml:132
 msgid "Black on light yellow"
@@ -285,15 +285,15 @@ msgstr "Κείμενο:"
 
 #: ../src/app/qml/Settings/SettingsInterfaceSection.qml:164
 msgid "Normal palette:"
-msgstr ""
+msgstr "Κανονική παλέτα:"
 
 #: ../src/app/qml/Settings/SettingsInterfaceSection.qml:171
 msgid "Bright palette:"
-msgstr ""
+msgstr "Φωτεινή παλέτα:"
 
 #: ../src/app/qml/Settings/SettingsInterfaceSection.qml:180
 msgid "Preset:"
-msgstr ""
+msgstr "Προεπιλογή:"
 
 #: ../src/app/qml/Settings/SettingsInterfaceSection.qml:197
 msgid "Layouts"
@@ -318,7 +318,7 @@ msgstr "Συντομεύσεις"
 #: ../src/app/qml/Settings/SettingsShortcutsSection.qml:60
 #, qt-format
 msgid "Showing %1 of %2"
-msgstr ""
+msgstr "Εμφάνιση %1 από %2"
 
 #: ../src/app/qml/Settings/SettingsShortcutsSection.qml:145
 #: ../src/app/qml/Settings/SettingsShortcutsSection.qml:150
@@ -374,19 +374,19 @@ msgstr "Διαχωρισμός τερματικού κάθετα"
 
 #: ../src/app/qml/Settings/SettingsShortcutsSection.qml:201
 msgid "Navigate to terminal above"
-msgstr ""
+msgstr "Περιηγηθείτε στο τερματικό παραπάνω"
 
 #: ../src/app/qml/Settings/SettingsShortcutsSection.qml:206
 msgid "Navigate to terminal below"
-msgstr ""
+msgstr "Περιηγηθείτε στο τερματικό παρακάτω"
 
 #: ../src/app/qml/Settings/SettingsShortcutsSection.qml:211
 msgid "Navigate to terminal on the left"
-msgstr ""
+msgstr "Περιηγηθείτε στο τερματικό στα αριστερά"
 
 #: ../src/app/qml/Settings/SettingsShortcutsSection.qml:216
 msgid "Navigate to terminal on the right"
-msgstr ""
+msgstr "Περιηγηθείτε στο τερματικό στα δεξιά"
 
 #: ../src/app/qml/Settings/SettingsWindow.qml:26
 msgid "Terminal Preferences"
@@ -394,7 +394,7 @@ msgstr "Προτιμήσεις τερματικού"
 
 #: ../src/app/qml/Settings/ShortcutRow.qml:78
 msgid "Enter shortcut…"
-msgstr ""
+msgstr "Εισαγωγή συντόμευσης…"
 
 #: ../src/app/qml/Settings/ShortcutRow.qml:80
 msgid "Disabled"
@@ -439,7 +439,7 @@ msgstr "Αντιγραφή διεύθυνσης ηλεκτρονικής αλλ�
 
 #: ../src/plugin/qmltermwidget/lib/SearchBar.cpp:39
 msgid "Match case"
-msgstr ""
+msgstr "Ταίριασμα πεζά/κεφαλαία"
 
 #: ../src/plugin/qmltermwidget/lib/SearchBar.cpp:45
 msgid "Regular expression"
