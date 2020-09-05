@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: ubuntu-terminal-app\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-10-20 09:02+0000\n"
-"PO-Revision-Date: 2020-09-05 14:38+0000\n"
+"PO-Revision-Date: 2020-09-05 20:02+0000\n"
 "Last-Translator: tamer dab <dabsantamer@yahoo.com>\n"
 "Language-Team: Hebrew <https://translate.ubports.com/projects/ubports/"
 "terminal-app/he/>\n"
@@ -36,27 +36,26 @@ msgstr "הדבקה"
 
 #: ../src/app/qml/AlternateActionPopover.qml:86
 msgid "Split horizontally"
-msgstr ""
+msgstr "פיצול אופקי"
 
 #: ../src/app/qml/AlternateActionPopover.qml:92
 msgid "Split vertically"
-msgstr ""
+msgstr "פצל אנכית"
 
 #: ../src/app/qml/AlternateActionPopover.qml:99
 #: ../src/app/qml/Settings/SettingsShortcutsSection.qml:151
 #: ../src/app/qml/TabsPage.qml:32
-#, fuzzy
 msgid "New tab"
-msgstr "טאב חדש"
+msgstr "כרטיסייה חדשה"
 
 #: ../src/app/qml/AlternateActionPopover.qml:104
 #: ../src/app/qml/Settings/SettingsShortcutsSection.qml:146
 msgid "New window"
-msgstr ""
+msgstr "חלון חדש"
 
 #: ../src/app/qml/AlternateActionPopover.qml:109
 msgid "Close App"
-msgstr ""
+msgstr "סגור אפליקציה"
 
 #: ../src/app/qml/AuthenticationDialog.qml:25
 msgid "Authentication required"
@@ -85,11 +84,11 @@ msgstr "האימות נכשל"
 
 #: ../src/app/qml/AuthenticationService.qml:83
 msgid "No SSH server running."
-msgstr ""
+msgstr "אין שרת SSH פעיל."
 
 #: ../src/app/qml/AuthenticationService.qml:84
 msgid "SSH server not found. Do you want to proceed in confined mode?"
-msgstr ""
+msgstr "שרת SSH לא נמצא. האם ברצונך להמשיך במצב מוגבל?"
 
 #: ../src/app/qml/ConfirmationDialog.qml:32
 msgid "Continue"
@@ -101,46 +100,43 @@ msgstr "שינוי מקלדת"
 
 #. TRANSLATORS: This a keyboard layout name
 #: ../src/app/qml/KeyboardRows/JsonTranslator.qml:35
-#, fuzzy
 msgid "Control Keys"
 msgstr "מקשי שליטה"
 
 #. TRANSLATORS: This a keyboard layout name
 #: ../src/app/qml/KeyboardRows/JsonTranslator.qml:38
-#, fuzzy
 msgid "Function Keys"
 msgstr "מקשי פונקציות"
 
 #. TRANSLATORS: This a keyboard layout name
 #: ../src/app/qml/KeyboardRows/JsonTranslator.qml:41
-#, fuzzy
 msgid "Scroll Keys"
 msgstr "מקשי גלילה"
 
 #. TRANSLATORS: This a keyboard layout name
 #: ../src/app/qml/KeyboardRows/JsonTranslator.qml:44
 msgid "Command Keys"
-msgstr ""
+msgstr "מקשי פיקודה"
 
 #. TRANSLATORS: This the short display name of a keyboard layout. It should be no longer than 4 characters!
 #: ../src/app/qml/KeyboardRows/JsonTranslator.qml:52
 msgid "Ctrl"
-msgstr ""
+msgstr "Ctrl"
 
 #. TRANSLATORS: This the short display name of a keyboard layout. It should be no longer than 4 characters!
 #: ../src/app/qml/KeyboardRows/JsonTranslator.qml:55
 msgid "Fn"
-msgstr ""
+msgstr "Fn"
 
 #. TRANSLATORS: This the short display name of a keyboard layout. It should be no longer than 4 characters!
 #: ../src/app/qml/KeyboardRows/JsonTranslator.qml:58
 msgid "Scr"
-msgstr ""
+msgstr "Scr"
 
 #. TRANSLATORS: This the short display name of a keyboard layout. It should be no longer than 4 characters!
 #: ../src/app/qml/KeyboardRows/JsonTranslator.qml:61
 msgid "Cmd"
-msgstr ""
+msgstr "Cmd"
 
 #. TRANSLATORS: This is the name of the Control key.
 #: ../src/app/qml/KeyboardRows/JsonTranslator.qml:78
@@ -150,32 +146,32 @@ msgstr "CTRL"
 #. TRANSLATORS: This is the name of the Alt key.
 #: ../src/app/qml/KeyboardRows/JsonTranslator.qml:81
 msgid "Alt"
-msgstr ""
+msgstr "Alt"
 
 #. TRANSLATORS: This is the name of the Shift key.
 #: ../src/app/qml/KeyboardRows/JsonTranslator.qml:84
 msgid "Shift"
-msgstr ""
+msgstr "Shift"
 
 #. TRANSLATORS: This is the name of the Escape key.
 #: ../src/app/qml/KeyboardRows/JsonTranslator.qml:97
 msgid "Esc"
-msgstr ""
+msgstr "Esc"
 
 #. TRANSLATORS: This is the name of the Page Up key.
 #: ../src/app/qml/KeyboardRows/JsonTranslator.qml:100
 msgid "PgUp"
-msgstr ""
+msgstr "PgUp"
 
 #. TRANSLATORS: This is the name of the Page Down key.
 #: ../src/app/qml/KeyboardRows/JsonTranslator.qml:103
 msgid "PgDn"
-msgstr ""
+msgstr "PgDn"
 
 #. TRANSLATORS: This is the name of the Delete key.
 #: ../src/app/qml/KeyboardRows/JsonTranslator.qml:106
 msgid "Del"
-msgstr ""
+msgstr "Del"
 
 #. TRANSLATORS: This is the name of the Home key.
 #: ../src/app/qml/KeyboardRows/JsonTranslator.qml:109
@@ -185,17 +181,17 @@ msgstr "בית"
 #. TRANSLATORS: This is the name of the End key.
 #: ../src/app/qml/KeyboardRows/JsonTranslator.qml:112
 msgid "End"
-msgstr ""
+msgstr "End"
 
 #. TRANSLATORS: This is the name of the Tab key.
 #: ../src/app/qml/KeyboardRows/JsonTranslator.qml:115
 msgid "Tab"
-msgstr ""
+msgstr "Tab"
 
 #. TRANSLATORS: This is the name of the Enter key.
 #: ../src/app/qml/KeyboardRows/JsonTranslator.qml:118
 msgid "Enter"
-msgstr ""
+msgstr "Enter"
 
 #: ../src/app/qml/NotifyDialog.qml:25
 msgid "OK"
@@ -203,19 +199,19 @@ msgstr "אישור"
 
 #: ../src/app/qml/Settings/BackgroundOpacityEditor.qml:26
 msgid "Background opacity:"
-msgstr ""
+msgstr "עמעום רקע:"
 
 #: ../src/app/qml/Settings/ColorPickerPopup.qml:79
 msgid "R:"
-msgstr ""
+msgstr "R:"
 
 #: ../src/app/qml/Settings/ColorPickerPopup.qml:87
 msgid "G:"
-msgstr ""
+msgstr "G:"
 
 #: ../src/app/qml/Settings/ColorPickerPopup.qml:95
 msgid "B:"
-msgstr ""
+msgstr "B:"
 
 #: ../src/app/qml/Settings/ColorPickerPopup.qml:99
 msgid "Undo"
@@ -223,12 +219,11 @@ msgstr "החזרה"
 
 #: ../src/app/qml/Settings/SettingsInterfaceSection.qml:55
 msgid "Text"
-msgstr ""
+msgstr "טקסט"
 
 #: ../src/app/qml/Settings/SettingsInterfaceSection.qml:66
-#, fuzzy
 msgid "Font:"
-msgstr "גודל פונט:"
+msgstr "פונט:"
 
 #: ../src/app/qml/Settings/SettingsInterfaceSection.qml:91
 msgid "Font Size:"
@@ -236,72 +231,71 @@ msgstr "גודל פונט:"
 
 #: ../src/app/qml/Settings/SettingsInterfaceSection.qml:119
 msgid "Colors"
-msgstr ""
+msgstr "צבעים"
 
 #: ../src/app/qml/Settings/SettingsInterfaceSection.qml:124
 msgid "Ubuntu"
-msgstr ""
+msgstr "Ubuntu"
 
 #: ../src/app/qml/Settings/SettingsInterfaceSection.qml:125
 msgid "Green on black"
-msgstr ""
+msgstr "ירוק על שחור"
 
 #: ../src/app/qml/Settings/SettingsInterfaceSection.qml:126
 msgid "White on black"
-msgstr ""
+msgstr "לבן על שחור"
 
 #: ../src/app/qml/Settings/SettingsInterfaceSection.qml:127
 msgid "Black on white"
-msgstr ""
+msgstr "שחור על גבי לבן"
 
 #: ../src/app/qml/Settings/SettingsInterfaceSection.qml:128
 msgid "Black on random light"
-msgstr ""
+msgstr "שחור על בהיר אקראי"
 
 #: ../src/app/qml/Settings/SettingsInterfaceSection.qml:129
 msgid "Linux"
-msgstr ""
+msgstr "לינוקס"
 
 #: ../src/app/qml/Settings/SettingsInterfaceSection.qml:130
 msgid "Cool retro term"
-msgstr ""
+msgstr "מונח רטרו מגניב"
 
 #: ../src/app/qml/Settings/SettingsInterfaceSection.qml:131
-#, fuzzy
 msgid "Dark pastels"
-msgstr "פסטלים כהים / אובונטו (ישן)"
+msgstr "פסטלים כהים"
 
 #: ../src/app/qml/Settings/SettingsInterfaceSection.qml:132
 msgid "Black on light yellow"
-msgstr ""
+msgstr "שחור על צהוב בהיר"
 
 #: ../src/app/qml/Settings/SettingsInterfaceSection.qml:133
 msgid "Customized"
-msgstr ""
+msgstr "מותאם אישית"
 
 #: ../src/app/qml/Settings/SettingsInterfaceSection.qml:144
 msgid "Background:"
-msgstr ""
+msgstr "רקע:"
 
 #: ../src/app/qml/Settings/SettingsInterfaceSection.qml:152
 msgid "Text:"
-msgstr ""
+msgstr "טקסט:"
 
 #: ../src/app/qml/Settings/SettingsInterfaceSection.qml:164
 msgid "Normal palette:"
-msgstr ""
+msgstr "לוח רגיל:"
 
 #: ../src/app/qml/Settings/SettingsInterfaceSection.qml:171
 msgid "Bright palette:"
-msgstr ""
+msgstr "לוח צבעים בהיר:"
 
 #: ../src/app/qml/Settings/SettingsInterfaceSection.qml:180
 msgid "Preset:"
-msgstr ""
+msgstr "מוגדר מראש:"
 
 #: ../src/app/qml/Settings/SettingsInterfaceSection.qml:197
 msgid "Layouts"
-msgstr ""
+msgstr "פריסות"
 
 #: ../src/app/qml/Settings/SettingsPage.qml:33
 msgid "close"
@@ -309,20 +303,20 @@ msgstr "סגור"
 
 #: ../src/app/qml/Settings/SettingsPage.qml:39
 msgid "Preferences"
-msgstr ""
+msgstr "העדפות"
 
 #: ../src/app/qml/Settings/SettingsPage.qml:50
 msgid "Interface"
-msgstr ""
+msgstr "ממשק"
 
 #: ../src/app/qml/Settings/SettingsPage.qml:54
 msgid "Shortcuts"
-msgstr ""
+msgstr "קיצורי דרך"
 
 #: ../src/app/qml/Settings/SettingsShortcutsSection.qml:60
 #, qt-format
 msgid "Showing %1 of %2"
-msgstr ""
+msgstr "מציג %1 מתוך %2"
 
 #: ../src/app/qml/Settings/SettingsShortcutsSection.qml:145
 #: ../src/app/qml/Settings/SettingsShortcutsSection.qml:150
@@ -334,22 +328,20 @@ msgid "File"
 msgstr "קובץ"
 
 #: ../src/app/qml/Settings/SettingsShortcutsSection.qml:156
-#, fuzzy
 msgid "Close terminal"
-msgstr "מסוף"
+msgstr "סגור מסוף"
 
 #: ../src/app/qml/Settings/SettingsShortcutsSection.qml:161
 msgid "Close all terminals"
-msgstr ""
+msgstr "סגור את כל המסופים"
 
 #: ../src/app/qml/Settings/SettingsShortcutsSection.qml:166
 msgid "Previous tab"
-msgstr ""
+msgstr "כרטיסייה קודמת"
 
 #: ../src/app/qml/Settings/SettingsShortcutsSection.qml:171
-#, fuzzy
 msgid "Next tab"
-msgstr "טאב חדש"
+msgstr "הכרטיסייה הבאה"
 
 #: ../src/app/qml/Settings/SettingsShortcutsSection.qml:175
 #: ../src/app/qml/Settings/SettingsShortcutsSection.qml:180
@@ -364,43 +356,43 @@ msgstr "ערוך"
 #: ../src/app/qml/Settings/SettingsShortcutsSection.qml:210
 #: ../src/app/qml/Settings/SettingsShortcutsSection.qml:215
 msgid "View"
-msgstr ""
+msgstr "נוף"
 
 #: ../src/app/qml/Settings/SettingsShortcutsSection.qml:186
 msgid "Toggle fullscreen"
-msgstr ""
+msgstr "מתג מסך מלא"
 
 #: ../src/app/qml/Settings/SettingsShortcutsSection.qml:191
 msgid "Split terminal horizontally"
-msgstr ""
+msgstr "פיצול מסוף אופקית"
 
 #: ../src/app/qml/Settings/SettingsShortcutsSection.qml:196
 msgid "Split terminal vertically"
-msgstr ""
+msgstr "פיצול המסוף אנכית"
 
 #: ../src/app/qml/Settings/SettingsShortcutsSection.qml:201
 msgid "Navigate to terminal above"
-msgstr ""
+msgstr "נווט למסוף למעלה"
 
 #: ../src/app/qml/Settings/SettingsShortcutsSection.qml:206
 msgid "Navigate to terminal below"
-msgstr ""
+msgstr "נווט למסוף למטה"
 
 #: ../src/app/qml/Settings/SettingsShortcutsSection.qml:211
 msgid "Navigate to terminal on the left"
-msgstr ""
+msgstr "נווט למסוף משמאל"
 
 #: ../src/app/qml/Settings/SettingsShortcutsSection.qml:216
 msgid "Navigate to terminal on the right"
-msgstr ""
+msgstr "נווט למסוף בצד ימין"
 
 #: ../src/app/qml/Settings/SettingsWindow.qml:26
 msgid "Terminal Preferences"
-msgstr ""
+msgstr "העדפות מסוף"
 
 #: ../src/app/qml/Settings/ShortcutRow.qml:78
 msgid "Enter shortcut…"
-msgstr ""
+msgstr "הזן קיצור דרך …"
 
 #: ../src/app/qml/Settings/ShortcutRow.qml:80
 msgid "Disabled"
@@ -408,7 +400,7 @@ msgstr "מבוטל"
 
 #: ../src/app/qml/TabsPage.qml:26
 msgid "Tabs"
-msgstr ""
+msgstr "כרטיסיות"
 
 #: ../src/app/qml/TerminalPage.qml:63 ubuntu-terminal-app.desktop.in.in.h:1
 msgid "Terminal"
@@ -416,59 +408,61 @@ msgstr "מסוף"
 
 #: ../src/app/qml/TerminalPage.qml:302
 msgid "Selection Mode"
-msgstr ""
+msgstr "מצב בחירה"
 
 #: ../src/plugin/qmltermwidget/lib/ColorScheme.cpp:291
 #: ../src/plugin/qmltermwidget/lib/ColorScheme.cpp:320
 msgid "Un-named Color Scheme"
-msgstr ""
+msgstr "ערכת צבעים ללא שם"
 
 #: ../src/plugin/qmltermwidget/lib/ColorScheme.cpp:468
 msgid "Accessible Color Scheme"
-msgstr ""
+msgstr "ערכת צבעים נגישה"
 
 #: ../src/plugin/qmltermwidget/lib/Filter.cpp:533
 msgid "Open Link"
-msgstr ""
+msgstr "פתח קישור"
 
 #: ../src/plugin/qmltermwidget/lib/Filter.cpp:534
 msgid "Copy Link Address"
-msgstr ""
+msgstr "העתק קישור"
 
 #: ../src/plugin/qmltermwidget/lib/Filter.cpp:538
 msgid "Send Email To…"
-msgstr ""
+msgstr "שלח דוא\"ל אל …"
 
 #: ../src/plugin/qmltermwidget/lib/Filter.cpp:539
 msgid "Copy Email Address"
-msgstr ""
+msgstr "העתק כתובת דוא\"ל"
 
 #: ../src/plugin/qmltermwidget/lib/SearchBar.cpp:39
 msgid "Match case"
-msgstr ""
+msgstr "מקרה התאמה"
 
 #: ../src/plugin/qmltermwidget/lib/SearchBar.cpp:45
 msgid "Regular expression"
-msgstr ""
+msgstr "הבעה רגילה"
 
 #: ../src/plugin/qmltermwidget/lib/SearchBar.cpp:49
 msgid "Higlight all matches"
-msgstr ""
+msgstr "הדגש את כל ההתאמות"
 
 #: ../src/plugin/qmltermwidget/lib/Vt102Emulation.cpp:982
 msgid ""
 "No keyboard translator available.  The information needed to convert key "
 "presses into characters to send to the terminal is missing."
 msgstr ""
+"אין מתרגם מקלדת זמין. המידע הדרוש להמרת לחיצות מקשים לתווים שיש לשלוח למסוף "
+"חסר."
 
 #: ../src/plugin/qmltermwidget/lib/qtermwidget.cpp:406
 msgid "Color Scheme Error"
-msgstr ""
+msgstr "שגיאת ערכת צבעים"
 
 #: ../src/plugin/qmltermwidget/lib/qtermwidget.cpp:407
 #, qt-format
 msgid "Cannot load color scheme: %1"
-msgstr ""
+msgstr "לא ניתן לטעון את ערכת הצבעים: %1"
 
 #~ msgid "Color Scheme"
 #~ msgstr "סכמת צבע"
