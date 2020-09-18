@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-10-20 09:02+0000\n"
-"PO-Revision-Date: 2020-07-17 13:49+0000\n"
+"PO-Revision-Date: 2020-09-18 15:59+0000\n"
 "Last-Translator: Adria <adriamartinmor@gmail.com>\n"
 "Language-Team: Sardinian <https://translate.ubports.com/projects/ubports/"
 "terminal-app/sc/>\n"
@@ -462,7 +462,7 @@ msgstr "Faddina in s'ischema de colore"
 #: ../src/plugin/qmltermwidget/lib/qtermwidget.cpp:407
 #, qt-format
 msgid "Cannot load color scheme: %1"
-msgstr "Non s'est pòdidu carrigare s'ischema de colore: %1"
+msgstr "Impossìbile carrigare s'ischema de colore: %1"
 
 #~ msgid "Color Scheme"
 #~ msgstr "Ischema de colore"
