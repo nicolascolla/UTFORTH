@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: ubuntu-terminal-app\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-10-20 09:02+0000\n"
-"PO-Revision-Date: 2019-10-30 10:36+0000\n"
+"PO-Revision-Date: 2020-09-24 19:00+0000\n"
 "Last-Translator: P.-H. Lin <cypressyew@gmail.com>\n"
 "Language-Team: Chinese (Traditional) <https://translate.ubports.com/projects/"
 "ubports/terminal-app/zh_Hant/>\n"
@@ -17,12 +17,12 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 3.8\n"
+"X-Generator: Weblate 3.11.3\n"
 "X-Launchpad-Export-Date: 2016-02-08 05:36+0000\n"
 
 #: ../src/app/qml/AlternateActionPopover.qml:68
 msgid "Select"
-msgstr "選取"
+msgstr "選擇"
 
 #: ../src/app/qml/AlternateActionPopover.qml:73
 #: ../src/app/qml/Settings/SettingsShortcutsSection.qml:176
