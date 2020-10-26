@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: ubuntu-terminal-app\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-10-20 09:02+0000\n"
-"PO-Revision-Date: 2020-08-31 10:00+0000\n"
+"PO-Revision-Date: 2020-10-26 21:27+0000\n"
 "Last-Translator: Heimen Stoffels <vistausss@outlook.com>\n"
 "Language-Team: Dutch <https://translate.ubports.com/projects/ubports/"
 "terminal-app/nl/>\n"
@@ -76,7 +76,7 @@ msgstr "Authenticeren"
 #: ../src/app/qml/AuthenticationDialog.qml:70
 #: ../src/app/qml/ConfirmationDialog.qml:42
 msgid "Cancel"
-msgstr "Afbreken"
+msgstr "Annuleren"
 
 #: ../src/app/qml/AuthenticationService.qml:64
 msgid "Authentication failed"
