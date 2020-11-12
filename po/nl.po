@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: ubuntu-terminal-app\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-10-20 09:02+0000\n"
-"PO-Revision-Date: 2020-10-26 21:27+0000\n"
+"PO-Revision-Date: 2020-11-12 14:00+0000\n"
 "Last-Translator: Heimen Stoffels <vistausss@outlook.com>\n"
 "Language-Team: Dutch <https://translate.ubports.com/projects/ubports/"
 "terminal-app/nl/>\n"
@@ -195,7 +195,7 @@ msgstr "Enter"
 
 #: ../src/app/qml/NotifyDialog.qml:25
 msgid "OK"
-msgstr "Oké"
+msgstr "Uitzetten"
 
 #: ../src/app/qml/Settings/BackgroundOpacityEditor.qml:26
 msgid "Background opacity:"

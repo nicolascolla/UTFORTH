@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: ubuntu-terminal-app\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-10-20 09:02+0000\n"
-"PO-Revision-Date: 2020-11-06 07:43+0000\n"
+"PO-Revision-Date: 2020-11-10 07:42+0000\n"
 "Last-Translator: abidin <abidin24@tutanota.com>\n"
 "Language-Team: Arabic <https://translate.ubports.com/projects/ubports/"
 "terminal-app/ar/>\n"
@@ -399,7 +399,7 @@ msgstr ""
 
 #: ../src/app/qml/Settings/ShortcutRow.qml:80
 msgid "Disabled"
-msgstr ""
+msgstr "معطل"
 
 #: ../src/app/qml/TabsPage.qml:26
 msgid "Tabs"
