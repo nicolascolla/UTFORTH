@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: ubuntu-terminal-app\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-10-20 09:02+0000\n"
-"PO-Revision-Date: 2020-11-19 08:42+0000\n"
+"PO-Revision-Date: 2020-12-05 21:26+0000\n"
 "Last-Translator: abidin <abidin24@tutanota.com>\n"
 "Language-Team: Arabic <https://translate.ubports.com/projects/ubports/"
 "terminal-app/ar/>\n"
@@ -28,7 +28,7 @@ msgstr "حدد"
 #: ../src/app/qml/AlternateActionPopover.qml:73
 #: ../src/app/qml/Settings/SettingsShortcutsSection.qml:176
 msgid "Copy"
-msgstr "ناسخ"
+msgstr "انسخ"
 
 #: ../src/app/qml/AlternateActionPopover.qml:79
 #: ../src/app/qml/Settings/SettingsShortcutsSection.qml:181
@@ -60,7 +60,7 @@ msgstr "إغلق التطبيق"
 
 #: ../src/app/qml/AuthenticationDialog.qml:25
 msgid "Authentication required"
-msgstr "يستلزم التوثيق"
+msgstr "يستلزم الاستيثاق"
 
 #: ../src/app/qml/AuthenticationDialog.qml:27
 msgid "Enter passcode or passphrase:"
