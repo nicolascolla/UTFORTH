@@ -93,6 +93,12 @@ ActionSelectionPopover {
             onTriggered: tiledTerminalView.splitTerminal(terminal, Qt.Horizontal)
             shortcut: settings.shortcutSplitVertically
             enabled: terminal.width >= 2 * tiledTerminalView.minimumTileWidth
+        }
+        Action {
+            text: i18n.tr("Close active view")
+            onTriggered: terminal.finished()
+            shortcut: settings.shortcutCloseTab
+            enabled: tiledTerminalView.count > 1
             property bool divider: true
         }
         Action {
@@ -101,14 +107,25 @@ ActionSelectionPopover {
             shortcut: settings.shortcutNewTab
         }
         Action {
+            text: i18n.tr("Close active tab")
+            onTriggered: {
+              if (tabsModel.count > 1) {
+                tabsModel.removeItem(tabsModel.currentIndex);
+              }
+            }
+            shortcut: settings.shortcutCloseTab
+            enabled: tabsModel.count > 1
+        }
+        Action {
             text: i18n.tr("New window")
             onTriggered: terminalAppRoot.createTerminalWindow()
             shortcut: settings.shortcutNewWindow
+            property bool divider: true
         }
         Action {
-            text: i18n.tr("Close App")
-            onTriggered: terminal.finished()
-            shortcut: settings.shortcutCloseTab
+            id: closeAction
+            text: i18n.tr("Cancel")
+            onTriggered: popover.hide()
         }
     }
 }
