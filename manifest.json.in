@@ -13,7 +13,7 @@
     "maintainer": "UBports <dev@ubports.com>",
     "name": "com.ubuntu.terminal",
     "title": "Terminal",
-    "version": "0.9.9",
+    "version": "1.0.0",
     "x-source": {
         "vcs-bzr": "@BZR_SOURCE@",
         "vcs-bzr-revno": "@BZR_REVNO@"
