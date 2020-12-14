@@ -24,6 +24,7 @@ set(SPLASH_FILE terminal-app-splash.svg)
 set(AUTOPILOT_DIR ubuntu_terminal_app)
 set(EXEC "${APP_NAME}")
 set(UBUNTU_MANIFEST_PATH "manifest.json.in" CACHE INTERNAL "Relative path to the manifest file")
+set(URLS_FILE "${APP_HARDCODE}.url-dispatcher")
 
 if(CLICK_MODE)
     if(NOT DEFINED BZR_SOURCE)
@@ -41,6 +42,7 @@ if(CLICK_MODE)
     set(CMAKE_INSTALL_BINDIR /)
     set(DATA_DIR /)
     set(DESKTOP_DIR ${DATA_DIR})
+    set(URLS_DIR ${DATA_DIR})
     set(ICON ${ICON_FILE})
     set(SPLASH ${SPLASH_FILE})
     set(QT_IMPORTS_DIR "/lib/${ARCH_TRIPLET}")
@@ -74,6 +76,7 @@ else(CLICK_MODE)
     set(ICON ${CMAKE_INSTALL_PREFIX}/${DATA_DIR}/${ICON_FILE})
     set(SPLASH ${CMAKE_INSTALL_PREFIX}/${DATA_DIR}/${SPLASH_FILE})
     set(DESKTOP_DIR ${CMAKE_INSTALL_DATADIR}/applications)
+    set(URLS_DIR ${CMAKE_INSTALL_DATADIR}/url-dispatcher/urls)
     install(FILES ${CMAKE_CURRENT_SOURCE_DIR}/terminal.1 DESTINATION ${CMAKE_INSTALL_DATADIR}/man/man1)
 endif(CLICK_MODE)
 
@@ -103,6 +106,8 @@ add_custom_target(${DESKTOP_FILE} ALL
 
 install(FILES ${CMAKE_CURRENT_BINARY_DIR}/${DESKTOP_FILE}
     DESTINATION ${DESKTOP_DIR})
+
+install(FILES ${URLS_FILE} DESTINATION ${URLS_DIR})
 
 # Tests
 enable_testing()
