@@ -44,6 +44,14 @@ Page {
         }
     }
 
+    function changeColor(color) {
+        var red = 1 - (color.r * 0.05)
+        var green = 1 - (color.g * 0.05)
+        var blue = 1 - (color.b * 0.05)
+        var alpha = color.a * 0.6
+        return Qt.rgba(red, green, blue, alpha)
+    }
+
     Loader {
         id: settingsLoader
         source: Qt.resolvedUrl("Settings/SettingsWindow.qml")
@@ -130,19 +138,48 @@ Page {
         anchors {
             left: parent.left
             top: parent.top
-            right: parent.right
+            right: borders.left
         }
+        width: parent.width - buttonRect.width
         property bool isDarkBackground: terminalPage.terminal && terminalPage.terminal.isDarkBackground
         actionColor: isDarkBackground ? "white" : "black"
         backgroundColor: terminalPage.terminal ? terminalPage.terminal.backgroundColor : ""
         foregroundColor: terminalPage.terminal ? terminalPage.terminal.foregroundColor : ""
         contourColor: terminalPage.terminal ? terminalPage.terminal.contourColor : ""
         color: isDarkBackground ? Qt.tint(backgroundColor, "#0DFFFFFF") : Qt.tint(backgroundColor, "#0D000000")
+        //first two characters are fore transparency, FFFFFF is white, 000000 is black
         model: terminalPage.tabsModel
         visible: !terminalPage.narrowLayout
         function titleFromModelItem(modelItem) {
             return modelItem.focusedTerminal ? modelItem.focusedTerminal.session.title : "";
         }
+    }
+
+    Rectangle {
+        id: borders
+        anchors {
+            right: parent.right
+            top: parent.top
+        }
+        visible: !terminalPage.narrowLayout
+        color: changeColor(terminalPage.terminal.backgroundColor)
+        width: units.gu(6)
+        height: units.gu(3)
+        border.width: 0
+    }
+
+    Rectangle {
+        id: buttonRect
+        anchors {
+            right: parent.right
+            top: parent.top
+        }
+        z: 1
+
+        color: tabsBar.color
+        width: units.gu(6)-units.dp(1)
+        height: units.gu(3)-units.dp(1)
+        visible: !terminalPage.narrowLayout
 
         AbstractButton {
             id: settingsButtonTab
@@ -153,7 +190,6 @@ Page {
                 right: parent.right
                 margins: units.gu(0.5)
             }
-            visible: !terminalPage.narrowLayout
 
             onClicked: openSettingsPage()
 
@@ -176,7 +212,6 @@ Page {
                 topMargin: units.gu(0.5)
                 rightMargin: units.gu(1)
             }
-            visible: !terminalPage.narrowLayout
 
             onClicked: pageStack.push(tabsPage)
 
@@ -186,6 +221,31 @@ Page {
                 height: width
                 width: units.gu(2)
                 name: "browser-tabs"
+            }
+        }
+
+        AbstractButton {
+            id: closeSelectionButtonTab
+            height: width
+            width: units.gu(2)
+            anchors {
+                top: parent.top
+                right: tabsButtonTab.left
+                margins: units.gu(0.5)
+            }
+            visible: false
+
+            onClicked: {
+              terminalPage.state = "DEFAULT";
+              PopupUtils.open(Qt.resolvedUrl("AlternateActionPopover.qml"));
+            }
+
+            Icon {
+                anchors.centerIn: parent
+                color: tabsBar.actionColor
+                height: width
+                width: units.gu(2)
+                name: "close"
             }
         }
     }
