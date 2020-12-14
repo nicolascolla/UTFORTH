@@ -76,8 +76,32 @@ QMLTermWidget {
     property int totalLines: terminal.scrollbarMaximum - terminal.scrollbarMinimum + terminal.lines
 
     Component.onCompleted: {
+        //extract path argument from imported url and set terminals initial working directory to it
+        //specify same/similar methods in TerminalPage.qml "Connections" with "target: UriHandler" section
+        //here links get processed when received while app is closed
+        //a valid url looks like this: terminal://?path=/home/phablet/Documents
+
+        //arguments stay in memory, make sure that this routine is called only once on app startup
+        if (!firstTerminalCreated) {
+            if (Qt.application.arguments && Qt.application.arguments.length > 0) {
+                for (var i = 0; i < Qt.application.arguments.length; i++) {
+                    if (Qt.application.arguments[i].match("path")) {
+                        var arg = Qt.application.arguments[i].split("=")[1].replace("%20"," ")
+                        console.log("received URL path: " + arg)
+                        if (FileIO.exists(arg)) {
+                            console.log("set working directory to: " + arg)
+                            terminalSession.initialWorkingDirectory = arg
+                        } else {
+                            console.log(arg + " is no valid path, import skipped")
+                        }
+                    }
+                }
+            }
+        }
+
         terminalSession.startShellProgram();
         forceActiveFocus();
+        firstTerminalCreated = true
     }
 
     // TODO: This invisible button is used to position the popover where the

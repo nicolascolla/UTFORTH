@@ -37,7 +37,7 @@ ListModel {
     property Component tiledViewComponent: TiledTerminalView {}
 
     function addTerminalTab(initialWorkingDirectory) {
-        if (currentItem) {
+        if (currentItem && !initialWorkingDirectory) {
             initialWorkingDirectory = currentItem.focusedTerminal.session.getWorkingDirectory();
         }
 

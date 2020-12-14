@@ -20,6 +20,7 @@ import Ubuntu.Components 1.3
 import Ubuntu.Components.Popups 1.3
 import Ubuntu.Components.Extras 0.3
 import QMLTermWidget 1.0
+import Terminal 0.1 //for FileIO
 import GSettings 1.0
 
 // For FastBlur
@@ -129,6 +130,25 @@ Page {
                 height: width
                 width: units.gu(2.5)
                 name: "browser-tabs"
+            }
+        }
+    }
+
+    Connections {
+        //specify same/similar methods in Terminal.qml Component.onCompleted section
+        //here links get processed when received while app is open
+        //a new tab is opened with the specified path as initial directory
+        target: UriHandler
+        onOpened: {
+            console.log("link received while app is open")
+            var argus = uris[0].substring(uris[0].lastIndexOf('=')+1).replace("%20"," ")
+            if (argus) {
+                if (FileIO.exists(argus)) {
+                    console.log("new tab path: " + argus)
+                    tabsModel.addTerminalTab(argus)
+                } else {
+                    console.log(argus + " is no valid path, import skipped")
+                }
             }
         }
     }

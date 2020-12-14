@@ -27,6 +27,7 @@ QtObject {
     id: terminalAppRoot
 
     property string userPassword: ""
+    property bool firstTerminalCreated: false
     readonly property bool sshMode: sshIsAvailable && sshRequired && (userPassword != "")
 
     property string customizedSchemeFile: StandardPaths.writableLocation(StandardPaths.AppConfigLocation)
@@ -52,11 +53,17 @@ QtObject {
     property var focusedTerminal
     property int terminalWindowCount: 0
     onTerminalWindowCountChanged: if (terminalWindowCount == 0) Qt.quit()
-    function createTerminalWindow() {
-        var workingDirectory = focusedTerminal ? focusedTerminal.session.getWorkingDirectory()
-                                               : "$HOME";
-        Helpers.createComponentInstance(terminalWindowComponent, terminalAppRoot,
-                                        {"initialWorkingDirectory": workingDirectory});
+    function createTerminalWindow(startDirectory) {
+        //if initial directory is passed, use this for new windows
+        if (startDirectory) {
+            Helpers.createComponentInstance(terminalWindowComponent, terminalAppRoot,
+                                            {"initialWorkingDirectory": startDirectory});
+        } else {
+            var workingDirectory = focusedTerminal ? focusedTerminal.session.getWorkingDirectory()
+                                                   : "$HOME";
+            Helpers.createComponentInstance(terminalWindowComponent, terminalAppRoot,
+                                            {"initialWorkingDirectory": workingDirectory});
+        }
         terminalWindowCount += 1;
     }
 
