@@ -71,7 +71,7 @@ Page {
                     anchors.fill: parent
 
                     CircularTransparentButton {
-                        id: settingsButton
+                        id: closeTabButton
                         width: units.gu(4)
                         height: units.gu(4)
 

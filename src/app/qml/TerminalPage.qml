@@ -123,37 +123,6 @@ Page {
                 name: "browser-tabs"
             }
         }
-
-        AbstractButton {
-            id: closeSelectionButton
-            height: width
-            width: units.gu(4)
-            anchors {
-                top: parent.top
-                right: parent.right
-                margins: units.gu(1)
-            }
-            visible: false
-
-            onClicked: {
-              terminalPage.state = "DEFAULT";
-              PopupUtils.open(Qt.resolvedUrl("AlternateActionPopover.qml"));
-            }
-
-            Rectangle {
-                anchors.fill: parent
-                color: Theme.palette.selected.background
-                visible: parent.pressed
-            }
-
-            Icon {
-                anchors.centerIn: parent
-                color: tabsBar.actionColor
-                height: width
-                width: units.gu(2.5)
-                name: "close"
-            }
-        }
     }
 
     TabsBar {
@@ -219,31 +188,6 @@ Page {
                 name: "browser-tabs"
             }
         }
-
-        AbstractButton {
-            id: closeSelectionButtonTab
-            height: width
-            width: units.gu(2)
-            anchors {
-                top: parent.top
-                right: parent.right
-                margins: units.gu(0.5)
-            }
-            visible: false
-
-            onClicked: {
-              terminalPage.state = "DEFAULT";
-              PopupUtils.open(Qt.resolvedUrl("AlternateActionPopover.qml"));
-            }
-
-            Icon {
-                anchors.centerIn: parent
-                color: tabsBar.actionColor
-                height: width
-                width: units.gu(2)
-                name: "close"
-            }
-        }
     }
 
     Item {
@@ -299,7 +243,17 @@ Page {
             Label {
                 anchors.centerIn: parent
                 color: "white"
-                text: i18n.tr("Selection Mode")
+                text: i18n.tr("exit selection mode")
+            }
+
+            MouseArea {
+                anchors.fill: parent
+                cursorShape: Qt.PointingHandCursor
+                hoverEnabled: false
+                onClicked: {
+                  terminalPage.state = "DEFAULT";
+                  PopupUtils.open(Qt.resolvedUrl("AlternateActionPopover.qml"));
+                }
             }
         }
     }
@@ -356,8 +310,8 @@ Page {
         },
         State {
             name: "SELECTION"
-            PropertyChanges { target: closeSelectionButton; visible: true }
-            PropertyChanges { target: closeSelectionButtonTab; visible: true }
+            PropertyChanges { target: closeElementButton; visible: false }
+            PropertyChanges { target: closeElementButtonTab; visible: false }
             PropertyChanges { target: settingsButton; visible: false }
             PropertyChanges { target: settingsButtonTab; visible: false }
             PropertyChanges { target: tabsButton; visible: false }
