@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: ubuntu-terminal-app\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-10-20 09:02+0000\n"
-"PO-Revision-Date: 2020-12-26 16:19+0000\n"
-"Last-Translator: anonymous <noreply@weblate.org>\n"
+"PO-Revision-Date: 2020-12-27 17:26+0000\n"
+"Last-Translator: TigranKhachatryan0 <tigrank2008@gmail.com>\n"
 "Language-Team: Armenian <https://translate.ubports.com/projects/ubports/"
 "terminal-app/hy/>\n"
 "Language: hy\n"
@@ -32,15 +32,15 @@ msgstr "Պատճենել"
 #: ../src/app/qml/AlternateActionPopover.qml:79
 #: ../src/app/qml/Settings/SettingsShortcutsSection.qml:181
 msgid "Paste"
-msgstr "Կցել"
+msgstr "Փակցնել"
 
 #: ../src/app/qml/AlternateActionPopover.qml:86
 msgid "Split horizontally"
-msgstr ""
+msgstr "Բաժանել հորիզոնական դիրքով"
 
 #: ../src/app/qml/AlternateActionPopover.qml:92
 msgid "Split vertically"
-msgstr ""
+msgstr "Բաժանել ուղղահայաց դիրքով"
 
 #: ../src/app/qml/AlternateActionPopover.qml:99
 #: ../src/app/qml/Settings/SettingsShortcutsSection.qml:151
@@ -70,9 +70,8 @@ msgid "passcode or passphrase"
 msgstr "կոդ կամ գաղտնաբառ"
 
 #: ../src/app/qml/AuthenticationDialog.qml:58
-#, fuzzy
 msgid "Authenticate"
-msgstr "Նույնականացումը ձախողվել է"
+msgstr "Վավերացնել"
 
 #: ../src/app/qml/AuthenticationDialog.qml:70
 #: ../src/app/qml/ConfirmationDialog.qml:42
@@ -85,114 +84,114 @@ msgstr "Նույնականացումը ձախողվել է"
 
 #: ../src/app/qml/AuthenticationService.qml:83
 msgid "No SSH server running."
-msgstr ""
+msgstr "SSH-ի սերվերը անջատված է։"
 
 #: ../src/app/qml/AuthenticationService.qml:84
 msgid "SSH server not found. Do you want to proceed in confined mode?"
-msgstr ""
+msgstr "SSH սերվերը գտնված չէ։ Դուք ուզո՞ւմ եք շարունակել սահմանափակ ռեժիմով։"
 
 #: ../src/app/qml/ConfirmationDialog.qml:32
 msgid "Continue"
-msgstr ""
+msgstr "Շարունակել"
 
 #: ../src/app/qml/KeyboardBar.qml:197
 msgid "Change Keyboard"
-msgstr ""
+msgstr "Փոխել ստեղնաշարը"
 
 #. TRANSLATORS: This a keyboard layout name
 #: ../src/app/qml/KeyboardRows/JsonTranslator.qml:35
 msgid "Control Keys"
-msgstr ""
+msgstr "Control ստեղներ"
 
 #. TRANSLATORS: This a keyboard layout name
 #: ../src/app/qml/KeyboardRows/JsonTranslator.qml:38
 msgid "Function Keys"
-msgstr ""
+msgstr "Ֆունկցիաների ստեղներ"
 
 #. TRANSLATORS: This a keyboard layout name
 #: ../src/app/qml/KeyboardRows/JsonTranslator.qml:41
 msgid "Scroll Keys"
-msgstr ""
+msgstr "Վազքի ստեղներ"
 
 #. TRANSLATORS: This a keyboard layout name
 #: ../src/app/qml/KeyboardRows/JsonTranslator.qml:44
 msgid "Command Keys"
-msgstr ""
+msgstr "Հրամանների ստեղներ"
 
 #. TRANSLATORS: This the short display name of a keyboard layout. It should be no longer than 4 characters!
 #: ../src/app/qml/KeyboardRows/JsonTranslator.qml:52
 msgid "Ctrl"
-msgstr ""
+msgstr "Ctrl"
 
 #. TRANSLATORS: This the short display name of a keyboard layout. It should be no longer than 4 characters!
 #: ../src/app/qml/KeyboardRows/JsonTranslator.qml:55
 msgid "Fn"
-msgstr ""
+msgstr "Fn"
 
 #. TRANSLATORS: This the short display name of a keyboard layout. It should be no longer than 4 characters!
 #: ../src/app/qml/KeyboardRows/JsonTranslator.qml:58
 msgid "Scr"
-msgstr ""
+msgstr "Scr"
 
 #. TRANSLATORS: This the short display name of a keyboard layout. It should be no longer than 4 characters!
 #: ../src/app/qml/KeyboardRows/JsonTranslator.qml:61
 msgid "Cmd"
-msgstr ""
+msgstr "Cmd"
 
 #. TRANSLATORS: This is the name of the Control key.
 #: ../src/app/qml/KeyboardRows/JsonTranslator.qml:78
 msgid "CTRL"
-msgstr ""
+msgstr "CTRL"
 
 #. TRANSLATORS: This is the name of the Alt key.
 #: ../src/app/qml/KeyboardRows/JsonTranslator.qml:81
 msgid "Alt"
-msgstr ""
+msgstr "Alt"
 
 #. TRANSLATORS: This is the name of the Shift key.
 #: ../src/app/qml/KeyboardRows/JsonTranslator.qml:84
 msgid "Shift"
-msgstr ""
+msgstr "Shift"
 
 #. TRANSLATORS: This is the name of the Escape key.
 #: ../src/app/qml/KeyboardRows/JsonTranslator.qml:97
 msgid "Esc"
-msgstr ""
+msgstr "Esc"
 
 #. TRANSLATORS: This is the name of the Page Up key.
 #: ../src/app/qml/KeyboardRows/JsonTranslator.qml:100
 msgid "PgUp"
-msgstr ""
+msgstr "PgUp"
 
 #. TRANSLATORS: This is the name of the Page Down key.
 #: ../src/app/qml/KeyboardRows/JsonTranslator.qml:103
 msgid "PgDn"
-msgstr ""
+msgstr "PgDn"
 
 #. TRANSLATORS: This is the name of the Delete key.
 #: ../src/app/qml/KeyboardRows/JsonTranslator.qml:106
 msgid "Del"
-msgstr ""
+msgstr "Del"
 
 #. TRANSLATORS: This is the name of the Home key.
 #: ../src/app/qml/KeyboardRows/JsonTranslator.qml:109
 msgid "Home"
-msgstr ""
+msgstr "Home"
 
 #. TRANSLATORS: This is the name of the End key.
 #: ../src/app/qml/KeyboardRows/JsonTranslator.qml:112
 msgid "End"
-msgstr ""
+msgstr "End"
 
 #. TRANSLATORS: This is the name of the Tab key.
 #: ../src/app/qml/KeyboardRows/JsonTranslator.qml:115
 msgid "Tab"
-msgstr ""
+msgstr "Tab"
 
 #. TRANSLATORS: This is the name of the Enter key.
 #: ../src/app/qml/KeyboardRows/JsonTranslator.qml:118
 msgid "Enter"
-msgstr ""
+msgstr "Enter"
 
 #: ../src/app/qml/NotifyDialog.qml:25
 msgid "OK"
@@ -200,27 +199,27 @@ msgstr "OK"
 
 #: ../src/app/qml/Settings/BackgroundOpacityEditor.qml:26
 msgid "Background opacity:"
-msgstr ""
+msgstr "ֆոնի անթափանցիկություն."
 
 #: ../src/app/qml/Settings/ColorPickerPopup.qml:79
 msgid "R:"
-msgstr ""
+msgstr "R:"
 
 #: ../src/app/qml/Settings/ColorPickerPopup.qml:87
 msgid "G:"
-msgstr ""
+msgstr "G:"
 
 #: ../src/app/qml/Settings/ColorPickerPopup.qml:95
 msgid "B:"
-msgstr ""
+msgstr "B:"
 
 #: ../src/app/qml/Settings/ColorPickerPopup.qml:99
 msgid "Undo"
-msgstr ""
+msgstr "Վերադառնալ"
 
 #: ../src/app/qml/Settings/SettingsInterfaceSection.qml:55
 msgid "Text"
-msgstr ""
+msgstr "Տեքստ"
 
 #: ../src/app/qml/Settings/SettingsInterfaceSection.qml:66
 msgid "Font:"

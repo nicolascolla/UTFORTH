@@ -8,29 +8,31 @@ msgstr ""
 "Project-Id-Version: ubuntu-terminal-app\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-10-20 09:02+0000\n"
-"PO-Revision-Date: 2014-08-26 12:15+0000\n"
-"Last-Translator: Arun Kumar - அருண் குமார் <thangam.arunx@gmail.com>\n"
-"Language-Team: Tamil <ta@li.org>\n"
+"PO-Revision-Date: 2021-01-01 11:26+0000\n"
+"Last-Translator: GK <miscgk@pm.me>\n"
+"Language-Team: Tamil <https://translate.ubports.com/projects/ubports/"
+"terminal-app/ta/>\n"
 "Language: ta\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 3.11.3\n"
 "X-Launchpad-Export-Date: 2014-10-02 06:33+0000\n"
-"X-Generator: Launchpad (build 17196)\n"
 
 #: ../src/app/qml/AlternateActionPopover.qml:68
 msgid "Select"
-msgstr ""
+msgstr "தேர்ந்தெடு"
 
 #: ../src/app/qml/AlternateActionPopover.qml:73
 #: ../src/app/qml/Settings/SettingsShortcutsSection.qml:176
 msgid "Copy"
-msgstr ""
+msgstr "நகலெடு"
 
 #: ../src/app/qml/AlternateActionPopover.qml:79
 #: ../src/app/qml/Settings/SettingsShortcutsSection.qml:181
 msgid "Paste"
-msgstr ""
+msgstr "ஒட்டுக"
 
 #: ../src/app/qml/AlternateActionPopover.qml:86
 msgid "Split horizontally"
@@ -74,7 +76,7 @@ msgstr ""
 #: ../src/app/qml/AuthenticationDialog.qml:70
 #: ../src/app/qml/ConfirmationDialog.qml:42
 msgid "Cancel"
-msgstr ""
+msgstr "ரத்துசெய்"
 
 #: ../src/app/qml/AuthenticationService.qml:64
 msgid "Authentication failed"
@@ -193,7 +195,7 @@ msgstr ""
 
 #: ../src/app/qml/NotifyDialog.qml:25
 msgid "OK"
-msgstr ""
+msgstr "சரி"
 
 #: ../src/app/qml/Settings/BackgroundOpacityEditor.qml:26
 msgid "Background opacity:"
@@ -213,7 +215,7 @@ msgstr ""
 
 #: ../src/app/qml/Settings/ColorPickerPopup.qml:99
 msgid "Undo"
-msgstr ""
+msgstr "செய்ததைத் தவிர்"
 
 #: ../src/app/qml/Settings/SettingsInterfaceSection.qml:55
 msgid "Text"
@@ -346,7 +348,7 @@ msgstr ""
 #: ../src/app/qml/Settings/SettingsShortcutsSection.qml:175
 #: ../src/app/qml/Settings/SettingsShortcutsSection.qml:180
 msgid "Edit"
-msgstr ""
+msgstr "திருத்து"
 
 #: ../src/app/qml/Settings/SettingsShortcutsSection.qml:185
 #: ../src/app/qml/Settings/SettingsShortcutsSection.qml:190
