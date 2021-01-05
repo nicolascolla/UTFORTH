@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: ubuntu-terminal-app\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-10-20 09:02+0000\n"
-"PO-Revision-Date: 2021-01-01 11:26+0000\n"
+"PO-Revision-Date: 2021-01-05 23:27+0000\n"
 "Last-Translator: GK <miscgk@pm.me>\n"
 "Language-Team: Tamil <https://translate.ubports.com/projects/ubports/"
 "terminal-app/ta/>\n"
@@ -36,162 +36,164 @@ msgstr "ஒட்டுக"
 
 #: ../src/app/qml/AlternateActionPopover.qml:86
 msgid "Split horizontally"
-msgstr ""
+msgstr "கிடைமட்டமாகப் பிரிக்கவும்"
 
 #: ../src/app/qml/AlternateActionPopover.qml:92
 msgid "Split vertically"
-msgstr ""
+msgstr "செங்குத்தாகப் பிரிக்கவும்"
 
 #: ../src/app/qml/AlternateActionPopover.qml:99
 #: ../src/app/qml/Settings/SettingsShortcutsSection.qml:151
 #: ../src/app/qml/TabsPage.qml:32
 msgid "New tab"
-msgstr ""
+msgstr "புதிய தாவல்"
 
 #: ../src/app/qml/AlternateActionPopover.qml:104
 #: ../src/app/qml/Settings/SettingsShortcutsSection.qml:146
 msgid "New window"
-msgstr ""
+msgstr "பதிய சாளரம்"
 
 #: ../src/app/qml/AlternateActionPopover.qml:109
 msgid "Close App"
-msgstr ""
+msgstr "பயன்பாட்டை மூடுக"
 
 #: ../src/app/qml/AuthenticationDialog.qml:25
 msgid "Authentication required"
-msgstr ""
+msgstr "உறுதிப்பாடு தேவை"
 
 #: ../src/app/qml/AuthenticationDialog.qml:27
 msgid "Enter passcode or passphrase:"
-msgstr ""
+msgstr "கடவுக்குறியீடு அல்லது கடவுச்சொல்லை உள்ளிடுக:"
 
 #: ../src/app/qml/AuthenticationDialog.qml:48
 msgid "passcode or passphrase"
-msgstr ""
+msgstr "கடவுக்குறியீடு அல்லது கடவுச்சொல்"
 
 #: ../src/app/qml/AuthenticationDialog.qml:58
 msgid "Authenticate"
-msgstr ""
+msgstr "உறுதிப்படுத்து"
 
 #: ../src/app/qml/AuthenticationDialog.qml:70
 #: ../src/app/qml/ConfirmationDialog.qml:42
 msgid "Cancel"
-msgstr "ரத்துசெய்"
+msgstr "தவிர்க்க"
 
 #: ../src/app/qml/AuthenticationService.qml:64
 msgid "Authentication failed"
-msgstr ""
+msgstr "உறுதிப்பாடு தோல்வியுற்றது"
 
 #: ../src/app/qml/AuthenticationService.qml:83
 msgid "No SSH server running."
-msgstr ""
+msgstr "எந்த SSH சேவையகமும் இயங்கவில்லை."
 
 #: ../src/app/qml/AuthenticationService.qml:84
 msgid "SSH server not found. Do you want to proceed in confined mode?"
 msgstr ""
+"SSH சேவையகத்தைக் காணவில்லை. நீங்கள் கட்டுப்படுத்தப்பட்ட முறையில் தொடர "
+"விருப்பமா?"
 
 #: ../src/app/qml/ConfirmationDialog.qml:32
 msgid "Continue"
-msgstr ""
+msgstr "தொடர்க"
 
 #: ../src/app/qml/KeyboardBar.qml:197
 msgid "Change Keyboard"
-msgstr ""
+msgstr "விசைப்பலகையை மாற்றுக"
 
 #. TRANSLATORS: This a keyboard layout name
 #: ../src/app/qml/KeyboardRows/JsonTranslator.qml:35
 msgid "Control Keys"
-msgstr ""
+msgstr "கட்டுப்படுத்தும் விசைகள்"
 
 #. TRANSLATORS: This a keyboard layout name
 #: ../src/app/qml/KeyboardRows/JsonTranslator.qml:38
 msgid "Function Keys"
-msgstr ""
+msgstr "சார்பு விசைகள்"
 
 #. TRANSLATORS: This a keyboard layout name
 #: ../src/app/qml/KeyboardRows/JsonTranslator.qml:41
 msgid "Scroll Keys"
-msgstr ""
+msgstr "உருள் விசைகள்"
 
 #. TRANSLATORS: This a keyboard layout name
 #: ../src/app/qml/KeyboardRows/JsonTranslator.qml:44
 msgid "Command Keys"
-msgstr ""
+msgstr "கட்டளை விசைகள்"
 
 #. TRANSLATORS: This the short display name of a keyboard layout. It should be no longer than 4 characters!
 #: ../src/app/qml/KeyboardRows/JsonTranslator.qml:52
 msgid "Ctrl"
-msgstr ""
+msgstr "Ctrl"
 
 #. TRANSLATORS: This the short display name of a keyboard layout. It should be no longer than 4 characters!
 #: ../src/app/qml/KeyboardRows/JsonTranslator.qml:55
 msgid "Fn"
-msgstr ""
+msgstr "Fn"
 
 #. TRANSLATORS: This the short display name of a keyboard layout. It should be no longer than 4 characters!
 #: ../src/app/qml/KeyboardRows/JsonTranslator.qml:58
 msgid "Scr"
-msgstr ""
+msgstr "Scr"
 
 #. TRANSLATORS: This the short display name of a keyboard layout. It should be no longer than 4 characters!
 #: ../src/app/qml/KeyboardRows/JsonTranslator.qml:61
 msgid "Cmd"
-msgstr ""
+msgstr "Cmd"
 
 #. TRANSLATORS: This is the name of the Control key.
 #: ../src/app/qml/KeyboardRows/JsonTranslator.qml:78
 msgid "CTRL"
-msgstr ""
+msgstr "CTRL"
 
 #. TRANSLATORS: This is the name of the Alt key.
 #: ../src/app/qml/KeyboardRows/JsonTranslator.qml:81
 msgid "Alt"
-msgstr ""
+msgstr "Alt"
 
 #. TRANSLATORS: This is the name of the Shift key.
 #: ../src/app/qml/KeyboardRows/JsonTranslator.qml:84
 msgid "Shift"
-msgstr ""
+msgstr "Shift"
 
 #. TRANSLATORS: This is the name of the Escape key.
 #: ../src/app/qml/KeyboardRows/JsonTranslator.qml:97
 msgid "Esc"
-msgstr ""
+msgstr "Esc"
 
 #. TRANSLATORS: This is the name of the Page Up key.
 #: ../src/app/qml/KeyboardRows/JsonTranslator.qml:100
 msgid "PgUp"
-msgstr ""
+msgstr "PgUp"
 
 #. TRANSLATORS: This is the name of the Page Down key.
 #: ../src/app/qml/KeyboardRows/JsonTranslator.qml:103
 msgid "PgDn"
-msgstr ""
+msgstr "PgDn"
 
 #. TRANSLATORS: This is the name of the Delete key.
 #: ../src/app/qml/KeyboardRows/JsonTranslator.qml:106
 msgid "Del"
-msgstr ""
+msgstr "Del"
 
 #. TRANSLATORS: This is the name of the Home key.
 #: ../src/app/qml/KeyboardRows/JsonTranslator.qml:109
 msgid "Home"
-msgstr ""
+msgstr "Home"
 
 #. TRANSLATORS: This is the name of the End key.
 #: ../src/app/qml/KeyboardRows/JsonTranslator.qml:112
 msgid "End"
-msgstr ""
+msgstr "End"
 
 #. TRANSLATORS: This is the name of the Tab key.
 #: ../src/app/qml/KeyboardRows/JsonTranslator.qml:115
 msgid "Tab"
-msgstr ""
+msgstr "Tab"
 
 #. TRANSLATORS: This is the name of the Enter key.
 #: ../src/app/qml/KeyboardRows/JsonTranslator.qml:118
 msgid "Enter"
-msgstr ""
+msgstr "Enter"
 
 #: ../src/app/qml/NotifyDialog.qml:25
 msgid "OK"
@@ -199,19 +201,19 @@ msgstr "சரி"
 
 #: ../src/app/qml/Settings/BackgroundOpacityEditor.qml:26
 msgid "Background opacity:"
-msgstr ""
+msgstr "பின்புறவொளி மழுங்கல்:"
 
 #: ../src/app/qml/Settings/ColorPickerPopup.qml:79
 msgid "R:"
-msgstr ""
+msgstr "R:"
 
 #: ../src/app/qml/Settings/ColorPickerPopup.qml:87
 msgid "G:"
-msgstr ""
+msgstr "G:"
 
 #: ../src/app/qml/Settings/ColorPickerPopup.qml:95
 msgid "B:"
-msgstr ""
+msgstr "B:"
 
 #: ../src/app/qml/Settings/ColorPickerPopup.qml:99
 msgid "Undo"
@@ -219,106 +221,104 @@ msgstr "செய்ததைத் தவிர்"
 
 #: ../src/app/qml/Settings/SettingsInterfaceSection.qml:55
 msgid "Text"
-msgstr ""
+msgstr "உரை"
 
 #: ../src/app/qml/Settings/SettingsInterfaceSection.qml:66
-#, fuzzy
 msgid "Font:"
-msgstr "எழுத்துரு அளவு"
+msgstr "எழுத்துரு:"
 
 #: ../src/app/qml/Settings/SettingsInterfaceSection.qml:91
-#, fuzzy
 msgid "Font Size:"
-msgstr "எழுத்துரு அளவு"
+msgstr "எழுத்துரு அளவு:"
 
 #: ../src/app/qml/Settings/SettingsInterfaceSection.qml:119
 msgid "Colors"
-msgstr ""
+msgstr "நிறங்கள்"
 
 #: ../src/app/qml/Settings/SettingsInterfaceSection.qml:124
 msgid "Ubuntu"
-msgstr ""
+msgstr "உபுண்டு"
 
 #: ../src/app/qml/Settings/SettingsInterfaceSection.qml:125
 msgid "Green on black"
-msgstr ""
+msgstr "கருப்பின் மேல் பச்சை"
 
 #: ../src/app/qml/Settings/SettingsInterfaceSection.qml:126
 msgid "White on black"
-msgstr ""
+msgstr "கருப்பின் மேல் வெள்ளை"
 
 #: ../src/app/qml/Settings/SettingsInterfaceSection.qml:127
 msgid "Black on white"
-msgstr ""
+msgstr "வெள்ளையின் மேல் கருப்பு"
 
 #: ../src/app/qml/Settings/SettingsInterfaceSection.qml:128
 msgid "Black on random light"
-msgstr ""
+msgstr "சீரற்ற ஒளியின் மேல் கருப்பு"
 
 #: ../src/app/qml/Settings/SettingsInterfaceSection.qml:129
 msgid "Linux"
-msgstr ""
+msgstr "லினஃக்சு"
 
 #: ../src/app/qml/Settings/SettingsInterfaceSection.qml:130
 msgid "Cool retro term"
-msgstr ""
+msgstr "Cool retro term"
 
 #: ../src/app/qml/Settings/SettingsInterfaceSection.qml:131
 msgid "Dark pastels"
-msgstr ""
+msgstr "Dark pastels"
 
 #: ../src/app/qml/Settings/SettingsInterfaceSection.qml:132
 msgid "Black on light yellow"
-msgstr ""
+msgstr "வெளிர் மஞ்சளின் மேல் கருப்பு"
 
 #: ../src/app/qml/Settings/SettingsInterfaceSection.qml:133
 msgid "Customized"
-msgstr ""
+msgstr "தனிப்பயனாக்கப்பட்டது"
 
 #: ../src/app/qml/Settings/SettingsInterfaceSection.qml:144
 msgid "Background:"
-msgstr ""
+msgstr "பின்புறம்:"
 
 #: ../src/app/qml/Settings/SettingsInterfaceSection.qml:152
 msgid "Text:"
-msgstr ""
+msgstr "எழுத்து:"
 
 #: ../src/app/qml/Settings/SettingsInterfaceSection.qml:164
 msgid "Normal palette:"
-msgstr ""
+msgstr "நடுநிலையான வண்ணத்தட்டு:"
 
 #: ../src/app/qml/Settings/SettingsInterfaceSection.qml:171
 msgid "Bright palette:"
-msgstr ""
+msgstr "ஒளிமிகு வண்ணத்தட்டு:"
 
 #: ../src/app/qml/Settings/SettingsInterfaceSection.qml:180
 msgid "Preset:"
-msgstr ""
+msgstr "முன்னமைப்பு:"
 
 #: ../src/app/qml/Settings/SettingsInterfaceSection.qml:197
 msgid "Layouts"
-msgstr ""
+msgstr "தளவமைப்புகள்"
 
 #: ../src/app/qml/Settings/SettingsPage.qml:33
 msgid "close"
-msgstr ""
+msgstr "மூடுக"
 
 #: ../src/app/qml/Settings/SettingsPage.qml:39
 msgid "Preferences"
-msgstr ""
+msgstr "விருப்பத்தேர்வுகள்"
 
 #: ../src/app/qml/Settings/SettingsPage.qml:50
 msgid "Interface"
-msgstr ""
+msgstr "இடைமுகம்"
 
 #: ../src/app/qml/Settings/SettingsPage.qml:54
 msgid "Shortcuts"
-msgstr ""
+msgstr "குறுக்குவழிகள்"
 
 #: ../src/app/qml/Settings/SettingsShortcutsSection.qml:60
 #, qt-format
 msgid "Showing %1 of %2"
-msgstr ""
+msgstr "%2-ல் %1-தைக் காண்பிக்கிறது"
 
 #: ../src/app/qml/Settings/SettingsShortcutsSection.qml:145
 #: ../src/app/qml/Settings/SettingsShortcutsSection.qml:150
@@ -327,28 +327,28 @@ msgstr ""
 #: ../src/app/qml/Settings/SettingsShortcutsSection.qml:165
 #: ../src/app/qml/Settings/SettingsShortcutsSection.qml:170
 msgid "File"
-msgstr ""
+msgstr "கோப்பு"
 
 #: ../src/app/qml/Settings/SettingsShortcutsSection.qml:156
 msgid "Close terminal"
-msgstr ""
+msgstr "முனையத்தை மூடுக"
 
 #: ../src/app/qml/Settings/SettingsShortcutsSection.qml:161
 msgid "Close all terminals"
-msgstr ""
+msgstr "எல்லா முனையத்தையும் மூடுக"
 
 #: ../src/app/qml/Settings/SettingsShortcutsSection.qml:166
 msgid "Previous tab"
-msgstr ""
+msgstr "முந்தயத் தாவல்"
 
 #: ../src/app/qml/Settings/SettingsShortcutsSection.qml:171
 msgid "Next tab"
-msgstr ""
+msgstr "அடுத்தத் தாவல்"
 
 #: ../src/app/qml/Settings/SettingsShortcutsSection.qml:175
 #: ../src/app/qml/Settings/SettingsShortcutsSection.qml:180
 msgid "Edit"
-msgstr "திருத்து"
+msgstr "திருத்துக"
 
 #: ../src/app/qml/Settings/SettingsShortcutsSection.qml:185
 #: ../src/app/qml/Settings/SettingsShortcutsSection.qml:190
@@ -358,112 +358,113 @@ msgstr "திருத்து"
 #: ../src/app/qml/Settings/SettingsShortcutsSection.qml:210
 #: ../src/app/qml/Settings/SettingsShortcutsSection.qml:215
 msgid "View"
-msgstr ""
+msgstr "பார்வை"
 
 #: ../src/app/qml/Settings/SettingsShortcutsSection.qml:186
 msgid "Toggle fullscreen"
-msgstr ""
+msgstr "முழுத்திரை நிலைமாற்று"
 
 #: ../src/app/qml/Settings/SettingsShortcutsSection.qml:191
 msgid "Split terminal horizontally"
-msgstr ""
+msgstr "கிடைமட்டமாக முனையத்தைப் பிரிக்கவும்"
 
 #: ../src/app/qml/Settings/SettingsShortcutsSection.qml:196
 msgid "Split terminal vertically"
-msgstr ""
+msgstr "செங்குத்தாக முனையத்தைப் பிரிக்கவும்"
 
 #: ../src/app/qml/Settings/SettingsShortcutsSection.qml:201
 msgid "Navigate to terminal above"
-msgstr ""
+msgstr "மேலிருக்கும் முனையத்திற்கு செல்க"
 
 #: ../src/app/qml/Settings/SettingsShortcutsSection.qml:206
 msgid "Navigate to terminal below"
-msgstr ""
+msgstr "கீழிருக்கும் முனையத்திற்கு செல்க"
 
 #: ../src/app/qml/Settings/SettingsShortcutsSection.qml:211
 msgid "Navigate to terminal on the left"
-msgstr ""
+msgstr "இடப்புறமிருக்கும் முனையத்திற்கு செல்க"
 
 #: ../src/app/qml/Settings/SettingsShortcutsSection.qml:216
 msgid "Navigate to terminal on the right"
-msgstr ""
+msgstr "வலப்புறமிருக்கும் முனையத்திற்குச் செல்க"
 
 #: ../src/app/qml/Settings/SettingsWindow.qml:26
 msgid "Terminal Preferences"
-msgstr ""
+msgstr "முனைய விருப்பத்தேர்வுகள்"
 
 #: ../src/app/qml/Settings/ShortcutRow.qml:78
 msgid "Enter shortcut…"
-msgstr ""
+msgstr "குறுக்குவழிகளை உள்ளிடுக…"
 
 #: ../src/app/qml/Settings/ShortcutRow.qml:80
 msgid "Disabled"
-msgstr ""
+msgstr "முடக்கப்பட்டது"
 
 #: ../src/app/qml/TabsPage.qml:26
 msgid "Tabs"
-msgstr ""
+msgstr "தாவிகள்"
 
 #: ../src/app/qml/TerminalPage.qml:63 ubuntu-terminal-app.desktop.in.in.h:1
 msgid "Terminal"
-msgstr ""
+msgstr "முனையம்"
 
 #: ../src/app/qml/TerminalPage.qml:302
 msgid "Selection Mode"
-msgstr ""
+msgstr "தேர்வு முறை"
 
 #: ../src/plugin/qmltermwidget/lib/ColorScheme.cpp:291
 #: ../src/plugin/qmltermwidget/lib/ColorScheme.cpp:320
 msgid "Un-named Color Scheme"
-msgstr ""
+msgstr "பெயரிடப்படா நிறத் திட்டம்"
 
 #: ../src/plugin/qmltermwidget/lib/ColorScheme.cpp:468
 msgid "Accessible Color Scheme"
-msgstr ""
+msgstr "அனுகத்தக்க நிறத் திட்டங்கள்"
 
 #: ../src/plugin/qmltermwidget/lib/Filter.cpp:533
 msgid "Open Link"
-msgstr ""
+msgstr "இணைப்பைத் திற"
 
 #: ../src/plugin/qmltermwidget/lib/Filter.cpp:534
 msgid "Copy Link Address"
-msgstr ""
+msgstr "இணைப்பு முகவரியை நகலெடு"
 
 #: ../src/plugin/qmltermwidget/lib/Filter.cpp:538
 msgid "Send Email To…"
-msgstr ""
+msgstr "இவருக்கு மின்னஞ்சல் அனுப்பு…"
 
 #: ../src/plugin/qmltermwidget/lib/Filter.cpp:539
 msgid "Copy Email Address"
-msgstr ""
+msgstr "மின்னஞ்சல் முகவரியை நகலெடு"
 
 #: ../src/plugin/qmltermwidget/lib/SearchBar.cpp:39
 msgid "Match case"
-msgstr ""
+msgstr "எழுத்து வடவம் பொருத்து"
 
 #: ../src/plugin/qmltermwidget/lib/SearchBar.cpp:45
 msgid "Regular expression"
-msgstr ""
+msgstr "வழக்கமான சொல்லமைப்பு"
 
 #: ../src/plugin/qmltermwidget/lib/SearchBar.cpp:49
 msgid "Higlight all matches"
-msgstr ""
+msgstr "எல்லாப் பொருத்தங்களையும் அழுந்தக்கூறு"
 
 #: ../src/plugin/qmltermwidget/lib/Vt102Emulation.cpp:982
 msgid ""
 "No keyboard translator available.  The information needed to convert key "
 "presses into characters to send to the terminal is missing."
 msgstr ""
+"விசைப்பலகை மொழிபெயர்ப்பி எதுவும் கிடைக்கவில்லை. முனையத்திற்கு அனுப்ப, "
+"விசையழுத்தங்களை எழுத்துருக்களாக மாற்றத் தேவைப்படும் தகவலைக் காணவில்லை."
 
 #: ../src/plugin/qmltermwidget/lib/qtermwidget.cpp:406
-#, fuzzy
 msgid "Color Scheme Error"
-msgstr "நிறத் திட்டம்"
+msgstr "நிறத் திட்டப்பிழை"
 
 #: ../src/plugin/qmltermwidget/lib/qtermwidget.cpp:407
-#, fuzzy, qt-format
+#, qt-format
 msgid "Cannot load color scheme: %1"
-msgstr "நிறத் திட்டம்"
+msgstr "இந்த நிறத் திட்டத்தை ஏற்ற இயலவில்லை: %1"
 
 #, fuzzy
 #~ msgid "Color Scheme"
