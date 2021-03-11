@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: ubuntu-terminal-app\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-10-20 09:02+0000\n"
-"PO-Revision-Date: 2020-05-26 22:24+0000\n"
-"Last-Translator: Ryan Argente <rargente@lonerider.one>\n"
+"PO-Revision-Date: 2021-03-11 21:27+0000\n"
+"Last-Translator: AO-LocLab <ao@localizationlab.org>\n"
 "Language-Team: French (Canada) <https://translate.ubports.com/projects/"
 "ubports/terminal-app/fr_CA/>\n"
 "Language: fr_CA\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 3.8\n"
+"X-Generator: Weblate 3.11.3\n"
 "X-Launchpad-Export-Date: 2017-02-09 05:47+0000\n"
 
 #: ../src/app/qml/AlternateActionPopover.qml:68
@@ -430,9 +430,8 @@ msgid "Copy Link Address"
 msgstr "Copier l'adresse du lien"
 
 #: ../src/plugin/qmltermwidget/lib/Filter.cpp:538
-#, fuzzy
 msgid "Send Email To…"
-msgstr "Envoyer un courriel à..."
+msgstr "Envoyer un courriel à…"
 
 #: ../src/plugin/qmltermwidget/lib/Filter.cpp:539
 msgid "Copy Email Address"

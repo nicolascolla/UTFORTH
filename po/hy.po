@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: ubuntu-terminal-app\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-10-20 09:02+0000\n"
-"PO-Revision-Date: 2021-03-06 13:51+0000\n"
-"Last-Translator: anonymous <noreply@weblate.org>\n"
+"PO-Revision-Date: 2021-03-09 19:27+0000\n"
+"Last-Translator: TigranKhachatryan0 <tigrank2008@gmail.com>\n"
 "Language-Team: Armenian <https://translate.ubports.com/projects/ubports/"
 "terminal-app/hy/>\n"
 "Language: hy\n"
@@ -347,7 +347,7 @@ msgstr "Հաջորդ էջ"
 #: ../src/app/qml/Settings/SettingsShortcutsSection.qml:175
 #: ../src/app/qml/Settings/SettingsShortcutsSection.qml:180
 msgid "Edit"
-msgstr "Փոփոխել"
+msgstr "Ուղղել"
 
 #: ../src/app/qml/Settings/SettingsShortcutsSection.qml:185
 #: ../src/app/qml/Settings/SettingsShortcutsSection.qml:190
@@ -426,7 +426,7 @@ msgstr "Բացել Հղումը"
 
 #: ../src/plugin/qmltermwidget/lib/Filter.cpp:534
 msgid "Copy Link Address"
-msgstr "Պատճենել հպման հասցեն"
+msgstr "Պատճենել հղումը"
 
 #: ../src/plugin/qmltermwidget/lib/Filter.cpp:538
 msgid "Send Email To…"
