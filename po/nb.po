@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: ubuntu-terminal-app\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-10-20 09:02+0000\n"
-"PO-Revision-Date: 2021-03-11 21:27+0000\n"
+"PO-Revision-Date: 2021-03-15 05:27+0000\n"
 "Last-Translator: Jan Christian Sherdahl <jan@sherdahl.no>\n"
 "Language-Team: Norwegian Bokmål <https://translate.ubports.com/projects/"
 "ubports/terminal-app/nb/>\n"
@@ -396,7 +396,7 @@ msgstr "Skriv inn snarvei…"
 
 #: ../src/app/qml/Settings/ShortcutRow.qml:80
 msgid "Disabled"
-msgstr "Avskrudd"
+msgstr "Deaktivert"
 
 #: ../src/app/qml/TabsPage.qml:26
 msgid "Tabs"

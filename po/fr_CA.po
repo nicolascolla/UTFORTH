@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: ubuntu-terminal-app\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-10-20 09:02+0000\n"
-"PO-Revision-Date: 2021-03-11 21:27+0000\n"
-"Last-Translator: AO-LocLab <ao@localizationlab.org>\n"
+"PO-Revision-Date: 2021-03-15 05:27+0000\n"
+"Last-Translator: Ryan Argente <rargente@lonerider.one>\n"
 "Language-Team: French (Canada) <https://translate.ubports.com/projects/"
 "ubports/terminal-app/fr_CA/>\n"
 "Language: fr_CA\n"
@@ -36,11 +36,11 @@ msgstr "Coller"
 
 #: ../src/app/qml/AlternateActionPopover.qml:86
 msgid "Split horizontally"
-msgstr ""
+msgstr "Diviser horizontalement"
 
 #: ../src/app/qml/AlternateActionPopover.qml:92
 msgid "Split vertically"
-msgstr ""
+msgstr "Diviser verticalement"
 
 #: ../src/app/qml/AlternateActionPopover.qml:99
 #: ../src/app/qml/Settings/SettingsShortcutsSection.qml:151
@@ -51,11 +51,11 @@ msgstr "Nouvel onglet"
 #: ../src/app/qml/AlternateActionPopover.qml:104
 #: ../src/app/qml/Settings/SettingsShortcutsSection.qml:146
 msgid "New window"
-msgstr ""
+msgstr "Nouvelle fenêtre"
 
 #: ../src/app/qml/AlternateActionPopover.qml:109
 msgid "Close App"
-msgstr ""
+msgstr "Fermer l'application"
 
 #: ../src/app/qml/AuthenticationDialog.qml:25
 msgid "Authentication required"
@@ -63,11 +63,11 @@ msgstr "Authentification exigée"
 
 #: ../src/app/qml/AuthenticationDialog.qml:27
 msgid "Enter passcode or passphrase:"
-msgstr ""
+msgstr "Saisissez le code ou le mot de passe :"
 
 #: ../src/app/qml/AuthenticationDialog.qml:48
 msgid "passcode or passphrase"
-msgstr ""
+msgstr "code ou mot de passe"
 
 #: ../src/app/qml/AuthenticationDialog.qml:58
 msgid "Authenticate"
@@ -84,114 +84,114 @@ msgstr "Échec lors de l'authentification"
 
 #: ../src/app/qml/AuthenticationService.qml:83
 msgid "No SSH server running."
-msgstr ""
+msgstr "Aucun serveur SSH en cours de fonctionnement."
 
 #: ../src/app/qml/AuthenticationService.qml:84
 msgid "SSH server not found. Do you want to proceed in confined mode?"
-msgstr ""
+msgstr "Serveur SSH non trouvé. Souhaitez-vous continuer en mode confiné?"
 
 #: ../src/app/qml/ConfirmationDialog.qml:32
 msgid "Continue"
-msgstr ""
+msgstr "Continuer"
 
 #: ../src/app/qml/KeyboardBar.qml:197
 msgid "Change Keyboard"
-msgstr ""
+msgstr "Changer le clavier"
 
 #. TRANSLATORS: This a keyboard layout name
 #: ../src/app/qml/KeyboardRows/JsonTranslator.qml:35
 msgid "Control Keys"
-msgstr ""
+msgstr "Touches de contrôle"
 
 #. TRANSLATORS: This a keyboard layout name
 #: ../src/app/qml/KeyboardRows/JsonTranslator.qml:38
 msgid "Function Keys"
-msgstr ""
+msgstr "Touches de fonction"
 
 #. TRANSLATORS: This a keyboard layout name
 #: ../src/app/qml/KeyboardRows/JsonTranslator.qml:41
 msgid "Scroll Keys"
-msgstr ""
+msgstr "Touches de défilement"
 
 #. TRANSLATORS: This a keyboard layout name
 #: ../src/app/qml/KeyboardRows/JsonTranslator.qml:44
 msgid "Command Keys"
-msgstr ""
+msgstr "Touches de commande"
 
 #. TRANSLATORS: This the short display name of a keyboard layout. It should be no longer than 4 characters!
 #: ../src/app/qml/KeyboardRows/JsonTranslator.qml:52
 msgid "Ctrl"
-msgstr ""
+msgstr "ctrl"
 
 #. TRANSLATORS: This the short display name of a keyboard layout. It should be no longer than 4 characters!
 #: ../src/app/qml/KeyboardRows/JsonTranslator.qml:55
 msgid "Fn"
-msgstr ""
+msgstr "fn"
 
 #. TRANSLATORS: This the short display name of a keyboard layout. It should be no longer than 4 characters!
 #: ../src/app/qml/KeyboardRows/JsonTranslator.qml:58
 msgid "Scr"
-msgstr ""
+msgstr "écr"
 
 #. TRANSLATORS: This the short display name of a keyboard layout. It should be no longer than 4 characters!
 #: ../src/app/qml/KeyboardRows/JsonTranslator.qml:61
 msgid "Cmd"
-msgstr ""
+msgstr "cmd"
 
 #. TRANSLATORS: This is the name of the Control key.
 #: ../src/app/qml/KeyboardRows/JsonTranslator.qml:78
 msgid "CTRL"
-msgstr ""
+msgstr "ctrl"
 
 #. TRANSLATORS: This is the name of the Alt key.
 #: ../src/app/qml/KeyboardRows/JsonTranslator.qml:81
 msgid "Alt"
-msgstr ""
+msgstr "alt"
 
 #. TRANSLATORS: This is the name of the Shift key.
 #: ../src/app/qml/KeyboardRows/JsonTranslator.qml:84
 msgid "Shift"
-msgstr ""
+msgstr "maj"
 
 #. TRANSLATORS: This is the name of the Escape key.
 #: ../src/app/qml/KeyboardRows/JsonTranslator.qml:97
 msgid "Esc"
-msgstr ""
+msgstr "échappe"
 
 #. TRANSLATORS: This is the name of the Page Up key.
 #: ../src/app/qml/KeyboardRows/JsonTranslator.qml:100
 msgid "PgUp"
-msgstr ""
+msgstr "p.préc."
 
 #. TRANSLATORS: This is the name of the Page Down key.
 #: ../src/app/qml/KeyboardRows/JsonTranslator.qml:103
 msgid "PgDn"
-msgstr ""
+msgstr "p.suiv."
 
 #. TRANSLATORS: This is the name of the Delete key.
 #: ../src/app/qml/KeyboardRows/JsonTranslator.qml:106
 msgid "Del"
-msgstr ""
+msgstr "suppr."
 
 #. TRANSLATORS: This is the name of the Home key.
 #: ../src/app/qml/KeyboardRows/JsonTranslator.qml:109
 msgid "Home"
-msgstr ""
+msgstr "début"
 
 #. TRANSLATORS: This is the name of the End key.
 #: ../src/app/qml/KeyboardRows/JsonTranslator.qml:112
 msgid "End"
-msgstr ""
+msgstr "fin"
 
 #. TRANSLATORS: This is the name of the Tab key.
 #: ../src/app/qml/KeyboardRows/JsonTranslator.qml:115
 msgid "Tab"
-msgstr ""
+msgstr "tab"
 
 #. TRANSLATORS: This is the name of the Enter key.
 #: ../src/app/qml/KeyboardRows/JsonTranslator.qml:118
 msgid "Enter"
-msgstr ""
+msgstr "entrée"
 
 #: ../src/app/qml/NotifyDialog.qml:25
 msgid "OK"
@@ -199,19 +199,19 @@ msgstr "OK"
 
 #: ../src/app/qml/Settings/BackgroundOpacityEditor.qml:26
 msgid "Background opacity:"
-msgstr ""
+msgstr "Opacité de l'arrière-plan :"
 
 #: ../src/app/qml/Settings/ColorPickerPopup.qml:79
 msgid "R:"
-msgstr ""
+msgstr "R :"
 
 #: ../src/app/qml/Settings/ColorPickerPopup.qml:87
 msgid "G:"
-msgstr ""
+msgstr "V :"
 
 #: ../src/app/qml/Settings/ColorPickerPopup.qml:95
 msgid "B:"
-msgstr ""
+msgstr "B :"
 
 #: ../src/app/qml/Settings/ColorPickerPopup.qml:99
 msgid "Undo"
@@ -219,12 +219,11 @@ msgstr "Annuler"
 
 #: ../src/app/qml/Settings/SettingsInterfaceSection.qml:55
 msgid "Text"
-msgstr ""
+msgstr "Texte"
 
 #: ../src/app/qml/Settings/SettingsInterfaceSection.qml:66
-#, fuzzy
 msgid "Font:"
-msgstr "Taille de police :"
+msgstr "Police :"
 
 #: ../src/app/qml/Settings/SettingsInterfaceSection.qml:91
 msgid "Font Size:"
@@ -232,71 +231,71 @@ msgstr "Taille de police :"
 
 #: ../src/app/qml/Settings/SettingsInterfaceSection.qml:119
 msgid "Colors"
-msgstr ""
+msgstr "Couleurs"
 
 #: ../src/app/qml/Settings/SettingsInterfaceSection.qml:124
 msgid "Ubuntu"
-msgstr ""
+msgstr "Ubuntu"
 
 #: ../src/app/qml/Settings/SettingsInterfaceSection.qml:125
 msgid "Green on black"
-msgstr ""
+msgstr "Vert sur noir"
 
 #: ../src/app/qml/Settings/SettingsInterfaceSection.qml:126
 msgid "White on black"
-msgstr ""
+msgstr "Blanc sur noir"
 
 #: ../src/app/qml/Settings/SettingsInterfaceSection.qml:127
 msgid "Black on white"
-msgstr ""
+msgstr "Noir sur blanc"
 
 #: ../src/app/qml/Settings/SettingsInterfaceSection.qml:128
 msgid "Black on random light"
-msgstr ""
+msgstr "Noir sur lumière aléatoire"
 
 #: ../src/app/qml/Settings/SettingsInterfaceSection.qml:129
 msgid "Linux"
-msgstr ""
+msgstr "Linux"
 
 #: ../src/app/qml/Settings/SettingsInterfaceSection.qml:130
 msgid "Cool retro term"
-msgstr ""
+msgstr "Terminal rétro et sympa"
 
 #: ../src/app/qml/Settings/SettingsInterfaceSection.qml:131
 msgid "Dark pastels"
-msgstr ""
+msgstr "Pastels sombres"
 
 #: ../src/app/qml/Settings/SettingsInterfaceSection.qml:132
 msgid "Black on light yellow"
-msgstr ""
+msgstr "Noirs sur jaune pâle"
 
 #: ../src/app/qml/Settings/SettingsInterfaceSection.qml:133
 msgid "Customized"
-msgstr ""
+msgstr "Personnalisées"
 
 #: ../src/app/qml/Settings/SettingsInterfaceSection.qml:144
 msgid "Background:"
-msgstr ""
+msgstr "Arrière-plan :"
 
 #: ../src/app/qml/Settings/SettingsInterfaceSection.qml:152
 msgid "Text:"
-msgstr ""
+msgstr "Texte :"
 
 #: ../src/app/qml/Settings/SettingsInterfaceSection.qml:164
 msgid "Normal palette:"
-msgstr ""
+msgstr "Palette normale :"
 
 #: ../src/app/qml/Settings/SettingsInterfaceSection.qml:171
 msgid "Bright palette:"
-msgstr ""
+msgstr "Palette lumineuse :"
 
 #: ../src/app/qml/Settings/SettingsInterfaceSection.qml:180
 msgid "Preset:"
-msgstr ""
+msgstr "Prédéfinie :"
 
 #: ../src/app/qml/Settings/SettingsInterfaceSection.qml:197
 msgid "Layouts"
-msgstr ""
+msgstr "Agencements"
 
 #: ../src/app/qml/Settings/SettingsPage.qml:33
 msgid "close"
@@ -304,20 +303,20 @@ msgstr "fermer"
 
 #: ../src/app/qml/Settings/SettingsPage.qml:39
 msgid "Preferences"
-msgstr ""
+msgstr "Préférences"
 
 #: ../src/app/qml/Settings/SettingsPage.qml:50
 msgid "Interface"
-msgstr ""
+msgstr "Interface"
 
 #: ../src/app/qml/Settings/SettingsPage.qml:54
 msgid "Shortcuts"
-msgstr ""
+msgstr "Raccourcis"
 
 #: ../src/app/qml/Settings/SettingsShortcutsSection.qml:60
 #, qt-format
 msgid "Showing %1 of %2"
-msgstr ""
+msgstr "Affichage de %1 sur %2"
 
 #: ../src/app/qml/Settings/SettingsShortcutsSection.qml:145
 #: ../src/app/qml/Settings/SettingsShortcutsSection.qml:150
@@ -329,21 +328,20 @@ msgid "File"
 msgstr "Fichier"
 
 #: ../src/app/qml/Settings/SettingsShortcutsSection.qml:156
-#, fuzzy
 msgid "Close terminal"
-msgstr "Terminal"
+msgstr "Fermer le terminal"
 
 #: ../src/app/qml/Settings/SettingsShortcutsSection.qml:161
 msgid "Close all terminals"
-msgstr ""
+msgstr "Fermer tous les terminaux"
 
 #: ../src/app/qml/Settings/SettingsShortcutsSection.qml:166
 msgid "Previous tab"
-msgstr ""
+msgstr "Onglet précédent"
 
 #: ../src/app/qml/Settings/SettingsShortcutsSection.qml:171
 msgid "Next tab"
-msgstr ""
+msgstr "Onglet suivant"
 
 #: ../src/app/qml/Settings/SettingsShortcutsSection.qml:175
 #: ../src/app/qml/Settings/SettingsShortcutsSection.qml:180
@@ -358,43 +356,43 @@ msgstr "Modifier"
 #: ../src/app/qml/Settings/SettingsShortcutsSection.qml:210
 #: ../src/app/qml/Settings/SettingsShortcutsSection.qml:215
 msgid "View"
-msgstr ""
+msgstr "Affichage"
 
 #: ../src/app/qml/Settings/SettingsShortcutsSection.qml:186
 msgid "Toggle fullscreen"
-msgstr ""
+msgstr "Basculer en plein écran"
 
 #: ../src/app/qml/Settings/SettingsShortcutsSection.qml:191
 msgid "Split terminal horizontally"
-msgstr ""
+msgstr "Diviser le terminal horizontalement"
 
 #: ../src/app/qml/Settings/SettingsShortcutsSection.qml:196
 msgid "Split terminal vertically"
-msgstr ""
+msgstr "Diviser le terminal verticalement"
 
 #: ../src/app/qml/Settings/SettingsShortcutsSection.qml:201
 msgid "Navigate to terminal above"
-msgstr ""
+msgstr "Naviguer vers le terminal du dessus"
 
 #: ../src/app/qml/Settings/SettingsShortcutsSection.qml:206
 msgid "Navigate to terminal below"
-msgstr ""
+msgstr "Naviguer vers le terminal du dessous"
 
 #: ../src/app/qml/Settings/SettingsShortcutsSection.qml:211
 msgid "Navigate to terminal on the left"
-msgstr ""
+msgstr "Naviguer vers le terminal de gauche"
 
 #: ../src/app/qml/Settings/SettingsShortcutsSection.qml:216
 msgid "Navigate to terminal on the right"
-msgstr ""
+msgstr "Naviguer vers le terminal de gauche"
 
 #: ../src/app/qml/Settings/SettingsWindow.qml:26
 msgid "Terminal Preferences"
-msgstr ""
+msgstr "Préférences du terminal"
 
 #: ../src/app/qml/Settings/ShortcutRow.qml:78
 msgid "Enter shortcut…"
-msgstr ""
+msgstr "Saisissez un raccourci…"
 
 #: ../src/app/qml/Settings/ShortcutRow.qml:80
 msgid "Disabled"
@@ -402,7 +400,7 @@ msgstr "Désactivé"
 
 #: ../src/app/qml/TabsPage.qml:26
 msgid "Tabs"
-msgstr ""
+msgstr "Onglets"
 
 #: ../src/app/qml/TerminalPage.qml:63 ubuntu-terminal-app.desktop.in.in.h:1
 msgid "Terminal"
@@ -410,7 +408,7 @@ msgstr "Terminal"
 
 #: ../src/app/qml/TerminalPage.qml:302
 msgid "Selection Mode"
-msgstr ""
+msgstr "Mode de sélection"
 
 #: ../src/plugin/qmltermwidget/lib/ColorScheme.cpp:291
 #: ../src/plugin/qmltermwidget/lib/ColorScheme.cpp:320
@@ -439,15 +437,15 @@ msgstr "Copier l'adresse courriel"
 
 #: ../src/plugin/qmltermwidget/lib/SearchBar.cpp:39
 msgid "Match case"
-msgstr ""
+msgstr "Respecter la casse"
 
 #: ../src/plugin/qmltermwidget/lib/SearchBar.cpp:45
 msgid "Regular expression"
-msgstr ""
+msgstr "Expression régulière"
 
 #: ../src/plugin/qmltermwidget/lib/SearchBar.cpp:49
 msgid "Higlight all matches"
-msgstr ""
+msgstr "Surligner toutes les correspondances"
 
 #: ../src/plugin/qmltermwidget/lib/Vt102Emulation.cpp:982
 msgid ""
@@ -458,14 +456,13 @@ msgstr ""
 "convertir les frappes en caractères à envoyer au terminal sont manquantes."
 
 #: ../src/plugin/qmltermwidget/lib/qtermwidget.cpp:406
-#, fuzzy
 msgid "Color Scheme Error"
-msgstr "Palette de couleurs sans nom"
+msgstr "Erreur de thème de couleurs"
 
 #: ../src/plugin/qmltermwidget/lib/qtermwidget.cpp:407
-#, fuzzy, qt-format
+#, qt-format
 msgid "Cannot load color scheme: %1"
-msgstr "Palette de couleurs sans nom"
+msgstr "Impossible de charger le thème de couleurs : %1"
 
 #~ msgid "PG_UP"
 #~ msgstr "P. PRÉC."
