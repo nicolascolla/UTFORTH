@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: ubuntu-terminal-app\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-10-20 09:02+0000\n"
-"PO-Revision-Date: 2021-01-16 04:27+0000\n"
-"Last-Translator: ierihon <idekovets@mail.ru>\n"
+"PO-Revision-Date: 2021-03-26 11:52+0000\n"
+"Last-Translator: vokaliz <vokaliz@protonmail.com>\n"
 "Language-Team: Russian <https://translate.ubports.com/projects/ubports/"
 "terminal-app/ru/>\n"
 "Language: ru\n"
@@ -55,9 +55,8 @@ msgid "New window"
 msgstr "Новое окно"
 
 #: ../src/app/qml/AlternateActionPopover.qml:109
-#, fuzzy
 msgid "Close App"
-msgstr "Закрыть"
+msgstr "Закрыть приложение"
 
 #: ../src/app/qml/AuthenticationDialog.qml:25
 msgid "Authentication required"
@@ -188,7 +187,6 @@ msgstr "End"
 
 #. TRANSLATORS: This is the name of the Tab key.
 #: ../src/app/qml/KeyboardRows/JsonTranslator.qml:115
-#, fuzzy
 msgid "Tab"
 msgstr "Вкладки"
 
@@ -199,7 +197,7 @@ msgstr "Enter"
 
 #: ../src/app/qml/NotifyDialog.qml:25
 msgid "OK"
-msgstr "ОК"
+msgstr "Да"
 
 #: ../src/app/qml/Settings/BackgroundOpacityEditor.qml:26
 msgid "Background opacity:"
@@ -219,7 +217,7 @@ msgstr "B:"
 
 #: ../src/app/qml/Settings/ColorPickerPopup.qml:99
 msgid "Undo"
-msgstr "Отменить предыдущее действие"
+msgstr "Отменить"
 
 #: ../src/app/qml/Settings/SettingsInterfaceSection.qml:55
 msgid "Text"
@@ -266,16 +264,14 @@ msgid "Cool retro term"
 msgstr "Ретро терминал"
 
 #: ../src/app/qml/Settings/SettingsInterfaceSection.qml:131
-#, fuzzy
 msgid "Dark pastels"
-msgstr "Тёмная пастель / Ubuntu (старая)"
+msgstr "Тёмная пастель"
 
 #: ../src/app/qml/Settings/SettingsInterfaceSection.qml:132
 msgid "Black on light yellow"
 msgstr "Чёрный на светло-жёлтом"
 
 #: ../src/app/qml/Settings/SettingsInterfaceSection.qml:133
-#, fuzzy
 msgid "Customized"
 msgstr "Собственный"
 
@@ -297,7 +293,7 @@ msgstr "Светлая цветовая палитра:"
 
 #: ../src/app/qml/Settings/SettingsInterfaceSection.qml:180
 msgid "Preset:"
-msgstr ""
+msgstr "Предустановка:"
 
 #: ../src/app/qml/Settings/SettingsInterfaceSection.qml:197
 msgid "Layouts"
@@ -305,7 +301,7 @@ msgstr "Раскладки"
 
 #: ../src/app/qml/Settings/SettingsPage.qml:33
 msgid "close"
-msgstr "Закрыть"
+msgstr "закрыть"
 
 #: ../src/app/qml/Settings/SettingsPage.qml:39
 msgid "Preferences"
@@ -322,7 +318,7 @@ msgstr "Сочетания клавиш"
 #: ../src/app/qml/Settings/SettingsShortcutsSection.qml:60
 #, qt-format
 msgid "Showing %1 of %2"
-msgstr ""
+msgstr "Показано %1 из %2"
 
 #: ../src/app/qml/Settings/SettingsShortcutsSection.qml:145
 #: ../src/app/qml/Settings/SettingsShortcutsSection.qml:150
@@ -346,9 +342,8 @@ msgid "Previous tab"
 msgstr "Предыдущая вкладка"
 
 #: ../src/app/qml/Settings/SettingsShortcutsSection.qml:171
-#, fuzzy
 msgid "Next tab"
-msgstr "Новая вкладка"
+msgstr "Следующая вкладка"
 
 #: ../src/app/qml/Settings/SettingsShortcutsSection.qml:175
 #: ../src/app/qml/Settings/SettingsShortcutsSection.qml:180
@@ -370,39 +365,36 @@ msgid "Toggle fullscreen"
 msgstr "Включить полноэкранный режим"
 
 #: ../src/app/qml/Settings/SettingsShortcutsSection.qml:191
-#, fuzzy
 msgid "Split terminal horizontally"
-msgstr "Разделить горизонтально"
+msgstr "Разделить терминал по горизонтали"
 
 #: ../src/app/qml/Settings/SettingsShortcutsSection.qml:196
-#, fuzzy
 msgid "Split terminal vertically"
-msgstr "Разделить вертикально"
+msgstr "Разделить терминал по вертикали"
 
 #: ../src/app/qml/Settings/SettingsShortcutsSection.qml:201
 msgid "Navigate to terminal above"
-msgstr ""
+msgstr "Перейдите к терминалу выше"
 
 #: ../src/app/qml/Settings/SettingsShortcutsSection.qml:206
 msgid "Navigate to terminal below"
-msgstr ""
+msgstr "Перейдите к терминалу ниже"
 
 #: ../src/app/qml/Settings/SettingsShortcutsSection.qml:211
 msgid "Navigate to terminal on the left"
-msgstr ""
+msgstr "Перейдите к терминалу слева"
 
 #: ../src/app/qml/Settings/SettingsShortcutsSection.qml:216
 msgid "Navigate to terminal on the right"
-msgstr ""
+msgstr "Перейдите к терминалу справа"
 
 #: ../src/app/qml/Settings/SettingsWindow.qml:26
-#, fuzzy
 msgid "Terminal Preferences"
-msgstr "Параметры"
+msgstr "Настройки терминала"
 
 #: ../src/app/qml/Settings/ShortcutRow.qml:78
 msgid "Enter shortcut…"
-msgstr ""
+msgstr "Ввести ярлык…"
 
 #: ../src/app/qml/Settings/ShortcutRow.qml:80
 msgid "Disabled"
@@ -438,9 +430,8 @@ msgid "Copy Link Address"
 msgstr "Копировать адрес ссылки"
 
 #: ../src/plugin/qmltermwidget/lib/Filter.cpp:538
-#, fuzzy
 msgid "Send Email To…"
-msgstr "Отправить письмо..."
+msgstr "Отправить электронной почтой…"
 
 #: ../src/plugin/qmltermwidget/lib/Filter.cpp:539
 msgid "Copy Email Address"
