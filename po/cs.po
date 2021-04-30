@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: ubuntu-terminal-app\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-10-20 09:02+0000\n"
-"PO-Revision-Date: 2021-04-22 10:44+0000\n"
+"PO-Revision-Date: 2021-04-30 20:44+0000\n"
 "Last-Translator: Milan Korecký <milan.korecky@gmail.com>\n"
 "Language-Team: Czech <https://translate.ubports.com/projects/ubports/"
 "terminal-app/cs/>\n"
@@ -80,7 +80,7 @@ msgstr "Zrušit"
 
 #: ../src/app/qml/AuthenticationService.qml:64
 msgid "Authentication failed"
-msgstr "Ověření se nezdařilo"
+msgstr "Ověření selhalo"
 
 #: ../src/app/qml/AuthenticationService.qml:83
 msgid "No SSH server running."
