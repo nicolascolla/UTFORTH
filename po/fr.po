@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: ubuntu-terminal-app\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-10-20 09:02+0000\n"
-"PO-Revision-Date: 2021-03-11 21:27+0000\n"
-"Last-Translator: AO-LocLab <ao@localizationlab.org>\n"
+"PO-Revision-Date: 2021-05-30 11:11+0000\n"
+"Last-Translator: Anne Onyme <anneonyme017@netcourrier.com>\n"
 "Language-Team: French <https://translate.ubports.com/projects/ubports/"
 "terminal-app/fr/>\n"
 "Language: fr\n"
@@ -356,7 +356,7 @@ msgstr "Modifier"
 #: ../src/app/qml/Settings/SettingsShortcutsSection.qml:210
 #: ../src/app/qml/Settings/SettingsShortcutsSection.qml:215
 msgid "View"
-msgstr "Affichage"
+msgstr "Afficher"
 
 #: ../src/app/qml/Settings/SettingsShortcutsSection.qml:186
 msgid "Toggle fullscreen"
