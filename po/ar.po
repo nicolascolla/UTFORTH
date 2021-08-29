@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: ubuntu-terminal-app\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-10-20 09:02+0000\n"
-"PO-Revision-Date: 2020-12-18 19:26+0000\n"
-"Last-Translator: abidin <abidin24@tutanota.com>\n"
+"PO-Revision-Date: 2021-08-29 21:11+0000\n"
+"Last-Translator: HEROBRINE7GAMER <tapermeerkat77@gmail.com>\n"
 "Language-Team: Arabic <https://translate.ubports.com/projects/ubports/"
 "terminal-app/ar/>\n"
 "Language: ar\n"
@@ -71,9 +71,8 @@ msgid "passcode or passphrase"
 msgstr "رمز المرور أو عبارة المرور"
 
 #: ../src/app/qml/AuthenticationDialog.qml:58
-#, fuzzy
 msgid "Authenticate"
-msgstr "المصادقة فشلت"
+msgstr "التعرف"
 
 #: ../src/app/qml/AuthenticationDialog.qml:70
 #: ../src/app/qml/ConfirmationDialog.qml:42
@@ -82,7 +81,7 @@ msgstr "ألغ"
 
 #: ../src/app/qml/AuthenticationService.qml:64
 msgid "Authentication failed"
-msgstr "المصادقة فشلت"
+msgstr "فشل التعرف"
 
 #: ../src/app/qml/AuthenticationService.qml:83
 msgid "No SSH server running."
